@@ -1,0 +1,1969 @@
+{
+  "legal": {
+    "back": "Retour à l'accueil"
+  },
+  "error": {
+    "title": "Erreur",
+    "heading": "Une erreur s'est produite",
+    "unknown": "Une erreur inconnue s'est produite.",
+    "back": "Retour à l'aperçu"
+  },
+  "global": {
+    "dashboard": {
+      "title": "Dashboard global",
+      "status_online": "En ligne",
+      "status_offline": "Hors ligne",
+      "uptime": "Temps de fonctionnement",
+      "ping": "Ping",
+      "stat_servers": "Serveurs",
+      "stat_users": "Utilisateurs totaux",
+      "stat_commands": "Commandes",
+      "stat_ping": "Ping WS",
+      "guild_list": "Serveurs",
+      "no_guilds": "Le bot n'est sur aucun serveur ou n'est pas encore prêt."
+    },
+    "settings": {
+      "title": "Paramètres globaux du bot",
+      "tab_presence": "Présence & Avatar du bot",
+      "tab_notifier": "État des notificateurs",
+      "presence_card": "Présence du bot",
+      "presence_hint": "Le statut et l'activité sont appliqués immédiatement après la sauvegarde et restaurés au prochain démarrage.",
+      "status_label": "Statut",
+      "status_online": "En ligne",
+      "status_idle": "Inactif",
+      "status_dnd": "Ne pas déranger",
+      "status_invisible": "Invisible",
+      "activity_type_label": "Type d'activité",
+      "activity_playing": "Joue à",
+      "activity_listening": "Écoute",
+      "activity_watching": "Regarde",
+      "activity_competing": "En compétition dans",
+      "activity_streaming": "En stream",
+      "activity_custom": "Personnalisé",
+      "activity_text_label": "Texte du statut",
+      "activity_text_placeholder": "ex. Commandes slash",
+      "avatar_card": "Rotation d'avatars",
+      "avatar_hint": "Le bot change automatiquement son avatar de façon aléatoire toutes les {{interval}}. Placez les images dans <code>assets/avatars/</code> (PNG, JPG, GIF, WEBP). Ce paramètre s'applique à l'ensemble du bot pour tous les serveurs.",
+      "avatar_rotation_label": "Rotation d'avatars active",
+      "avatar_upload_label": "Téléverser une nouvelle image",
+      "avatar_upload_btn": "Téléverser",
+      "avatar_active_badge": "actif",
+      "no_images": "Aucune image pour l'instant.",
+      "delete_title": "Supprimer",
+      "uploading": "Téléversement…",
+      "load_error": "Erreur de chargement.",
+      "net_error": "Erreur réseau",
+      "col_notifier": "Notificateur",
+      "col_interval": "Intervalle",
+      "col_last_run": "Dernière exécution",
+      "col_next_run": "Prochaine exécution",
+      "col_change_interval": "Modifier l'intervalle",
+      "minutes_unit": "Minutes",
+      "hour_unit": "heure",
+      "hour_unit_plural": "heures",
+      "minute_unit": "minutes",
+      "fo76_card": "Fallout 76 – Paramètres globaux",
+      "fo76_enabled_label": "Activer la récupération automatique",
+      "fo76_enabled_hint": "Lorsqu'actif, les codes sont récupérés automatiquement chaque semaine et publiés dans tous les canaux configurés.",
+      "fo76_weekday_label": "Jour de la semaine pour la récupération",
+      "fo76_weekdays": [
+        "Dimanche",
+        "Lundi",
+        "Mardi",
+        "Mercredi",
+        "Jeudi",
+        "Vendredi",
+        "Samedi"
+      ],
+      "fo76_weekday_hint": "Les codes sont récupérés une fois par semaine ce jour-là depuis nukacrypt.com.",
+      "fo76_fetch_hint": "Récupérer les codes immédiatement depuis <strong>nukacrypt.com</strong> — indépendamment du jour configuré.",
+      "fo76_fetch_btn": "Récupérer maintenant",
+      "fo76_fetching": "Récupération…",
+      "countdown_now": "maintenant",
+      "countdown_in": "dans",
+      "countdown_running": "en cours…"
+    },
+    "bugtracker": {
+      "server_access": "Accès serveur",
+      "search_placeholder": "Nom ou ID du serveur…",
+      "search_hint": "Entrez un terme de recherche…",
+      "searching": "Recherche…",
+      "no_guilds": "Aucun serveur trouvé.",
+      "load_error": "Erreur de chargement."
+    },
+    "logs": {
+      "title": "Journaux des notificateurs",
+      "empty": "Aucune entrée de journal disponible."
+    },
+    "flash": {
+      "settings_saved": "Paramètres sauvegardés.",
+      "fo76_settings_saved": "Paramètres Fallout 76 sauvegardés.",
+      "fo76_fetch_ok": "Codes Fallout 76 récupérés et publiés avec succès.",
+      "fo76_fetch_error": "Récupération échouée : {{msg}}",
+      "notifier_interval_invalid": "Valeur invalide — minimum 1 minute.",
+      "notifier_not_found": "Notificateur « {{name}} » introuvable ou non modifiable.",
+      "notifier_interval_set": "Intervalle pour {{name}} défini à {{minutes}} minutes.",
+      "bug_status_set": "Bug #{{id}} marqué comme « {{status}} ».",
+      "bug_deleted": "Bug #{{id}} supprimé."
+    },
+    "dsgvo": {
+      "title": "RGPD / Gestion des données",
+      "subtitle": "Exportez ou supprimez les données liées aux serveurs et utilisateurs de la base de données.",
+      "btn_export": "Exporter",
+      "btn_delete": "Supprimer",
+      "info": "<strong>Remarque :</strong> L'export contient toutes les données stockées dans la base de données pour le serveur ou l'utilisateur sélectionné sous forme de fichier JSON. La suppression retire définitivement toutes les entrées associées.",
+      "guild": {
+        "title": "Données du serveur",
+        "desc": "Exportez ou supprimez toutes les données d'un serveur Discord spécifique (infractions, niveaux, tickets, concours, etc.).",
+        "select_label": "Sélectionner un serveur",
+        "select_placeholder": "Choisir un serveur",
+        "no_selection": "Veuillez d'abord sélectionner un serveur.",
+        "confirm_delete": "Supprimer définitivement toutes les données de ce serveur ?"
+      },
+      "user": {
+        "title": "Données utilisateur",
+        "desc": "Exportez ou supprimez toutes les données personnelles d'un utilisateur Discord sur tous les serveurs.",
+        "id_label": "ID utilisateur Discord",
+        "id_hint": "L'ID Discord numérique de l'utilisateur (17 à 20 chiffres).",
+        "no_input": "Veuillez entrer un ID utilisateur.",
+        "confirm_delete": "Supprimer définitivement toutes les données de cet utilisateur ?"
+      },
+      "flash": {
+        "guild_deleted": "Toutes les données du serveur {{id}} ont été supprimées.",
+        "user_deleted": "Toutes les données de l'utilisateur {{id}} ont été supprimées."
+      }
+    }
+  },
+  "common": {
+    "save": "Sauvegarder",
+    "cancel": "Annuler",
+    "delete": "Supprimer",
+    "edit": "Modifier",
+    "add": "Ajouter",
+    "active": "Actif",
+    "soon": "Bientôt disponible",
+    "enabled": "Activé",
+    "disabled": "Désactivé",
+    "home": "Accueil",
+    "settings": "Paramètres",
+    "back": "Retour",
+    "yes": "Oui",
+    "no": "Non",
+    "loading": "Chargement…",
+    "saved": "Paramètres sauvegardés.",
+    "deploy_ok": "Commandes enregistrées auprès de Discord.",
+    "deploy_fail": "Déploiement échoué — commandes sauvegardées mais non enregistrées."
+  },
+  "nav": {
+    "server_select": "Sélectionner un serveur",
+    "switch_server": "Changer de serveur",
+    "logout": "Se déconnecter",
+    "sections": {
+      "global": "Global",
+      "dashboard": "Dashboard",
+      "grundlegendes": "Général",
+      "soziales": "Notifications sociales",
+      "support": "Support",
+      "spass": "Jeux & Amusement",
+      "tools": "Outils"
+    },
+    "items": {
+      "overview": "Aperçu",
+      "stats": "Statistiques",
+      "general": "Général",
+      "begruessung": "Bienvenue",
+      "commands": "Commandes personnalisées",
+      "reactionroles": "Rôles par réaction",
+      "moderation": "Modération",
+      "starboard": "Starboard",
+      "slowmode": "Slow-Mode",
+      "twitch": "Twitch",
+      "kick": "Kick",
+      "x": "X (Twitter)",
+      "youtube": "YouTube",
+      "kofi": "Ko-Fi",
+      "patreon": "Patreon",
+      "birthday": "Anniversaires",
+      "fallout76": "Fallout 76",
+      "eve": "EVE Online",
+      "giveaways": "Concours",
+      "tempchannels": "Salons temporaires",
+      "reminder": "Rappels",
+      "leveling": "Leveling",
+      "music": "Musique",
+      "tickets": "Tickets",
+      "scheduled": "Messages planifiés",
+      "bot_dashboard": "Dashboard",
+      "bot_settings": "Paramètres",
+      "bugtracker": "Suivi de bugs",
+      "logs": "Journaux",
+      "dsgvo": "RGPD",
+      "trovo": "Trovo",
+      "invites": "Invitations"
+    }
+  },
+  "breadcrumb": {
+    "home": "Accueil",
+    "grundlegendes": "Général",
+    "soziales": "Notifications sociales",
+    "support": "Support",
+    "spass": "Jeux & Amusement",
+    "tools": "Outils",
+    "global": "Global"
+  },
+  "stats": {
+    "title": "Statistiques du serveur",
+    "subtitle": "Les données sont collectées depuis le premier démarrage du bot. Toutes les heures sont en UTC.",
+    "label_members": "Membres",
+    "label_msgs_today": "Messages aujourd'hui",
+    "label_joins_30d": "Arrivées (30 jours)",
+    "label_leaves_30d": "Départs (30 jours)",
+    "chart_member": "Arrivées & Départs – 30 derniers jours",
+    "chart_hours": "Heures de pointe – 7 derniers jours (UTC)",
+    "chart_msg_users": "Top utilisateurs – Messages (30 jours)",
+    "chart_voice_users": "Top utilisateurs – Temps vocal (minutes, total)",
+    "chart_xp": "Classement XP (Top 10)",
+    "chart_channels": "Salons les plus actifs (30 jours)",
+    "chart_commands": "Commandes les plus utilisées (30 jours)",
+    "no_data": "Aucune donnée pour l'instant.",
+    "label_joins": "Arrivées",
+    "label_leaves": "Départs"
+  },
+  "settings": {
+    "title": "Paramètres",
+    "placeholder": {
+      "not_implemented": "Cette page de paramètres n'est pas encore implémentée."
+    },
+    "subtitle": "Sélectionnez un module pour modifier la configuration du bot.",
+    "general": {
+      "title": "Général",
+      "prefix": {
+        "title": "Préfixe du bot",
+        "description": "Préfixe pour les commandes textuelles (ex. <code>!</code> → <code>!ping</code>). Laissez vide pour désactiver les commandes avec préfixe.",
+        "label": "Préfixe",
+        "hint": "(max. 5 caractères, sans espaces)",
+        "placeholder": "ex.  !  ou  ??"
+      },
+      "language": {
+        "title": "Langue du bot",
+        "description": "Langue du bot pour ce serveur (commandes, réponses, embeds).",
+        "label": "Langue du bot"
+      }
+    },
+    "moderation": {
+      "title": "Modération",
+      "tab_automod": "Auto-Modération",
+      "tab_auditlog": "Journal d'audit",
+      "tab_modlog": "Journal de modération",
+      "log_channel_header": "Journal de modération",
+      "log_channel_desc": "Toutes les actions de modération (Avertissement, Expulsion, Bannissement, Timeout) sont enregistrées dans ce salon.",
+      "log_no_channel": "– Aucun salon de journal –",
+      "automod_header": "Auto-Modération",
+      "excluded_roles": "Rôles exclus",
+      "excluded_roles_placeholder": "Rechercher et ajouter un rôle…",
+      "excluded_roles_desc": "Les membres avec ces rôles sont exemptés de l'auto-modération.",
+      "action_delete": "Supprimer seulement",
+      "action_warn": "Avertir",
+      "action_timeout": "Timeout",
+      "action_kick": "Expulser",
+      "action_ban": "Bannir",
+      "antispam": "Anti-Spam",
+      "antispam_more": "Plus de",
+      "antispam_msgs_in": "messages en",
+      "antispam_seconds": "secondes →",
+      "badwords": "Mots interdits",
+      "badwords_placeholder": "Un mot par ligne ou séparé par des virgules",
+      "badwords_action": "Action →",
+      "anticaps": "Anti-Majuscules",
+      "anticaps_more": "Plus de",
+      "anticaps_percent": "% de majuscules, min",
+      "anticaps_chars": "caractères →",
+      "antiinvite": "Anti-Invitations",
+      "antiinvite_desc": "Bloquer les invitations Discord →",
+      "antimention": "Anti-Mentions",
+      "antimention_more": "Plus de",
+      "antimention_then": "mentions →",
+      "thresholds_header": "Seuils d'avertissement",
+      "thresholds_desc": "Lorsqu'un utilisateur atteint un certain nombre d'avertissements, une action est automatiquement prise.",
+      "thresholds_empty": "Aucun seuil configuré.",
+      "threshold_at": "À",
+      "threshold_warns": "avertissements →",
+      "threshold_add": "Ajouter un seuil",
+      "dur_5min": "5 minutes",
+      "dur_30min": "30 minutes",
+      "dur_1hour": "1 heure",
+      "dur_1day": "1 jour",
+      "dur_1week": "1 semaine",
+      "auditlog_settings": "Paramètres de base",
+      "auditlog_settings_desc": "Tous les événements activés seront envoyés dans ce salon. Ne choisissez aucun salon pour désactiver le journal d'audit.",
+      "auditlog_channel": "Salon du journal d'audit",
+      "auditlog_no_channel": "– Aucun salon (désactivé) –",
+      "auditlog_ignore_bots": "Ne pas enregistrer les actions effectuées par les bots",
+      "events_header": "Événements",
+      "event_group_moderation": "Modération",
+      "event_group_messages": "Messages",
+      "event_group_members": "Membres",
+      "event_group_roles": "Rôles",
+      "event_group_channels": "Salons",
+      "event_group_voice": "Salons vocaux",
+      "event_group_server": "Serveur",
+      "ev_memberTimeout": "Membre mis en timeout",
+      "ev_memberUntimeout": "Timeout retiré",
+      "ev_banAdd": "Membre banni",
+      "ev_banRemove": "Bannissement levé",
+      "ev_messageUpdate": "Message modifié",
+      "ev_messageDelete": "Message supprimé",
+      "ev_inviteCreate": "Invitation créée",
+      "ev_memberAdd": "Membre rejoint",
+      "ev_memberRemove": "Membre parti",
+      "ev_nicknameChange": "Pseudo modifié",
+      "ev_memberRolesChange": "Rôles du membre modifiés",
+      "ev_memberUpdate": "Membre mis à jour (profil)",
+      "ev_roleCreate": "Rôle créé",
+      "ev_roleUpdate": "Rôle mis à jour",
+      "ev_roleDelete": "Rôle supprimé",
+      "ev_channelCreate": "Salon créé",
+      "ev_channelUpdate": "Salon mis à jour",
+      "ev_channelDelete": "Salon supprimé",
+      "ev_voiceJoin": "Rejoint un salon vocal",
+      "ev_voiceLeave": "Quitté un salon vocal",
+      "ev_guildUpdate": "Serveur mis à jour",
+      "ev_emojiUpdate": "Emojis mis à jour",
+      "ignored_header": "Ignorés",
+      "ignored_desc": "Les messages modifiés ou supprimés dans ces salons ne seront pas enregistrés.",
+      "ignored_search": "Rechercher un salon…",
+      "no_roles": "Aucun rôle",
+      "no_channels": "Aucun salon",
+      "no_category": "Aucune catégorie",
+      "modlog_total": "Total",
+      "modlog_warns": "Avertissements",
+      "modlog_timeouts": "Timeouts",
+      "modlog_kicks": "Expulsions",
+      "modlog_bans": "Bannissements",
+      "modlog_search": "Utilisateur, modérateur ou raison…",
+      "modlog_filter_all": "Tous",
+      "modlog_no_entries": "Aucune action de modération pour l'instant.",
+      "modlog_no_filter": "Aucune entrée ne correspond à ce filtre.",
+      "modlog_no_reason": "Aucune raison fournie",
+      "modlog_entries": "entrées",
+      "modlog_entry": "entrée",
+      "modlog_truncated": "Affichage des 100 dernières entrées sur {{total}}."
+    },
+    "reactionroles": {
+      "title": "Rôles par réaction",
+      "new_panel": "Nouveau panneau",
+      "empty": "Aucun panneau pour l'instant. Créez-en un avec « Nouveau panneau ».",
+      "entries": "entrées",
+      "deploy": "Déployer",
+      "redeploy": "Redéployer",
+      "deploy_confirm": "Déployer le panneau dans le salon maintenant ?",
+      "delete_confirm": "Vraiment supprimer le panneau « {{title}} » ?",
+      "edit": "Modifier",
+      "emoji_search": "Rechercher un émote…",
+      "loading": "Chargement…",
+      "create_title": "Nouveau panneau",
+      "create_btn": "Créer",
+      "edit_panel_title": "Modifier le panneau",
+      "edit_prefix": "Modifier :",
+      "field_title": "Titre",
+      "field_title_hint": "(max. 100 caractères)",
+      "field_desc": "Description",
+      "field_desc_hint": "(facultatif, max. 300 caractères)",
+      "field_channel": "Salon",
+      "channel_loading": "— Chargement des salons… —",
+      "entries_label": "Entrées",
+      "entries_type_hint": "(Émote · Libellé · Rôle)",
+      "entries_click_hint": "Cliquez sur l'icône d'émote pour sélectionner un émote du serveur.",
+      "add_entry": "Ajouter une entrée",
+      "no_channel": "— Aucun salon —",
+      "no_role": "— Sélectionner un rôle —",
+      "no_emotes": "Aucun émote sur ce serveur.",
+      "badge_deployed": "Déployé",
+      "badge_draft": "Brouillon"
+    },
+    "commands": {
+      "title": "Commandes personnalisées",
+      "new_cmd": "Nouvelle commande",
+      "register": "Enregistrer auprès de Discord",
+      "register_confirm": "Enregistrer les commandes auprès de Discord maintenant ? Cela remplacera toutes les commandes slash existantes.",
+      "list_header": "Commandes existantes",
+      "empty": "Aucune commande pour l'instant.",
+      "builtin_group": "Intégrées",
+      "create_title": "Nouvelle commande",
+      "edit_title": "Modifier la commande",
+      "edit_prefix": "Modifier :",
+      "no_roles": "Aucun rôle",
+      "no_emotes": "Aucun émote sur ce serveur.",
+      "builtin_badge": "intégrée",
+      "delete_confirm": "Vraiment supprimer la commande {{label}} ?",
+      "field_name": "Nom",
+      "field_name_hint": "(sans / ni préfixe)",
+      "field_desc": "Description",
+      "field_desc_hint": "(max. 100 caractères)",
+      "field_desc_placeholder": "Que fait cette commande ?",
+      "field_response": "Réponse",
+      "insert_emotes": "Insérer des émotes du serveur",
+      "emoji_search": "Rechercher un émote…",
+      "loading": "Chargement…",
+      "field_type": "Disponible en tant que",
+      "type_slash": "Commande slash uniquement",
+      "type_prefix": "Commande avec préfixe uniquement",
+      "type_both": "Slash + Préfixe",
+      "prefix_hint": "Le préfixe est configuré sous Général. Les paramètres sont passés en arguments.",
+      "params_label": "Paramètres",
+      "params_optional": "(facultatif)",
+      "params_hint": "Type · Nom · Description · Obligatoire",
+      "add_param": "Ajouter un paramètre",
+      "param_required": "Obligatoire",
+      "param_required_title": "Champ obligatoire",
+      "param_desc_placeholder": "Description",
+      "grant_roles": "Ajouter des rôles",
+      "grant_roles_optional": "(facultatif)",
+      "grant_roles_desc": "Ces rôles seront attribués à l'utilisateur lorsqu'il exécute la commande.",
+      "revoke_roles": "Retirer des rôles",
+      "revoke_roles_optional": "(facultatif)",
+      "revoke_roles_desc": "Ces rôles seront retirés à l'utilisateur lorsqu'il exécute la commande.",
+      "role_search": "Rechercher un rôle…",
+      "create_btn": "Créer la commande",
+      "close": "Fermer"
+    },
+    "begruessung": {
+      "title": "Bienvenue",
+      "welcome_channel": "Message de bienvenue (Salon)",
+      "welcome_channel_desc": "Envoie un message public lorsqu'un nouveau membre rejoint.",
+      "welcome_dm": "Message de bienvenue (Message privé)",
+      "welcome_dm_desc": "Envoie au nouveau membre un message privé direct.",
+      "goodbye_channel": "Message d'au revoir (Salon)",
+      "goodbye_channel_desc": "Envoie un message lorsqu'un membre quitte le serveur.",
+      "placeholders": "Variables :",
+      "channel_label": "Salon",
+      "message_label": "Message",
+      "no_channel": "— Aucun salon —",
+      "dm_hint": "Si l'utilisateur a désactivé les messages privés, le message sera silencieusement ignoré.",
+      "insert_emote": "Insérer des émotes du serveur",
+      "loading_channels": "Chargement des salons…",
+      "channels_error": "Impossible de charger les salons."
+    },
+    "starboard": {
+      "title": "Starboard",
+      "activation": "Activation",
+      "enable_label": "Activer le Starboard",
+      "channel_emoji": "Salon & Emoji",
+      "channel_label": "Salon Starboard",
+      "no_channel": "— Aucun salon —",
+      "channel_desc": "Les messages mis en avant seront publiés dans ce salon.",
+      "emoji_label": "Emoji",
+      "emoji_default": "Par défaut : ⭐",
+      "threshold_label": "Seuil",
+      "threshold_desc": "Nombre minimum de réactions",
+      "options": "Options",
+      "self_star_label": "Autoriser à mettre en avant ses propres messages",
+      "ignored_channels": "Salons ignorés",
+      "ignored_channels_hint": "(IDs séparés par des virgules)",
+      "ignored_channels_desc": "Les messages de ces salons n'apparaîtront pas sur le Starboard."
+    },
+    "slowmode": {
+      "title": "Gestionnaire de Slow-Mode",
+      "enable_label": "Activer le gestionnaire de Slow-Mode",
+      "enable_desc": "Lorsque trop de messages sont envoyés dans un salon dans la fenêtre de temps, le slow-mode est automatiquement appliqué. Il est levé une fois le salon calmé.",
+      "channel_rules": "Règles par salon",
+      "channel_rules_desc": "Par salon : Seuil = messages dans la fenêtre de temps (secondes) qui déclenche le slow-mode. Durée du slow-mode en secondes (0 = désactivé).",
+      "col_channel": "Salon",
+      "col_threshold": "Seuil",
+      "col_window": "Fenêtre de temps (s)",
+      "col_slowmode": "Slow-Mode (s)",
+      "no_channel": "— Salon —",
+      "add_channel": "Ajouter un salon",
+      "activation": "Activation"
+    }
+  },
+  "dashboard": {
+    "title": "Dashboard",
+    "welcome": "Bon retour,",
+    "quote": "« Je veille sur votre serveur pour que votre communauté vive la meilleure expérience. Dites-moi ce dont vous avez besoin — je m'occupe du reste. »",
+    "sig": "— Nephthys",
+    "sections": {
+      "global": "Global",
+      "dashboard": "Dashboard",
+      "grundlegendes": "Général",
+      "soziales": "Notifications sociales",
+      "support": "Support",
+      "spass": "Jeux & Amusement",
+      "tools": "Outils"
+    },
+    "cards": {
+      "bot_dashboard": {
+        "title": "Dashboard du bot",
+        "desc": "Aperçu global du bot"
+      },
+      "bot_settings": {
+        "title": "Paramètres du bot",
+        "desc": "Configuration globale du bot"
+      },
+      "bugtracker_global": {
+        "title": "Suivi de bugs",
+        "desc": "Signaler et gérer les bugs"
+      },
+      "logs": {
+        "title": "Journaux du bot",
+        "desc": "Journaux globaux du bot"
+      },
+      "stats": {
+        "title": "Statistiques",
+        "desc": "Activité du serveur en un coup d'œil"
+      },
+      "general": {
+        "title": "Général",
+        "desc": "Paramètres de base du serveur"
+      },
+      "begruessung": {
+        "title": "Bienvenue",
+        "desc": "Configurer les messages de bienvenue"
+      },
+      "commands": {
+        "title": "Commandes personnalisées",
+        "desc": "Créer des commandes personnalisées"
+      },
+      "reactionroles": {
+        "title": "Rôles par réaction",
+        "desc": "Attribuer des rôles via des réactions"
+      },
+      "moderation": {
+        "title": "Modération",
+        "desc": "Gérer les outils de modération"
+      },
+      "starboard": {
+        "title": "Starboard",
+        "desc": "Mettre en avant les messages populaires"
+      },
+      "slowmode": {
+        "title": "Gestionnaire de Slow-Mode",
+        "desc": "Contrôler automatiquement le slow-mode"
+      },
+      "twitch": {
+        "title": "Twitch",
+        "desc": "Notifications de stream"
+      },
+      "kick": {
+        "title": "Kick",
+        "desc": "Notifications de stream"
+      },
+      "x": {
+        "title": "X (Twitter)",
+        "desc": "Notifications de publications"
+      },
+      "youtube": {
+        "title": "YouTube",
+        "desc": "Notifications de vidéos"
+      },
+      "kofi": {
+        "title": "Ko-Fi",
+        "desc": "Notifications de soutien & rôles"
+      },
+      "patreon": {
+        "title": "Patreon",
+        "desc": "Notifications de soutien & rôles"
+      },
+      "birthday": {
+        "title": "Anniversaires",
+        "desc": "Suivre et célébrer les anniversaires"
+      },
+      "fallout76": {
+        "title": "Fallout 76",
+        "desc": "Intégration Wastelanders"
+      },
+      "eve": {
+        "title": "EVE Online",
+        "desc": "Alertes killmail zKillboard"
+      },
+      "giveaways": {
+        "title": "Concours",
+        "desc": "Créer et gérer des concours"
+      },
+      "tempchannels": {
+        "title": "Salons temporaires",
+        "desc": "Configurer des salons vocaux automatiques"
+      },
+      "reminder": {
+        "title": "Rappels",
+        "desc": "Planifier des rappels"
+      },
+      "leveling": {
+        "title": "Leveling",
+        "desc": "Gérer le système XP"
+      },
+      "music": {
+        "title": "Musique",
+        "desc": "Jouer et configurer la musique"
+      },
+      "tickets": {
+        "title": "Tickets",
+        "desc": "Gérer les tickets de support"
+      },
+      "scheduled": {
+        "title": "Messages planifiés",
+        "desc": "Envoyer des messages planifiés"
+      },
+      "invites": {
+        "title": "Suivi des invitations",
+        "desc": "Classements et codes d'invitation en un coup d'œil"
+      }
+    }
+  },
+  "guild_select": {
+    "title": "Sélectionner un serveur",
+    "subtitle": "Choisissez le serveur que vous souhaitez gérer.",
+    "cancel": "Annuler",
+    "empty": "Aucun serveur partagé trouvé.",
+    "empty_hint": "Vous avez besoin de la permission <strong>Gérer le serveur</strong>.",
+    "invite": "Inviter le bot sur un serveur",
+    "invite_other": "Inviter le bot sur un autre serveur",
+    "logged_in_as": "Connecté en tant que",
+    "active": "Actif",
+    "members": "Membres"
+  },
+  "fun": {
+    "title": "Jeux & Amusement",
+    "subtitle": "Fonctionnalités interactives et outils communautaires.",
+    "items": {
+      "birthday": {
+        "title": "Anniversaires",
+        "desc": "Suivez les anniversaires, attribuez des rôles et envoyez des annonces"
+      },
+      "fallout76": {
+        "title": "Fallout 76",
+        "desc": "Récupérez automatiquement les codes nucléaires hebdomadaires (Alpha, Bravo, Charlie)"
+      },
+      "zkillboard": {
+        "title": "EVE Online – zKillboard",
+        "desc": "Recevez les killmails en temps réel depuis zkillboard.com et publiez-les sur Discord"
+      },
+      "giveaways": {
+        "title": "Concours",
+        "desc": "Démarrez, gérez et terminez automatiquement des concours"
+      },
+      "leveling": {
+        "title": "Leveling",
+        "desc": "Système XP, messages de montée de niveau, récompenses de rôles & classement"
+      },
+      "invites": {
+        "title": "Suivi des invitations",
+        "desc": "Suivez qui a invité combien de membres — classement et codes d'invitation"
+      }
+    },
+    "birthday": {
+      "role_card": "Rôle d'anniversaire",
+      "role_desc": "Ce rôle est automatiquement attribué le jour de l'anniversaire et retiré ensuite.",
+      "role_select": "Sélectionner un rôle",
+      "role_none": "— Aucun rôle —",
+      "loading_roles": "Chargement des rôles…",
+      "loading_roles_err": "Impossible de charger les rôles.",
+      "announce_card": "Annonce",
+      "announce_desc": "Envoie un message lorsque quelqu'un fête son anniversaire. Variables : <code>{user}</code> <code>{username}</code> <code>{server}</code>",
+      "channel_label": "Salon",
+      "channel_hint": "(vide = pas d'annonce)",
+      "channel_none": "— Aucun salon —",
+      "loading_channels": "Chargement des salons…",
+      "loading_channels_err": "Impossible de charger les salons.",
+      "msg_label": "Message",
+      "time_label": "Heure de l'annonce",
+      "time_uhr": "",
+      "time_hint": "Les annonces sont envoyées une fois par jour à partir de cette heure.",
+      "restrict_card": "Restrictions de rôles pour les commandes",
+      "cmd_set_desc": "Enregistrer l'anniversaire",
+      "cmd_delete_desc": "Supprimer l'anniversaire",
+      "cmd_list_desc": "Voir les anniversaires",
+      "cmd_hint": "Vide = tout le monde peut utiliser cette commande",
+      "discard": "Annuler les modifications"
+    },
+    "fallout76": {
+      "current_codes": "Codes actuels",
+      "fetched_at": "Dernière récupération :",
+      "channel_card": "Salon de notification",
+      "channel_desc": "Choisissez un salon où les codes nucléaires seront publiés automatiquement. Si aucun salon n'est sélectionné, aucun code ne sera publié pour ce serveur.",
+      "channel_label": "Salon",
+      "channel_none": "— Aucun salon (désactivé) —",
+      "loading_channels": "Chargement des salons…",
+      "loading_channels_err": "Impossible de charger les salons."
+    },
+    "giveaways": {
+      "intro": "Démarrez des concours avec <code>/giveaway start</code> directement sur Discord. Ici vous pouvez voir un aperçu et terminer les concours actifs prématurément.",
+      "restrict_card": "Restriction de rôle",
+      "manage_hint": "Vide = tout le monde peut gérer les concours",
+      "list_hint": "Vide = tout le monde peut lister les concours",
+      "algo_title": "Algorithme de sélection des gagnants",
+      "algo_desc": "Le bot collecte toutes les réactions 🎉 sur le message du concours, filtre les bots, et choisit les gagnants par <strong>mélange aléatoire</strong> (Fisher-Yates). Chaque participant a une chance égale — réagir plusieurs fois ne compte pas.",
+      "active_card": "Concours actifs",
+      "no_active": "Aucun concours actif.",
+      "col_prize": "Prix",
+      "col_winners": "Gagnants",
+      "col_participants": "Participants",
+      "col_ends": "Se termine",
+      "ends_soon": "Bientôt",
+      "col_channel": "Salon",
+      "confirm_end": "Terminer le concours #{{id}} maintenant ?",
+      "end_btn": "Terminer",
+      "recent_card": "Concours récemment terminés",
+      "no_recent": "Aucun concours terminé pour l'instant.",
+      "col_ended": "Terminé",
+      "no_winner": "Aucun gagnant",
+      "confirm_delete": "Supprimer le concours #{{id}} de la liste ?",
+      "delete_btn": "Supprimer"
+    },
+    "zkillboard": {
+      "how_title": "Comment ça fonctionne :",
+      "how_desc": "Le bot reçoit de nouveaux killmails de <strong>zkillboard.com</strong> en temps réel et les publie dans le salon configuré. Sans IDs d'entité, <em>tous</em> les kills au-dessus du minimum ISK sont publiés. Avec des IDs d'entité (personnage, corporation ou alliance), seuls les kills impliquant ces entités sont filtrés.",
+      "entity_find": "Trouver les IDs d'entité :",
+      "entity_find_desc": "Ouvrez l'entité souhaitée sur <strong>zkillboard.com</strong> — l'ID se trouve dans l'URL : <code>zkillboard.com/corporation/<strong>98765432</strong>/</code>",
+      "active_card": "Abonnements actifs ({{count}})",
+      "no_entries": "Aucun abonnement configuré pour l'instant.",
+      "no_isk_filter": "Pas de filtre ISK",
+      "all_kills": "Tous les kills",
+      "match_both": "Victime &amp; Attaquant",
+      "match_victim": "Victime uniquement",
+      "match_attacker": "Attaquant uniquement",
+      "legend_title": "Couleurs d'embed par valeur du kill :",
+      "modal_add": "Ajouter un abonnement",
+      "modal_edit": "Modifier l'abonnement",
+      "name_label": "Nom / Étiquette",
+      "channel_label": "Salon de notification",
+      "channel_required": "Salon de notification *",
+      "channel_select": "— Sélectionner un salon —",
+      "isk_label": "Valeur minimale du kill",
+      "isk_no_filter": "Pas de filtre (tous les kills)",
+      "entity_label": "IDs d'entité",
+      "entity_optional": "(facultatif)",
+      "entity_hint_add": "IDs de personnage, corporation ou alliance, séparés par des virgules. Vide = <em>tous les kills</em> sont publiés.",
+      "entity_hint_edit": "IDs de personnage, corporation ou alliance, séparés par des virgules.",
+      "match_label": "Filtrer par implication",
+      "match_victim_label": "En tant que victime",
+      "match_attacker_label": "En tant qu'attaquant",
+      "match_hint": "Uniquement pertinent lorsque des IDs d'entité sont saisis.",
+      "confirm_remove": "Vraiment supprimer l'abonnement « {{label}} » ?"
+    },
+    "flash": {
+      "channel_saved": "Salon sauvegardé.",
+      "channel_required": "Le salon est requis.",
+      "sub_added": "Abonnement ajouté.",
+      "sub_not_found": "Abonnement introuvable.",
+      "sub_saved": "Abonnement « {{label}} » sauvegardé.",
+      "sub_removed": "Abonnement supprimé."
+    }
+  },
+  "tools": {
+    "title": "Outils",
+    "subtitle": "Outils utiles pour la gestion du serveur.",
+    "items": {
+      "tempchannels": {
+        "title": "Salons temporaires",
+        "desc": "Les membres créent leurs propres salons vocaux temporaires en un clic"
+      },
+      "reminder": {
+        "title": "Rappels",
+        "desc": "Rappels quotidiens par MP — paramètres et aperçu de toutes les entrées"
+      },
+      "leveling": {
+        "title": "Leveling",
+        "desc": "Système XP, messages de montée de niveau, récompenses de rôles & classement"
+      },
+      "music": {
+        "title": "Musique",
+        "desc": "Jouer Spotify — configurer le rôle DJ, le volume et la file d'attente"
+      },
+      "tickets": {
+        "title": "Système de tickets",
+        "desc": "Gérer les tickets de support — catégories, rôles, tickets ouverts"
+      },
+      "scheduled": {
+        "title": "Messages planifiés",
+        "desc": "Envoyer des messages texte ou embed planifiés dans n'importe quel salon"
+      },
+      "trovo": {
+        "title": "Trovo",
+        "desc": "Notifications de stream"
+      }
+    },
+    "role_whitelist": "Refuser pour tous les rôles sauf",
+    "role_blacklist": "Autoriser tous les rôles sauf",
+    "role_search_add": "Rechercher et ajouter un rôle…",
+    "no_roles": "Aucun rôle",
+    "tempchannels": {
+      "how_it_works": "Comment ça fonctionne :",
+      "how_it_works_desc": "Choisissez un salon vocal comme déclencheur. Dès qu'un membre rejoint ce salon, le bot crée automatiquement un nouveau salon vocal privé et y déplace le membre. Le salon est automatiquement supprimé une fois vide.",
+      "placeholders": "Variables pour le nom du salon :",
+      "activation": "Activation",
+      "enabled_label": "Salons temporaires actifs",
+      "config": "Configuration",
+      "trigger_label": "Salon déclencheur",
+      "trigger_hint": "Lorsqu'un membre rejoint ce salon, un salon temporaire sera créé.",
+      "trigger_placeholder": "— Veuillez sélectionner —",
+      "category_label": "Catégorie (facultatif)",
+      "category_same": "— Même catégorie que le déclencheur —",
+      "category_hint": "Les salons temporaires seront créés dans cette catégorie.",
+      "name_label": "Modèle de nom de salon",
+      "name_hint": "Variables : {user}, {displayname}, {count}",
+      "limit_label": "Limite d'utilisateurs",
+      "limit_hint": "0 = illimité",
+      "bitrate_label": "Débit binaire (kbps)",
+      "keepalive": "Maintien en vie",
+      "keepalive_desc": "Durée en minutes avant la suppression du salon temporaire après que tous les membres l'ont quitté. 0 = supprimer immédiatement · ∞ = ne jamais supprimer.",
+      "keepalive_inf": "∞ Jamais",
+      "keepalive_instant": "0 — Immédiatement",
+      "keepalive_min_1": "1 minute",
+      "keepalive_min_2": "2 minutes",
+      "keepalive_min_3": "3 minutes",
+      "keepalive_min_5": "5 minutes",
+      "keepalive_min_10": "10 minutes",
+      "ownerlock": "Verrouillage de propriété",
+      "ownerlock_desc": "Durée en minutes avant la libération du salon pour reprise après que le propriétaire est parti. 0 = libérer immédiatement · ∞ = ne jamais libérer (pas de /voice-claim possible).",
+      "ownerlock_inf": "∞ Ne jamais libérer",
+      "ownerlock_instant": "0 — Libérer immédiatement",
+      "role_restrict": "Restriction de rôle",
+      "role_restrict_hint": "Vide = tout le monde peut utiliser le salon déclencheur"
+    },
+    "invites": {
+      "title": "Suivi des invitations",
+      "settings": "Paramètres",
+      "channel_label": "Salon par défaut pour /invite create",
+      "channel_placeholder": "— Aucun défaut (salon actuel) —",
+      "xp_label": "XP par invitation",
+      "xp_hint": "0 = désactivé. L'invitant reçoit des XP lorsque quelqu'un rejoint.",
+      "save_btn": "Sauvegarder",
+      "leveling_disabled": "Le Leveling est désactivé — activez-le sous Leveling pour accorder des XP par invitation.",
+      "leaderboard_tab": "Classement",
+      "codes_tab": "Codes d'invitation",
+      "leaderboard_title": "Classement",
+      "leaderboard_total": "invitation{{plural}} au total",
+      "leaderboard_empty": "Aucune invitation enregistrée pour l'instant.",
+      "leaderboard_hint": "Les membres peuvent créer leur lien personnel avec /invite create.",
+      "member_col": "Membre",
+      "invites_col": "Invitations",
+      "rank_label": "#",
+      "reset_all_confirm": "Vraiment réinitialiser tous les compteurs d'invitations ?",
+      "reset_all_btn": "Tout réinitialiser",
+      "reset_user_title": "Réinitialiser",
+      "reset_user_confirm": "Réinitialiser les invitations de {{name}} ?",
+      "codes_title": "Codes d'invitation enregistrés",
+      "codes_empty": "Aucun code enregistré pour l'instant.",
+      "codes_hint": "Les membres créent des codes avec /invite create.",
+      "code_col": "Code",
+      "created_by_col": "Créé par",
+      "delete_confirm": "Supprimer l'invitation discord.gg/{{code}} ?"
+    },
+    "leveling": {
+      "info_desc": "Les utilisateurs reçoivent un nombre aléatoire d'XP par message entre XP-Min et XP-Max avec un délai de recharge configurable. Les niveaux sont calculés par la formule : le Niveau N nécessite 5·N²+50·N+100 XP.",
+      "placeholders": "Variables pour le message de montée de niveau :",
+      "settings": "Paramètres généraux",
+      "enabled_label": "Système actif",
+      "xp_per_msg": "XP par message",
+      "xp_to": "à",
+      "cooldown": "Délai de recharge (sec.)",
+      "cooldown_hint": "Secondes entre les attributions d'XP par utilisateur",
+      "announcement_type": "Annonce de montée de niveau",
+      "ann_channel": "Dans le salon (même ou configuré)",
+      "ann_dm": "MP uniquement",
+      "ann_both": "Salon + MP",
+      "ann_off": "Pas d'annonce",
+      "announcement_channel": "Salon d'annonce",
+      "ann_channel_hint": "(vide = salon du message)",
+      "ann_same_channel": "— Même salon —",
+      "levelup_msg": "Message de montée de niveau",
+      "stack_rewards": "Cumuler les récompenses de rôles",
+      "stack_hint": "Désactivé = l'utilisateur ne garde que le rôle du niveau actuel",
+      "exclusions": "Exclusions",
+      "ignore_channels": "Ignorer les salons",
+      "ignore_channels_hint": "(pas d'XP dans ces salons)",
+      "channel_search": "Rechercher un salon…",
+      "ignore_roles": "Ignorer les rôles",
+      "ignore_roles_hint": "(pas d'XP pour ces rôles)",
+      "role_search": "Rechercher un rôle…",
+      "save_settings": "Sauvegarder les paramètres",
+      "role_rewards": "Récompenses de rôles",
+      "no_rewards": "Aucune récompense configurée pour l'instant.",
+      "role_placeholder": "Sélectionner un rôle…",
+      "xp_multipliers": "Multiplicateurs d'XP",
+      "mult_desc": "Les utilisateurs avec ce rôle reçoivent un montant d'XP multiplié. Lorsque plusieurs rôles correspondent, le multiplicateur le plus élevé s'applique.",
+      "no_multipliers": "Aucun multiplicateur configuré.",
+      "leaderboard": "Aperçu du classement",
+      "lb_empty": "Aucune entrée pour l'instant.",
+      "lv_label": "Nv",
+      "import": "Import de messages",
+      "import_desc": "Lit l'historique des messages d'un salon et accorde des XP rétroactivement selon le nombre de messages par utilisateur. Les messages des bots sont ignorés. Les XP s'ajoutent aux XP existants — utilisez cette fonction une seule fois par salon.",
+      "import_channel": "Salon",
+      "import_channel_placeholder": "— Sélectionner un salon —",
+      "import_xp": "XP par message",
+      "import_xp_hint": "Par défaut : moyenne de XP-Min/Max",
+      "import_max": "Nb max. de messages"
+    },
+    "music": {
+      "general": "Général",
+      "enabled_label": "Activer la musique",
+      "enabled_desc": "Déverrouiller toutes les commandes musicales sur ce serveur",
+      "playback": "Lecture",
+      "volume_label": "Volume par défaut",
+      "volume_hint": "Volume au démarrage d'une nouvelle file d'attente (1–150)",
+      "queue_label": "Taille maximale de la file d'attente",
+      "queue_hint": "Nombre maximum de chansons dans la file d'attente",
+      "permissions": "Permissions",
+      "dj_label": "Rôle DJ",
+      "dj_optional": "(facultatif)",
+      "dj_none": "— Aucun (tout le monde peut contrôler la musique) —",
+      "dj_hint": "Seuls les membres avec ce rôle peuvent utiliser les commandes musicales",
+      "response_label": "Salon de réponse",
+      "response_none": "— Pas de filtre (n'importe quel salon) —",
+      "response_hint": "Le bot répond aux commandes musicales uniquement dans ce salon",
+      "spotify_title": "Intégration Spotify",
+      "spotify_active": "Actif — Les URLs et playlists Spotify sont supportées",
+      "spotify_inactive": "Inactif — ajoutez SPOTIFY_CLIENT_ID et SPOTIFY_CLIENT_SECRET dans le fichier .env"
+    },
+    "reminder": {
+      "settings_title": "Paramètres",
+      "enabled_label": "Rappels actifs",
+      "enabled_hint": "Lorsque désactivé, aucun rappel ne peut être configuré et les rappels actifs ne seront pas envoyés.",
+      "add_restrict_hint": "Vide = tout le monde peut utiliser les rappels",
+      "all_restrict_hint": "Vide = tout le monde peut voir toutes les entrées"
+    },
+    "tickets": {
+      "settings_title": "Paramètres",
+      "enabled_label": "Activer le système de tickets",
+      "category_label": "Catégorie pour les salons de tickets",
+      "category_none": "— Aucune —",
+      "support_role": "Rôle de support",
+      "support_role_hint": "Ce rôle peut voir tous les salons de tickets.",
+      "max_label": "Nb max. de tickets/utilisateur",
+      "retain_label": "Conserver les tickets fermés",
+      "retain_unit": "Jours",
+      "retain_hint": "0 = supprimer le salon immédiatement",
+      "role_restrict": "Restriction de rôle",
+      "open_restrict_hint": "Vide = tout le monde peut ouvrir des tickets",
+      "list_restrict_hint": "Vide = tout le monde peut voir tous les tickets",
+      "open_tickets": "Tickets ouverts",
+      "no_open": "Aucun ticket ouvert.",
+      "col_user": "Utilisateur",
+      "col_topic": "Sujet",
+      "col_channel": "Salon",
+      "col_since": "Ouvert depuis",
+      "close_btn": "Fermer",
+      "close_confirm": "Fermer le ticket #{{id}} ?"
+    },
+    "scheduled": {
+      "new_btn": "Nouveau message",
+      "new_title": "Nouveau message planifié",
+      "edit_title": "Modifier le message",
+      "empty": "Aucun message planifié.",
+      "default_label": "Message planifié",
+      "label": "Étiquette",
+      "label_hint": "(facultatif)",
+      "channel_label": "Salon",
+      "channel_none": "— Sélectionner un salon —",
+      "datetime_label": "Date & Heure",
+      "repeat_label": "Répétition",
+      "repeat_none": "Une fois",
+      "repeat_daily": "Quotidien",
+      "repeat_weekly": "Hebdomadaire",
+      "repeat_monthly": "Mensuel",
+      "tab_text": "Texte",
+      "tab_embed": "Embed",
+      "content_label": "Texte du message",
+      "content_hint": "(facultatif si un embed est défini)",
+      "embed_title_label": "Titre",
+      "embed_desc_label": "Description",
+      "embed_color_label": "Couleur",
+      "embed_footer_label": "Pied de page",
+      "embed_image_label": "Image",
+      "embed_author_label": "Auteur",
+      "embed_preview": "Aperçu",
+      "enabled_label": "Actif",
+      "confirm_delete": "Vraiment supprimer « {{label}} » ?",
+      "flash": {
+        "created": "Message planifié.",
+        "saved": "Message sauvegardé.",
+        "deleted": "Message supprimé.",
+        "missing_fields": "Le salon et la date/heure sont requis.",
+        "past_date": "La date doit être dans le futur.",
+        "no_content": "Un texte ou un contenu d'embed est requis."
+      }
+    },
+    "bugtracker": {
+      "title": "Suivi de bugs",
+      "status_offen": "Ouvert",
+      "status_bestaetigt": "Confirmé",
+      "status_in_bearbeitung": "En cours",
+      "status_erledigt": "Terminé",
+      "filter_all": "Tous",
+      "list_header": "Bugs signalés",
+      "empty": "Aucun bug signalé. 🎉",
+      "delete_confirm": "Vraiment supprimer le bug #{{id}} ?",
+      "disabled_badge": "Désactivé",
+      "settings_btn": "Paramètres",
+      "settings_title": "Paramètres du suivi de bugs",
+      "enabled_label": "Suivi de bugs actif",
+      "enabled_hint": "Lorsque désactivé, aucun bug ne peut être signalé via /bug.",
+      "report_hint": "Vide = tout le monde peut signaler",
+      "list_hint": "Vide = tout le monde peut voir la liste",
+      "notify_settings_saved": "Paramètres de notification sauvegardés.",
+      "smtp_not_configured": "SMTP non configuré.",
+      "no_recipient": "Aucune adresse e-mail de destinataire configurée.",
+      "invalid_subscription": "Abonnement invalide."
+    },
+    "flash": {
+      "guild_not_found": "Serveur introuvable.",
+      "channel_not_text": "Salon introuvable ou pas un salon textuel.",
+      "invalid_level_role": "Niveau ou rôle invalide.",
+      "invalid_multiplier": "Entrée invalide (multiplicateur : 0.1–10).",
+      "reward_saved": "Récompense de rôle au niveau {{level}} sauvegardée.",
+      "reward_removed": "Récompense au niveau {{level}} supprimée.",
+      "multiplier_saved": "Multiplicateur XP sauvegardé.",
+      "multiplier_removed": "Multiplicateur supprimé.",
+      "import_done": "Import terminé : {{scanned}} messages de {{users}} utilisateurs dans #{{channel}} — {{xpp}} XP par message."
+    }
+  },
+  "social": {
+    "title": "Notifications sociales",
+    "subtitle": "Surveillez des plateformes et notifiez automatiquement votre communauté.",
+    "items": {
+      "twitch": {
+        "title": "Twitch",
+        "desc": "Notifications de live et rôle de live automatique pour les streamers"
+      },
+      "x": {
+        "title": "X (Twitter)",
+        "desc": "Surveillez les nouvelles publications et publiez-les automatiquement sur Discord"
+      },
+      "youtube": {
+        "title": "YouTube",
+        "desc": "Surveillez les nouvelles vidéos et publiez-les automatiquement sur Discord"
+      },
+      "kick": {
+        "title": "Kick",
+        "desc": "Notifications de live pour les streamers Kick"
+      },
+      "trovo": {
+        "title": "Trovo",
+        "desc": "Notifications de live pour les streamers Trovo"
+      }
+    },
+    "notifications_suffix": " Notifications",
+    "notification_channel": "Salon de notification",
+    "channel_select": "— Sélectionner un salon —",
+    "message_label": "Texte du message",
+    "message_default_hint": "Vide = le texte par défaut sera utilisé.",
+    "placeholders_title": "Variables disponibles dans le texte du message :",
+    "placeholder_example": "Exemple :",
+    "letters_hint": "Lettres, chiffres et underscores uniquement.",
+    "twitch": {
+      "api_warning": "API Twitch non configurée.",
+      "api_warning_desc": "Ajoutez <code>TWITCH_CLIENT_ID</code> et <code>TWITCH_CLIENT_SECRET</code> dans votre fichier <code>.env</code>. Obtenez les identifiants depuis le <strong>Portail développeur Twitch</strong> sous <em>Applications → Gérer</em>.",
+      "monitored": "Salons surveillés ({{count}})",
+      "no_entries": "Aucun streamer ajouté pour l'instant.",
+      "confirm_remove": "Vraiment supprimer {{login}} ?",
+      "live_role": "Rôle de live",
+      "live_role_active": "Rôle de live actif",
+      "role_label": "Rôle",
+      "role_none": "— Aucun rôle —",
+      "live_role_hint": "Le rôle est automatiquement attribué lorsqu'un membre stream sur Twitch et a lié son compte sous <strong>Paramètres Discord → Connexions</strong>.",
+      "modal_add": "Ajouter un streamer",
+      "modal_edit": "Modifier le streamer :",
+      "login_label": "Login Twitch (nom de la chaîne)",
+      "msg_hint_add": "Vide = texte par défaut. Variables : {streamer}, {link}",
+      "msg_hint_edit": "Variables : {streamer}, {link}",
+      "ph_streamer": "Nom d'affichage du streamer sur Twitch",
+      "ph_link": "Lien direct vers la chaîne Twitch",
+      "ph_example": "🔴 {streamer} est en live ! Regardez maintenant : {link}"
+    },
+    "kick": {
+      "monitored": "Streamers surveillés ({{count}})",
+      "no_entries": "Aucun streamer ajouté pour l'instant.",
+      "confirm_remove": "Vraiment supprimer {{slug}} ?",
+      "modal_add": "Ajouter un streamer",
+      "modal_edit": "Modifier le streamer :",
+      "slug_label": "Nom de la chaîne Kick",
+      "msg_hint_add": "Vide = texte par défaut. Variables : {streamer}, {link}",
+      "msg_hint_edit": "Variables : {streamer}, {link}",
+      "ph_streamer": "Nom d'affichage du streamer sur Kick",
+      "ph_link": "Lien direct vers la chaîne Kick",
+      "ph_example": "🟢 {streamer} est en live sur Kick ! Venez voir : {link}",
+      "check_interval": "Le statut est vérifié toutes les <strong>2 minutes</strong>."
+    },
+    "x": {
+      "api_warning": "API X non configurée.",
+      "api_warning_desc": "Ajoutez <code>GETXAPI_KEY</code> dans votre fichier <code>.env</code>. Obtenez le token sur <strong><a href=\"https://www.getxapi.com/\">https://www.getxapi.com/</a></strong> – <em>Get API Key → API Keys → + Create Key</em>.",
+      "monitored": "Comptes surveillés ({{count}})",
+      "no_entries": "Aucun compte ajouté pour l'instant.",
+      "confirm_remove": "Vraiment supprimer @{{username}} ?",
+      "modal_add": "Ajouter un compte",
+      "modal_edit": "Modifier le compte : @",
+      "username_label": "Nom d'utilisateur X",
+      "msg_hint_add": "Vide = texte par défaut. Variables : {user}, {link}",
+      "msg_hint_edit": "Variables : {user}, {link}",
+      "ph_user": "Nom d'utilisateur X du compte",
+      "ph_link": "Lien direct vers le tweet",
+      "ph_example": "@everyone 🐦 {user} a tweeté ! {link}"
+    },
+    "youtube": {
+      "monitored": "Chaînes surveillées ({{count}})",
+      "no_entries": "Aucune chaîne ajoutée pour l'instant.",
+      "confirm_remove": "Vraiment supprimer {{label}} ?",
+      "modal_add": "Ajouter une chaîne",
+      "modal_edit": "Modifier la chaîne :",
+      "channelid_label": "ID de la chaîne YouTube",
+      "channelid_hint": "Commence par <code>UC</code>, 24 caractères. Trouvé sous <em>Page de la chaîne → À propos → ID de la chaîne</em>.",
+      "label_label": "Nom d'affichage",
+      "label_optional": "(facultatif)",
+      "label_hint": "Utilisé dans le texte du message comme <code>{channel}</code>.",
+      "notify_channel": "Salon de notification",
+      "msg_hint_add": "Vide = texte par défaut. Variables : {channel}, {link}",
+      "msg_hint_edit": "Variables : {channel}, {link}",
+      "ph_channel": "Nom de la chaîne YouTube",
+      "ph_link": "Lien direct vers la vidéo",
+      "find_id": "Où trouver l'ID de la chaîne ?",
+      "find_id_desc": "Sur la page de la chaîne YouTube : <em>À propos → Partager la chaîne → Copier l'ID de la chaîne</em>.<br>Alternativement : <code>youtube.com/channel/<strong>UCxxxxxx</strong></code> — la partie après <code>/channel/</code>."
+    },
+    "flash": {
+      "live_role_saved": "Paramètres du rôle de live sauvegardés.",
+      "twitch_required": "Le login Twitch et le salon sont requis.",
+      "x_required": "Le nom d'utilisateur X et le salon sont requis.",
+      "youtube_required": "L'ID de la chaîne et le salon de notification sont requis.",
+      "kick_required": "Le nom de la chaîne Kick et le salon sont requis.",
+      "already_exists": "{{name}} est déjà configuré.",
+      "added": "{{name}} a été ajouté.",
+      "saved": "{{name}} sauvegardé.",
+      "removed": "{{name}} supprimé.",
+      "not_found": "Streamer introuvable.",
+      "channel_not_found": "Salon introuvable.",
+      "account_not_found": "Compte introuvable.",
+      "trovo_required": "Le nom de la chaîne Trovo et le salon Discord sont requis."
+    },
+    "trovo": {
+      "api_warning": "API Trovo non configurée.",
+      "api_warning_desc": "Ajoutez <code>TROVO_CLIENT_ID</code> dans votre fichier <code>.env</code>. Obtenez le Client-ID sur <strong>developer.trovo.live</strong> après avoir enregistré une application.",
+      "monitored": "Streamers surveillés ({{count}})",
+      "no_entries": "Aucun streamer ajouté pour l'instant.",
+      "confirm_remove": "Vraiment supprimer {{username}} ?",
+      "modal_add": "Ajouter un streamer",
+      "modal_edit": "Modifier le streamer :",
+      "username_label": "Nom de la chaîne Trovo",
+      "msg_hint_add": "Vide = texte par défaut. Variables : {streamer}, {link}",
+      "msg_hint_edit": "Variables : {streamer}, {link}",
+      "ph_streamer": "Nom d'affichage du streamer sur Trovo",
+      "ph_link": "Lien direct vers la chaîne Trovo",
+      "ph_example": "🟣 {streamer} est en live sur Trovo ! Venez voir : {link}",
+      "check_interval": "Le statut est vérifié toutes les <strong>2 minutes</strong>."
+    }
+  },
+  "support": {
+    "title": "Support",
+    "subtitle": "Configurez les intégrations pour les plateformes de supporters.",
+    "items": {
+      "kofi": {
+        "title": "Ko-Fi",
+        "desc": "Notifications de supporters, URL webhook et attribution de rôles"
+      },
+      "patreon": {
+        "title": "Patreon",
+        "desc": "Liez les niveaux d'adhésion aux rôles Discord"
+      }
+    },
+    "copied": "Copié !",
+    "notification_channel": "Salon de notification",
+    "channel_none": "— Aucun salon —",
+    "supporter_role": "Rôle de supporter",
+    "role_none": "— Aucun rôle —",
+    "tier_roles": "Rôles par niveau",
+    "col_tier_name": "Nom du niveau",
+    "col_role": "Rôle",
+    "col_duration": "Durée (jours)",
+    "tier_none": "— Aucun —",
+    "tier_add": "Ajouter un niveau",
+    "duration_permanent": "0 jour = le rôle est attribué de façon permanente.",
+    "embed_desc_card": "Description de l'embed",
+    "placeholders": "Variables disponibles :",
+    "msg_default_hint": "Laissez vide pour le message par défaut.",
+    "kofi": {
+      "stats_btn": "Statistiques & Revenus",
+      "webhook_desc": "Entrez cette URL dans votre <a href=\"https://ko-fi.com/manage/webhooks\" target=\"_blank\" rel=\"noopener\" class=\"link-secondary\">Dashboard Ko-Fi</a> sous <strong>Webhooks</strong>.",
+      "token_desc": "Trouvé dans le Dashboard Ko-Fi sous <strong>Webhooks → Avancé</strong>. Utilisé pour vérifier chaque requête entrante.",
+      "channel_desc": "Un message sera publié dans ce salon lorsque quelqu'un soutient via Ko-Fi.",
+      "role_desc": "Ce rôle est automatiquement attribué lorsque le nom Ko-Fi correspond à un membre Discord. Si aucun membre correspondant n'est trouvé, une note apparaîtra dans la notification.",
+      "role_remove_label": "Retirer automatiquement le rôle après",
+      "days_unit": "jours",
+      "role_permanent": "0 = le rôle est attribué de façon permanente.",
+      "tier_desc": "Attribuez des rôles Discord personnalisés aux niveaux d'adhésion. Le nom du niveau doit correspondre exactement au nom dans le Dashboard Ko-Fi. Si aucun niveau correspondant n'est trouvé, le rôle de secours ci-dessus est utilisé.",
+      "embed_desc": "Le titre de l'embed est automatiquement défini selon le type (ex. <code>☕ Don</code>). Ici vous configurez la ligne de description en dessous.",
+      "forward_card": "Transférer le webhook",
+      "forward_desc": "Les webhooks Ko-Fi entrants seront également transférés vers ces URLs — une URL par ligne. Le transfert se fait en arrière-plan et n'affecte pas le traitement."
+    },
+    "patreon": {
+      "stats_btn": "Statistiques",
+      "connection_card": "Connexion Patreon",
+      "connected_badge": "Connecté",
+      "token_expired": "Le token a peut-être expiré.",
+      "disconnect_btn": "Déconnecter",
+      "confirm_disconnect": "Vraiment déconnecter Patreon ?",
+      "connect_desc": "Connectez votre compte créateur Patreon pour attribuer automatiquement des rôles par niveau. Après la connexion, vos niveaux seront chargés automatiquement.",
+      "api_warning": "<strong>PATREON_CLIENT_ID</strong> et <strong>PATREON_CLIENT_SECRET</strong> doivent être configurés dans le fichier <code>.env</code>.",
+      "connect_btn": "Se connecter avec Patreon",
+      "webhook_desc": "Entrez l'URL et le secret dans le <a href=\"https://www.patreon.com/portal/registration/register-clients\" target=\"_blank\" rel=\"noopener\" class=\"link-secondary\">Portail développeur Patreon</a> sous <strong>Webhooks</strong>. Déclencheurs : <code>members:pledge:create</code>, <code>members:pledge:update</code>, <code>members:pledge:delete</code>.",
+      "secret_label": "Secret",
+      "secret_placeholder": "Secret webhook depuis le portail Patreon",
+      "channel_desc": "Un message sera publié dans ce salon lorsque quelqu'un devient Patron.",
+      "tier_desc": "Attribuez un rôle Discord à chaque niveau Patreon. Le nom du niveau est uniquement pour l'affichage — la correspondance se fait via l'<strong>ID du niveau</strong> dans le payload du webhook Patreon.",
+      "tier_auto_loaded": "Les niveaux ont été chargés automatiquement depuis votre campagne.",
+      "col_tier_id": "ID du niveau",
+      "tier_id_hint": "Trouvez l'ID du niveau dans le payload webhook Patreon sous <code>data.relationships.currently_entitled_tiers.data[].id</code>."
+    },
+    "stats": {
+      "no_events": "Aucun événement enregistré pour l'instant.",
+      "col_month": "Mois",
+      "col_count": "Nombre",
+      "col_total": "Total",
+      "no_grants": "Aucun rôle à durée limitée actif.",
+      "active_grants_card": "Attributions de rôles actives",
+      "col_user_id": "ID utilisateur",
+      "col_expires": "Expire",
+      "col_remaining": "Restant",
+      "expired": "Expiré",
+      "day_singular": "jour",
+      "day_plural": "jours"
+    },
+    "flash": {
+      "kofi_saved": "Paramètres Ko-Fi sauvegardés.",
+      "patreon_not_configured": "PATREON_CLIENT_ID n'est pas configuré.",
+      "patreon_cancelled": "Connexion Patreon annulée.",
+      "patreon_connected": "Patreon connecté : {{name}}",
+      "patreon_connect_failed": "Connexion échouée : {{msg}}",
+      "patreon_saved": "Paramètres Patreon sauvegardés.",
+      "patreon_disconnected": "Connexion Patreon supprimée.",
+      "fields_required": "Tous les champs sont requis.",
+      "command_name_invalid": "Le nom de la commande doit commencer par une lettre ou un chiffre.",
+      "command_exists": "La commande « {{name}} » existe déjà.",
+      "command_created": "Commande créée.",
+      "commands_registered": "{{count}} commande(s) enregistrée(s) avec succès auprès de Discord.",
+      "deploy_failed_logs": "Déploiement échoué. Voir les journaux du bot.",
+      "command_deleted": "Commande supprimée.",
+      "command_not_found": "Commande introuvable.",
+      "command_saved": "Commande sauvegardée.",
+      "prefix_no_spaces": "Le préfixe ne doit pas contenir d'espaces.",
+      "rr_title_channel_required": "Le titre et le salon sont requis.",
+      "rr_panel_created": "Panneau créé.",
+      "rr_panel_not_found": "Panneau introuvable.",
+      "rr_panel_saved": "Panneau sauvegardé.",
+      "rr_panel_no_entries": "Au moins une entrée est requise.",
+      "rr_channel_not_found": "Salon introuvable ou pas un salon textuel.",
+      "rr_deploy_failed": "Déploiement échoué — permissions du bot manquantes ?",
+      "rr_panel_deployed": "Panneau « {{title}} » déployé avec succès.",
+      "rr_panel_deleted": "Panneau supprimé.",
+      "auditlog_saved": "Journal d'audit sauvegardé.",
+      "moderation_saved": "Paramètres de modération sauvegardés."
+    },
+    "kofi_stats": {
+      "total_revenue": "Revenus totaux",
+      "total_count": "Dons totaux",
+      "unique_donors": "Supporters uniques",
+      "monthly_card": "Revenus par mois",
+      "col_amount": "Montant",
+      "col_breakdown": "Répartition",
+      "by_type_card": "Par type",
+      "col_type": "Type",
+      "top_donations_card": "Montants individuels les plus élevés",
+      "col_supporter": "Supporter",
+      "col_date": "Date"
+    },
+    "patreon_stats": {
+      "total_count": "Total des événements de pledge",
+      "unique_patrons": "Patrons uniques",
+      "monthly_card": "Événements par mois",
+      "col_pledge_total": "Total des pledges",
+      "by_tier_card": "Par niveau",
+      "col_tier": "Niveau",
+      "col_events": "Événements"
+    }
+  },
+  "auth": {
+    "login": {
+      "title": "Dashboard du bot",
+      "subtitle": "Connectez-vous avec Discord pour continuer",
+      "btn_discord": "Se connecter avec Discord",
+      "error_oauth_not_configured": "OAuth2 n'est pas encore configuré (DISCORD_CLIENT_ID manquant).",
+      "error_oauth_denied": "La connexion a été annulée.",
+      "error_oauth_failed": "Authentification échouée. Veuillez réessayer.",
+      "no_oauth": "OAuth2 pas encore configuré.<br/>Définissez <code>DISCORD_CLIENT_ID</code> &amp; <code>DISCORD_CLIENT_SECRET</code><br/>dans votre <code>.env</code>.<br/><br/>Pour le développement : <code>DEV_SKIP_AUTH=true</code>"
+    }
+  },
+  "bot": {
+    "common": {
+      "no_permission": "❌ Tu n'as pas la permission d'utiliser cette commande.",
+      "user_not_found": "❌ Utilisateur introuvable.",
+      "no_reason": "Aucune raison fournie",
+      "error": "❌ Une erreur s'est produite lors de l'exécution de la commande."
+    },
+    "ping": {
+      "measuring": "Mesure en cours...",
+      "pong": "🏓 Pong ! Aller-retour : **{{roundtrip}}ms** | WebSocket : **{{ws}}ms**"
+    },
+    "reminder": {
+      "disabled": "❌ Les rappels sont désactivés sur ce serveur.",
+      "no_permission_all": "❌ Tu n'as pas la permission d'utiliser `/reminder all`.",
+      "none_server": "📭 Aucun rappel actif sur ce serveur.",
+      "no_permission": "❌ Tu n'as pas la permission d'utiliser les rappels.",
+      "min_time": "❌ Le délai doit être d'au moins 1 minute.",
+      "set": "✅ Rappel défini : **{{text}}** — Je te rappellerai dans **{{label}}**",
+      "none_user": "📭 Tu n'as aucun rappel actif.",
+      "not_found": "❌ L'entrée **{{item}}** n'existe pas. Utilise `/reminder list` pour voir les entrées actuelles.",
+      "deleted": "🗑️ Rappel **{{item}}** supprimé : {{remaining}} — {{text}}",
+      "expires_soon": "expire bientôt",
+      "time_hm": "dans {{h}}h {{m}}min",
+      "time_h": "dans {{h}}h",
+      "time_m": "dans {{m}}min",
+      "embed_all_title": "⏰ Tous les rappels du serveur",
+      "embed_user_title": "⏰ Tes rappels",
+      "dm_text": "⏰ **Rappel :** {{text}}"
+    },
+    "birthday": {
+      "invalid_date": "❌ **{{day}}.{{month}}.** n'est pas une date valide.",
+      "set": "✅ Ton anniversaire a été défini au **{{day}}. {{month}}** !",
+      "not_set": "❌ Tu n'as pas défini d'anniversaire.",
+      "deleted": "✅ Ton anniversaire a été supprimé.",
+      "none": "📭 Aucun anniversaire enregistré pour l'instant.",
+      "today": "**🎉 Aujourd'hui !**",
+      "in_days": "dans {{count}} jour",
+      "in_days_plural": "dans {{count}} jours",
+      "embed_title": "🎂 Prochains anniversaires",
+      "embed_footer": "{{shown}} sur {{total}} entrées",
+      "months": [
+        "Jan",
+        "Fév",
+        "Mar",
+        "Avr",
+        "Mai",
+        "Juin",
+        "Juil",
+        "Août",
+        "Sep",
+        "Oct",
+        "Nov",
+        "Déc"
+      ],
+      "default_message": "🎂 Joyeux anniversaire {user} ! 🎉"
+    },
+    "giveaway": {
+      "no_permission_list": "❌ Tu n'as pas la permission d'utiliser `/giveaway list`.",
+      "none": "Aucun concours actif.",
+      "no_permission": "❌ Tu n'as pas la permission d'utiliser le système de concours.",
+      "invalid_duration": "❌ Durée invalide. Exemples : `10m`, `2h`, `1d` (max. 30 jours).",
+      "embed_participate": "Réagis avec 🎉 pour participer !",
+      "embed_winners_label": "**Gagnants :**",
+      "embed_ends_label": "**Se termine :**",
+      "embed_hosted_by": "Organisé par {{tag}}",
+      "active_title": "🎉 Concours actifs",
+      "started": "✅ Concours **#{{id}}** dans <#{{channel}}> démarré ! Se termine <t:{{ts}}:R>.",
+      "not_found": "❌ Concours #{{id}} introuvable.",
+      "already_ended": "❌ Le concours est déjà terminé.",
+      "ended_winners": "✅ Concours terminé. Gagnants : {{winners}}",
+      "ended_no_winner": "✅ Concours terminé. Aucun gagnant.",
+      "still_running": "❌ Le concours est encore en cours.",
+      "reroll_winners": "✅ Nouveau tirage : {{winners}}",
+      "reroll_no_winner": "✅ Nouveau tirage : Aucun participant éligible.",
+      "no_participants": "Aucun participant éligible — aucun gagnant.",
+      "winner_announce": "🎊 Félicitations {{mentions}} ! Tu as gagné **{{prize}}** !",
+      "winner_embed_title": "🎊 Nous avons un gagnant !",
+      "winner_embed_desc": "Félicitations {{mentions}} !\nTu as gagné **{{prize}}** ! 🎁",
+      "no_winner_announce": "Le concours **{{prize}}** est terminé. Aucun gagnant.",
+      "end_footer": "Concours #{{id}} terminé"
+    },
+    "levels": {
+      "disabled": "❌ Le système de Leveling n'est pas activé sur ce serveur.",
+      "no_entries": "Aucune entrée dans le classement pour l'instant.",
+      "rank_level": "Niveau",
+      "rank_rank": "Rang",
+      "rank_total_xp": "XP total",
+      "rank_xp_progress": "XP pour le prochain niveau ({{current}} / {{needed}})",
+      "rank_next_reward": "Prochaine récompense de rôle au niveau {{level}}",
+      "lb_title": "🏆 Classement XP — {{guild}}",
+      "lb_footer": "Page {{page}} / {{total}} · {{count}} entrées",
+      "xp_added": "✅ **{{user}}** : {{sign}} XP → {{total}} XP (Niveau {{level}})",
+      "xp_set": "✅ **{{user}}** : XP défini à {{value}} (Niveau {{level}})",
+      "xp_reset": "✅ XP de **{{user}}** réinitialisé.",
+      "level_up_default": "🎉 {mention} a atteint le **Niveau {level}** !",
+      "role_hint": "\n🎖️ Nouveau rôle : <@&{{roleId}}>"
+    },
+    "moderation": {
+      "user_not_found": "Utilisateur introuvable.",
+      "ban_not_possible": "Je ne peux pas bannir cet utilisateur.",
+      "banned": "✅ **{{user}}** a été banni. ({{reason}})",
+      "kick_not_possible": "Je ne peux pas expulser cet utilisateur.",
+      "kicked": "✅ **{{user}}** a été expulsé. ({{reason}})",
+      "warned": "⚠️ **{{user}}** a été averti. (Cas #{{id}} · {{count}} avertissements au total)",
+      "no_warns": "{{user}} n'a aucun avertissement.",
+      "warn_cleared": "✅ Tous les dossiers de **{{user}}** supprimés.",
+      "no_infractions": "**{{user}}** n'a aucun dossier.",
+      "timeout_not_possible": "Je ne peux pas mettre cet utilisateur en timeout.",
+      "timed_out": "✅ **{{user}}** a été mis en timeout pour **{{duration}}**.",
+      "clear_error": "❌ Erreur lors de la suppression. Les messages de plus de 14 jours ne peuvent pas être supprimés.",
+      "cleared": "✅ {{count}} message(s) supprimé(s){{extra}}.",
+      "cleared_from": " de **{{user}}**",
+      "warn_embed_title": "⚠️ Avertissements : {{user}}",
+      "warn_embed_footer": "{{count}} avertissements",
+      "infr_embed_title": "📋 Actions : {{user}}",
+      "infr_embed_footer": "{{count}} dossier(s) · 10 derniers affichés",
+      "ban_days_deleted": "Messages des {{days}} dernier(s) jour(s) supprimés",
+      "warn_total_extra": "Avertissements totaux : {{count}}",
+      "timeout_duration_extra": "Durée : {{duration}}",
+      "auto_reason": "Auto : {{count}} avertissements atteints",
+      "log_user": "Utilisateur",
+      "log_moderator": "Modérateur",
+      "log_reason": "Raison",
+      "log_details": "Détails"
+    },
+    "ticket": {
+      "disabled": "❌ Le système de tickets n'est pas activé sur ce serveur.",
+      "no_permission_list": "❌ Tu n'as pas la permission d'utiliser `/ticket list`.",
+      "none": "Aucun ticket ouvert.",
+      "no_permission": "❌ Tu n'as pas la permission d'utiliser le système de tickets.",
+      "channel_error": "❌ Impossible de créer le salon. Vérifie les permissions du bot.",
+      "created": "✅ Ton ticket a été créé dans {{channel}}.",
+      "no_open": "❌ Aucun ticket ouvert dans ce salon.",
+      "closing": "🔒 Le ticket est en cours de fermeture…",
+      "embed_title": "🎫 Ticket de support",
+      "embed_description": "Bonjour {{user}} ! Décris ton problème.\n\nUn membre de l'équipe te répondra sous peu.",
+      "embed_topic": "\n\n**Sujet :** {{topic}}",
+      "btn_close": "Fermer",
+      "btn_claim": "Prendre en charge",
+      "btn_transfer": "Transférer",
+      "list_title": "🎫 Tickets ouverts ({{count}})",
+      "no_topic": "Aucun sujet",
+      "not_found": "❌ Ticket introuvable ou déjà fermé.",
+      "claimed": "🙋 {{user}} a pris en charge le ticket."
+    },
+    "bug": {
+      "disabled": "❌ Le suivi de bugs est désactivé sur ce serveur.",
+      "reported_title": "🐛 Bug #{{id}} signalé",
+      "status_field": "Statut",
+      "footer": "Signalé par {{user}} · {{guild}}",
+      "none": "✅ Aucun bug signalé.",
+      "list_title": "🐛 Suivi de bugs — {{count}} dernières entrées",
+      "list_footer": "{{total}} bug{{plural}} au total",
+      "list_footer_s": "s",
+      "unknown_status": "⚪ Inconnu",
+      "reported_by": "par {{user}}",
+      "status_offen": "🔴 Ouvert",
+      "status_bestätigt": "🟠 Confirmé",
+      "status_in_bearbeitung": "🔵 En cours",
+      "status_erledigt": "🟢 Terminé"
+    },
+    "steam": {
+      "error": "❌ Une erreur s'est produite. Veuillez réessayer.",
+      "sales_error": "❌ Impossible de charger les promotions Steam.",
+      "no_sales": "❌ Aucune promotion avec au moins **{{pct}}%** de réduction trouvée.",
+      "no_game": "❌ Aucun jeu trouvé pour : **{{query}}**",
+      "details_error": "❌ Impossible de charger les détails du jeu (App ID : {{id}}).",
+      "no_news": "📭 Aucune actualité trouvée pour **{{game}}**.",
+      "no_profile": "❌ Profil introuvable ou défini en privé.",
+      "no_steam_id": "❌ Profil Steam introuvable : **{{input}}**",
+      "no_api_key": "❌ `STEAM_API_KEY` n'est pas configuré dans `.env`. Obtenez une clé sur https://steamcommunity.com/dev/apikey",
+      "free": "Gratuit",
+      "sales_title": "🏷️ Promotions Steam — Meilleures offres",
+      "sales_footer_min": "Réduction min. : {{pct}}% · Prix en EUR (DE)",
+      "sales_footer": "Prix en EUR (DE)",
+      "field_price": "💰 Prix",
+      "field_released": "📅 Sorti le",
+      "field_developer": "🏢 Développeur",
+      "field_genre": "🎭 Genre",
+      "field_platforms": "🖥 Plateformes",
+      "field_type": "🎮 Type",
+      "field_metacritic": "📊 Metacritic",
+      "field_recommendations": "👍 Recommandations",
+      "players_title": "{{game}} — Nombre de joueurs",
+      "field_now_active": "🟢 Actuellement actifs",
+      "field_peak_24h": "📈 Pic sur 24h",
+      "field_owners": "👥 Propriétaires (estimé)",
+      "players_footer": "App ID : {{id}} · Données : Steam & SteamSpy",
+      "news_title": "{{game}} — Actualités",
+      "field_status": "📶 Statut",
+      "field_member_since": "📅 Membre depuis",
+      "field_country": "🌍 Pays",
+      "field_playing": "🎮 Joue actuellement à",
+      "field_games": "📚 Jeux",
+      "field_playtime": "⏱ Temps de jeu total",
+      "hours_unit": "hrs.",
+      "status_0": "⚫ Hors ligne",
+      "status_1": "🟢 En ligne",
+      "status_2": "🟡 Occupé",
+      "status_3": "🟡 Absent",
+      "status_4": "🔵 En veille",
+      "status_5": "🔵 Cherche à jouer",
+      "status_6": "🔴 En jeu"
+    },
+    "twitch": {
+      "content": "📺 **Rôle de live Twitch**\n\nLe rôle de live est automatiquement attribué dès que tu **stream sur Twitch** — à condition que ton compte Twitch soit lié dans Discord.\n\n**Comment lier ton compte :**\n1. Ouvre les **Paramètres Discord**\n2. Va dans **Connexions**\n3. Clique sur l'**icône Twitch** et connecte-toi\n\nUne fois que tu es en live, tu recevras automatiquement le rôle. Il sera retiré à la fin de ton stream."
+    },
+    "voice": {
+      "not_in_channel": "❌ Tu n'es pas dans un salon temporaire.",
+      "not_owner": "❌ Tu n'es pas le propriétaire de ce salon.",
+      "user_not_found": "❌ Utilisateur introuvable.",
+      "cant_self_ban": "❌ Tu ne peux pas te bannir toi-même.",
+      "banned": "🚫 **{{user}}** a été banni du salon.",
+      "already_owner": "❌ Tu es déjà le propriétaire.",
+      "owner_still_in": "❌ Le propriétaire actuel est encore dans le salon.",
+      "locked_permanently": "❌ Ce salon est verrouillé définitivement et ne peut pas être réclamé.",
+      "locked_remaining": "⏳ Le salon est verrouillé encore **{{time}}**.",
+      "now_owner": "👑 Tu es maintenant le propriétaire de ce salon.",
+      "cant_self_kick": "❌ Tu ne peux pas t'expulser toi-même.",
+      "user_not_in": "❌ Cet utilisateur n'est pas dans ton salon.",
+      "kicked": "👢 **{{user}}** a été retiré du salon.",
+      "limit_removed": "♾️ Limite d'utilisateurs supprimée.",
+      "limit_set": "👥 Limite d'utilisateurs définie à **{{limit}}**.",
+      "renamed": "✏️ Salon renommé en **{{name}}**.",
+      "locked": "🔒 Salon verrouillé — personne ne peut plus rejoindre.",
+      "unlocked": "🔓 Salon déverrouillé — tout le monde peut rejoindre.",
+      "hidden": "🙈 Salon masqué — il n'est plus visible des autres.",
+      "revealed": "👁️ Salon visible — tout le monde peut le voir à nouveau.",
+      "transferred": "👑 Propriété transférée à **{{user}}**.",
+      "unbanned": "✅ **{{user}}** a été débanni du salon.",
+      "clean_deleted": "🧹 {{count}} salon(s) temporaire(s) vide(s) supprimé(s).",
+      "clean_none": "✅ Aucun salon temporaire vide trouvé.",
+      "owner": "👑 Propriétaire : <@{{id}}>",
+      "commands_embed_title": "🔊 Salons temporaires — Commandes disponibles",
+      "commands_embed_desc": "`/voice-ban [membre]` — Bannir un utilisateur du salon vocal\n`/voice-unban [membre]` — Débannir un utilisateur\n`/voice-kick [membre]` — Expulser un utilisateur du salon\n`/voice-lock` — Verrouiller le salon (personne ne peut rejoindre)\n`/voice-unlock` — Déverrouiller le salon\n`/voice-hide` — Masquer le salon\n`/voice-reveal` — Rendre le salon visible\n`/voice-limit [limite]` — Changer la limite d'utilisateurs (0 = illimité)\n`/voice-rename [nom]` — Renommer le salon\n`/voice-transfer [membre]` — Transférer la propriété\n`/voice-claim` — Réclamer la propriété (quand le propriétaire est parti)\n`/voice-owner` — Afficher le propriétaire actuel\n`/voice-clean` — Supprimer tous les salons temporaires vides"
+    },
+    "music": {
+      "disabled": "❌ La musique est désactivée sur ce serveur.",
+      "disabled_short": "❌ La musique est désactivée.",
+      "not_in_vc": "❌ Tu dois être dans un salon vocal.",
+      "no_connect": "❌ Le bot n'a pas la permission de rejoindre le salon vocal.",
+      "no_speak": "❌ Le bot n'a pas la permission de parler — active **Parler** dans les paramètres du serveur sous Rôles.",
+      "dj_required": "❌ Tu as besoin du rôle DJ pour cette commande.",
+      "dj_required_short": "❌ Tu as besoin du rôle DJ.",
+      "nothing_playing": "❌ Rien n'est en cours de lecture.",
+      "already_paused": "⏸️ La lecture est déjà en pause.",
+      "paused": "⏸️ Lecture en pause.",
+      "already_playing": "▶️ La lecture est déjà en cours.",
+      "resumed": "▶️ Lecture reprise.",
+      "skipped": "⏭️ **{{title}}** ignoré.",
+      "stopped": "⏹️ Lecture arrêtée et file d'attente vidée.",
+      "volume_set": "{{emoji}} Volume défini à **{{vol}}%**.",
+      "loop_off": "➡️ Répétition désactivée.",
+      "loop_track": "🔂 Répétition de la piste activée.",
+      "loop_queue": "🔁 Répétition de la file d'attente activée.",
+      "queue_no_more": "❌ La file d'attente ne contient plus de chansons.",
+      "shuffled": "🔀 **{{count}}** chansons mélangées.",
+      "play_error": "❌ Erreur : {{msg}}",
+      "added_title": "🎵 Ajouté à la file d'attente",
+      "field_duration": "Durée",
+      "field_author": "Auteur",
+      "field_source": "Source",
+      "requested_by": "Demandé par {{tag}}",
+      "live": "En direct",
+      "np_paused": "⏸️ En pause",
+      "np_playing": "▶️ En lecture",
+      "unknown_requester": "Inconnu",
+      "queue_title": "🎵 File d'attente",
+      "queue_now_playing": "▶️ En cours de lecture",
+      "queue_next": "Prochaines chansons (page {{page}}/{{total}})",
+      "queue_empty_name": "File d'attente",
+      "queue_empty_value": "_Aucune autre chanson_",
+      "queue_footer": "{{count}} chansons · Répétition : {{mode}}",
+      "repeat_off": "Désactivée",
+      "repeat_track": "🔂 Piste",
+      "repeat_queue": "🔁 File d'attente",
+      "repeat_autoplay": "▶️ Lecture automatique",
+      "queue_empty_leave": "✅ File d'attente vide — le bot quitte le salon.",
+      "disconnected": "👋 Déconnecté.",
+      "player_error": "❌ Erreur de lecture : `{{msg}}`",
+      "playlist_added": "🎵 Playlist **{{name}}** ajoutée ({{count}} chansons)"
+    },
+    "auditlog": {
+      "unknown": "Inconnu",
+      "empty": "*vide*",
+      "not_cached": "*non mis en cache*",
+      "no_nickname": "*aucun pseudo*",
+      "no_reason": "Aucune raison fournie",
+      "no_roles": "Aucun",
+      "never": "Jamais",
+      "msg_edited": "✏️ Message modifié",
+      "msg_deleted": "🗑️ Message supprimé",
+      "invite_created": "📨 Invitation créée",
+      "member_joined": "📥 Membre rejoint",
+      "member_kicked": "👢 Membre expulsé",
+      "member_left": "📤 Membre parti",
+      "member_banned": "🔨 Utilisateur banni",
+      "member_unbanned": "✅ Utilisateur débanni",
+      "member_timeout": "🔇 Utilisateur mis en timeout",
+      "member_untimeout": "🔊 Timeout retiré",
+      "nickname_changed": "✏️ Pseudo modifié",
+      "roles_changed": "🎭 Rôles du membre modifiés",
+      "user_updated": "👤 Utilisateur mis à jour",
+      "role_created": "✨ Rôle créé",
+      "role_deleted": "🗑️ Rôle supprimé",
+      "role_updated": "🔧 Rôle mis à jour",
+      "voice_joined": "🎙️ Rejoint un salon vocal",
+      "voice_left": "🚪 Quitté un salon vocal",
+      "server_updated": "🏠 Serveur mis à jour",
+      "emoji_added": "😀 Emoji ajouté",
+      "emoji_removed": "😶 Emoji supprimé",
+      "emoji_renamed": "✏️ Emoji renommé",
+      "ch_voice_created": "🔊 Salon vocal créé",
+      "ch_category_created": "📁 Catégorie créée",
+      "ch_text_created": "💬 Salon textuel créé",
+      "channel_deleted": "🗑️ Salon supprimé",
+      "channel_updated": "🔧 Salon mis à jour",
+      "field_author": "Auteur",
+      "field_channel": "Salon",
+      "field_before": "Avant",
+      "field_after": "Après",
+      "field_link": "Lien",
+      "field_content": "Contenu",
+      "field_deleted_by": "Supprimé par",
+      "field_created_by": "Créé par",
+      "field_added_by": "Ajouté par",
+      "field_removed_by": "Retiré par",
+      "field_kicked_by": "Expulsé par",
+      "field_banned_by": "Banni par",
+      "field_unbanned_by": "Débanni par",
+      "field_changed_by": "Modifié par",
+      "field_code": "Code",
+      "field_max_uses": "Utilisations max.",
+      "field_expires": "Expire",
+      "field_user": "Utilisateur",
+      "field_account_created": "Compte créé",
+      "field_members": "Membres",
+      "field_roles": "Rôles",
+      "field_reason": "Raison",
+      "field_until": "Jusqu'à",
+      "field_by": "Par",
+      "field_change": "Changement",
+      "field_changes": "Changements",
+      "field_color": "Couleur",
+      "field_role": "Rôle",
+      "field_emoji": "Emoji",
+      "field_roles_added": "➕ Ajoutés",
+      "field_roles_removed": "➖ Retirés",
+      "link_to_msg": "Aller au message",
+      "change_name": "**Nom :** {{from}} → {{to}}",
+      "change_color": "**Couleur :** {{from}} → {{to}}",
+      "change_hoist": "**Afficher séparément :** {{from}} → {{to}}",
+      "change_mentionable": "**Mentionnable :** {{from}} → {{to}}",
+      "change_permissions": "**Permissions** modifiées",
+      "change_topic": "**Sujet :** {{from}} → {{to}}",
+      "change_nsfw": "**NSFW :** {{from}} → {{to}}",
+      "change_slowmode": "**Slow-Mode :** {{from}}s → {{to}}s",
+      "change_icon": "**Icône** modifiée",
+      "change_description": "**Description :** {{from}} → {{to}}",
+      "change_verification": "**Niveau de vérification :** {{from}} → {{to}}",
+      "change_avatar": "**Avatar** modifié",
+      "change_tag": "**Tag :** {{from}} → {{to}}"
+    },
+    "notifiers": {
+      "twitch": {
+        "no_title": "Pas de titre",
+        "now_live": "{{name}} est en live !",
+        "field_game": "Jeu",
+        "field_viewers": "Spectateurs",
+        "unknown": "Inconnu",
+        "default_message": "🔴 **{streamer}** est maintenant en live ! {link}"
+      },
+      "kick": {
+        "no_title": "Pas de titre",
+        "now_live": "{{name}} est en live sur Kick !",
+        "field_category": "🎮 Catégorie",
+        "field_viewers": "👥 Spectateurs",
+        "unknown": "Inconnu",
+        "default_message": "🟢 **{streamer}** est maintenant en live sur Kick ! {link}"
+      },
+      "youtube": {
+        "default_message": "📺 **{channel}** a publié une nouvelle vidéo ! {link}"
+      },
+      "x": {
+        "default_message": "@everyone 🐦 Nouvelle publication de **{user}** !"
+      },
+      "fallout76": {
+        "embed_title": "☢️ Fallout 76 – Codes nucléaires",
+        "embed_footer": "Source : nukacrypt.com"
+      },
+      "zkillboard": {
+        "victim_lost": "{{victim}} a perdu {{ship}}",
+        "field_value": "💰 Valeur",
+        "field_system": "📍 Système",
+        "unknown": "Inconnu",
+        "and_more": "+{{count}} de plus"
+      },
+      "trovo": {
+        "no_title": "Pas de titre",
+        "now_live": "{{name}} est en live sur Trovo !",
+        "field_category": "🎮 Catégorie",
+        "field_viewers": "👥 Spectateurs",
+        "unknown": "Inconnu",
+        "default_message": "🟣 **{streamer}** est maintenant en live sur Trovo ! {link}"
+      }
+    },
+    "events": {
+      "command_error": "❌ Une erreur s'est produite lors de l'exécution de la commande.",
+      "ticket_not_found": "❌ Ticket introuvable ou déjà fermé.",
+      "ticket_closing": "🔒 Le ticket est en cours de fermeture…",
+      "ticket_claimed": "🙋 {{user}} a pris en charge le ticket.",
+      "commands_embed_title": "⚡ Je réponds aux commandes suivantes",
+      "commands_embed_footer_s": "s",
+      "commands_embed_footer": "{{count}} commande(s) disponible(s)",
+      "commands_none": "Aucune commande avec préfixe configurée.",
+      "prefix_error": "❌ Une erreur s'est produite lors de l'exécution de la commande.",
+      "module_disabled": "Ce module est désactivé globalement."
+    }
+  },
+  "landing": {
+    "nav": {
+      "features": "Fonctionnalités",
+      "modules": "Modules",
+      "dashboard": "Dashboard",
+      "invite": "Inviter"
+    },
+    "hero": {
+      "badge": "Version",
+      "title_1": "Le bot qui propulse votre",
+      "title_2": "serveur Discord",
+      "title_3": "au niveau supérieur",
+      "subtitle": "Modération, Musique, Leveling, Flux sociaux et bien plus — tout en un seul bot avec un tableau de bord web intuitif.",
+      "cta_invite": "Ajouter maintenant",
+      "cta_dashboard": "Ouvrir le dashboard",
+      "stats": {
+        "modules": "Modules",
+        "commands": "Commandes",
+        "online": "En ligne",
+        "free": "Gratuit"
+      }
+    },
+    "features": {
+      "badge": "Points forts",
+      "title": "Tout ce dont vous avez besoin",
+      "subtitle": "Des fonctionnalités puissantes qui font vraiment avancer votre serveur",
+      "disclaimer": "Les aperçus présentés utilisent des données d'exemple pour illustrer les fonctionnalités.",
+      "moderation": {
+        "title": "Modération puissante",
+        "desc": "Gardez votre serveur propre avec un système complet d'avertissements, de bannissements et de timeouts. Escalade automatique en cas de violations répétées — vous décidez des seuils.",
+        "items": [
+          "Avertissements avec escalade automatique",
+          "Historique complet des infractions avec IDs de cas",
+          "Salon de journal de modération configurable",
+          "Timeout, expulsion, bannissement & suppression de messages"
+        ]
+      },
+      "leveling": {
+        "title": "Système de Leveling & XP",
+        "desc": "Motivez votre communauté avec un système XP complet. Récompensez automatiquement les membres actifs avec des rôles et célébrez les montées de niveau dans le chat.",
+        "items": [
+          "XP automatique pour les messages",
+          "Récompenses de rôles à des niveaux spécifiques",
+          "Classement du serveur avec pagination",
+          "Notifications de montée de niveau dans le chat ou en MP"
+        ]
+      },
+      "music": {
+        "title": "Musique pour tous",
+        "desc": "Profitez de musique directement dans votre salon vocal. Support pour YouTube, Spotify et SoundCloud avec un système de file d'attente complet et protection par rôle DJ.",
+        "items": [
+          "YouTube, Spotify & SoundCloud",
+          "File d'attente jusqu'à 250 pistes",
+          "Boucle, Mélange, Passer, Volume",
+          "Restrictions par rôle DJ"
+        ]
+      },
+      "social": {
+        "title": "Notifications sociales",
+        "desc": "Ne manquez jamais une nouvelle publication ou un stream de vos créateurs préférés. Nephthys envoie des notifications automatiques pour Twitch, YouTube, Kick et X (Twitter).",
+        "items": [
+          "Alertes live Twitch & Kick avec infos de stream",
+          "Notifications de vidéos YouTube",
+          "Transfert de publications X (Twitter)",
+          "Modèles de messages individuels"
+        ]
+      }
+    },
+    "modules": {
+      "badge": "Tous les modules",
+      "title": "Aperçu des fonctionnalités",
+      "subtitle": "De la modération aux réseaux sociaux — Nephthys a quelque chose pour chaque serveur",
+      "tempchannels": {
+        "title": "Salons vocaux temporaires",
+        "desc": "Des salons vocaux créés automatiquement qui se gèrent eux-mêmes. Les propriétaires peuvent renommer, verrouiller, masquer, expulser des utilisateurs et plus encore.",
+        "tags": [
+          "/voice-lock",
+          "/voice-rename",
+          "Auto-Nettoyage"
+        ]
+      },
+      "reactionroles": {
+        "title": "Rôles par réaction",
+        "desc": "Attribuez automatiquement des rôles via une réaction emoji. Parfait pour les rôles auto-assignables, la sélection de couleurs communautaires et l'accès aux salons.",
+        "tags": [
+          "Emoji → Rôle",
+          "Multi-Réaction"
+        ]
+      },
+      "birthday": {
+        "title": "Système d'anniversaires",
+        "desc": "Célébrez automatiquement les anniversaires des membres de votre communauté avec des messages personnalisés et un rôle d'anniversaire optionnel.",
+        "tags": [
+          "Annonce automatique",
+          "Rôle d'anniversaire"
+        ]
+      },
+      "commands": {
+        "title": "Commandes personnalisées",
+        "desc": "Créez vos propres commandes slash sans aucune connaissance en programmation. Définissez les paramètres, les réponses et les restrictions de rôles directement dans le dashboard.",
+        "tags": [
+          "Commandes slash",
+          "Commandes préfixées",
+          "Garde de rôle"
+        ]
+      },
+      "kofi": {
+        "title": "Intégration Ko-Fi",
+        "desc": "Récompensez automatiquement vos supporters avec des rôles basés sur les niveaux Ko-Fi. Avec dates d'expiration, statistiques et support webhook.",
+        "tags": [
+          "Rôles par niveau",
+          "Statistiques",
+          "Webhooks"
+        ]
+      },
+      "patreon": {
+        "title": "Intégration Patreon",
+        "desc": "Connectez votre campagne Patreon et attribuez automatiquement des rôles Discord selon les niveaux d'adhésion — avec OAuth2 et webhooks en temps réel.",
+        "tags": [
+          "OAuth2",
+          "Rôles par niveau",
+          "Webhooks"
+        ]
+      },
+      "reminder": {
+        "title": "Rappels",
+        "desc": "Définissez des rappels personnels directement sur Discord. Jusqu'à 167 heures dans le futur — le bot vous contacte au bon moment.",
+        "tags": [
+          "/reminder add",
+          "Jusqu'à 167h"
+        ]
+      },
+      "steam": {
+        "title": "Intégration Steam",
+        "desc": "Tenez votre communauté informée sur les jeux Steam : prix, nombre de joueurs, dernières actualités et statistiques de profil joueur directement dans le chat.",
+        "tags": [
+          "/steam info",
+          "/steam news",
+          "/steam user"
+        ]
+      },
+      "gaming": {
+        "title": "Intégrations gaming",
+        "desc": "Conçu pour les gamers : codes de lancement nucléaire Fallout 76 et alertes killmail EVE Online zKillboard directement sur votre serveur Discord.",
+        "tags": [
+          "Fallout 76",
+          "EVE Online",
+          "zKillboard"
+        ]
+      },
+      "begruessung": {
+        "title": "Système de bienvenue",
+        "desc": "Accueillez les nouveaux membres avec des messages personnalisés dans le salon ou en MP. Annonces programmées et restrictions de rôles incluses.",
+        "tags": [
+          "Message en salon",
+          "Bienvenue en MP"
+        ]
+      },
+      "starboard": {
+        "title": "Starboard",
+        "desc": "Mettez automatiquement en avant les messages les plus populaires de votre communauté dans un salon dédié — via un seuil de réactions.",
+        "tags": [
+          "Seuil de réactions",
+          "Auto-Publication",
+          "Meilleurs messages"
+        ]
+      },
+      "slowmode": {
+        "title": "Gestionnaire de Slow-Mode",
+        "desc": "Détecte automatiquement les salons surchargés et active le slow-mode — aucune intervention manuelle nécessaire. Configurable par salon.",
+        "tags": [
+          "Slow-Mode auto",
+          "Seuil",
+          "Par salon"
+        ]
+      },
+      "giveaways": {
+        "title": "Concours",
+        "desc": "Lancez des concours avec sélection automatique des gagnants, minuterie de compte à rebours et exigences de participation optionnelles via filtre de rôles.",
+        "tags": [
+          "Sélection automatique",
+          "Minuterie",
+          "Filtre de rôles"
+        ]
+      },
+      "tickets": {
+        "title": "Système de tickets",
+        "desc": "Tickets de support directement sur Discord — avec catégories, attributions de rôles, archive automatique et gestion claire via le dashboard.",
+        "tags": [
+          "Catégories",
+          "Garde de rôle",
+          "Fermeture auto"
+        ]
+      },
+      "scheduled": {
+        "title": "Messages planifiés",
+        "desc": "Planifiez des messages texte ou embed pour une heure précise — une fois ou de façon récurrente. Parfait pour les annonces, événements et mises à jour régulières.",
+        "tags": [
+          "Texte & Embed",
+          "Récurrent",
+          "Dashboard"
+        ]
+      },
+      "trovo": {
+        "title": "Trovo",
+        "desc": "Ne manquez jamais un stream sur Trovo. Nephthys envoie automatiquement des notifications de live dans votre salon Discord configuré dès qu'un streamer passe en ligne.",
+        "tags": [
+          "Alertes live",
+          "Infos de stream",
+          "Multi-Streamer"
+        ]
+      },
+      "invites": {
+        "title": "Suivi des invitations",
+        "desc": "Suivez qui a invité qui sur le serveur. Classement avec compteurs d'invitations, récompenses XP pour les invitants et aperçu de tous les codes d'invitation enregistrés.",
+        "tags": [
+          "Classement",
+          "XP par invitation",
+          "/invite create"
+        ]
+      }
+    },
+    "dashboard_teaser": {
+      "badge": "Tableau de bord web",
+      "title": "Tout sous contrôle — directement dans votre navigateur",
+      "desc": "Configurez chaque aspect de votre bot via le tableau de bord web clair. Pas de commandes nécessaires — connectez-vous simplement, sélectionnez un serveur et commencez.",
+      "items": [
+        "Discord OAuth2 — connexion sécurisée",
+        "Tous les paramètres sans redémarrage du bot",
+        "Statistiques & activité des membres",
+        "Responsive — fonctionne aussi sur mobile"
+      ],
+      "cta": "Ouvrir le dashboard"
+    },
+    "cta": {
+      "title": "Prêt à améliorer votre serveur ?",
+      "subtitle": "Ajoutez Nephthys à votre serveur Discord dès aujourd'hui — gratuit, utilisable immédiatement et entièrement configurable.",
+      "invite": "Inviter le bot",
+      "dashboard": "Ouvrir le dashboard"
+    },
+    "footer": {
+      "tagline": "Votre bot Discord tout-en-un",
+      "links": {
+        "features": "Fonctionnalités",
+        "modules": "Modules",
+        "dashboard": "Dashboard"
+      },
+      "legal": {
+        "impressum": "Mentions légales",
+        "datenschutz": "Politique de confidentialité",
+        "nutzungsbedingungen": "Conditions d'utilisation"
+      },
+      "copyright": "Nephthys Bot. Tous droits réservés.",
+      "online": "Bot en ligne",
+      "offline": "Bot hors ligne"
+    }
+  }
+}

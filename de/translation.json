@@ -1,0 +1,1969 @@
+{
+  "common": {
+    "save": "Speichern",
+    "cancel": "Abbrechen",
+    "delete": "Löschen",
+    "edit": "Bearbeiten",
+    "add": "Hinzufügen",
+    "active": "Aktiv",
+    "soon": "Demnächst",
+    "enabled": "Aktiviert",
+    "disabled": "Deaktiviert",
+    "home": "Startseite",
+    "settings": "Einstellungen",
+    "back": "Zurück",
+    "yes": "Ja",
+    "no": "Nein",
+    "loading": "Lädt…",
+    "saved": "Einstellungen gespeichert.",
+    "deploy_ok": "Commands bei Discord registriert.",
+    "deploy_fail": "Deploy fehlgeschlagen — Commands gespeichert, aber nicht registriert."
+  },
+  "nav": {
+    "server_select": "Server wählen",
+    "switch_server": "Server wechseln",
+    "logout": "Abmelden",
+    "sections": {
+      "global": "Globales",
+      "dashboard": "Dashboard",
+      "grundlegendes": "Grundlegendes",
+      "soziales": "Soziale Benachrichtigungen",
+      "support": "Support",
+      "spass": "Spaß & Spiel",
+      "tools": "Tools"
+    },
+    "items": {
+      "overview": "Übersicht",
+      "stats": "Statistiken",
+      "general": "Allgemein",
+      "begruessung": "Begrüßung",
+      "commands": "Custom Commands",
+      "reactionroles": "Reaction Roles",
+      "moderation": "Moderation",
+      "starboard": "Starboard",
+      "slowmode": "Slow-Mode",
+      "twitch": "Twitch",
+      "kick": "Kick",
+      "trovo": "Trovo",
+      "x": "X (Twitter)",
+      "youtube": "YouTube",
+      "kofi": "Ko-Fi",
+      "patreon": "Patreon",
+      "birthday": "Geburtstage",
+      "fallout76": "Fallout 76",
+      "eve": "EVE Online",
+      "giveaways": "Giveaways",
+      "tempchannels": "Temporäre Kanäle",
+      "reminder": "Reminder",
+      "leveling": "Leveling",
+      "music": "Musik",
+      "tickets": "Tickets",
+      "scheduled": "Geplante Nachrichten",
+      "bot_dashboard": "Dashboard",
+      "bot_settings": "Einstellungen",
+      "bugtracker": "Bug Tracker",
+      "logs": "Logs",
+      "dsgvo": "DSGVO",
+      "invites": "Einladungen"
+    }
+  },
+  "breadcrumb": {
+    "home": "Startseite",
+    "grundlegendes": "Grundlegendes",
+    "soziales": "Soziale Benachrichtigungen",
+    "support": "Support",
+    "spass": "Spaß & Spiel",
+    "tools": "Tools",
+    "global": "Globales"
+  },
+  "stats": {
+    "title": "Server-Statistiken",
+    "subtitle": "Daten werden ab dem ersten Bot-Start gesammelt. Alle Zeitangaben in UTC.",
+    "label_members": "Mitglieder",
+    "label_msgs_today": "Nachrichten heute",
+    "label_joins_30d": "Joins (30 Tage)",
+    "label_leaves_30d": "Leaves (30 Tage)",
+    "chart_member": "Joins & Leaves – letzte 30 Tage",
+    "chart_hours": "Aktivste Tageszeiten – letzte 7 Tage (UTC)",
+    "chart_msg_users": "Top Nutzer – Nachrichten (30 Tage)",
+    "chart_voice_users": "Top Nutzer – Voice-Zeit (Minuten, gesamt)",
+    "chart_xp": "XP-Leaderboard (Top 10)",
+    "chart_channels": "Aktivste Kanäle (30 Tage)",
+    "chart_commands": "Meist genutzte Befehle (30 Tage)",
+    "no_data": "Noch keine Daten.",
+    "label_joins": "Joins",
+    "label_leaves": "Leaves"
+  },
+  "settings": {
+    "title": "Einstellungen",
+    "placeholder": {
+      "not_implemented": "Diese Einstellungsseite ist noch nicht implementiert."
+    },
+    "subtitle": "Wähle ein Modul um die Bot-Konfiguration zu bearbeiten.",
+    "general": {
+      "title": "Allgemein",
+      "prefix": {
+        "title": "Bot-Prefix",
+        "description": "Prefix für Textnachrichten-Commands (z.B. <code>!</code> → <code>!ping</code>). Leer lassen um Prefix-Commands zu deaktivieren.",
+        "label": "Prefix",
+        "hint": "(max. 5 Zeichen, kein Leerzeichen)",
+        "placeholder": "z.B.  !  oder  ??"
+      },
+      "language": {
+        "title": "Bot-Sprache",
+        "description": "Sprache des Bots für diesen Server (Befehle, Antworten, Embeds).",
+        "label": "Bot-Sprache"
+      }
+    },
+    "moderation": {
+      "title": "Moderation",
+      "tab_automod": "Auto-Moderierung",
+      "tab_auditlog": "Audit-Log",
+      "tab_modlog": "Mod Log",
+      "log_channel_header": "Moderations-Log",
+      "log_channel_desc": "Alle Moderationsaktionen (Warn, Kick, Ban, Timeout) werden in diesen Channel geloggt.",
+      "log_no_channel": "– Kein Log-Channel –",
+      "automod_header": "Auto-Moderierung",
+      "excluded_roles": "Ausgeschlossene Rollen",
+      "excluded_roles_placeholder": "Rolle suchen und hinzufügen…",
+      "excluded_roles_desc": "Mitglieder mit diesen Rollen werden von der Auto-Mod nicht erfasst.",
+      "action_delete": "Nur löschen",
+      "action_warn": "Verwarnen",
+      "action_timeout": "Timeout",
+      "action_kick": "Kicken",
+      "action_ban": "Bannen",
+      "antispam": "Anti-Spam",
+      "antispam_more": "Mehr als",
+      "antispam_msgs_in": "Nachrichten in",
+      "antispam_seconds": "Sekunden →",
+      "badwords": "Verbotene Wörter",
+      "badwords_placeholder": "Ein Wort pro Zeile oder kommagetrennt",
+      "badwords_action": "Aktion →",
+      "anticaps": "Anti-Caps",
+      "anticaps_more": "Mehr als",
+      "anticaps_percent": "% Caps, ab",
+      "anticaps_chars": "Zeichen →",
+      "antiinvite": "Anti-Einladungen",
+      "antiinvite_desc": "Discord-Einladungen blockieren →",
+      "antimention": "Anti-Mentions",
+      "antimention_more": "Mehr als",
+      "antimention_then": "Erwähnungen →",
+      "thresholds_header": "Verwarnungsstufen",
+      "thresholds_desc": "Wenn ein Nutzer eine bestimmte Anzahl an Verwarnungen erreicht, wird automatisch eine Aktion ausgeführt.",
+      "thresholds_empty": "Keine Stufen konfiguriert.",
+      "threshold_at": "Bei",
+      "threshold_warns": "Verwarnungen →",
+      "threshold_add": "Stufe hinzufügen",
+      "dur_5min": "5 Minuten",
+      "dur_30min": "30 Minuten",
+      "dur_1hour": "1 Stunde",
+      "dur_1day": "1 Tag",
+      "dur_1week": "1 Woche",
+      "auditlog_settings": "Grundeinstellungen",
+      "auditlog_settings_desc": "Alle aktivierten Ereignisse werden in diesen Kanal gesendet. Wähle keinen Kanal, um das Audit-Logging zu deaktivieren.",
+      "auditlog_channel": "Audit-Log Kanal",
+      "auditlog_no_channel": "– Kein Kanal (deaktiviert) –",
+      "auditlog_ignore_bots": "Von Bots durchgeführte Aktionen nicht protokollieren",
+      "events_header": "Ereignisse",
+      "event_group_moderation": "Moderation",
+      "event_group_messages": "Nachrichten",
+      "event_group_members": "Mitglieder",
+      "event_group_roles": "Rollen",
+      "event_group_channels": "Kanäle",
+      "event_group_voice": "Sprachkanäle",
+      "event_group_server": "Server",
+      "ev_memberTimeout": "Nutzer stummgeschaltet (Timeout)",
+      "ev_memberUntimeout": "Timeout aufgehoben",
+      "ev_banAdd": "Moderations-Bann",
+      "ev_banRemove": "Aufhebung der Sperre",
+      "ev_messageUpdate": "Nachricht aktualisiert",
+      "ev_messageDelete": "Nachricht gelöscht",
+      "ev_inviteCreate": "Einladung gesendet",
+      "ev_memberAdd": "Benutzer beigetreten",
+      "ev_memberRemove": "Benutzer verlassen",
+      "ev_nicknameChange": "Spitzname geändert",
+      "ev_memberRolesChange": "Benutzerrollen geändert",
+      "ev_memberUpdate": "Nutzer aktualisiert (Profil)",
+      "ev_roleCreate": "Rolle erstellt",
+      "ev_roleUpdate": "Rolle aktualisiert",
+      "ev_roleDelete": "Rolle gelöscht",
+      "ev_channelCreate": "Kanal erstellt",
+      "ev_channelUpdate": "Kanal aktualisiert",
+      "ev_channelDelete": "Kanal gelöscht",
+      "ev_voiceJoin": "Sprachkanal beigetreten",
+      "ev_voiceLeave": "Sprachkanal verlassen",
+      "ev_guildUpdate": "Server bearbeitet",
+      "ev_emojiUpdate": "Emojis aktualisiert",
+      "ignored_header": "Ignoriert",
+      "ignored_desc": "Nachrichten, die in diesen Kanälen aktualisiert und gelöscht werden, werden nicht geloggt.",
+      "ignored_search": "Kanal suchen…",
+      "no_roles": "Keine Rollen",
+      "no_channels": "Keine Kanäle",
+      "no_category": "Ohne Kategorie",
+      "modlog_total": "Gesamt",
+      "modlog_warns": "Verwarnungen",
+      "modlog_timeouts": "Timeouts",
+      "modlog_kicks": "Kicks",
+      "modlog_bans": "Bans",
+      "modlog_search": "Nutzer, Moderator oder Grund…",
+      "modlog_filter_all": "Alle",
+      "modlog_no_entries": "Noch keine Moderationsaktionen vorhanden.",
+      "modlog_no_filter": "Keine Einträge für diesen Filter.",
+      "modlog_no_reason": "Kein Grund angegeben",
+      "modlog_entries": "Einträge",
+      "modlog_entry": "Eintrag",
+      "modlog_truncated": "Es werden die neuesten 100 von {{total}} Einträgen angezeigt."
+    },
+    "reactionroles": {
+      "title": "Reaction Roles",
+      "new_panel": "Neues Panel",
+      "empty": "Noch keine Panels. Erstelle eines mit „Neues Panel“.",
+      "entries": "Einträge",
+      "deploy": "Deployen",
+      "redeploy": "Neu deployen",
+      "deploy_confirm": "Panel jetzt in Channel deployen?",
+      "delete_confirm": "Panel \"{{title}}\" wirklich löschen?",
+      "edit": "Bearbeiten",
+      "emoji_search": "Emote suchen…",
+      "loading": "Lädt…",
+      "create_title": "Neues Panel",
+      "create_btn": "Erstellen",
+      "edit_panel_title": "Panel bearbeiten",
+      "edit_prefix": "Bearbeiten:",
+      "field_title": "Titel",
+      "field_title_hint": "(max. 100 Z.)",
+      "field_desc": "Beschreibung",
+      "field_desc_hint": "(optional, max. 300 Z.)",
+      "field_channel": "Channel",
+      "channel_loading": "— Channel laden… —",
+      "entries_label": "Einträge",
+      "entries_type_hint": "(Emote · Bezeichnung · Rolle)",
+      "entries_click_hint": "Klicke auf das Emote-Icon um ein Server-Emote auszuwählen.",
+      "add_entry": "Eintrag hinzufügen",
+      "no_channel": "— Kein Channel —",
+      "no_role": "— Rolle wählen —",
+      "no_emotes": "Keine Server-Emotes.",
+      "badge_deployed": "Deployed",
+      "badge_draft": "Entwurf"
+    },
+    "commands": {
+      "title": "Custom Commands",
+      "new_cmd": "Neuen Command anlegen",
+      "register": "Bei Discord registrieren",
+      "register_confirm": "Commands jetzt bei Discord registrieren? Das überschreibt alle bisherigen Slash Commands.",
+      "list_header": "Vorhandene Commands",
+      "empty": "Noch keine Commands angelegt.",
+      "builtin_group": "Eingebaut",
+      "create_title": "Neuen Command anlegen",
+      "edit_title": "Command bearbeiten",
+      "edit_prefix": "Bearbeiten:",
+      "no_roles": "Keine Rollen",
+      "no_emotes": "Keine Emotes auf diesem Server.",
+      "builtin_badge": "eingebaut",
+      "delete_confirm": "Command {{label}} wirklich löschen?",
+      "field_name": "Name",
+      "field_name_hint": "(ohne / oder Prefix)",
+      "field_desc": "Beschreibung",
+      "field_desc_hint": "(max. 100 Z.)",
+      "field_desc_placeholder": "Was macht dieser Command?",
+      "field_response": "Antwort",
+      "insert_emotes": "Server-Emotes einfügen",
+      "emoji_search": "Emote suchen…",
+      "loading": "Lädt…",
+      "field_type": "Verfügbar als",
+      "type_slash": "Nur Slash Command",
+      "type_prefix": "Nur Prefix Command",
+      "type_both": "Slash + Prefix",
+      "prefix_hint": "Prefix wird unter Allgemein konfiguriert. Parameter werden als Argumente übergeben.",
+      "params_label": "Parameter",
+      "params_optional": "(optional)",
+      "params_hint": "Typ · Name · Beschreibung · Pflichtfeld",
+      "add_param": "Parameter hinzufügen",
+      "param_required": "Pflicht",
+      "param_required_title": "Pflichtfeld",
+      "param_desc_placeholder": "Beschreibung",
+      "grant_roles": "Rollen hinzufügen",
+      "grant_roles_optional": "(optional)",
+      "grant_roles_desc": "Diese Rollen werden dem Nutzer beim Ausführen des Commands vergeben.",
+      "revoke_roles": "Rollen entziehen",
+      "revoke_roles_optional": "(optional)",
+      "revoke_roles_desc": "Diese Rollen werden dem Nutzer beim Ausführen des Commands entzogen.",
+      "role_search": "Rolle suchen…",
+      "create_btn": "Command erstellen",
+      "close": "Schließen"
+    },
+    "begruessung": {
+      "title": "Begrüßung",
+      "welcome_channel": "Willkommensnachricht (Channel)",
+      "welcome_channel_desc": "Sendet eine öffentliche Nachricht wenn ein neues Mitglied beitritt.",
+      "welcome_dm": "Willkommens-DM (Privatnachricht)",
+      "welcome_dm_desc": "Sendet dem neuen Mitglied direkt eine private Nachricht.",
+      "goodbye_channel": "Verabschiedung (Channel)",
+      "goodbye_channel_desc": "Sendet eine Nachricht wenn ein Mitglied den Server verlässt.",
+      "placeholders": "Platzhalter:",
+      "channel_label": "Channel",
+      "message_label": "Nachricht",
+      "no_channel": "— Kein Channel —",
+      "dm_hint": "Falls der Nutzer DMs deaktiviert hat wird die Nachricht still übersprungen.",
+      "insert_emote": "Server-Emotes einfügen",
+      "loading_channels": "Lädt Kanäle…",
+      "channels_error": "Kanäle konnten nicht geladen werden."
+    },
+    "starboard": {
+      "title": "Starboard",
+      "activation": "Aktivierung",
+      "enable_label": "Starboard aktivieren",
+      "channel_emoji": "Kanal & Emoji",
+      "channel_label": "Starboard-Kanal",
+      "no_channel": "— Kein Kanal —",
+      "channel_desc": "In diesem Kanal werden hervorgehobene Nachrichten gepostet.",
+      "emoji_label": "Emoji",
+      "emoji_default": "Standard: ⭐",
+      "threshold_label": "Schwellenwert",
+      "threshold_desc": "Mindestanzahl Reaktionen",
+      "options": "Optionen",
+      "self_star_label": "Eigene Nachrichten mit Stern versehen erlauben",
+      "ignored_channels": "Ignorierte Kanäle",
+      "ignored_channels_hint": "(Komma-getrennte IDs)",
+      "ignored_channels_desc": "Nachrichten aus diesen Kanälen werden nicht auf dem Starboard gezeigt."
+    },
+    "slowmode": {
+      "title": "Slow-Mode-Manager",
+      "enable_label": "Slow-Mode-Manager aktivieren",
+      "enable_desc": "Wenn in einem Kanal innerhalb des Zeitfensters zu viele Nachrichten gesendet werden, wird automatisch ein Slowmode gesetzt. Er wird aufgehoben, sobald der Kanal ruhiger wird.",
+      "channel_rules": "Kanal-Regeln",
+      "channel_rules_desc": "Pro Kanal: Schwellenwert = Nachrichten im Zeitfenster (Sekunden), bei dem Slowmode aktiviert wird. Slowmode-Dauer in Sekunden (0 = deaktiviert).",
+      "col_channel": "Kanal",
+      "col_threshold": "Schwellenwert",
+      "col_window": "Zeitfenster (s)",
+      "col_slowmode": "Slowmode (s)",
+      "no_channel": "— Kanal —",
+      "add_channel": "Kanal hinzufügen",
+      "activation": "Aktivierung"
+    }
+  },
+  "dashboard": {
+    "title": "Dashboard",
+    "welcome": "Willkommen zurück,",
+    "quote": "\"Ich wache über deinen Server, damit deine Community das Beste erlebt. Sag mir, was du brauchst — ich erledige den Rest.\"",
+    "sig": "— Nephthys",
+    "sections": {
+      "global": "Globales",
+      "dashboard": "Dashboard",
+      "grundlegendes": "Grundlegendes",
+      "soziales": "Soziale Benachrichtigungen",
+      "support": "Support",
+      "spass": "Spaß & Spiel",
+      "tools": "Tools"
+    },
+    "cards": {
+      "bot_dashboard": {
+        "title": "Bot-Dashboard",
+        "desc": "Globale Bot-Übersicht"
+      },
+      "bot_settings": {
+        "title": "Bot-Einstellungen",
+        "desc": "Globale Bot-Konfiguration"
+      },
+      "bugtracker_global": {
+        "title": "Bug Tracker",
+        "desc": "Bugs melden & verwalten"
+      },
+      "logs": {
+        "title": "Bot-Logs",
+        "desc": "Globale Bot-Logs"
+      },
+      "stats": {
+        "title": "Statistiken",
+        "desc": "Server-Aktivitäten im Überblick"
+      },
+      "general": {
+        "title": "Allgemein",
+        "desc": "Grundlegende Servereinstellungen"
+      },
+      "begruessung": {
+        "title": "Begrüßung",
+        "desc": "Willkommensnachrichten konfigurieren"
+      },
+      "commands": {
+        "title": "Custom Commands",
+        "desc": "Eigene Befehle erstellen"
+      },
+      "reactionroles": {
+        "title": "Reaction Roles",
+        "desc": "Rollen per Reaktion vergeben"
+      },
+      "moderation": {
+        "title": "Moderation",
+        "desc": "Moderationstools verwalten"
+      },
+      "starboard": {
+        "title": "Starboard",
+        "desc": "Beliebte Nachrichten hervorheben"
+      },
+      "slowmode": {
+        "title": "Slow-Mode-Manager",
+        "desc": "Slowmode automatisch steuern"
+      },
+      "twitch": {
+        "title": "Twitch",
+        "desc": "Stream-Benachrichtigungen"
+      },
+      "kick": {
+        "title": "Kick",
+        "desc": "Stream-Benachrichtigungen"
+      },
+      "trovo": {
+        "title": "Trovo",
+        "desc": "Stream-Benachrichtigungen"
+      },
+      "x": {
+        "title": "X (Twitter)",
+        "desc": "Post-Benachrichtigungen"
+      },
+      "youtube": {
+        "title": "YouTube",
+        "desc": "Video-Benachrichtigungen"
+      },
+      "kofi": {
+        "title": "Ko-Fi",
+        "desc": "Supporter-Benachrichtigungen & Rollen"
+      },
+      "patreon": {
+        "title": "Patreon",
+        "desc": "Supporter-Benachrichtigungen & Rollen"
+      },
+      "birthday": {
+        "title": "Geburtstage",
+        "desc": "Geburtstage eintragen & feiern"
+      },
+      "fallout76": {
+        "title": "Fallout 76",
+        "desc": "Wastelanders-Integration"
+      },
+      "eve": {
+        "title": "EVE Online",
+        "desc": "zKillboard Killmail-Alerts"
+      },
+      "giveaways": {
+        "title": "Giveaways",
+        "desc": "Gewinnspiele erstellen & verwalten"
+      },
+      "tempchannels": {
+        "title": "Temporäre Kanäle",
+        "desc": "Auto-Voicechannel einrichten"
+      },
+      "reminder": {
+        "title": "Reminder",
+        "desc": "Erinnerungen planen"
+      },
+      "leveling": {
+        "title": "Leveling",
+        "desc": "XP-System verwalten"
+      },
+      "music": {
+        "title": "Musik",
+        "desc": "Musik abspielen & konfigurieren"
+      },
+      "tickets": {
+        "title": "Tickets",
+        "desc": "Support-Tickets verwalten"
+      },
+      "scheduled": {
+        "title": "Geplante Nachrichten",
+        "desc": "Zeitgesteuerte Nachrichten senden"
+      },
+      "invites": {
+        "title": "Einladungs-Tracking",
+        "desc": "Rangliste & Invite-Codes im Blick"
+      }
+    }
+  },
+  "guild_select": {
+    "title": "Server auswählen",
+    "subtitle": "Wähle den Server, den du verwalten möchtest.",
+    "cancel": "Abbrechen",
+    "empty": "Keine gemeinsamen Server gefunden.",
+    "empty_hint": "Du brauchst die Berechtigung <strong>Server verwalten</strong>.",
+    "invite": "Bot auf Server einladen",
+    "invite_other": "Bot auf einen anderen Server einladen",
+    "logged_in_as": "Eingeloggt als",
+    "active": "Aktiv",
+    "members": "Mitglieder"
+  },
+  "fun": {
+    "title": "Spaß & Spiel",
+    "subtitle": "Interaktive Features und Community-Tools.",
+    "items": {
+      "birthday": {
+        "title": "Geburtstage",
+        "desc": "Geburtstage eintragen, Rollen vergeben und Ankündigungen senden"
+      },
+      "fallout76": {
+        "title": "Fallout 76",
+        "desc": "Wöchentliche Nuclear Codes (Alpha, Bravo, Charlie) automatisch abrufen"
+      },
+      "zkillboard": {
+        "title": "EVE Online – zKillboard",
+        "desc": "Killmails in Echtzeit von zkillboard.com empfangen und in Discord posten"
+      },
+      "giveaways": {
+        "title": "Giveaways",
+        "desc": "Verlosungen starten, verwalten und automatisch beenden"
+      },
+      "leveling": {
+        "title": "Leveling",
+        "desc": "XP-System, Level-Up-Nachrichten, Rollen-Belohnungen & Leaderboard"
+      },
+      "invites": {
+        "title": "Einladungs-Tracking",
+        "desc": "Verfolge wer wie viele Mitglieder eingeladen hat — Rangliste & Invite-Codes"
+      }
+    },
+    "birthday": {
+      "role_card": "Geburtstags-Rolle",
+      "role_desc": "Diese Rolle wird am Geburtstag automatisch vergeben und danach wieder entfernt.",
+      "role_select": "Rolle auswählen",
+      "role_none": "— Keine Rolle —",
+      "loading_roles": "Lädt Rollen…",
+      "loading_roles_err": "Rollen konnten nicht geladen werden.",
+      "announce_card": "Ankündigung",
+      "announce_desc": "Sendet eine Nachricht wenn jemand Geburtstag hat. Platzhalter: <code>{user}</code> <code>{username}</code> <code>{server}</code>",
+      "channel_label": "Channel",
+      "channel_hint": "(leer = keine Ankündigung)",
+      "channel_none": "— Kein Channel —",
+      "loading_channels": "Lädt Kanäle…",
+      "loading_channels_err": "Kanäle konnten nicht geladen werden.",
+      "msg_label": "Nachricht",
+      "time_label": "Uhrzeit der Ankündigung",
+      "time_uhr": "Uhr",
+      "time_hint": "Ankündigungen werden einmalig pro Tag ab dieser Uhrzeit gesendet.",
+      "restrict_card": "Rollenbeschränkungen für Commands",
+      "cmd_set_desc": "Geburtstag hinterlegen",
+      "cmd_delete_desc": "Geburtstag löschen",
+      "cmd_list_desc": "Geburtstage anzeigen",
+      "cmd_hint": "Leer = jeder darf diesen Befehl nutzen",
+      "discard": "Änderungen verwerfen"
+    },
+    "fallout76": {
+      "current_codes": "Aktuelle Codes",
+      "fetched_at": "Zuletzt abgerufen:",
+      "channel_card": "Benachrichtigungs-Kanal",
+      "channel_desc": "Wähle einen Kanal, in dem die Nuclear Codes automatisch gepostet werden. Wenn kein Kanal gewählt ist, werden für diesen Server keine Codes gepostet.",
+      "channel_label": "Kanal",
+      "channel_none": "— Kein Kanal (deaktiviert) —",
+      "loading_channels": "Lädt Kanäle…",
+      "loading_channels_err": "Kanäle konnten nicht geladen werden."
+    },
+    "giveaways": {
+      "intro": "Starte Giveaways mit <code>/giveaway start</code> direkt in Discord. Hier siehst du eine Übersicht und kannst laufende Giveaways vorzeitig beenden.",
+      "restrict_card": "Rollenbeschränkung",
+      "manage_hint": "Leer = jeder darf Giveaways verwalten",
+      "list_hint": "Leer = jeder darf Giveaways auflisten",
+      "algo_title": "Gewinner-Algorithmus",
+      "algo_desc": "Der Bot sammelt alle 🎉-Reaktionen auf die Giveaway-Nachricht, filtert Bot-Accounts heraus und wählt die Gewinner per <strong>Zufalls-Shuffle</strong> (Fisher-Yates). Jeder Teilnehmer hat dieselbe Chance zu gewinnen — mehrfaches Reagieren zählt nicht.",
+      "active_card": "Aktive Giveaways",
+      "no_active": "Keine aktiven Giveaways.",
+      "col_prize": "Preis",
+      "col_winners": "Gewinner",
+      "col_participants": "Teilnehmer",
+      "col_ends": "Endet",
+      "ends_soon": "Gleich",
+      "col_channel": "Kanal",
+      "confirm_end": "Giveaway #{{id}} jetzt beenden?",
+      "end_btn": "Beenden",
+      "recent_card": "Letzte beendete Giveaways",
+      "no_recent": "Noch keine beendeten Giveaways.",
+      "col_ended": "Beendet",
+      "no_winner": "Kein Gewinner",
+      "confirm_delete": "Giveaway #{{id}} aus der Liste löschen?",
+      "delete_btn": "Löschen"
+    },
+    "zkillboard": {
+      "how_title": "Wie es funktioniert:",
+      "how_desc": "Der Bot empfängt neue Killmails von <strong>zkillboard.com</strong> in Echtzeit und postet sie in den konfigurierten Channel. Ohne Entity-IDs werden <em>alle</em> Kills ab dem ISK-Minimum gepostet. Mit Entity-IDs (Character-, Corporation- oder Alliance-ID) werden nur Kills gefiltert, an denen diese Entities beteiligt sind.",
+      "entity_find": "Entity-IDs finden:",
+      "entity_find_desc": "Auf <strong>zkillboard.com</strong> die gewünschte Entity aufrufen — die ID steht in der URL: <code>zkillboard.com/corporation/<strong>98765432</strong>/</code>",
+      "active_card": "Aktive Abos ({{count}})",
+      "no_entries": "Noch keine Abos konfiguriert.",
+      "no_isk_filter": "Kein ISK-Filter",
+      "all_kills": "Alle Kills",
+      "match_both": "Opfer &amp; Angreifer",
+      "match_victim": "Nur Opfer",
+      "match_attacker": "Nur Angreifer",
+      "legend_title": "Embed-Farben nach Killwert:",
+      "modal_add": "Abo hinzufügen",
+      "modal_edit": "Abo bearbeiten",
+      "name_label": "Name / Bezeichnung",
+      "channel_label": "Benachrichtigungs-Channel",
+      "channel_required": "Benachrichtigungs-Channel *",
+      "channel_select": "– Channel wählen –",
+      "isk_label": "Minimaler Killwert",
+      "isk_no_filter": "Kein Filter (alle Kills)",
+      "entity_label": "Entity-IDs",
+      "entity_optional": "(optional)",
+      "entity_hint_add": "Character-, Corporation- oder Alliance-IDs, kommagetrennt. Leer = <em>alle Kills</em> werden gepostet.",
+      "entity_hint_edit": "Character-, Corporation- oder Alliance-IDs, kommagetrennt.",
+      "match_label": "Beteiligung filtern",
+      "match_victim_label": "Als Opfer",
+      "match_attacker_label": "Als Angreifer",
+      "match_hint": "Nur relevant wenn Entity-IDs eingetragen sind.",
+      "confirm_remove": "Abo „{{label}}“ wirklich entfernen?"
+    },
+    "flash": {
+      "channel_saved": "Kanal gespeichert.",
+      "channel_required": "Channel ist erforderlich.",
+      "sub_added": "Abo hinzugefügt.",
+      "sub_not_found": "Abo nicht gefunden.",
+      "sub_saved": "Abo „{{label}}“ gespeichert.",
+      "sub_removed": "Abo entfernt."
+    }
+  },
+  "tools": {
+    "title": "Tools",
+    "subtitle": "Nützliche Werkzeuge für die Server-Verwaltung.",
+    "items": {
+      "tempchannels": {
+        "title": "Temporäre Kanäle",
+        "desc": "Mitglieder erstellen per Klick eigene temporäre Sprachkanäle"
+      },
+      "reminder": {
+        "title": "Reminder",
+        "desc": "Tägliche Erinnerungen per DM – Einstellungen & Übersicht aller Einträge"
+      },
+      "leveling": {
+        "title": "Leveling",
+        "desc": "XP-System, Level-Up-Nachrichten, Rollen-Belohnungen & Leaderboard"
+      },
+      "music": {
+        "title": "Musik",
+        "desc": "Spotify abspielen — DJ-Rolle, Lautstärke und Queue konfigurieren"
+      },
+      "tickets": {
+        "title": "Ticket-System",
+        "desc": "Support-Tickets verwalten — Kategorien, Rollen, offene Tickets"
+      },
+      "scheduled": {
+        "title": "Geplante Nachrichten",
+        "desc": "Zeitgesteuerte Text- oder Embed-Nachrichten in beliebige Kanäle senden"
+      }
+    },
+    "role_whitelist": "Verweigern für alle Rollen außer",
+    "role_blacklist": "Erlaubt sind alle Rollen außer",
+    "role_search_add": "Rolle suchen und hinzufügen…",
+    "no_roles": "Keine Rollen",
+    "tempchannels": {
+      "how_it_works": "So funktioniert es:",
+      "how_it_works_desc": "Wähle einen Sprachkanal als Auslöser. Sobald ein Mitglied diesen Kanal betritt, erstellt der Bot automatisch einen neuen privaten Sprachkanal und verschiebt das Mitglied dorthin. Der Kanal wird automatisch gelöscht, sobald er leer ist.",
+      "placeholders": "Platzhalter für den Kanalnamen:",
+      "activation": "Aktivierung",
+      "enabled_label": "Temporäre Kanäle aktiv",
+      "config": "Konfiguration",
+      "trigger_label": "Auslöser-Kanal",
+      "trigger_hint": "Wenn ein Mitglied diesen Kanal betritt, wird ein temporärer Kanal erstellt.",
+      "trigger_placeholder": "– Bitte wählen –",
+      "category_label": "Kategorie (optional)",
+      "category_same": "– Gleiche Kategorie wie Auslöser –",
+      "category_hint": "Temporäre Kanäle werden in dieser Kategorie erstellt.",
+      "name_label": "Kanalname-Vorlage",
+      "name_hint": "Platzhalter: {user}, {displayname}, {count}",
+      "limit_label": "Nutzerlimit",
+      "limit_hint": "0 = unbegrenzt",
+      "bitrate_label": "Bitrate (kbps)",
+      "keepalive": "Am Leben erhalten",
+      "keepalive_desc": "Dauer in Minuten, bis der temporäre Kanal gelöscht wird, nachdem alle Mitglieder ihn verlassen haben. 0 = sofort löschen · ∞ = nie löschen.",
+      "keepalive_inf": "∞ Nie",
+      "keepalive_instant": "0 — Sofort",
+      "keepalive_min_1": "1 Minute",
+      "keepalive_min_2": "2 Minuten",
+      "keepalive_min_3": "3 Minuten",
+      "keepalive_min_5": "5 Minuten",
+      "keepalive_min_10": "10 Minuten",
+      "ownerlock": "Eigentumssperre",
+      "ownerlock_desc": "Dauer in Minuten, bis der Kanal zur Übernahme freigegeben wird, nachdem der Besitzer ihn verlassen hat. 0 = sofort freigeben · ∞ = nie freigeben (kein /voice-claim möglich).",
+      "ownerlock_inf": "∞ Nie freigeben",
+      "ownerlock_instant": "0 — Sofort freigeben",
+      "role_restrict": "Rollenbeschränkung",
+      "role_restrict_hint": "Leer = jeder darf den Auslöser-Kanal benutzen"
+    },
+    "invites": {
+      "title": "Einladungs-Tracking",
+      "settings": "Einstellungen",
+      "channel_label": "Standard-Kanal für /invite create",
+      "channel_placeholder": "— Kein Standard (aktueller Kanal) —",
+      "xp_label": "XP pro Einladung",
+      "xp_hint": "0 = deaktiviert. Der Einlader bekommt XP wenn jemand beitritt.",
+      "save_btn": "Speichern",
+      "leveling_disabled": "Leveling ist deaktiviert — aktiviere es unter Leveling, um XP pro Einladung zu vergeben.",
+      "leaderboard_tab": "Rangliste",
+      "codes_tab": "Invite-Codes",
+      "leaderboard_title": "Rangliste",
+      "leaderboard_total": "Einladung{{plural}} insgesamt",
+      "leaderboard_empty": "Noch keine Einladungen erfasst.",
+      "leaderboard_hint": "Mitglieder können mit /invite create ihren persönlichen Link erstellen.",
+      "member_col": "Mitglied",
+      "invites_col": "Einladungen",
+      "rank_label": "#",
+      "reset_all_confirm": "Wirklich alle Einladungs-Zähler zurücksetzen?",
+      "reset_all_btn": "Alle zurücksetzen",
+      "reset_user_title": "Zurücksetzen",
+      "reset_user_confirm": "Einladungen von {{name}} zurücksetzen?",
+      "codes_title": "Registrierte Invite-Codes",
+      "codes_empty": "Noch keine Codes registriert.",
+      "codes_hint": "Mitglieder erstellen Codes mit /invite create.",
+      "code_col": "Code",
+      "created_by_col": "Erstellt von",
+      "delete_confirm": "Invite discord.gg/{{code}} löschen?"
+    },
+    "leveling": {
+      "info_desc": "Nutzer erhalten pro Nachricht zufällig XP-Min bis XP-Max mit konfigurierbarem Cooldown. Level werden nach folgender Formel berechnet: für Level N werden 5·N²+50·N+100 XP benötigt.",
+      "placeholders": "Platzhalter für die Level-Up-Nachricht:",
+      "settings": "Grundeinstellungen",
+      "enabled_label": "System aktiv",
+      "xp_per_msg": "XP pro Nachricht",
+      "xp_to": "bis",
+      "cooldown": "Cooldown (Sek.)",
+      "cooldown_hint": "Sek. zwischen zwei XP-Vergaben pro Nutzer",
+      "announcement_type": "Level-Up-Ankündigung",
+      "ann_channel": "Im Channel (selber oder konfiguriert)",
+      "ann_dm": "Nur per DM",
+      "ann_both": "Channel + DM",
+      "ann_off": "Keine Ankündigung",
+      "announcement_channel": "Ankündigungs-Channel",
+      "ann_channel_hint": "(leer = Channel der Nachricht)",
+      "ann_same_channel": "— Gleicher Channel —",
+      "levelup_msg": "Level-Up-Nachricht",
+      "stack_rewards": "Rollen-Belohnungen stapeln",
+      "stack_hint": "Aus = Nutzer behält nur die Rolle des aktuellen Levels",
+      "exclusions": "Ausschlüsse",
+      "ignore_channels": "Channels ignorieren",
+      "ignore_channels_hint": "(kein XP in diesen Channels)",
+      "channel_search": "Channel suchen…",
+      "ignore_roles": "Rollen ignorieren",
+      "ignore_roles_hint": "(kein XP für diese Rollen)",
+      "role_search": "Rolle suchen…",
+      "save_settings": "Einstellungen speichern",
+      "role_rewards": "Rollen-Belohnungen",
+      "no_rewards": "Noch keine Belohnungen konfiguriert.",
+      "role_placeholder": "Rolle wählen…",
+      "xp_multipliers": "XP-Multiplikatoren",
+      "mult_desc": "Nutzer mit dieser Rolle erhalten den vielfachen XP-Betrag. Bei mehreren Rollen gilt der höchste Multiplikator.",
+      "no_multipliers": "Keine Multiplikatoren konfiguriert.",
+      "leaderboard": "Leaderboard Vorschau",
+      "lb_empty": "Noch keine Einträge.",
+      "lv_label": "Lv",
+      "import": "Nachrichten-Import",
+      "import_desc": "Liest die Nachrichtenhistorie eines Channels und vergib XP rückwirkend anhand der Nachrichtenanzahl pro Nutzer. Bot-Nachrichten werden ignoriert. XP werden auf vorhandene XP addiert — Funktion nur einmal pro Channel verwenden.",
+      "import_channel": "Channel",
+      "import_channel_placeholder": "– Channel wählen –",
+      "import_xp": "XP pro Nachricht",
+      "import_xp_hint": "Standard: Ø aus XP-Min/Max",
+      "import_max": "Max. Nachrichten"
+    },
+    "music": {
+      "general": "Allgemein",
+      "enabled_label": "Musik aktivieren",
+      "enabled_desc": "Alle Musik-Befehle auf diesem Server freischalten",
+      "playback": "Wiedergabe",
+      "volume_label": "Standard-Lautstärke",
+      "volume_hint": "Lautstärke beim Start einer neuen Queue (1–150)",
+      "queue_label": "Maximale Queue-Größe",
+      "queue_hint": "Maximale Anzahl Songs in der Warteschlange",
+      "permissions": "Berechtigungen",
+      "dj_label": "DJ-Rolle",
+      "dj_optional": "(optional)",
+      "dj_none": "— Keine (alle dürfen Musik steuern) —",
+      "dj_hint": "Nur Mitglieder mit dieser Rolle können Musik-Befehle nutzen",
+      "response_label": "Antwort-Channel",
+      "response_none": "— Kein Filter (jeder Channel) —",
+      "response_hint": "Bot antwortet nur in diesem Channel auf Musik-Befehle",
+      "spotify_title": "Spotify-Integration",
+      "spotify_active": "Aktiv — Spotify-URLs und Playlists werden unterstützt",
+      "spotify_inactive": "Inaktiv — SPOTIFY_CLIENT_ID und SPOTIFY_CLIENT_SECRET in der .env eintragen"
+    },
+    "reminder": {
+      "settings_title": "Einstellungen",
+      "enabled_label": "Reminder aktiv",
+      "enabled_hint": "Wenn deaktiviert können keine Erinnerungen gesetzt werden und laufende werden nicht gesendet.",
+      "add_restrict_hint": "Leer = jeder darf den Reminder nutzen",
+      "all_restrict_hint": "Leer = jeder darf alle Einträge sehen"
+    },
+    "tickets": {
+      "settings_title": "Einstellungen",
+      "enabled_label": "Ticket-System aktivieren",
+      "category_label": "Kategorie für Ticket-Kanäle",
+      "category_none": "— Keine —",
+      "support_role": "Support-Rolle",
+      "support_role_hint": "Diese Rolle sieht alle Ticket-Kanäle.",
+      "max_label": "Max. Tickets/Nutzer",
+      "retain_label": "Geschlossene Tickets aufbewahren",
+      "retain_unit": "Tage",
+      "retain_hint": "0 = Kanal sofort löschen",
+      "role_restrict": "Rollenbeschränkung",
+      "open_restrict_hint": "Leer = jeder darf Tickets öffnen",
+      "list_restrict_hint": "Leer = jeder darf alle Tickets sehen",
+      "open_tickets": "Offene Tickets",
+      "no_open": "Keine offenen Tickets.",
+      "col_user": "Nutzer",
+      "col_topic": "Thema",
+      "col_channel": "Kanal",
+      "col_since": "Geöffnet seit",
+      "close_btn": "Schließen",
+      "close_confirm": "Ticket #{{id}} schließen?"
+    },
+    "scheduled": {
+      "new_btn": "Neue Nachricht",
+      "new_title": "Neue geplante Nachricht",
+      "edit_title": "Nachricht bearbeiten",
+      "empty": "Keine geplanten Nachrichten.",
+      "default_label": "Geplante Nachricht",
+      "label": "Bezeichnung",
+      "label_hint": "(optional)",
+      "channel_label": "Kanal",
+      "channel_none": "— Kanal wählen —",
+      "datetime_label": "Datum & Uhrzeit",
+      "repeat_label": "Wiederholung",
+      "repeat_none": "Einmalig",
+      "repeat_daily": "Täglich",
+      "repeat_weekly": "Wöchentlich",
+      "repeat_monthly": "Monatlich",
+      "tab_text": "Text",
+      "tab_embed": "Embed",
+      "content_label": "Nachrichtentext",
+      "content_hint": "(optional, wenn Embed vorhanden)",
+      "embed_title_label": "Titel",
+      "embed_desc_label": "Beschreibung",
+      "embed_color_label": "Farbe",
+      "embed_footer_label": "Footer",
+      "embed_image_label": "Bild",
+      "embed_author_label": "Autor",
+      "embed_preview": "Vorschau",
+      "enabled_label": "Aktiv",
+      "confirm_delete": "Nachricht \"{{label}}\" wirklich löschen?",
+      "flash": {
+        "created": "Nachricht geplant.",
+        "saved": "Nachricht gespeichert.",
+        "deleted": "Nachricht gelöscht.",
+        "missing_fields": "Kanal und Zeitpunkt sind Pflichtfelder.",
+        "past_date": "Der Zeitpunkt muss in der Zukunft liegen.",
+        "no_content": "Text oder Embed-Inhalt ist erforderlich."
+      }
+    },
+    "bugtracker": {
+      "title": "Bug Tracker",
+      "status_offen": "Offen",
+      "status_bestaetigt": "Bestätigt",
+      "status_in_bearbeitung": "In Bearbeitung",
+      "status_erledigt": "Erledigt",
+      "filter_all": "Alle",
+      "list_header": "Gemeldete Bugs",
+      "empty": "Keine Bugs gemeldet. 🎉",
+      "delete_confirm": "Bug #{{id}} wirklich löschen?",
+      "disabled_badge": "Deaktiviert",
+      "settings_btn": "Einstellungen",
+      "settings_title": "Bug Tracker Einstellungen",
+      "enabled_label": "Bug Tracker aktiv",
+      "enabled_hint": "Wenn deaktiviert können keine Bugs mehr per /bug gemeldet werden.",
+      "report_hint": "Leer = jeder darf melden",
+      "list_hint": "Leer = jeder darf die Liste sehen",
+      "notify_settings_saved": "Benachrichtigungseinstellungen gespeichert.",
+      "smtp_not_configured": "SMTP nicht konfiguriert.",
+      "no_recipient": "Keine Empfänger-E-Mail gespeichert.",
+      "invalid_subscription": "Ungültige Subscription."
+    },
+    "flash": {
+      "guild_not_found": "Guild nicht gefunden.",
+      "channel_not_text": "Channel nicht gefunden oder kein Textkanal.",
+      "invalid_level_role": "Ungültiger Level oder Rolle.",
+      "invalid_multiplier": "Ungültige Eingabe (Multiplikator: 0.1–10).",
+      "reward_saved": "Rollen-Belohnung bei Level {{level}} gespeichert.",
+      "reward_removed": "Belohnung bei Level {{level}} entfernt.",
+      "multiplier_saved": "XP-Multiplikator gespeichert.",
+      "multiplier_removed": "Multiplikator entfernt.",
+      "import_done": "Import abgeschlossen: {{scanned}} Nachrichten von {{users}} Nutzern aus #{{channel}} — {{xpp}} XP pro Nachricht."
+    }
+  },
+  "social": {
+    "title": "Soziale Benachrichtigungen",
+    "subtitle": "Plattformen überwachen und die Community automatisch benachrichtigen.",
+    "items": {
+      "twitch": {
+        "title": "Twitch",
+        "desc": "Live-Benachrichtigungen und automatische Live-Rolle für Streamer"
+      },
+      "x": {
+        "title": "X (Twitter)",
+        "desc": "Neue Posts überwachen und automatisch in Discord posten"
+      },
+      "youtube": {
+        "title": "YouTube",
+        "desc": "Neue Videos überwachen und automatisch in Discord posten"
+      },
+      "kick": {
+        "title": "Kick",
+        "desc": "Live-Benachrichtigungen für Kick-Streamer"
+      },
+      "trovo": {
+        "title": "Trovo",
+        "desc": "Live-Benachrichtigungen für Trovo-Streamer"
+      }
+    },
+    "notifications_suffix": "-Benachrichtigungen",
+    "notification_channel": "Benachrichtigungs-Channel",
+    "channel_select": "– Channel wählen –",
+    "message_label": "Nachrichtentext",
+    "message_default_hint": "Leer = Standardtext wird verwendet.",
+    "placeholders_title": "Verfügbare Platzhalter im Nachrichtentext:",
+    "placeholder_example": "Beispiel:",
+    "letters_hint": "Nur Buchstaben, Zahlen und Unterstriche.",
+    "twitch": {
+      "api_warning": "Twitch-API nicht konfiguriert.",
+      "api_warning_desc": "Füge <code>TWITCH_CLIENT_ID</code> und <code>TWITCH_CLIENT_SECRET</code> in deine <code>.env</code> ein. Die Zugangsdaten erhältst du im <strong>Twitch Developer Portal</strong> unter <em>Applications → Manage</em>.",
+      "monitored": "Überwachte Kanäle ({{count}})",
+      "no_entries": "Noch keine Streamer eingetragen.",
+      "confirm_remove": "{{login}} wirklich entfernen?",
+      "live_role": "Live-Rolle",
+      "live_role_active": "Live-Rolle aktiv",
+      "role_label": "Rolle",
+      "role_none": "— Keine Rolle —",
+      "live_role_hint": "Die Rolle wird automatisch vergeben wenn ein Mitglied auf Twitch streamt und seinen Account unter <strong>Discord-Einstellungen → Verbindungen</strong> verknüpft hat.",
+      "modal_add": "Streamer hinzufügen",
+      "modal_edit": "Streamer bearbeiten:",
+      "login_label": "Twitch-Login (Kanalname)",
+      "msg_hint_add": "Leer = Standardtext wird verwendet. Platzhalter: {streamer}, {link}",
+      "msg_hint_edit": "Platzhalter: {streamer}, {link}",
+      "ph_streamer": "Anzeigename des Streamers auf Twitch",
+      "ph_link": "Direkt-Link zum Twitch-Kanal",
+      "ph_example": "🔴 {streamer} ist live! Schau jetzt rein: {link}"
+    },
+    "kick": {
+      "monitored": "Überwachte Streamer ({{count}})",
+      "no_entries": "Noch keine Streamer eingetragen.",
+      "confirm_remove": "{{slug}} wirklich entfernen?",
+      "modal_add": "Streamer hinzufügen",
+      "modal_edit": "Streamer bearbeiten:",
+      "slug_label": "Kick-Kanalname",
+      "msg_hint_add": "Leer = Standardtext. Platzhalter: {streamer}, {link}",
+      "msg_hint_edit": "Platzhalter: {streamer}, {link}",
+      "ph_streamer": "Anzeigename des Streamers auf Kick",
+      "ph_link": "Direkt-Link zum Kick-Kanal",
+      "ph_example": "🟢 {streamer} ist live auf Kick! Schau rein: {link}",
+      "check_interval": "Der Status wird alle <strong>2 Minuten</strong> geprüft."
+    },
+    "x": {
+      "api_warning": "X-API nicht konfiguriert.",
+      "api_warning_desc": "Füge <code>GETXAPI_KEY</code> in deine <code>.env</code> ein. Den Token erhältst du unter <strong><a href=\"https://www.getxapi.com/\">https://www.getxapi.com/</a></strong> – <em>Get API Key → API Keys → + Create Key</em>.",
+      "monitored": "Überwachte Accounts ({{count}})",
+      "no_entries": "Noch keine Accounts eingetragen.",
+      "confirm_remove": "@{{username}} wirklich entfernen?",
+      "modal_add": "Account hinzufügen",
+      "modal_edit": "Account bearbeiten: @",
+      "username_label": "X-Username",
+      "msg_hint_add": "Leer = Standardtext. Platzhalter: {user}, {link}",
+      "msg_hint_edit": "Platzhalter: {user}, {link}",
+      "ph_user": "X-Username des Accounts",
+      "ph_link": "Direkt-Link zum Tweet",
+      "ph_example": "@everyone 🐦 {user} hat getweetet! {link}"
+    },
+    "youtube": {
+      "monitored": "Überwachte Kanäle ({{count}})",
+      "no_entries": "Noch keine Kanäle eingetragen.",
+      "confirm_remove": "{{label}} wirklich entfernen?",
+      "modal_add": "Kanal hinzufügen",
+      "modal_edit": "Kanal bearbeiten:",
+      "channelid_label": "YouTube-Channel-ID",
+      "channelid_hint": "Beginnt mit <code>UC</code>, 24 Zeichen. Zu finden unter <em>Kanalseite → Über → Kanal-ID</em>.",
+      "label_label": "Anzeigename",
+      "label_optional": "(optional)",
+      "label_hint": "Wird im Nachrichtentext als <code>{channel}</code> verwendet.",
+      "notify_channel": "Benachrichtigungs-Channel",
+      "msg_hint_add": "Leer = Standardtext. Platzhalter: {channel}, {link}",
+      "msg_hint_edit": "Platzhalter: {channel}, {link}",
+      "ph_channel": "Name des YouTube-Kanals",
+      "ph_link": "Direkt-Link zum Video",
+      "find_id": "Wo finde ich die Channel-ID?",
+      "find_id_desc": "Auf der YouTube-Kanalseite: <em>Über → Kanal teilen → Kanal-ID kopieren</em>.<br>Alternativ: <code>youtube.com/channel/<strong>UCxxxxxx</strong></code> — der Teil nach <code>/channel/</code>."
+    },
+    "flash": {
+      "live_role_saved": "Live-Rollen-Einstellungen gespeichert.",
+      "twitch_required": "Twitch-Login und Channel sind erforderlich.",
+      "x_required": "X-Username und Channel sind erforderlich.",
+      "youtube_required": "Channel-ID und Benachrichtigungs-Channel sind erforderlich.",
+      "kick_required": "Kick-Kanalname und Channel sind erforderlich.",
+      "already_exists": "{{name}} ist bereits eingetragen.",
+      "added": "{{name}} wurde hinzugefügt.",
+      "saved": "{{name}} gespeichert.",
+      "removed": "{{name}} entfernt.",
+      "not_found": "Streamer nicht gefunden.",
+      "channel_not_found": "Kanal nicht gefunden.",
+      "account_not_found": "Account nicht gefunden.",
+      "trovo_required": "Trovo-Kanalname und Channel sind erforderlich."
+    },
+    "trovo": {
+      "api_warning": "Trovo-API nicht konfiguriert.",
+      "api_warning_desc": "Füge <code>TROVO_CLIENT_ID</code> in deine <code>.env</code> ein. Den Client-ID erhältst du unter <strong>developer.trovo.live</strong> nach der App-Registrierung.",
+      "monitored": "Überwachte Streamer ({{count}})",
+      "no_entries": "Noch keine Streamer eingetragen.",
+      "confirm_remove": "{{username}} wirklich entfernen?",
+      "modal_add": "Streamer hinzufügen",
+      "modal_edit": "Streamer bearbeiten:",
+      "username_label": "Trovo-Kanalname",
+      "msg_hint_add": "Leer = Standardtext. Platzhalter: {streamer}, {link}",
+      "msg_hint_edit": "Platzhalter: {streamer}, {link}",
+      "ph_streamer": "Anzeigename des Streamers auf Trovo",
+      "ph_link": "Direkt-Link zum Trovo-Kanal",
+      "ph_example": "🟣 {streamer} ist live auf Trovo! Schau rein: {link}",
+      "check_interval": "Der Status wird alle <strong>2 Minuten</strong> geprüft."
+    }
+  },
+  "support": {
+    "title": "Support",
+    "subtitle": "Integrationen für Supporter-Plattformen konfigurieren.",
+    "items": {
+      "kofi": {
+        "title": "Ko-Fi",
+        "desc": "Supporter-Benachrichtigungen, Webhook-URL und Rollen-Vergabe"
+      },
+      "patreon": {
+        "title": "Patreon",
+        "desc": "Mitgliedschafts-Tiers mit Discord-Rollen verknüpfen"
+      }
+    },
+    "copied": "Kopiert!",
+    "notification_channel": "Benachrichtigungs-Kanal",
+    "channel_none": "— Kein Kanal —",
+    "supporter_role": "Supporter-Rolle",
+    "role_none": "— Keine Rolle —",
+    "tier_roles": "Tier-Rollen",
+    "col_tier_name": "Tier-Name",
+    "col_role": "Rolle",
+    "col_duration": "Dauer (Tage)",
+    "tier_none": "— Keine —",
+    "tier_add": "Tier hinzufügen",
+    "duration_permanent": "0 Tage = Rolle bleibt dauerhaft vergeben.",
+    "embed_desc_card": "Embed-Beschreibung",
+    "placeholders": "Verfügbare Platzhalter:",
+    "msg_default_hint": "Leer lassen für Standardnachricht.",
+    "kofi": {
+      "stats_btn": "Statistiken & Erlöse",
+      "webhook_desc": "Diese URL in deinem <a href=\"https://ko-fi.com/manage/webhooks\" target=\"_blank\" rel=\"noopener\" class=\"link-secondary\">Ko-Fi Dashboard</a> unter <strong>Webhooks</strong> eintragen.",
+      "token_desc": "Zu finden im Ko-Fi Dashboard unter <strong>Webhooks → Advanced</strong>. Wird zur Verifikation jeder eingehenden Anfrage genutzt.",
+      "channel_desc": "In diesem Kanal wird eine Nachricht gepostet wenn jemand über Ko-Fi unterstützt.",
+      "role_desc": "Diese Rolle wird automatisch vergeben wenn der Ko-Fi-Name mit einem Discord-Mitglied übereinstimmt. Wird kein passendes Mitglied gefunden, erscheint ein Hinweis in der Benachrichtigung.",
+      "role_remove_label": "Rolle automatisch entfernen nach",
+      "days_unit": "Tagen",
+      "role_permanent": "0 = Rolle bleibt dauerhaft vergeben.",
+      "tier_desc": "Ordne Mitgliedschafts-Tiers eigene Discord-Rollen zu. Der Tier-Name muss exakt dem Namen im Ko-Fi Dashboard entsprechen. Wird kein passender Tier gefunden, greift die Fallback-Rolle oben.",
+      "embed_desc": "Der Embed-Titel wird automatisch aus dem Typ gesetzt (z. B. <code>☕ Spende</code>). Hier wird die Beschreibungszeile darunter konfiguriert.",
+      "forward_card": "Webhook weiterleiten",
+      "forward_desc": "Eingehende Ko-Fi Webhooks werden zusätzlich an diese URLs weitergeleitet — eine URL pro Zeile. Die Weiterleitung erfolgt im Hintergrund und beeinflusst nicht die Verarbeitung."
+    },
+    "patreon": {
+      "stats_btn": "Statistiken",
+      "connection_card": "Patreon-Verbindung",
+      "connected_badge": "Verbunden",
+      "token_expired": "Token möglicherweise abgelaufen.",
+      "disconnect_btn": "Trennen",
+      "confirm_disconnect": "Patreon-Verbindung wirklich trennen?",
+      "connect_desc": "Verbinde deinen Patreon-Creator-Account um Tier-Rollen automatisch zu vergeben. Nach der Verbindung werden deine Tiers automatisch geladen.",
+      "api_warning": "<strong>PATREON_CLIENT_ID</strong> und <strong>PATREON_CLIENT_SECRET</strong> müssen in der <code>.env</code> konfiguriert sein.",
+      "connect_btn": "Mit Patreon verbinden",
+      "webhook_desc": "URL und Secret im <a href=\"https://www.patreon.com/portal/registration/register-clients\" target=\"_blank\" rel=\"noopener\" class=\"link-secondary\">Patreon Developer Portal</a> unter <strong>Webhooks</strong> eintragen. Trigger: <code>members:pledge:create</code>, <code>members:pledge:update</code>, <code>members:pledge:delete</code>.",
+      "secret_label": "Secret",
+      "secret_placeholder": "Webhook Secret aus dem Patreon Portal",
+      "channel_desc": "In diesem Kanal wird eine Nachricht gepostet wenn jemand Patron wird.",
+      "tier_desc": "Ordne jedem Patreon-Tier eine Discord-Rolle zu. Der Tier-Name dient nur zur Anzeige — die Zuordnung erfolgt über die <strong>Tier-ID</strong> aus dem Patreon-Webhook-Payload.",
+      "tier_auto_loaded": "Die Tiers wurden automatisch aus deiner Kampagne geladen.",
+      "col_tier_id": "Tier-ID",
+      "tier_id_hint": "Tier-ID findest du im Patreon-Webhook-Payload unter <code>data.relationships.currently_entitled_tiers.data[].id</code>."
+    },
+    "stats": {
+      "no_events": "Noch keine Ereignisse vorhanden.",
+      "col_month": "Monat",
+      "col_count": "Anzahl",
+      "col_total": "Gesamt",
+      "no_grants": "Keine zeitlich begrenzten Rollen aktiv.",
+      "active_grants_card": "Aktive Rollen-Vergaben",
+      "col_user_id": "User-ID",
+      "col_expires": "Läuft ab",
+      "col_remaining": "Verbleibend",
+      "expired": "Abgelaufen",
+      "day_singular": "Tag",
+      "day_plural": "Tage"
+    },
+    "flash": {
+      "kofi_saved": "Ko-Fi Einstellungen gespeichert.",
+      "patreon_not_configured": "PATREON_CLIENT_ID ist nicht konfiguriert.",
+      "patreon_cancelled": "Patreon-Verbindung abgebrochen.",
+      "patreon_connected": "Patreon verbunden: {{name}}",
+      "patreon_connect_failed": "Verbindung fehlgeschlagen: {{msg}}",
+      "patreon_saved": "Patreon Einstellungen gespeichert.",
+      "patreon_disconnected": "Patreon-Verbindung getrennt.",
+      "fields_required": "Alle Felder sind erforderlich.",
+      "command_name_invalid": "Command-Name muss mit einem Buchstaben oder einer Zahl beginnen.",
+      "command_exists": "Command „{{name}}“ existiert bereits.",
+      "command_created": "Command erstellt.",
+      "commands_registered": "{{count}} Command(s) erfolgreich bei Discord registriert.",
+      "deploy_failed_logs": "Deploy fehlgeschlagen. Siehe Bot-Logs.",
+      "command_deleted": "Command gelöscht.",
+      "command_not_found": "Command nicht gefunden.",
+      "command_saved": "Command gespeichert.",
+      "prefix_no_spaces": "Prefix darf keine Leerzeichen enthalten.",
+      "rr_title_channel_required": "Titel und Channel sind erforderlich.",
+      "rr_panel_created": "Panel erstellt.",
+      "rr_panel_not_found": "Panel nicht gefunden.",
+      "rr_panel_saved": "Panel gespeichert.",
+      "rr_panel_no_entries": "Mindestens ein Eintrag erforderlich.",
+      "rr_channel_not_found": "Channel nicht gefunden oder kein Textkanal.",
+      "rr_deploy_failed": "Deploy fehlgeschlagen — fehlende Bot-Berechtigungen?",
+      "rr_panel_deployed": "Panel „{{title}}“ erfolgreich deployed.",
+      "rr_panel_deleted": "Panel gelöscht.",
+      "auditlog_saved": "Audit-Log gespeichert.",
+      "moderation_saved": "Moderation gespeichert."
+    },
+    "kofi_stats": {
+      "total_revenue": "Gesamterlös",
+      "total_count": "Unterstützungen gesamt",
+      "unique_donors": "Einzigartige Supporter",
+      "monthly_card": "Erlöse pro Monat",
+      "col_amount": "Betrag",
+      "col_breakdown": "Aufschlüsselung",
+      "by_type_card": "Nach Typ",
+      "col_type": "Typ",
+      "top_donations_card": "Höchste Einzelbeträge",
+      "col_supporter": "Supporter",
+      "col_date": "Datum"
+    },
+    "patreon_stats": {
+      "total_count": "Pledge-Ereignisse gesamt",
+      "unique_patrons": "Einzigartige Patrons",
+      "monthly_card": "Ereignisse pro Monat",
+      "col_pledge_total": "Pledge-Summe",
+      "by_tier_card": "Nach Tier",
+      "col_tier": "Tier",
+      "col_events": "Ereignisse"
+    }
+  },
+  "legal": {
+    "back": "Zurück zur Startseite"
+  },
+  "error": {
+    "title": "Fehler",
+    "heading": "Ein Fehler ist aufgetreten",
+    "unknown": "Ein unbekannter Fehler ist aufgetreten.",
+    "back": "Zurück zur Übersicht"
+  },
+  "global": {
+    "dashboard": {
+      "title": "Globales Dashboard",
+      "status_online": "Online",
+      "status_offline": "Offline",
+      "uptime": "Uptime",
+      "ping": "Ping",
+      "stat_servers": "Server",
+      "stat_users": "Nutzer gesamt",
+      "stat_commands": "Commands",
+      "stat_ping": "WS Ping",
+      "guild_list": "Server",
+      "no_guilds": "Der Bot ist auf keinem Server oder noch nicht bereit."
+    },
+    "settings": {
+      "title": "Globale Bot Einstellungen",
+      "tab_presence": "Bot-Präsenz & Avatar",
+      "tab_notifier": "Notifier-Status",
+      "presence_card": "Bot-Präsenz",
+      "presence_hint": "Status und Aktivität werden sofort nach dem Speichern angewendet und beim nächsten Start wiederhergestellt.",
+      "status_label": "Status",
+      "status_online": "Online",
+      "status_idle": "Abwesend",
+      "status_dnd": "Bitte nicht stören",
+      "status_invisible": "Unsichtbar",
+      "activity_type_label": "Aktivitätstyp",
+      "activity_playing": "Spielt",
+      "activity_listening": "Hört",
+      "activity_watching": "Schaut",
+      "activity_competing": "Tritt an in",
+      "activity_streaming": "Streamt",
+      "activity_custom": "Benutzerdefiniert",
+      "activity_text_label": "Statustext",
+      "activity_text_placeholder": "z.B. Slash Commands",
+      "avatar_card": "Avatar-Rotation",
+      "avatar_hint": "Der Bot wechselt automatisch alle {{interval}} zufällig seinen Avatar. Bilder dazu in <code>assets/avatars/</code> ablegen (PNG, JPG, GIF, WEBP). Diese Einstellung gilt bot-weit für alle Server.",
+      "avatar_rotation_label": "Avatar-Rotation aktiv",
+      "avatar_upload_label": "Neues Bild hochladen",
+      "avatar_upload_btn": "Hochladen",
+      "avatar_active_badge": "aktiv",
+      "no_images": "Noch keine Bilder vorhanden.",
+      "delete_title": "Löschen",
+      "uploading": "Hochladen…",
+      "load_error": "Fehler beim Laden.",
+      "net_error": "Netzwerkfehler",
+      "col_notifier": "Notifier",
+      "col_interval": "Interval",
+      "col_last_run": "Letzter Lauf",
+      "col_next_run": "Nächster Lauf",
+      "col_change_interval": "Interval ändern",
+      "minutes_unit": "Minuten",
+      "hour_unit": "Stunde",
+      "hour_unit_plural": "Stunden",
+      "minute_unit": "Minuten",
+      "fo76_card": "Fallout 76 – Globale Einstellungen",
+      "fo76_enabled_label": "Automatischen Abruf aktivieren",
+      "fo76_enabled_hint": "Wenn aktiv, werden die Codes wöchentlich automatisch abgerufen und in allen konfigurierten Kanälen gepostet.",
+      "fo76_weekday_label": "Wochentag für Abruf",
+      "fo76_weekdays": [
+        "Sonntag",
+        "Montag",
+        "Dienstag",
+        "Mittwoch",
+        "Donnerstag",
+        "Freitag",
+        "Samstag"
+      ],
+      "fo76_weekday_hint": "Codes werden einmal pro Woche an diesem Tag von nukacrypt.com abgerufen.",
+      "fo76_fetch_hint": "Codes sofort von <strong>nukacrypt.com</strong> abrufen — unabhängig vom konfigurierten Wochentag.",
+      "fo76_fetch_btn": "Jetzt abrufen",
+      "fo76_fetching": "Wird abgerufen…",
+      "countdown_now": "gleich",
+      "countdown_in": "in",
+      "countdown_running": "läuft…"
+    },
+    "bugtracker": {
+      "server_access": "Server-Zugriff",
+      "search_placeholder": "Servername oder ID…",
+      "search_hint": "Suchbegriff eingeben…",
+      "searching": "Suche…",
+      "no_guilds": "Keine Server gefunden.",
+      "load_error": "Fehler beim Laden."
+    },
+    "logs": {
+      "title": "Notifier-Logs",
+      "empty": "Keine Log-Einträge vorhanden."
+    },
+    "flash": {
+      "settings_saved": "Einstellungen gespeichert.",
+      "fo76_settings_saved": "Fallout 76 Einstellungen gespeichert.",
+      "fo76_fetch_ok": "Fallout 76 Codes erfolgreich abgerufen und gepostet.",
+      "fo76_fetch_error": "Abrufen fehlgeschlagen: {{msg}}",
+      "notifier_interval_invalid": "Ungültiger Wert — mindestens 1 Minute.",
+      "notifier_not_found": "Notifier „{{name}}“ nicht gefunden oder nicht änderbar.",
+      "notifier_interval_set": "Intervall für {{name}} auf {{minutes}} Minuten gesetzt.",
+      "bug_status_set": "Bug #{{id}} als „{{status}}“ markiert.",
+      "bug_deleted": "Bug #{{id}} gelöscht."
+    },
+    "dsgvo": {
+      "title": "DSGVO / Datenverwaltung",
+      "subtitle": "Exportiere oder lösche gilden- und nutzerbezogene Daten aus der Datenbank.",
+      "btn_export": "Exportieren",
+      "btn_delete": "Löschen",
+      "info": "<strong>Hinweis:</strong> Der Export enthält alle in der Datenbank gespeicherten Daten für die gewählte Guild oder den Nutzer als JSON-Datei. Das Löschen entfernt alle zugehörigen Einträge unwiderruflich.",
+      "guild": {
+        "title": "Gildendaten",
+        "desc": "Exportiere oder lösche alle Daten einer bestimmten Discord-Gilde (Infractions, Level, Tickets, Giveaways u.v.m.).",
+        "select_label": "Gilde auswählen",
+        "select_placeholder": "Gilde wählen",
+        "no_selection": "Bitte zuerst eine Gilde auswählen.",
+        "confirm_delete": "Alle Daten dieser Gilde wirklich unwiderruflich löschen?"
+      },
+      "user": {
+        "title": "Nutzerdaten",
+        "desc": "Exportiere oder lösche alle personenbezogenen Daten eines Discord-Nutzers über alle Gilden hinweg.",
+        "id_label": "Discord User-ID",
+        "id_hint": "Die numerische Discord-ID des Nutzers (17–20 Stellen).",
+        "no_input": "Bitte eine User-ID eingeben.",
+        "confirm_delete": "Alle Daten dieses Nutzers wirklich unwiderruflich löschen?"
+      },
+      "flash": {
+        "guild_deleted": "Alle Daten für Guild {{id}} wurden gelöscht.",
+        "user_deleted": "Alle Daten für Nutzer {{id}} wurden gelöscht."
+      }
+    }
+  },
+  "auth": {
+    "login": {
+      "title": "Bot Dashboard",
+      "subtitle": "Melde dich mit Discord an um fortzufahren",
+      "btn_discord": "Mit Discord anmelden",
+      "error_oauth_not_configured": "OAuth2 ist noch nicht konfiguriert (DISCORD_CLIENT_ID fehlt).",
+      "error_oauth_denied": "Login wurde abgebrochen.",
+      "error_oauth_failed": "Authentifizierung fehlgeschlagen. Bitte erneut versuchen.",
+      "no_oauth": "OAuth2 noch nicht konfiguriert.<br/>Setze <code>DISCORD_CLIENT_ID</code> &amp; <code>DISCORD_CLIENT_SECRET</code><br/>in der <code>.env</code>.<br/><br/>Für Entwicklung: <code>DEV_SKIP_AUTH=true</code>"
+    }
+  },
+  "bot": {
+    "common": {
+      "no_permission": "❌ Du hast keine Berechtigung für diesen Befehl.",
+      "user_not_found": "❌ Nutzer nicht gefunden.",
+      "no_reason": "Keine Angabe",
+      "error": "❌ Beim Ausführen des Commands ist ein Fehler aufgetreten."
+    },
+    "ping": {
+      "measuring": "Messe...",
+      "pong": "🏓 Pong! Roundtrip: **{{roundtrip}}ms** | WebSocket: **{{ws}}ms**"
+    },
+    "reminder": {
+      "disabled": "❌ Der Reminder ist auf diesem Server deaktiviert.",
+      "no_permission_all": "❌ Du hast keine Berechtigung für `/reminder all`.",
+      "none_server": "📭 Keine aktiven Erinnerungen auf diesem Server.",
+      "no_permission": "❌ Du hast keine Berechtigung für den Reminder.",
+      "min_time": "❌ Die Zeit muss mindestens 1 Minute betragen.",
+      "set": "✅ Erinnerung gesetzt: **{{text}}** — ich erinnere dich in **{{label}}**",
+      "none_user": "📭 Du hast keine aktiven Erinnerungen.",
+      "not_found": "❌ Eintrag **{{item}}** existiert nicht. Nutze `/reminder list` um die aktuellen Einträge zu sehen.",
+      "deleted": "🗑️ Erinnerung **{{item}}** gelöscht: {{remaining}} — {{text}}",
+      "expires_soon": "läuft gleich ab",
+      "time_hm": "in {{h}}h {{m}}min",
+      "time_h": "in {{h}}h",
+      "time_m": "in {{m}}min",
+      "embed_all_title": "⏰ Alle Server-Erinnerungen",
+      "embed_user_title": "⏰ Deine Erinnerungen",
+      "dm_text": "⏰ **Erinnerung:** {{text}}"
+    },
+    "birthday": {
+      "invalid_date": "❌ **{{day}}.{{month}}.** ist kein gültiges Datum.",
+      "set": "✅ Dein Geburtstag wurde auf **{{day}}. {{month}}** gesetzt!",
+      "not_set": "❌ Du hast keinen Geburtstag hinterlegt.",
+      "deleted": "✅ Dein Geburtstag wurde gelöscht.",
+      "none": "📭 Noch keine Geburtstage hinterlegt.",
+      "today": "**🎉 Heute!**",
+      "in_days": "in {{count}} Tag",
+      "in_days_plural": "in {{count}} Tagen",
+      "embed_title": "🎂 Nächste Geburtstage",
+      "embed_footer": "{{shown}} von {{total}} Einträgen",
+      "months": [
+        "Jan",
+        "Feb",
+        "Mär",
+        "Apr",
+        "Mai",
+        "Jun",
+        "Jul",
+        "Aug",
+        "Sep",
+        "Okt",
+        "Nov",
+        "Dez"
+      ],
+      "default_message": "🎂 Alles Gute zum Geburtstag {user}! 🎉"
+    },
+    "giveaway": {
+      "no_permission_list": "❌ Du hast keine Berechtigung für `/giveaway list`.",
+      "none": "Keine aktiven Giveaways.",
+      "no_permission": "❌ Du hast keine Berechtigung für das Giveaway-System.",
+      "invalid_duration": "❌ Ungültige Dauer. Beispiele: `10m`, `2h`, `1d` (max. 30 Tage).",
+      "embed_participate": "Reagiere mit 🎉 um teilzunehmen!",
+      "embed_winners_label": "**Gewinner:**",
+      "embed_ends_label": "**Endet:**",
+      "embed_hosted_by": "Veranstaltet von {{tag}}",
+      "active_title": "🎉 Aktive Giveaways",
+      "started": "✅ Giveaway **#{{id}}** in <#{{channel}}> gestartet! Endet <t:{{ts}}:R>.",
+      "not_found": "❌ Giveaway #{{id}} nicht gefunden.",
+      "already_ended": "❌ Giveaway ist bereits beendet.",
+      "ended_winners": "✅ Giveaway beendet. Gewinner: {{winners}}",
+      "ended_no_winner": "✅ Giveaway beendet. Kein Gewinner.",
+      "still_running": "❌ Giveaway läuft noch.",
+      "reroll_winners": "✅ Reroll: {{winners}}",
+      "reroll_no_winner": "✅ Reroll: Keine gültigen Teilnehmer.",
+      "no_participants": "Keine gültigen Teilnehmer — kein Gewinner.",
+      "winner_announce": "🎊 Glückwunsch {{mentions}}! Du hast **{{prize}}** gewonnen!",
+      "winner_embed_title": "🎊 Wir haben einen Gewinner!",
+      "winner_embed_desc": "Herzlichen Glückwunsch {{mentions}}!\nDu hast **{{prize}}** gewonnen! 🎁",
+      "no_winner_announce": "Giveaway **{{prize}}** ist beendet. Kein Gewinner.",
+      "end_footer": "Giveaway #{{id}} beendet"
+    },
+    "levels": {
+      "disabled": "❌ Das Leveling-System ist auf diesem Server nicht aktiviert.",
+      "no_entries": "Noch keine Einträge in der Rangliste.",
+      "rank_level": "Level",
+      "rank_rank": "Rang",
+      "rank_total_xp": "Gesamt-XP",
+      "rank_xp_progress": "XP zum nächsten Level ({{current}} / {{needed}})",
+      "rank_next_reward": "Nächste Rollen-Belohnung bei Level {{level}}",
+      "lb_title": "🏆 XP-Rangliste — {{guild}}",
+      "lb_footer": "Seite {{page}} / {{total}} · {{count}} Einträge",
+      "xp_added": "✅ **{{user}}**: {{sign}} XP → {{total}} XP (Level {{level}})",
+      "xp_set": "✅ **{{user}}**: XP auf {{value}} gesetzt (Level {{level}})",
+      "xp_reset": "✅ XP von **{{user}}** zurückgesetzt.",
+      "level_up_default": "🎉 {mention} hat **Level {level}** erreicht!",
+      "role_hint": "\n🎖️ Neue Rolle: <@&{{roleId}}>"
+    },
+    "moderation": {
+      "user_not_found": "Nutzer nicht gefunden.",
+      "ban_not_possible": "Ich kann diesen Nutzer nicht bannen.",
+      "banned": "✅ **{{user}}** wurde gebannt. ({{reason}})",
+      "kick_not_possible": "Ich kann diesen Nutzer nicht kicken.",
+      "kicked": "✅ **{{user}}** wurde gekickt. ({{reason}})",
+      "warned": "⚠️ **{{user}}** wurde verwarnt. (Fall #{{id}} · {{count}} Verwarnungen insgesamt)",
+      "no_warns": "{{user}} hat keine Verwarnungen.",
+      "warn_cleared": "✅ Alle Einträge von **{{user}}** gelöscht.",
+      "no_infractions": "**{{user}}** hat keine Einträge.",
+      "timeout_not_possible": "Ich kann diesen Nutzer nicht timeouten.",
+      "timed_out": "✅ **{{user}}** hat einen Timeout für **{{duration}}** erhalten.",
+      "clear_error": "❌ Fehler beim Löschen. Nachrichten älter als 14 Tage können nicht gelöscht werden.",
+      "cleared": "✅ {{count}} Nachricht(en) gelöscht{{extra}}.",
+      "cleared_from": " von **{{user}}**",
+      "warn_embed_title": "⚠️ Verwarnungen: {{user}}",
+      "warn_embed_footer": "{{count}} Verwarnungen",
+      "infr_embed_title": "📋 Aktionen: {{user}}",
+      "infr_embed_footer": "{{count}} Eintrag/Einträge · letzte 10 angezeigt",
+      "ban_days_deleted": "Nachrichten der letzten {{days}} Tag(e) gelöscht",
+      "warn_total_extra": "Verwarnungen gesamt: {{count}}",
+      "timeout_duration_extra": "Dauer: {{duration}}",
+      "auto_reason": "Auto: {{count}} Verwarnungen erreicht",
+      "log_user": "Nutzer",
+      "log_moderator": "Moderator",
+      "log_reason": "Begründung",
+      "log_details": "Details"
+    },
+    "ticket": {
+      "disabled": "❌ Das Ticket-System ist auf diesem Server nicht aktiviert.",
+      "no_permission_list": "❌ Du hast keine Berechtigung für `/ticket list`.",
+      "none": "Keine offenen Tickets.",
+      "no_permission": "❌ Du hast keine Berechtigung für das Ticket-System.",
+      "channel_error": "❌ Kanal konnte nicht erstellt werden. Prüfe die Bot-Berechtigungen.",
+      "created": "✅ Dein Ticket wurde in {{channel}} erstellt.",
+      "no_open": "❌ Kein offenes Ticket in diesem Kanal.",
+      "closing": "🔒 Ticket wird geschlossen…",
+      "embed_title": "🎫 Support-Ticket",
+      "embed_description": "Hallo {{user}}! Bitte schildere dein Anliegen.\n\nEin Team-Mitglied wird sich bald melden.",
+      "embed_topic": "\n\n**Thema:** {{topic}}",
+      "btn_close": "Schließen",
+      "btn_claim": "Beanspruchen",
+      "btn_transfer": "Übergeben",
+      "list_title": "🎫 Offene Tickets ({{count}})",
+      "no_topic": "Kein Thema",
+      "not_found": "❌ Ticket nicht gefunden oder bereits geschlossen.",
+      "claimed": "🙋 {{user}} hat das Ticket beansprucht."
+    },
+    "bug": {
+      "disabled": "❌ Der Bug Tracker ist auf diesem Server deaktiviert.",
+      "reported_title": "🐛 Bug #{{id}} gemeldet",
+      "status_field": "Status",
+      "footer": "Gemeldet von {{user}} · {{guild}}",
+      "none": "✅ Keine Bugs gemeldet.",
+      "list_title": "🐛 Bug-Tracker — letzte {{count}} Einträge",
+      "list_footer": "{{total}} Bug{{plural}} insgesamt",
+      "list_footer_s": "s",
+      "unknown_status": "⚪ Unbekannt",
+      "reported_by": "von {{user}}",
+      "status_offen": "🔴 Offen",
+      "status_bestätigt": "🟠 Bestätigt",
+      "status_in_bearbeitung": "🔵 In Bearbeitung",
+      "status_erledigt": "🟢 Erledigt"
+    },
+    "steam": {
+      "error": "❌ Ein Fehler ist aufgetreten. Bitte erneut versuchen.",
+      "sales_error": "❌ Steam-Sales konnten nicht geladen werden.",
+      "no_sales": "❌ Keine Sales mit mindestens **{{pct}}%** Rabatt gefunden.",
+      "no_game": "❌ Kein Spiel gefunden für: **{{query}}**",
+      "details_error": "❌ Spieldetails konnten nicht geladen werden (App ID: {{id}}).",
+      "no_news": "📭 Keine Neuigkeiten für **{{game}}** gefunden.",
+      "no_profile": "❌ Profil nicht gefunden oder auf privat gestellt.",
+      "no_steam_id": "❌ Steam-Profil nicht gefunden: **{{input}}**",
+      "no_api_key": "❌ `STEAM_API_KEY` ist nicht in `.env` konfiguriert. Einen Key gibt es unter https://steamcommunity.com/dev/apikey",
+      "free": "Kostenlos",
+      "sales_title": "🏷️ Steam Sales — Top Angebote",
+      "sales_footer_min": "Mindestrabatt: {{pct}}% · Preise in EUR (DE)",
+      "sales_footer": "Preise in EUR (DE)",
+      "field_price": "💰 Preis",
+      "field_released": "📅 Erschienen",
+      "field_developer": "🏢 Entwickler",
+      "field_genre": "🎭 Genre",
+      "field_platforms": "🖥 Plattformen",
+      "field_type": "🎮 Typ",
+      "field_metacritic": "📊 Metacritic",
+      "field_recommendations": "👍 Empfehlungen",
+      "players_title": "{{game}} — Spielerzahlen",
+      "field_now_active": "🟢 Jetzt aktiv",
+      "field_peak_24h": "📈 24h-Peak",
+      "field_owners": "👥 Besitzer (geschätzt)",
+      "players_footer": "App ID: {{id}} · Daten: Steam & SteamSpy",
+      "news_title": "{{game}} — Neuigkeiten",
+      "field_status": "📶 Status",
+      "field_member_since": "📅 Mitglied seit",
+      "field_country": "🌍 Land",
+      "field_playing": "🎮 Spielt gerade",
+      "field_games": "📚 Spiele",
+      "field_playtime": "⏱ Spielzeit gesamt",
+      "hours_unit": "Std.",
+      "status_0": "⚫ Offline",
+      "status_1": "🟢 Online",
+      "status_2": "🟡 Beschäftigt",
+      "status_3": "🟡 Abwesend",
+      "status_4": "🔵 Schläft",
+      "status_5": "🔵 Suche Spiel",
+      "status_6": "🔴 Spielen"
+    },
+    "twitch": {
+      "content": "📺 **Twitch Live-Rolle**\n\nDie Live-Rolle wird automatisch vergeben sobald du auf **Twitch streamst** — vorausgesetzt dein Twitch-Account ist in Discord verknüpft.\n\n**So verknüpfst du deinen Account:**\n1. Öffne die **Discord-Einstellungen**\n2. Gehe zu **Verbindungen**\n3. Klicke auf das **Twitch-Symbol** und melde dich an\n\nSobald du live gehst, erhältst du die Rolle automatisch. Sie wird entfernt wenn dein Stream endet."
+    },
+    "voice": {
+      "not_in_channel": "❌ Du bist in keinem temporären Kanal.",
+      "not_owner": "❌ Du bist nicht der Besitzer dieses Kanals.",
+      "user_not_found": "❌ Nutzer nicht gefunden.",
+      "cant_self_ban": "❌ Du kannst dich nicht selbst bannen.",
+      "banned": "🚫 **{{user}}** wurde vom Kanal gebannt.",
+      "already_owner": "❌ Du bist bereits der Besitzer.",
+      "owner_still_in": "❌ Der aktuelle Besitzer ist noch im Kanal.",
+      "locked_permanently": "❌ Dieser Kanal ist dauerhaft gesperrt und kann nicht übernommen werden.",
+      "locked_remaining": "⏳ Der Kanal ist noch für **{{time}}** gesperrt.",
+      "now_owner": "👑 Du bist jetzt der Besitzer dieses Kanals.",
+      "cant_self_kick": "❌ Du kannst dich nicht selbst kicken.",
+      "user_not_in": "❌ Dieser Nutzer ist nicht in deinem Kanal.",
+      "kicked": "👢 **{{user}}** wurde aus dem Kanal entfernt.",
+      "limit_removed": "♾️ Nutzerlimit entfernt.",
+      "limit_set": "👥 Nutzerlimit auf **{{limit}}** gesetzt.",
+      "renamed": "✏️ Kanal umbenannt zu **{{name}}**.",
+      "locked": "🔒 Kanal gesperrt — niemand kann mehr beitreten.",
+      "unlocked": "🔓 Kanal entsperrt — jeder kann wieder beitreten.",
+      "hidden": "🙈 Kanal versteckt — er ist für andere nicht mehr sichtbar.",
+      "revealed": "👁️ Kanal sichtbar — alle können ihn wieder sehen.",
+      "transferred": "👑 Eigentumsrechte wurden an **{{user}}** übertragen.",
+      "unbanned": "✅ **{{user}}** wurde vom Kanal entbannt.",
+      "clean_deleted": "🧹 {{count}} leere temporäre Kanal/Kanäle gelöscht.",
+      "clean_none": "✅ Keine leeren temporären Kanäle gefunden.",
+      "owner": "👑 Besitzer: <@{{id}}>",
+      "commands_embed_title": "🔊 Temporäre Kanäle — Verfügbare Befehle",
+      "commands_embed_desc": "`/voice-ban [member]` — Banne einen Nutzer vom Sprachkanal\n`/voice-unban [member]` — Entbanne einen Nutzer\n`/voice-kick [member]` — Kicke einen Nutzer aus dem Kanal\n`/voice-lock` — Sperre den Kanal (niemand kann beitreten)\n`/voice-unlock` — Entsperre den Kanal\n`/voice-hide` — Verstecke den Kanal\n`/voice-reveal` — Zeige den Kanal wieder an\n`/voice-limit [user_limit]` — Ändere das Nutzerlimit (0 = unbegrenzt)\n`/voice-rename [name]` — Benenne den Kanal um\n`/voice-transfer [member]` — Übertrage Eigentumsrechte\n`/voice-claim` — Beanspruche Eigentumsrechte (wenn Besitzer weg)\n`/voice-owner` — Zeige den aktuellen Besitzer\n`/voice-clean` — Lösche alle leeren temporären Kanäle"
+    },
+    "music": {
+      "disabled": "❌ Musik ist auf diesem Server deaktiviert.",
+      "disabled_short": "❌ Musik ist deaktiviert.",
+      "not_in_vc": "❌ Du musst in einem Sprachkanal sein.",
+      "no_connect": "❌ Der Bot hat keine Berechtigung, dem Sprachkanal beizutreten.",
+      "no_speak": "❌ Der Bot hat keine Berechtigung zu sprechen — bitte in den Server-Einstellungen unter Rollen → **Sprechen** aktivieren.",
+      "dj_required": "❌ Du benötigst die DJ-Rolle für diesen Befehl.",
+      "dj_required_short": "❌ Du benötigst die DJ-Rolle.",
+      "nothing_playing": "❌ Es wird gerade nichts abgespielt.",
+      "already_paused": "⏸️ Wiedergabe ist bereits pausiert.",
+      "paused": "⏸️ Wiedergabe pausiert.",
+      "already_playing": "▶️ Wiedergabe läuft bereits.",
+      "resumed": "▶️ Wiedergabe fortgesetzt.",
+      "skipped": "⏭️ **{{title}}** übersprungen.",
+      "stopped": "⏹️ Wiedergabe gestoppt und Warteschlange geleert.",
+      "volume_set": "{{emoji}} Lautstärke auf **{{vol}}%** gesetzt.",
+      "loop_off": "➡️ Wiederholung deaktiviert.",
+      "loop_track": "🔂 Song-Wiederholung aktiviert.",
+      "loop_queue": "🔁 Queue-Wiederholung aktiviert.",
+      "queue_no_more": "❌ Die Warteschlange enthält keine weiteren Songs.",
+      "shuffled": "🔀 **{{count}}** Songs gemischt.",
+      "play_error": "❌ Fehler: {{msg}}",
+      "added_title": "🎵 Zur Warteschlange hinzugefügt",
+      "field_duration": "Dauer",
+      "field_author": "Autor",
+      "field_source": "Quelle",
+      "requested_by": "Angefordert von {{tag}}",
+      "live": "Live",
+      "np_paused": "⏸️ Pausiert",
+      "np_playing": "▶️ Spielt",
+      "unknown_requester": "Unbekannt",
+      "queue_title": "🎵 Warteschlange",
+      "queue_now_playing": "▶️ Spielt jetzt",
+      "queue_next": "Nächste Songs (Seite {{page}}/{{total}})",
+      "queue_empty_name": "Warteschlange",
+      "queue_empty_value": "_Keine weiteren Songs_",
+      "queue_footer": "{{count}} Songs · Wiederholung: {{mode}}",
+      "repeat_off": "Aus",
+      "repeat_track": "🔂 Song",
+      "repeat_queue": "🔁 Queue",
+      "repeat_autoplay": "▶️ Autoplay",
+      "queue_empty_leave": "✅ Warteschlange leer — Bot verlässt den Kanal.",
+      "disconnected": "👋 Verbindung getrennt.",
+      "player_error": "❌ Wiedergabefehler: `{{msg}}`",
+      "playlist_added": "🎵 Playlist **{{name}}** hinzugefügt ({{count}} Songs)"
+    },
+    "auditlog": {
+      "unknown": "Unbekannt",
+      "empty": "*leer*",
+      "not_cached": "*nicht gecacht*",
+      "no_nickname": "*kein Spitzname*",
+      "no_reason": "Kein Grund angegeben",
+      "no_roles": "Keine",
+      "never": "Nie",
+      "msg_edited": "✏️ Nachricht bearbeitet",
+      "msg_deleted": "🗑️ Nachricht gelöscht",
+      "invite_created": "📨 Einladung erstellt",
+      "member_joined": "📥 Mitglied beigetreten",
+      "member_kicked": "👢 Mitglied gekickt",
+      "member_left": "📤 Mitglied verlassen",
+      "member_banned": "🔨 Nutzer gebannt",
+      "member_unbanned": "✅ Nutzer entbannt",
+      "member_timeout": "🔇 Nutzer stummgeschaltet (Timeout)",
+      "member_untimeout": "🔊 Timeout aufgehoben",
+      "nickname_changed": "✏️ Spitzname geändert",
+      "roles_changed": "🎭 Benutzerrollen geändert",
+      "user_updated": "👤 Nutzer aktualisiert",
+      "role_created": "✨ Rolle erstellt",
+      "role_deleted": "🗑️ Rolle gelöscht",
+      "role_updated": "🔧 Rolle aktualisiert",
+      "voice_joined": "🎙️ Sprachkanal beigetreten",
+      "voice_left": "🚪 Sprachkanal verlassen",
+      "server_updated": "🏠 Server bearbeitet",
+      "emoji_added": "😀 Emoji hinzugefügt",
+      "emoji_removed": "😶 Emoji entfernt",
+      "emoji_renamed": "✏️ Emoji umbenannt",
+      "ch_voice_created": "🔊 Sprachkanal erstellt",
+      "ch_category_created": "📁 Kategorie erstellt",
+      "ch_text_created": "💬 Textkanal erstellt",
+      "channel_deleted": "🗑️ Kanal gelöscht",
+      "channel_updated": "🔧 Kanal aktualisiert",
+      "field_author": "Autor",
+      "field_channel": "Kanal",
+      "field_before": "Vorher",
+      "field_after": "Nachher",
+      "field_link": "Link",
+      "field_content": "Inhalt",
+      "field_deleted_by": "Gelöscht von",
+      "field_created_by": "Erstellt von",
+      "field_added_by": "Hinzugefügt von",
+      "field_removed_by": "Entfernt von",
+      "field_kicked_by": "Gekickt von",
+      "field_banned_by": "Gebannt von",
+      "field_unbanned_by": "Entbannt von",
+      "field_changed_by": "Geändert von",
+      "field_code": "Code",
+      "field_max_uses": "Max. Nutzung",
+      "field_expires": "Läuft ab",
+      "field_user": "Nutzer",
+      "field_account_created": "Account erstellt",
+      "field_members": "Mitglieder",
+      "field_roles": "Rollen",
+      "field_reason": "Grund",
+      "field_until": "Bis",
+      "field_by": "Von",
+      "field_change": "Änderung",
+      "field_changes": "Änderungen",
+      "field_color": "Farbe",
+      "field_role": "Rolle",
+      "field_emoji": "Emoji",
+      "field_roles_added": "➕ Hinzugefügt",
+      "field_roles_removed": "➖ Entfernt",
+      "link_to_msg": "Zur Nachricht",
+      "change_name": "**Name:** {{from}} → {{to}}",
+      "change_color": "**Farbe:** {{from}} → {{to}}",
+      "change_hoist": "**Separat anzeigen:** {{from}} → {{to}}",
+      "change_mentionable": "**Erwähnbar:** {{from}} → {{to}}",
+      "change_permissions": "**Berechtigungen** geändert",
+      "change_topic": "**Thema:** {{from}} → {{to}}",
+      "change_nsfw": "**NSFW:** {{from}} → {{to}}",
+      "change_slowmode": "**Slowmode:** {{from}}s → {{to}}s",
+      "change_icon": "**Icon** geändert",
+      "change_description": "**Beschreibung:** {{from}} → {{to}}",
+      "change_verification": "**Verifizierungsstufe:** {{from}} → {{to}}",
+      "change_avatar": "**Avatar** geändert",
+      "change_tag": "**Tag:** {{from}} → {{to}}"
+    },
+    "notifiers": {
+      "twitch": {
+        "no_title": "Kein Titel",
+        "now_live": "{{name}} ist jetzt live!",
+        "field_game": "Spiel",
+        "field_viewers": "Zuschauer",
+        "unknown": "Unbekannt",
+        "default_message": "🔴 **{streamer}** ist jetzt live! {link}"
+      },
+      "kick": {
+        "no_title": "Kein Titel",
+        "now_live": "{{name}} ist jetzt live auf Kick!",
+        "field_category": "🎮 Kategorie",
+        "field_viewers": "👥 Zuschauer",
+        "unknown": "Unbekannt",
+        "default_message": "🟢 **{streamer}** ist jetzt live auf Kick! {link}"
+      },
+      "youtube": {
+        "default_message": "📺 **{channel}** hat ein neues Video hochgeladen! {link}"
+      },
+      "x": {
+        "default_message": "@everyone 🐦 Neuer Post von **{user}**!"
+      },
+      "fallout76": {
+        "embed_title": "☢️ Fallout 76 – Nuclear Codes",
+        "embed_footer": "Quelle: nukacrypt.com"
+      },
+      "zkillboard": {
+        "victim_lost": "{{victim}} verlor {{ship}}",
+        "field_value": "💰 Wert",
+        "field_system": "📍 System",
+        "unknown": "Unbekannt",
+        "and_more": "+{{count}} weitere"
+      },
+      "trovo": {
+        "no_title": "Kein Titel",
+        "now_live": "{{name}} ist jetzt live auf Trovo!",
+        "field_category": "🎮 Kategorie",
+        "field_viewers": "👥 Zuschauer",
+        "unknown": "Unbekannt",
+        "default_message": "🟣 **{streamer}** ist jetzt live auf Trovo! {link}"
+      }
+    },
+    "events": {
+      "command_error": "❌ Beim Ausführen des Commands ist ein Fehler aufgetreten.",
+      "ticket_not_found": "❌ Ticket nicht gefunden oder bereits geschlossen.",
+      "ticket_closing": "🔒 Ticket wird geschlossen…",
+      "ticket_claimed": "🙋 {{user}} hat das Ticket beansprucht.",
+      "commands_embed_title": "⚡ Ich höre auf folgende Befehle",
+      "commands_embed_footer_s": "s",
+      "commands_embed_footer": "{{count}} Befehl(e) verfügbar",
+      "commands_none": "Keine Prefix-Commands konfiguriert.",
+      "prefix_error": "❌ Beim Ausführen des Commands ist ein Fehler aufgetreten.",
+      "module_disabled": "Dieses Modul ist global deaktiviert."
+    }
+  },
+  "landing": {
+    "nav": {
+      "features": "Features",
+      "modules": "Module",
+      "dashboard": "Dashboard",
+      "invite": "Einladen"
+    },
+    "hero": {
+      "badge": "Version",
+      "title_1": "Der Bot, der deinen",
+      "title_2": "Discord-Server",
+      "title_3": "auf ein neues Level hebt",
+      "subtitle": "Moderation, Musik, Leveling, Social Feeds und vieles mehr — alles in einem Bot mit intuitivem Web-Dashboard.",
+      "cta_invite": "Jetzt hinzufügen",
+      "cta_dashboard": "Dashboard öffnen",
+      "stats": {
+        "modules": "Module",
+        "commands": "Befehle",
+        "online": "Online",
+        "free": "Kostenlos"
+      }
+    },
+    "features": {
+      "badge": "Highlights",
+      "title": "Alles was du brauchst",
+      "subtitle": "Leistungsstarke Funktionen, die deinen Server wirklich voranbringen",
+      "disclaimer": "Die dargestellten Vorschaubilder zeigen Beispieldaten zur Veranschaulichung der Funktionen.",
+      "moderation": {
+        "title": "Mächtige Moderation",
+        "desc": "Halte deinen Server sauber mit einem vollständigen Warn-, Ban- und Timeout-System. Automatische Eskalation bei wiederholten Verstößen — du entscheidest die Schwellenwerte.",
+        "items": [
+          "Verwarnungen mit automatischer Eskalation",
+          "Vollständige Infractions-History mit Case-IDs",
+          "Moderations-Log Kanal konfigurierbar",
+          "Timeout, Kick, Ban & Nachrichtenlöschung"
+        ]
+      },
+      "leveling": {
+        "title": "Leveling & XP-System",
+        "desc": "Motiviere deine Community mit einem vollständigen XP-System. Belohne aktive Mitglieder automatisch mit Rollen und feiere Level-Ups im Chat.",
+        "items": [
+          "Automatische XP-Vergabe für Nachrichten",
+          "Rollen-Belohnungen bei bestimmten Levels",
+          "Server-Leaderboard mit Pagination",
+          "Level-Up Benachrichtigungen im Chat oder per DM"
+        ]
+      },
+      "music": {
+        "title": "Musik für alle",
+        "desc": "Genieße Musik direkt in deinem Voice-Channel. Unterstützung für YouTube, Spotify und SoundCloud mit vollständigem Queue-System und DJ-Rollen-Schutz.",
+        "items": [
+          "YouTube, Spotify & SoundCloud",
+          "Queue mit bis zu 250 Titeln",
+          "Loop, Shuffle, Skip, Volume",
+          "DJ-Rollen Beschränkungen"
+        ]
+      },
+      "social": {
+        "title": "Social Benachrichtigungen",
+        "desc": "Verpasse nie wieder einen neuen Post oder Stream deiner Lieblingsersteller. Nephthys sendet automatische Benachrichtigungen für Twitch, YouTube, Kick und X (Twitter).",
+        "items": [
+          "Twitch & Kick Live-Alerts mit Stream-Info",
+          "YouTube Video-Benachrichtigungen",
+          "X (Twitter) Tweet-Weiterleitungen",
+          "Individuelle Nachrichten-Templates"
+        ]
+      }
+    },
+    "modules": {
+      "badge": "Alle Module",
+      "title": "Feature-Übersicht",
+      "subtitle": "Von Moderation bis Social Media — Nephthys hat für jeden Server etwas",
+      "tempchannels": {
+        "title": "Temporäre Voice Channels",
+        "desc": "Automatisch erstellte Voicekanäle, die sich selbst verwalten. Besitzer können umbenennen, sperren, verstecken, Nutzer kicken und mehr.",
+        "tags": [
+          "/voice-lock",
+          "/voice-rename",
+          "Auto-Cleanup"
+        ]
+      },
+      "reactionroles": {
+        "title": "Reaction Roles",
+        "desc": "Vergib Rollen automatisch per Emoji-Reaktion. Perfekt für Self-Assignable Roles, Community-Farbauswahl und Kanal-Zugänge.",
+        "tags": [
+          "Emoji → Rolle",
+          "Multi-Reaktion"
+        ]
+      },
+      "birthday": {
+        "title": "Geburtstags-System",
+        "desc": "Feiere automatisch die Geburtstage deiner Community-Mitglieder mit personalisierten Nachrichten und optionaler Geburtstagskind-Rolle.",
+        "tags": [
+          "Auto-Announcement",
+          "Geburtstagsrolle"
+        ]
+      },
+      "commands": {
+        "title": "Custom Commands",
+        "desc": "Erstelle eigene Slash-Commands ohne Programmierkenntnisse. Definiere Parameter, Antworten und Rollen-Beschränkungen direkt im Dashboard.",
+        "tags": [
+          "Slash Commands",
+          "Prefix Commands",
+          "Rollen-Schutz"
+        ]
+      },
+      "kofi": {
+        "title": "Ko-Fi Integration",
+        "desc": "Belohne deine Unterstützer automatisch mit Rollen basierend auf Ko-Fi Tiers. Mit Ablaufdatum, Statistiken und Webhook-Support.",
+        "tags": [
+          "Tier Rollen",
+          "Statistiken",
+          "Webhooks"
+        ]
+      },
+      "patreon": {
+        "title": "Patreon Integration",
+        "desc": "Verbinde deine Patreon-Kampagne und vergib Discord-Rollen automatisch basierend auf Mitgliedschafts-Tiers — mit OAuth2 und Echtzeit-Webhooks.",
+        "tags": [
+          "OAuth2",
+          "Tier Rollen",
+          "Webhooks"
+        ]
+      },
+      "reminder": {
+        "title": "Reminder",
+        "desc": "Setze persönliche Erinnerungen direkt in Discord. Bis zu 167 Stunden in der Zukunft — der Bot pingt dich zur richtigen Zeit.",
+        "tags": [
+          "/reminder add",
+          "Bis zu 167h"
+        ]
+      },
+      "steam": {
+        "title": "Steam Integration",
+        "desc": "Informiere deine Community über Steam-Spiele: Preise, Spielerzahlen, aktuelle News und Spielerprofil-Statistiken direkt im Chat.",
+        "tags": [
+          "/steam info",
+          "/steam news",
+          "/steam user"
+        ]
+      },
+      "gaming": {
+        "title": "Gaming Integrationen",
+        "desc": "Speziell für Gamer: Fallout 76 Nuclear Launch Codes und EVE Online zKillboard Killmail-Alerts direkt in deinen Discord-Server.",
+        "tags": [
+          "Fallout 76",
+          "EVE Online",
+          "zKillboard"
+        ]
+      },
+      "begruessung": {
+        "title": "Begrüßungs-System",
+        "desc": "Empfange neue Mitglieder mit personalisierten Willkommensnachrichten im Channel oder per DM. Zeitgesteuerte Ankündigungen und Rollen-Beschränkungen inklusive.",
+        "tags": [
+          "Channel-Nachricht",
+          "DM-Willkommen"
+        ]
+      },
+      "starboard": {
+        "title": "Starboard",
+        "desc": "Markiere die beliebtesten Nachrichten deiner Community automatisch in einem dedizierten Kanal — per Reaktions-Schwellenwert.",
+        "tags": [
+          "Reaktions-Schwelle",
+          "Auto-Post",
+          "Top-Nachrichten"
+        ]
+      },
+      "slowmode": {
+        "title": "Slow-Mode-Manager",
+        "desc": "Erkennt automatisch überlastete Kanäle und aktiviert Slowmode — ohne manuellen Eingriff. Konfigurierbar pro Kanal.",
+        "tags": [
+          "Auto-Slowmode",
+          "Schwellenwert",
+          "Pro-Kanal"
+        ]
+      },
+      "giveaways": {
+        "title": "Giveaways",
+        "desc": "Starte Gewinnspiele mit automatischer Gewinner-Auswahl, Countdown-Timer und optionalen Teilnahme-Bedingungen per Rollen-Filter.",
+        "tags": [
+          "Auto-Auswahl",
+          "Timer",
+          "Rollen-Filter"
+        ]
+      },
+      "tickets": {
+        "title": "Ticket-System",
+        "desc": "Support-Tickets direkt in Discord — mit Kategorien, Rollen-Zuweisungen, automatischem Archiv und übersichtlicher Verwaltung im Dashboard.",
+        "tags": [
+          "Kategorien",
+          "Rollen-Schutz",
+          "Auto-Close"
+        ]
+      },
+      "scheduled": {
+        "title": "Geplante Nachrichten",
+        "desc": "Plane Text- oder Embed-Nachrichten für einen bestimmten Zeitpunkt — einmalig oder wiederkehrend. Perfekt für Ankündigungen, Events und regelmäßige Updates.",
+        "tags": [
+          "Text & Embed",
+          "Wiederkehrend",
+          "Dashboard"
+        ]
+      },
+      "trovo": {
+        "title": "Trovo",
+        "desc": "Verpasse keinen Stream auf Trovo. Nephthys sendet automatische Live-Benachrichtigungen an deinen konfigurierten Discord-Kanal, sobald ein Streamer online geht.",
+        "tags": [
+          "Live-Alerts",
+          "Stream-Info",
+          "Multi-Streamer"
+        ]
+      },
+      "invites": {
+        "title": "Einladungs-Tracking",
+        "desc": "Verfolge, wer wen auf den Server eingeladen hat. Rangliste mit Einladungsanzahl, XP-Belohnungen für Einlader und Übersicht aller registrierten Invite-Codes.",
+        "tags": [
+          "Rangliste",
+          "XP pro Einladung",
+          "/invite create"
+        ]
+      }
+    },
+    "dashboard_teaser": {
+      "badge": "Web Dashboard",
+      "title": "Alles im Griff — direkt im Browser",
+      "desc": "Konfiguriere jeden Aspekt deines Bots über das übersichtliche Web-Dashboard. Keine Befehle nötig — einfach anmelden, Server wählen und loslegen.",
+      "items": [
+        "Discord OAuth2 — sicher einloggen",
+        "Alle Einstellungen ohne Bot-Neustart",
+        "Statistiken & Member-Aktivität",
+        "Responsive — auch auf dem Handy"
+      ],
+      "cta": "Dashboard öffnen"
+    },
+    "cta": {
+      "title": "Bereit, deinen Server zu verbessern?",
+      "subtitle": "Füge Nephthys noch heute zu deinem Discord-Server hinzu — kostenlos, sofort einsatzbereit und vollständig konfigurierbar.",
+      "invite": "Bot einladen",
+      "dashboard": "Dashboard öffnen"
+    },
+    "footer": {
+      "tagline": "Your all-in-one Discord Bot",
+      "links": {
+        "features": "Features",
+        "modules": "Module",
+        "dashboard": "Dashboard"
+      },
+      "legal": {
+        "impressum": "Impressum",
+        "datenschutz": "Datenschutzerklärung",
+        "nutzungsbedingungen": "Nutzungsbedingungen"
+      },
+      "copyright": "Nephthys Bot. Alle Rechte vorbehalten.",
+      "online": "Bot online",
+      "offline": "Bot offline"
+    }
+  }
+}
