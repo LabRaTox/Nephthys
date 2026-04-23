@@ -1,6 +1,96 @@
 {
   "legal": {
-    "back": "Retour à l'accueil"
+    "back": "Retour à l'accueil",
+    "impressum": {
+      "title": "Mentions légales",
+      "subtitle": "Conformément à l'article § 5 TMG (loi allemande sur les télémédias)",
+      "responsible_title": "Responsable du contenu",
+      "contact_title": "Contact",
+      "platform_title": "Note sur la plateforme",
+      "platform_text": "Nephthys est un bot Discord pour les administrateurs de serveurs Discord. Le bot est exploité en tant que projet privé et non commercial. Toutes les fonctionnalités sont disponibles gratuitement.",
+      "liability_content_title": "Responsabilité pour le contenu",
+      "liability_content_p1": "En tant que prestataire de services, nous sommes responsables de notre propre contenu sur ces pages conformément aux lois générales en vertu du § 7 al. 1 TMG. Cependant, conformément aux §§ 8 à 10 TMG, nous ne sommes pas tenus de surveiller les informations de tiers transmises ou stockées, ni de rechercher des circonstances indiquant une activité illégale.",
+      "liability_content_p2": "Les obligations de supprimer ou bloquer l'utilisation d'informations en vertu des lois générales restent inchangées. Une responsabilité à cet égard n'est possible qu'à partir du moment où une violation spécifique est connue.",
+      "liability_links_title": "Responsabilité pour les liens",
+      "liability_links_text": "Notre site contient des liens vers des sites Web tiers externes sur le contenu desquels nous n'avons aucune influence. Par conséquent, nous ne pouvons assumer aucune responsabilité pour ce contenu externe. Le fournisseur ou opérateur respectif des pages est toujours responsable du contenu des pages liées.",
+      "copyright_title": "Droits d'auteur",
+      "copyright_text": "Les contenus et œuvres créés par les opérateurs du site sur ces pages sont soumis au droit d'auteur allemand. La reproduction, l'édition, la distribution et tout type d'utilisation en dehors des limites du droit d'auteur nécessitent le consentement écrit de l'auteur ou du créateur respectif."
+    },
+    "datenschutz": {
+      "title": "Politique de confidentialité",
+      "subtitle": "Dernière mise à jour : avril 2026 · Conformément au RGPD",
+      "s1_title": "1. Responsable du traitement",
+      "s1_text": "Le responsable du traitement des données au sens du RGPD est la personne mentionnée dans les <a href=\"/impressum\" style=\"color:var(--brand)\">mentions légales</a>.",
+      "s2_title": "2. Données que nous traitons",
+      "s2_intro": "Les données suivantes sont traitées lors de l'utilisation du bot Discord Nephthys et du tableau de bord Web associé :",
+      "s2_discord_title": "Données du compte Discord",
+      "s2_discord_text": "Lors de la connexion via Discord OAuth2, votre ID utilisateur Discord, votre nom d'utilisateur et votre hash d'avatar sont enregistrés. Ces données sont nécessaires pour l'authentification au tableau de bord (art. 6, par. 1, lit. b RGPD).",
+      "s2_server_title": "Données du serveur",
+      "s2_server_text": "Pour fournir les fonctionnalités du bot, les paramètres spécifiques au serveur, les avertissements (infractions), les points XP, les anniversaires et les rappels sont enregistrés. Toutes les données sont conservées côté serveur dans une base de données SQLite.",
+      "s2_cookies_title": "Cookies & Session",
+      "s2_cookies_text": "Le tableau de bord utilise un cookie de session pour l'authentification (HttpOnly, pas de suivi). La décision de consentement est stockée dans un cookie propriétaire dédié.",
+      "s3_title": "3. Gestion du consentement aux cookies",
+      "s3_p1": "Ce site Web utilise un système de consentement aux cookies développé en interne, respectueux de la vie privée. <strong style=\"color:var(--text)\">Aucune donnée n'est transmise à des tiers</strong> (tels que Cookiebot, OneTrust, etc.). La décision de consentement est stockée exclusivement dans un cookie propriétaire (<code style=\"font-size:0.8rem;background:rgba(255,255,255,0.07);padding:1px 5px;border-radius:4px\">nephthpy_consent</code>) dans le navigateur de l'utilisateur.",
+      "s3_p2": "Le cookie de consentement est classé comme « strictement nécessaire » selon l'art. 5, par. 3 de la directive ePrivacy, car il sert uniquement à stocker le propre consentement de l'utilisateur — aucun consentement préalable n'est requis à cet effet. Il expire après 365 jours. Vous pouvez modifier vos paramètres à tout moment via l'icône 🍪 en bas à gauche.",
+      "s4_title": "4. Services tiers",
+      "s4_intro": "Le bot peut optionnellement intégrer les services tiers suivants (selon la configuration du serveur) :",
+      "s4_item_discord": "<strong style=\"color:var(--text)\">Discord</strong> — Plateforme de base, politique de confidentialité : discord.com/privacy",
+      "s4_item_twitch": "<strong style=\"color:var(--text)\">Twitch</strong> — Notifications de stream",
+      "s4_item_youtube": "<strong style=\"color:var(--text)\">YouTube / Google</strong> — Notifications de vidéos",
+      "s4_item_kick": "<strong style=\"color:var(--text)\">Kick</strong> — Notifications de stream",
+      "s4_item_twitter": "<strong style=\"color:var(--text)\">X (Twitter)</strong> — Notifications de publications",
+      "s4_item_kofi": "<strong style=\"color:var(--text)\">Ko-Fi</strong> — Rôles de supporter via webhook",
+      "s4_item_patreon": "<strong style=\"color:var(--text)\">Patreon</strong> — Rôles d'adhésion via OAuth2 &amp; webhook",
+      "s4_item_steam": "<strong style=\"color:var(--text)\">Steam</strong> — Requêtes de données de jeux",
+      "s4_outro": "Ces services ne sont activés que lorsque l'administrateur du serveur les configure explicitement dans le tableau de bord. Aucune donnée n'est transmise à des tiers sans le consentement de l'opérateur du serveur.",
+      "s5_title": "5. Stockage et suppression des données",
+      "s5_text": "Les données personnelles ne sont conservées que le temps nécessaire à la finalité respective. Les données de session sont automatiquement supprimées après 24 heures. Les données de configuration du serveur sont supprimées sur demande lors du retrait du bot du serveur. Les données utilisateur liées au bot (XP, anniversaires, etc.) sont supprimées sur demande de l'administrateur du serveur.",
+      "s6_title": "6. Vos droits (RGPD)",
+      "s6_intro": "En vertu du RGPD, vous disposez des droits suivants :",
+      "s6_right_info": "<strong style=\"color:var(--text)\">Accès</strong> — Art. 15 RGPD",
+      "s6_right_rectification": "<strong style=\"color:var(--text)\">Rectification</strong> — Art. 16 RGPD",
+      "s6_right_erasure": "<strong style=\"color:var(--text)\">Effacement</strong> — Art. 17 RGPD",
+      "s6_right_restriction": "<strong style=\"color:var(--text)\">Limitation du traitement</strong> — Art. 18 RGPD",
+      "s6_right_portability": "<strong style=\"color:var(--text)\">Portabilité des données</strong> — Art. 20 RGPD",
+      "s6_right_objection": "<strong style=\"color:var(--text)\">Opposition</strong> — Art. 21 RGPD",
+      "s6_outro": "Pour exercer vos droits, veuillez contacter la personne mentionnée dans les <a href=\"/impressum\" style=\"color:var(--brand)\">mentions légales</a>. Vous avez également le droit de déposer une plainte auprès de l'autorité de contrôle compétente en matière de protection des données.",
+      "s7_title": "7. Modifications de cette politique",
+      "s7_text": "Nous nous réservons le droit de mettre à jour cette politique de confidentialité si nécessaire. La version actuelle est toujours disponible sur cette page. Date de la dernière modification : avril 2026."
+    },
+    "nutzungsbedingungen": {
+      "title": "Conditions d'utilisation",
+      "subtitle": "Dernière mise à jour : avril 2025",
+      "s1_title": "1. Champ d'application",
+      "s1_text": "Les présentes conditions d'utilisation s'appliquent à l'utilisation du bot Discord « Nephthys » et du tableau de bord Web associé. En ajoutant le bot à un serveur Discord ou en utilisant le tableau de bord, vous acceptez ces conditions.",
+      "s2_title": "2. Utilisation du bot",
+      "s2_p1": "Le bot est fourni gratuitement et sans garantie. L'utilisation est autorisée exclusivement dans le cadre des conditions d'utilisation de Discord (<a href=\"https://discord.com/terms\" target=\"_blank\" rel=\"noopener\" style=\"color:var(--brand)\">discord.com/terms</a>).",
+      "s2_p2": "Il est interdit d'utiliser le bot pour :",
+      "s2_item_spam": "Le spam, le harcèlement ou l'intimidation d'autres utilisateurs",
+      "s2_item_illegal": "La diffusion de contenus illégaux, offensants ou discriminatoires",
+      "s2_item_attacks": "Des attaques automatisées contre des serveurs Discord ou d'autres services",
+      "s2_item_bypass": "Le contournement des mécanismes de sécurité de Discord",
+      "s2_item_commercial": "Des fins commerciales sans autorisation écrite expresse",
+      "s3_title": "3. Responsabilités de l'administrateur du serveur",
+      "s3_intro": "Toute personne qui ajoute le bot à un serveur Discord est responsable en tant qu'administrateur du serveur de :",
+      "s3_item_config": "La configuration correcte des fonctionnalités du bot",
+      "s3_item_privacy": "Le respect des lois applicables en matière de protection des données vis-à-vis des membres du serveur",
+      "s3_item_moderation": "L'utilisation appropriée des fonctionnalités de modération",
+      "s3_item_info": "L'information des membres du serveur sur l'utilisation du bot",
+      "s4_title": "4. Accès au tableau de bord",
+      "s4_text": "L'accès au tableau de bord Web se fait exclusivement via Discord OAuth2. Vous êtes responsable de la sécurité de votre compte Discord. Les identifiants de connexion ne doivent pas être partagés avec des tiers. En cas de suspicion d'accès non autorisé, déconnectez-vous immédiatement du tableau de bord et changez votre mot de passe Discord.",
+      "s5_title": "5. Disponibilité et clause de non-responsabilité",
+      "s5_intro": "Le bot et le tableau de bord sont fournis sans garantie de fonctionnement continu ou de disponibilité. Nous déclinons toute responsabilité pour :",
+      "s5_item_data": "La perte de données due à des défaillances techniques",
+      "s5_item_outage": "Les interruptions de service ou les pannes de fonctionnalités individuelles",
+      "s5_item_misconfig": "Les dommages causés par une mauvaise configuration de la part des utilisateurs",
+      "s5_item_third_party": "Les actions de tiers utilisant le service",
+      "s6_title": "6. Ko-Fi / Soutien",
+      "s6_text": "Un soutien financier volontaire via Ko-Fi (<a href=\"https://ko-fi.com/labratox\" target=\"_blank\" rel=\"noopener\" style=\"color:var(--brand)\">ko-fi.com/labratox</a>) est toujours bienvenu. Les paiements ne donnent droit à aucune fonctionnalité spécifique, à un support prioritaire ou à un fonctionnement continu. Le traitement des paiements est effectué exclusivement par Ko-Fi conformément à ses propres conditions d'utilisation.",
+      "s7_title": "7. Modifications des conditions",
+      "s7_text": "Nous nous réservons le droit de modifier ces conditions d'utilisation à tout moment. Les modifications importantes seront publiées sur cette page. La poursuite de l'utilisation du bot après une modification vaut acceptation des nouvelles conditions.",
+      "s8_title": "8. Droit applicable",
+      "s8_text": "Le droit allemand s'applique. Le tribunal compétent est celui du lieu de résidence de l'opérateur tel qu'indiqué dans les <a href=\"/impressum\" style=\"color:var(--brand)\">mentions légales</a>, dans la mesure permise par la loi."
+    }
   },
   "error": {
     "title": "Erreur",
@@ -199,7 +289,8 @@
       "logs": "Journaux",
       "dsgvo": "RGPD",
       "trovo": "Trovo",
-      "invites": "Invitations"
+      "invites": "Invitations",
+      "help": "Aide"
     }
   },
   "breadcrumb": {
@@ -459,8 +550,9 @@
       "options": "Options",
       "self_star_label": "Autoriser à mettre en avant ses propres messages",
       "ignored_channels": "Salons ignorés",
-      "ignored_channels_hint": "(IDs séparés par des virgules)",
-      "ignored_channels_desc": "Les messages de ces salons n'apparaîtront pas sur le Starboard."
+      "ignored_channels_hint": "",
+      "ignored_channels_desc": "Les messages de ces salons n'apparaîtront pas sur le Starboard.",
+      "channel_search": "Rechercher un salon …"
     },
     "slowmode": {
       "title": "Gestionnaire de Slow-Mode",
@@ -878,6 +970,9 @@
       "ignore_roles_hint": "(pas d'XP pour ces rôles)",
       "role_search": "Rechercher un rôle…",
       "save_settings": "Sauvegarder les paramètres",
+      "show_rank_card": "Afficher la rank card",
+      "levelup_dm": "Envoyer le level-up par MP",
+      "levelup_dm_hint": "L'utilisateur reçoit le texte de niveau supérieur en message privé supplémentaire",
       "role_rewards": "Récompenses de rôles",
       "no_rewards": "Aucune récompense configurée pour l'instant.",
       "role_placeholder": "Sélectionner un rôle…",
@@ -893,7 +988,40 @@
       "import_channel_placeholder": "— Sélectionner un salon —",
       "import_xp": "XP par message",
       "import_xp_hint": "Par défaut : moyenne de XP-Min/Max",
-      "import_max": "Nb max. de messages"
+      "import_max": "Nb max. de messages",
+      "card": {
+        "tab": "Rank Card",
+        "info": "Ces paramètres s'appliquent à la commande <code>/myrank</code> sur ce serveur. Les utilisateurs voient leur carte de rang comme une image dans le salon.",
+        "preview": "Aperçu",
+        "preview_hint": "L'aperçu sera visible dans Discord avec <code>/myrank</code> après la sauvegarde.",
+        "preview_name": "votre-nom",
+        "colors": "Couleurs",
+        "accent_label": "Couleur d'accent",
+        "accent_hint": "Barre de progression, anneau d'avatar & badges",
+        "bg_label": "Couleur de fond",
+        "bg_image_title": "Image de fond",
+        "bg_image_optional": "(facultatif)",
+        "bg_image_label": "URL de l'image",
+        "bg_image_hint": "Lien direct vers .png/.jpg — sera assombri avec un overlay",
+        "bg_cat_all": "Tout",
+        "bg_cat_landscape": "Paysages",
+        "bg_cat_abstract": "Abstrait",
+        "bg_cat_plants": "Plantes",
+        "bg_cat_animals": "Animaux",
+        "bg_cat_cars": "Voitures",
+        "bg_cat_anime": "Anime",
+        "bg_alpha": "Transparence",
+        "bg_none": "Pas de fond",
+        "bg_upload_hint": "JPG ou PNG, max. 1 Mo — glisser ici ou",
+        "bg_upload_btn": "Choisir un fichier",
+        "bg_upload_uploading": "Envoi en cours …",
+        "bg_upload_success": "Image envoyée avec succès",
+        "bg_upload_error": "Échec de l'envoi",
+        "bg_upload_too_large": "Fichier trop volumineux (max. 1 Mo)",
+        "bg_upload_type_error": "Seulement JPG et PNG autorisés",
+        "save": "Sauvegarder la rank card",
+        "saved": "Rank card sauvegardée."
+      }
     },
     "music": {
       "general": "Général",
@@ -1964,6 +2092,252 @@
       "copyright": "Nephthys Bot. Tous droits réservés.",
       "online": "Bot en ligne",
       "offline": "Bot hors ligne"
+    }
+  },
+  "help": {
+    "title": "Aide & Modules",
+    "subtitle": "Aperçu de tous les modules du bot – fonctionnalités, commandes et liens de configuration.",
+    "toc": "Table des matières",
+    "cat_settings": "Paramètres",
+    "cat_social": "Notifications sociales",
+    "cat_features": "Fonctionnalités",
+    "open_settings": "Paramètres",
+    "mods": {
+      "begruessung": {
+        "desc": "Accueille les nouveaux membres avec un message personnalisable et les salue quand ils quittent le serveur.",
+        "features": [
+          "Message de bienvenue personnalisé en embed ou texte",
+          "Message d'au revoir séparé configurable",
+          "Variables pour nom d'utilisateur, mention et nom du serveur",
+          "Canal librement sélectionnable"
+        ]
+      },
+      "commands": {
+        "desc": "Créez des commandes slash personnalisées avec un nom, une description et un texte de réponse définis par l'utilisateur.",
+        "features": [
+          "Commandes personnalisées illimitées",
+          "Support des embeds et du texte simple",
+          "Restriction de rôle par commande possible",
+          "Actif immédiatement après l'enregistrement"
+        ]
+      },
+      "reactionroles": {
+        "desc": "Attribue automatiquement des rôles lorsque les membres réagissent avec un emoji – aucune action manuelle requise.",
+        "features": [
+          "N'importe quelle réaction emoji (Unicode et emotes serveur)",
+          "Plusieurs paires réaction-rôle par message",
+          "Rôles supprimés automatiquement quand la réaction est retirée"
+        ]
+      },
+      "moderation": {
+        "desc": "Boîte à outils de modération complète : bannissement, expulsion, timeouts, avertissements et suppression de messages.",
+        "features": [
+          "Journal de modération automatique dans un canal configurable",
+          "Historique des infractions par utilisateur",
+          "Timeouts temporaires avec durée",
+          "Suppression massive de messages"
+        ],
+        "cmd_ban": "Bannir définitivement un utilisateur du serveur",
+        "cmd_kick": "Expulser un utilisateur du serveur",
+        "cmd_timeout": "Mettre un utilisateur en sourdine temporairement",
+        "cmd_warn": "Émettre un avertissement à un utilisateur",
+        "cmd_infractions": "Afficher l'historique des infractions d'un utilisateur",
+        "cmd_clear": "Supprimer un nombre de messages d'un canal"
+      },
+      "starboard": {
+        "desc": "Met automatiquement en valeur les messages populaires dans un canal starboard lorsqu'assez de réactions sont collectées.",
+        "features": [
+          "Emoji de réaction configurable (défaut : ⭐)",
+          "Seuil de réactions ajustable",
+          "L'auto-notation peut être désactivée",
+          "Certains canaux peuvent être ignorés"
+        ]
+      },
+      "slowmode": {
+        "desc": "Gérez le mode lent dans les canaux directement via le tableau de bord sans avoir besoin de droits d'administrateur Discord.",
+        "features": [
+          "Mode lent pour n'importe quel canal texte",
+          "Délai de 0 à 21 600 secondes",
+          "Vue d'ensemble de tous les paramètres de mode lent actifs"
+        ]
+      },
+      "twitch": {
+        "desc": "Envoie automatiquement une notification sur Discord dès qu'un canal Twitch passe en direct.",
+        "features": [
+          "Surveiller plusieurs canaux Twitch simultanément",
+          "Canal et texte de notification individuels",
+          "Mention @ optionnelle au démarrage du stream",
+          "Titre du stream et jeu affichés"
+        ],
+        "cmd_twitch": "Gérer les canaux Twitch (add/remove/list)"
+      },
+      "youtube": {
+        "desc": "Notifiez automatiquement votre communauté lorsqu'une nouvelle vidéo YouTube est publiée.",
+        "features": [
+          "Surveiller plusieurs canaux YouTube simultanément",
+          "Message et ping personnalisables",
+          "Détecte les uploads, shorts et annonces de premières"
+        ]
+      },
+      "kick": {
+        "desc": "Notifications de streams Kick en direct directement dans Discord.",
+        "features": [
+          "Plusieurs canaux Kick surveillables",
+          "Canal de notification et texte personnalisables",
+          "Mention @ optionnelle au démarrage du stream"
+        ]
+      },
+      "trovo": {
+        "desc": "Notifications de streams Trovo dans des canaux Discord configurables.",
+        "features": [
+          "Plusieurs streamers Trovo surveillables",
+          "Infos du stream affichées dans le message",
+          "Message et ping personnalisables"
+        ]
+      },
+      "twitter": {
+        "desc": "Publie automatiquement les nouveaux posts de comptes X (Twitter) sur Discord.",
+        "features": [
+          "Plusieurs comptes X surveillables",
+          "Retweets optionnellement affichés/masqués",
+          "Canal cible personnalisé par compte"
+        ]
+      },
+      "zkill": {
+        "desc": "Reçoit les killmails de zkillboard.com en temps réel et les publie sur Discord – idéal pour les corporations EVE Online.",
+        "features": [
+          "Filtrage par corporation, alliance ou personnage",
+          "Webhooks instantanés via zKillboard WebSocket",
+          "Embeds de killmail détaillés avec vaisseau et valeur"
+        ]
+      },
+      "leveling": {
+        "desc": "Système de niveaux basé sur l'XP : les membres gagnent des points d'expérience en chattant et reçoivent des rôles à certains niveaux.",
+        "features": [
+          "XP par message configurable (min/max)",
+          "Rôles de niveau attribués et supprimés automatiquement",
+          "Carte de rang avec design personnalisable",
+          "Classement des membres les plus actifs",
+          "Bonus d'XP pour des rôles spécifiques",
+          "Canaux et rôles excluables du gain d'XP"
+        ],
+        "cmd_rank": "Afficher la carte de rang d'un autre utilisateur",
+        "cmd_myrank": "Afficher votre propre carte de rang",
+        "cmd_leaderboard": "Afficher le classement XP du serveur",
+        "cmd_xp": "Définir ou ajuster manuellement l'XP d'un utilisateur (Admin)"
+      },
+      "birthday": {
+        "desc": "Enregistre les anniversaires des membres et les félicite automatiquement avec un message et un rôle optionnel.",
+        "features": [
+          "Les membres entrent eux-mêmes leur anniversaire",
+          "Message de félicitations automatique à minuit",
+          "Rôle d'anniversaire optionnel pour la journée",
+          "Aperçu des prochains anniversaires"
+        ],
+        "cmd_set": "Enregistrer votre anniversaire",
+        "cmd_remove": "Supprimer votre anniversaire enregistré",
+        "cmd_list": "Afficher tous les anniversaires enregistrés",
+        "cmd_next": "Afficher le prochain anniversaire à venir"
+      },
+      "giveaway": {
+        "desc": "Créez des concours avec minuterie et sélection automatique des gagnants directement dans Discord.",
+        "features": [
+          "Concours à durée limitée",
+          "N'importe quel nombre de gagnants",
+          "Sélection des gagnants par tirage au sort",
+          "Re-tirage possible si nécessaire"
+        ],
+        "cmd_start": "Démarrer un nouveau concours",
+        "cmd_end": "Terminer un concours en cours prématurément",
+        "cmd_reroll": "Re-tirer les gagnants d'un concours terminé",
+        "cmd_cancel": "Annuler un concours sans gagnant"
+      },
+      "tempchannels": {
+        "desc": "Les membres créent des canaux vocaux temporaires en rejoignant un canal de création – le canal est supprimé automatiquement quand il est vide.",
+        "features": [
+          "Création et suppression automatiques",
+          "Le propriétaire du canal a le contrôle total",
+          "Limite d'utilisateurs, nom et visibilité ajustables",
+          "Les utilisateurs peuvent être invités, expulsés ou bannis"
+        ],
+        "cmd_rename": "Renommer le canal temporaire",
+        "cmd_limit": "Définir la limite d'utilisateurs du canal temporaire",
+        "cmd_lock": "Verrouiller le canal pour les nouvelles entrées",
+        "cmd_unlock": "Rouvrir le canal",
+        "cmd_hide": "Rendre le canal invisible aux autres",
+        "cmd_reveal": "Rendre le canal visible à nouveau",
+        "cmd_kick": "Retirer un utilisateur du canal temporaire",
+        "cmd_ban": "Bannir définitivement un utilisateur du canal",
+        "cmd_unban": "Lever le ban de canal d'un utilisateur",
+        "cmd_transfer": "Transférer la propriété du canal à un autre utilisateur",
+        "cmd_owner": "Afficher le propriétaire actuel du canal",
+        "cmd_clean": "Retirer tous les membres absents du canal",
+        "cmd_claim": "Prendre possession d'un canal sans propriétaire"
+      },
+      "tickets": {
+        "desc": "Système de tickets de support : les membres ouvrent des tickets dans des canaux privés, l'équipe de support peut répondre et les fermer.",
+        "features": [
+          "Canaux de tickets privés par utilisateur",
+          "Notification automatique de l'équipe de support",
+          "Sujet spécifié lors de la création",
+          "Fermer les tickets et sauvegarder l'historique"
+        ],
+        "cmd_ticket": "Ouvrir un nouveau ticket de support"
+      },
+      "music": {
+        "desc": "Bot musical complet : jouer de la musique depuis YouTube et d'autres sources, gérer la file d'attente et contrôler la lecture.",
+        "features": [
+          "YouTube, YouTube Music et URLs directes",
+          "File d'attente avec plusieurs pistes",
+          "Modes de répétition : chanson, file, désactivé",
+          "Mélanger la file d'attente",
+          "Contrôle du volume"
+        ],
+        "cmd_play": "Jouer une piste ou URL / ajouter à la file",
+        "cmd_pause": "Mettre la lecture en pause",
+        "cmd_resume": "Reprendre la lecture en pause",
+        "cmd_skip": "Passer la piste actuelle",
+        "cmd_stop": "Arrêter la lecture et vider la file",
+        "cmd_queue": "Afficher la file d'attente actuelle",
+        "cmd_nowplaying": "Afficher la piste en cours de lecture",
+        "cmd_volume": "Régler le volume (0–100)",
+        "cmd_loop": "Basculer le mode de répétition",
+        "cmd_shuffle": "Mélanger la file d'attente aléatoirement"
+      },
+      "reminder": {
+        "desc": "Définissez des rappels basés sur le temps – le bot envoie un DM ou un message dans le canal à l'heure indiquée.",
+        "features": [
+          "Spécifications de temps flexibles (minutes, heures, jours)",
+          "Rappel par DM ou dans le canal actuel",
+          "Texte de rappel personnalisé"
+        ],
+        "cmd_reminder": "Créer un nouveau rappel"
+      },
+      "invites": {
+        "desc": "Suivez combien de membres chaque utilisateur a invité et quel lien d'invitation a été utilisé.",
+        "features": [
+          "Statistiques d'invitation par utilisateur",
+          "Quel membre a rejoint via quelle invitation",
+          "Vue d'ensemble dans le tableau de bord"
+        ],
+        "cmd_invite": "Afficher vos propres statistiques d'invitation"
+      },
+      "scheduled": {
+        "desc": "Planifiez des messages et envoyez-les automatiquement à une date et heure spécifiques dans un canal configuré.",
+        "features": [
+          "Planifier des messages pour n'importe quel moment",
+          "Support des embeds et du texte simple",
+          "Vue d'ensemble et gestion de tous les messages planifiés"
+        ]
+      },
+      "fallout76": {
+        "desc": "Récupère automatiquement les codes nucléaires hebdomadaires (Alpha, Bravo, Charlie) de Fallout 76 et les publie sur Discord.",
+        "features": [
+          "Mise à jour hebdomadaire automatique",
+          "Les trois codes de silos (Alpha, Bravo, Charlie)",
+          "Canal cible et ping configurables"
+        ]
+      }
     }
   }
 }
