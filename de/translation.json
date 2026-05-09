@@ -66,6 +66,11 @@
       "dsgvo": "DSGVO",
       "invites": "Einladungen",
       "help": "Hilfe"
+    },
+    "social": {
+      "discord": "Brauchst du Support?",
+      "kofi": "Spendier mir einen Kaffee",
+      "github": "Hilf mit, Nephthys zu verbessern"
     }
   },
   "breadcrumb": {
@@ -93,7 +98,8 @@
     "chart_commands": "Meist genutzte Befehle (30 Tage)",
     "no_data": "Noch keine Daten.",
     "label_joins": "Joins",
-    "label_leaves": "Leaves"
+    "label_leaves": "Leaves",
+    "limit_label": "Anzahl der Einträge"
   },
   "settings": {
     "title": "Einstellungen",

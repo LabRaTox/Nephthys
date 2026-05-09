@@ -291,6 +291,11 @@
       "trovo": "Trovo",
       "invites": "Invitaciones",
       "help": "Ayuda"
+    },
+    "social": {
+      "discord": "¿Necesitas ayuda?",
+      "kofi": "Invítame a un café",
+      "github": "Ayuda a mejorar Nephthys"
     }
   },
   "breadcrumb": {
@@ -318,7 +323,8 @@
     "chart_commands": "Comandos más usados (30 días)",
     "no_data": "Aún no hay datos.",
     "label_joins": "Entradas",
-    "label_leaves": "Salidas"
+    "label_leaves": "Salidas",
+    "limit_label": "Número de entradas"
   },
   "settings": {
     "title": "Configuración",

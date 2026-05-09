@@ -291,6 +291,11 @@
       "trovo": "Trovo",
       "invites": "Invitations",
       "help": "Help"
+    },
+    "social": {
+      "discord": "Need support?",
+      "kofi": "Buy me a coffee",
+      "github": "Help improve Nephthys"
     }
   },
   "breadcrumb": {
@@ -318,7 +323,8 @@
     "chart_commands": "Most used commands (30 days)",
     "no_data": "No data yet.",
     "label_joins": "Joins",
-    "label_leaves": "Leaves"
+    "label_leaves": "Leaves",
+    "limit_label": "Number of entries"
   },
   "settings": {
     "title": "Settings",
