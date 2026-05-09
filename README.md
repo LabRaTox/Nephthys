@@ -56,11 +56,14 @@ node -e "require('./locales/xx/translation.json'); console.log('OK')"
 
 ## Currently supported languages
 
-| Code | Language | File |
-|------|----------|------|
-| `de` | Deutsch | `locales/de/translation.json` |
-| `en` | English | `locales/en/translation.json` |
-| `fr` | Français | `locales/fr/translation.json` |
+| Code | Language  | File |
+|------|-----------|------|
+| `de` | Deutsch    | `locales/de/translation.json` |
+| `en` | English    | `locales/en/translation.json` |
+| `es` | Español    | `locales/es/translation.json` |
+| `fr` | Français   | `locales/fr/translation.json` |
+| `it` | Italiano   | `locales/it/translation.json` |
+| `pt` | Português  | `locales/pt/translation.json` |
 
 ---
 
