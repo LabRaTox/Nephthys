@@ -65,7 +65,8 @@
       "logs": "Logs",
       "dsgvo": "DSGVO",
       "invites": "Einladungen",
-      "help": "Hilfe"
+      "help": "Hilfe",
+      "announcements": "Ankündigungen"
     },
     "social": {
       "discord": "Brauchst du Support?",
@@ -120,6 +121,13 @@
         "title": "Bot-Sprache",
         "description": "Sprache des Bots für diesen Server (Befehle, Antworten, Embeds).",
         "label": "Bot-Sprache"
+      },
+      "bug": {
+        "title": "Bug Tracker",
+        "description": "Rollenbeschränkungen für die Bug-Tracker-Befehle. Leer = jeder darf den Befehl nutzen.",
+        "notice": "Der Bug-Tracker kann nicht deaktiviert werden – gemeldete Bugs werden direkt an den Entwickler weitergeleitet.",
+        "report_hint": "Wer darf Bugs melden? Leer = jeder.",
+        "list_hint": "Wer darf gemeldete Bugs ansehen? Leer = jeder."
       }
     },
     "moderation": {
@@ -1571,6 +1579,8 @@
     },
     "bug": {
       "disabled": "❌ Der Bug Tracker ist auf diesem Server deaktiviert.",
+      "no_permission_report": "❌ Du hast keine Berechtigung für `/bug report`.",
+      "no_permission_list": "❌ Du hast keine Berechtigung für `/bug list`.",
       "reported_title": "🐛 Bug #{{id}} gemeldet",
       "status_field": "Status",
       "footer": "Gemeldet von {{user}} · {{guild}}",
@@ -2344,6 +2354,80 @@
           "Konfigurierbarer Zielkanal und Ping"
         ]
       }
+    }
+  },
+  "announcements": {
+    "title": "Ankündigungen",
+    "all": "Alle Ankündigungen",
+    "show_all": "Alle anzeigen",
+    "mark_all_read": "Alle als gelesen markieren",
+    "mark_read": "Als gelesen markieren",
+    "none": "Keine Ankündigungen.",
+    "loading": "Lädt…",
+    "unread": "Ungelesen",
+    "cat": {
+      "info": "Info",
+      "update": "Update",
+      "warning": "Warnung",
+      "maintenance": "Wartung"
+    },
+    "admin": {
+      "title": "Ankündigungen verwalten",
+      "tab_manage": "Verwalten",
+      "tab_api": "Externe Pflege via API",
+      "new_title": "Neue Ankündigung erstellen",
+      "existing": "Vorhandene Ankündigungen",
+      "none": "Noch keine Ankündigungen.",
+      "f_title": "Titel",
+      "f_category": "Kategorie",
+      "f_author": "Autor",
+      "f_body": "Inhalt",
+      "f_body_hint": "Markdown- oder HTML-Inhalt der Ankündigung…",
+      "body_html_hint": "HTML wird im Detail unverändert gerendert. Bitte keinen Nutzer-Input einfügen.",
+      "published": "Veröffentlicht",
+      "pinned": "Angepinnt",
+      "draft": "Entwurf",
+      "create": "Erstellen",
+      "updated": "Aktualisiert",
+      "reads": "Leser",
+      "confirm_delete": "Diese Ankündigung wirklich löschen?",
+      "api_title": "Externe Pflege via API",
+      "api_intro": "Ankündigungen und Health-Status können über die REST-API v1 abgefragt und verwaltet werden — perfekt für externe Tools (z. B. einen Uptime-Monitor).",
+      "api_auth": "Authentifizierung (HTTP-Header):",
+      "api_endpoints": "Endpunkte:",
+      "api_example": "Beispiel-Request:",
+      "api_docs": "API-Dokumentation",
+      "new_key": "Neuen API-Key erstellen",
+      "create_key": "Key erstellen",
+      "key_name": "Name",
+      "key_name_hint": "z. B. „Uptime-Monitor“ oder „Mein zweites Projekt“",
+      "existing_keys": "Vorhandene Keys",
+      "no_keys": "Noch keine Keys erstellt. Erstelle einen, um die API zu nutzen.",
+      "key_prefix": "Prefix",
+      "key_created": "Erstellt am",
+      "key_last_used": "Zuletzt benutzt",
+      "actions": "Aktionen",
+      "revoked": "Widerrufen",
+      "revoke": "Widerrufen",
+      "copy": "Kopieren",
+      "copied": "Kopiert!",
+      "confirm_revoke": "Diesen Key wirklich widerrufen? Alle Clients, die ihn nutzen, verlieren sofort den Zugriff.",
+      "confirm_delete_key": "Diesen Key endgültig löschen? Bei Bedarf besser nur widerrufen.",
+      "key_created_warning": "Neuer Key — JETZT kopieren!",
+      "key_created_info": "Der Key „{{name}}“ wurde erstellt. Aus Sicherheitsgründen zeigen wir den Klartext nur dieses eine Mal an. Speichere ihn an einem sicheren Ort.",
+      "env_fallback_note": "<strong>Hinweis:</strong> In <code>.env</code> ist zusätzlich <code>EXTERNAL_API_KEY</code> gesetzt — dieser Key bleibt unbegrenzt gültig. Empfehlung: ENV-Key entfernen und ausschließlich verwaltete Keys benutzen."
+    },
+    "flash": {
+      "title_required": "Titel darf nicht leer sein.",
+      "created": "Ankündigung erstellt.",
+      "updated": "Ankündigung aktualisiert.",
+      "deleted": "Ankündigung gelöscht.",
+      "not_found": "Ankündigung nicht gefunden.",
+      "key_name_required": "Bitte einen Namen für den Key angeben.",
+      "key_created": "API-Key „{{name}}“ erstellt.",
+      "key_revoked": "API-Key widerrufen.",
+      "key_deleted": "API-Key gelöscht.",
+      "key_not_found": "API-Key nicht gefunden."
     }
   }
 }

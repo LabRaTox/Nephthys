@@ -345,6 +345,13 @@
         "title": "Lingua del bot",
         "description": "Lingua del bot per questo server (comandi, risposte, embed).",
         "label": "Lingua del bot"
+      },
+      "bug": {
+        "title": "Bug Tracker",
+        "description": "Restrizioni di ruolo per i comandi del bug tracker. Vuoto = tutti possono usare il comando.",
+        "notice": "Il bug tracker non può essere disattivato – i bug segnalati vengono inoltrati direttamente allo sviluppatore.",
+        "report_hint": "Chi può segnalare bug? Vuoto = tutti.",
+        "list_hint": "Chi può visualizzare i bug segnalati? Vuoto = tutti."
       }
     },
     "moderation": {
@@ -1571,6 +1578,8 @@
     },
     "bug": {
       "disabled": "❌ Il bug tracker è disabilitato su questo server.",
+      "no_permission_report": "❌ Non hai il permesso per `/bug report`.",
+      "no_permission_list": "❌ Non hai il permesso per `/bug list`.",
       "reported_title": "🐛 Bug #{{id}} segnalato",
       "status_field": "Stato",
       "footer": "Segnalato da {{user}} · {{guild}}",

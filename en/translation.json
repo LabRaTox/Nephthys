@@ -290,7 +290,8 @@
       "dsgvo": "GDPR",
       "trovo": "Trovo",
       "invites": "Invitations",
-      "help": "Help"
+      "help": "Help",
+      "announcements": "Announcements"
     },
     "social": {
       "discord": "Need support?",
@@ -345,6 +346,13 @@
         "title": "Bot Language",
         "description": "Language of the bot for this server (commands, responses, embeds).",
         "label": "Bot Language"
+      },
+      "bug": {
+        "title": "Bug Tracker",
+        "description": "Role restrictions for the bug tracker commands. Leave empty to let everyone use the command.",
+        "notice": "The bug tracker cannot be disabled – reported bugs are forwarded directly to the developer.",
+        "report_hint": "Who is allowed to report bugs? Empty = everyone.",
+        "list_hint": "Who is allowed to view reported bugs? Empty = everyone."
       }
     },
     "moderation": {
@@ -1571,6 +1579,8 @@
     },
     "bug": {
       "disabled": "❌ The bug tracker is disabled on this server.",
+      "no_permission_report": "❌ You don't have permission for `/bug report`.",
+      "no_permission_list": "❌ You don't have permission for `/bug list`.",
       "reported_title": "🐛 Bug #{{id}} reported",
       "status_field": "Status",
       "footer": "Reported by {{user}} · {{guild}}",
@@ -2344,6 +2354,80 @@
           "Configurable target channel and ping"
         ]
       }
+    }
+  },
+  "announcements": {
+    "title": "Announcements",
+    "all": "All announcements",
+    "show_all": "View all",
+    "mark_all_read": "Mark all as read",
+    "mark_read": "Mark as read",
+    "none": "No announcements.",
+    "loading": "Loading…",
+    "unread": "Unread",
+    "cat": {
+      "info": "Info",
+      "update": "Update",
+      "warning": "Warning",
+      "maintenance": "Maintenance"
+    },
+    "admin": {
+      "title": "Manage announcements",
+      "tab_manage": "Manage",
+      "tab_api": "External API access",
+      "new_title": "Create new announcement",
+      "existing": "Existing announcements",
+      "none": "No announcements yet.",
+      "f_title": "Title",
+      "f_category": "Category",
+      "f_author": "Author",
+      "f_body": "Content",
+      "f_body_hint": "Markdown- or HTML-style content of the announcement…",
+      "body_html_hint": "HTML is rendered unescaped on the detail page. Do not paste user input here.",
+      "published": "Published",
+      "pinned": "Pinned",
+      "draft": "Draft",
+      "create": "Create",
+      "updated": "Updated",
+      "reads": "reads",
+      "confirm_delete": "Really delete this announcement?",
+      "api_title": "External management via API",
+      "api_intro": "Announcements and the health status can be queried and managed via the REST API v1 — perfect for external tools (e.g. an uptime monitor).",
+      "api_auth": "Authentication (HTTP header):",
+      "api_endpoints": "Endpoints:",
+      "api_example": "Example request:",
+      "api_docs": "API documentation",
+      "new_key": "Create new API key",
+      "create_key": "Create key",
+      "key_name": "Name",
+      "key_name_hint": "e.g. \"Uptime monitor\" or \"My second project\"",
+      "existing_keys": "Existing keys",
+      "no_keys": "No keys yet. Create one to start using the API.",
+      "key_prefix": "Prefix",
+      "key_created": "Created",
+      "key_last_used": "Last used",
+      "actions": "Actions",
+      "revoked": "Revoked",
+      "revoke": "Revoke",
+      "copy": "Copy",
+      "copied": "Copied!",
+      "confirm_revoke": "Really revoke this key? Clients using it will lose access immediately.",
+      "confirm_delete_key": "Permanently delete this key? Consider revoking instead.",
+      "key_created_warning": "New key — copy it NOW!",
+      "key_created_info": "Key \"{{name}}\" was created. For security reasons we show the plaintext only this once. Store it somewhere safe.",
+      "env_fallback_note": "<strong>Note:</strong> <code>EXTERNAL_API_KEY</code> is also set in <code>.env</code> — that key remains valid indefinitely. Recommendation: remove the ENV key and use only managed keys."
+    },
+    "flash": {
+      "title_required": "Title must not be empty.",
+      "created": "Announcement created.",
+      "updated": "Announcement updated.",
+      "deleted": "Announcement deleted.",
+      "not_found": "Announcement not found.",
+      "key_name_required": "Please provide a name for the key.",
+      "key_created": "API key \"{{name}}\" created.",
+      "key_revoked": "API key revoked.",
+      "key_deleted": "API key deleted.",
+      "key_not_found": "API key not found."
     }
   }
 }

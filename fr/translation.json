@@ -345,6 +345,13 @@
         "title": "Langue du bot",
         "description": "Langue du bot pour ce serveur (commandes, réponses, embeds).",
         "label": "Langue du bot"
+      },
+      "bug": {
+        "title": "Bug Tracker",
+        "description": "Restrictions de rôle pour les commandes du bug tracker. Vide = tout le monde peut utiliser la commande.",
+        "notice": "Le bug tracker ne peut pas être désactivé – les bugs signalés sont transmis directement au développeur.",
+        "report_hint": "Qui peut signaler des bugs ? Vide = tout le monde.",
+        "list_hint": "Qui peut voir les bugs signalés ? Vide = tout le monde."
       }
     },
     "moderation": {
@@ -1571,6 +1578,8 @@
     },
     "bug": {
       "disabled": "❌ Le suivi de bugs est désactivé sur ce serveur.",
+      "no_permission_report": "❌ Tu n'as pas la permission d'utiliser `/bug report`.",
+      "no_permission_list": "❌ Tu n'as pas la permission d'utiliser `/bug list`.",
       "reported_title": "🐛 Bug #{{id}} signalé",
       "status_field": "Statut",
       "footer": "Signalé par {{user}} · {{guild}}",
