@@ -6,13 +6,29 @@ Thank you for helping translate Nephthys!
 
 1. **Fork** this repository and create a new branch (e.g. `translation/es`)
 2. Copy `locales/en/translation.json` to `locales/xx/translation.json`
-   — replace `xx` with the [ISO 639-1](https://en.wikipedia.org/wiki/List_of_ISO_639-1_codes) language code (e.g. `es`, `pl`, `nl`)
+   — replace `xx` with the [ISO 639-1](https://en.wikipedia.org/wiki/List_of_ISO_639-1_codes) language code (e.g. `pl`, `sv`, `ja`)
 3. Translate all string values (right side of the `:`)
 4. Validate your file — run this in the project root:
    ```
    node -e "require('./locales/xx/translation.json'); console.log('OK')"
    ```
-5. Open a **Pull Request** with the title `translation: add xx (Language Name)`
+5. **Register the language in the code** — see the list below, otherwise the file
+   is never loaded and the language does not show up in the language menu
+6. Open a **Pull Request** with the title `translation: add xx (Language Name)`
+
+### Registering the language
+
+The translation file alone is not enough. Add the new code in all six places
+(each of them currently covers `de, en, es, fr, it, nl, pt, tr`):
+
+| File | What to change |
+|------|----------------|
+| `utils/i18n.js` | `require` the file and add it to the `translations` map — bot messages |
+| `dashboard/server.js` | `supportedLngs`, `preload` and the `LANGS` array (code, [flag-icons](https://flagicons.lipis.dev/) country code, native label) |
+| `dashboard/middleware/publicPages.js` | `LANG_CODES` and `OG_LOCALES` — public URLs, `hreflang`, sitemap |
+| `dashboard/routes/settings.js` | the allow-list in the language setting |
+| `dashboard/public/cookieconsent.js` | `SUPPORTED` — cookie banner |
+| `locales/CONTRIBUTING.md` | the table at the bottom of this file |
 
 ---
 
@@ -63,7 +79,9 @@ node -e "require('./locales/xx/translation.json'); console.log('OK')"
 | `es` | Español    | `locales/es/translation.json` |
 | `fr` | Français   | `locales/fr/translation.json` |
 | `it` | Italiano   | `locales/it/translation.json` |
+| `nl` | Nederlands | `locales/nl/translation.json` |
 | `pt` | Português  | `locales/pt/translation.json` |
+| `tr` | Türkçe     | `locales/tr/translation.json` |
 
 ---
 
