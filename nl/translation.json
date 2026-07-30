@@ -1,0 +1,2600 @@
+{
+  "legal": {
+    "back": "Terug naar de startpagina",
+    "impressum": {
+      "title": "Colofon",
+      "subtitle": "Gegevens conform § 5 TMG (Duitse telemediawet)",
+      "responsible_title": "Verantwoordelijk voor de inhoud",
+      "contact_title": "Contact",
+      "platform_title": "Over het platform",
+      "platform_text": "Nephthys is een Discord-bot voor beheerders van Discord-servers. De bot wordt als particulier, niet-commercieel project geëxploiteerd. Alle functies zijn gratis beschikbaar.",
+      "liability_content_title": "Aansprakelijkheid voor de inhoud",
+      "liability_content_p1": "Als dienstverlener zijn wij conform § 7 lid 1 TMG volgens de algemene wetgeving verantwoordelijk voor eigen inhoud op deze pagina's. Conform §§ 8 tot 10 TMG zijn wij echter niet verplicht om doorgegeven of opgeslagen informatie van derden te controleren, of om onderzoek te doen naar omstandigheden die op onrechtmatig handelen wijzen.",
+      "liability_content_p2": "Verplichtingen tot verwijdering of blokkering van het gebruik van informatie volgens de algemene wetgeving blijven onverminderd van kracht. Aansprakelijkheid op dit punt is echter pas mogelijk vanaf het moment waarop een concrete inbreuk bekend wordt.",
+      "liability_links_title": "Aansprakelijkheid voor links",
+      "liability_links_text": "Onze website bevat links naar externe websites van derden, op de inhoud waarvan wij geen invloed hebben. Daarom kunnen wij voor die externe inhoud geen aansprakelijkheid aanvaarden. Voor de inhoud van de gelinkte pagina's is steeds de betreffende aanbieder of beheerder verantwoordelijk.",
+      "copyright_title": "Auteursrecht",
+      "copyright_text": "De door de beheerders op deze pagina's gemaakte inhoud en werken vallen onder het Duitse auteursrecht. Verveelvoudiging, bewerking, verspreiding en elke vorm van gebruik buiten de grenzen van het auteursrecht vereisen de schriftelijke toestemming van de betreffende auteur of maker."
+    },
+    "datenschutz": {
+      "title": "Privacyverklaring",
+      "subtitle": "Laatst bijgewerkt: juli 2026 · conform de AVG",
+      "s1_title": "1. Verwerkingsverantwoordelijke",
+      "s1_text": "Verwerkingsverantwoordelijke in de zin van de AVG is de persoon die in het <a href=\"/nl/impressum\" style=\"color:var(--brand)\">colofon</a> wordt genoemd.",
+      "s2_title": "2. Welke gegevens wij verwerken",
+      "s2_intro": "Bij het gebruik van de Discord-bot Nephthys en het bijbehorende webdashboard worden de volgende gegevens verwerkt:",
+      "s2_discord_title": "Discord-accountgegevens",
+      "s2_discord_text": "Bij het inloggen via Discord OAuth2 worden je Discord-gebruikers-ID, gebruikersnaam en avatar-hash opgeslagen. Deze gegevens zijn nodig voor de authenticatie in het dashboard (art. 6 lid 1 sub b AVG).",
+      "s2_server_title": "Servergegevens",
+      "s2_server_text": "Om de bot te laten werken worden serverspecifieke instellingen, waarschuwingen, XP-punten, verjaardagen en herinneringen opgeslagen. Alle gegevens staan aan de serverzijde in een SQLite-database.",
+      "s2_cookies_title": "Cookies en sessie",
+      "s2_cookies_text": "Het dashboard gebruikt een sessiecookie voor de authenticatie (HttpOnly, geen tracking). De toestemmingskeuze wordt in een eigen first-partycookie bewaard.",
+      "s2_umami_title": "Statistieken en analyse",
+      "s2_umami_text": "Voor het meten van het bereik gebruiken wij Umami, privacyvriendelijke software voor webanalyse. Umami draait binnen onze eigen infrastructuur — er gaan geen gegevens naar derden. Er worden uitsluitend geanonimiseerde gebruiksgegevens verzameld (bijvoorbeeld bezochte pagina's, verwijzende website, globaal land van herkomst en het type browser en apparaat). Umami werkt volledig zonder cookies en zonder persoonlijke identificatie; er wordt niets op je apparaat opgeslagen of uitgelezen, en er vindt geen tracking over apparaten heen plaats. Omdat er geen persoonsgegevens worden verwerkt, is geen toestemming vereist (art. 6 lid 1 sub f AVG — ons gerechtvaardigd belang bij een website die aansluit op de behoefte van bezoekers).",
+      "s2_bunny_title": "Domein en DNS (Bunny.net)",
+      "s2_bunny_text": "Het DNS-beheer van ons domein verloopt via Bunny.net (BunnyWay d.o.o., Ljubljana, Slovenië — EU). Bij elk bezoek aan onze website wordt je IP-adres om technische redenen doorgegeven aan de DNS-servers van Bunny.net, om het domein te vertalen en je aanvraag naar de juiste server te leiden. Deze verwerking dient het veilig en betrouwbaar aanbieden van onze website (art. 6 lid 1 sub f AVG — gerechtvaardigd belang). Met Bunny.net is een verwerkersovereenkomst gesloten; omdat de aanbieder binnen de EU is gevestigd, worden er geen gegevens naar derde landen doorgegeven.",
+      "s3_title": "3. Beheer van cookietoestemming",
+      "s3_p1": "Deze website gebruikt een zelfgebouwd, privacyvriendelijk systeem voor cookietoestemming. <strong style=\"color:var(--text)\">Er worden geen gegevens aan derden doorgegeven</strong> (zoals Cookiebot, OneTrust en dergelijke). De toestemmingskeuze wordt uitsluitend in een first-partycookie (<code style=\"font-size:0.8rem;background:rgba(255,255,255,0.07);padding:1px 5px;border-radius:4px\">nephthpy_consent</code>) in de browser van de bezoeker bewaard.",
+      "s3_p2": "De toestemmingscookie geldt conform art. 5 lid 3 van de ePrivacyrichtlijn als \"strikt noodzakelijk\", omdat daarin alleen de eigen keuze van de bezoeker wordt vastgelegd — daarvoor is vooraf geen toestemming nodig. De cookie verloopt na 365 dagen. Je kunt je keuze op elk moment aanpassen via het 🍪-pictogram linksonder.",
+      "s4_title": "4. Diensten van derden",
+      "s4_intro": "De bot kan optioneel de volgende diensten van derden gebruiken (afhankelijk van de serverinstellingen):",
+      "s4_item_discord": "<strong style=\"color:var(--text)\">Discord</strong> — basisplatform, privacyverklaring: discord.com/privacy",
+      "s4_item_twitch": "<strong style=\"color:var(--text)\">Twitch</strong> — streammeldingen",
+      "s4_item_youtube": "<strong style=\"color:var(--text)\">YouTube / Google</strong> — videomeldingen",
+      "s4_item_kick": "<strong style=\"color:var(--text)\">Kick</strong> — streammeldingen",
+      "s4_item_twitter": "<strong style=\"color:var(--text)\">X (Twitter)</strong> — meldingen bij nieuwe posts",
+      "s4_item_kofi": "<strong style=\"color:var(--text)\">Ko-Fi</strong> — supportersrollen via webhook",
+      "s4_item_patreon": "<strong style=\"color:var(--text)\">Patreon</strong> — lidmaatschapsrollen via OAuth2 &amp; webhook",
+      "s4_item_steam": "<strong style=\"color:var(--text)\">Steam</strong> — opvragen van spelgegevens",
+      "s4_outro": "Deze diensten worden pas ingeschakeld wanneer de serverbeheerder ze uitdrukkelijk in het dashboard instelt. Zonder toestemming van de serverbeheerder worden er geen gegevens aan derden doorgegeven.",
+      "s5_title": "5. Opslag en verwijdering van gegevens",
+      "s5_text": "Persoonsgegevens worden niet langer bewaard dan voor het betreffende doel nodig is. Sessiegegevens worden na 24 uur automatisch verwijderd. Serverinstellingen worden op verzoek verwijderd wanneer de bot van de server wordt gehaald. Gebruikersgegevens van de bot (XP, verjaardagen enzovoort) worden op verzoek van de serverbeheerder verwijderd.",
+      "s6_title": "6. Jouw rechten (AVG)",
+      "s6_intro": "Op grond van de AVG heb je de volgende rechten:",
+      "s6_right_info": "<strong style=\"color:var(--text)\">Inzage</strong> — art. 15 AVG",
+      "s6_right_rectification": "<strong style=\"color:var(--text)\">Rectificatie</strong> — art. 16 AVG",
+      "s6_right_erasure": "<strong style=\"color:var(--text)\">Gegevenswissing</strong> — art. 17 AVG",
+      "s6_right_restriction": "<strong style=\"color:var(--text)\">Beperking van de verwerking</strong> — art. 18 AVG",
+      "s6_right_portability": "<strong style=\"color:var(--text)\">Overdraagbaarheid van gegevens</strong> — art. 20 AVG",
+      "s6_right_objection": "<strong style=\"color:var(--text)\">Bezwaar</strong> — art. 21 AVG",
+      "s6_outro": "Neem voor het uitoefenen van je rechten contact op met de persoon die in het <a href=\"/nl/impressum\" style=\"color:var(--brand)\">colofon</a> wordt genoemd. Daarnaast heb je het recht een klacht in te dienen bij de bevoegde toezichthoudende autoriteit voor gegevensbescherming.",
+      "s7_title": "7. Wijzigingen in deze verklaring",
+      "s7_text": "Wij behouden ons het recht voor deze privacyverklaring waar nodig bij te werken. De actuele versie staat altijd op deze pagina. Datum van de laatste wijziging: juli 2026."
+    },
+    "nutzungsbedingungen": {
+      "title": "Gebruiksvoorwaarden",
+      "subtitle": "Laatst bijgewerkt: april 2026",
+      "s1_title": "1. Toepassingsgebied",
+      "s1_text": "Deze gebruiksvoorwaarden gelden voor het gebruik van de Discord-bot \"Nephthys\" en het bijbehorende webdashboard. Door de bot aan een Discord-server toe te voegen of het dashboard te gebruiken, ga je met deze voorwaarden akkoord.",
+      "s2_title": "2. Gebruik van de bot",
+      "s2_p1": "De bot wordt gratis en zonder garantie aangeboden. Gebruik is uitsluitend toegestaan binnen de voorwaarden van Discord (<a href=\"https://discord.com/terms\" target=\"_blank\" rel=\"noopener\" style=\"color:var(--brand)\">discord.com/terms</a>).",
+      "s2_p2": "Het is verboden de bot te gebruiken voor:",
+      "s2_item_spam": "spam, intimidatie of het pesten van andere gebruikers",
+      "s2_item_illegal": "het verspreiden van illegale, aanstootgevende of discriminerende inhoud",
+      "s2_item_attacks": "geautomatiseerde aanvallen op Discord-servers of andere diensten",
+      "s2_item_bypass": "het omzeilen van de beveiligingsmechanismen van Discord",
+      "s2_item_commercial": "commerciële doeleinden zonder uitdrukkelijke schriftelijke toestemming",
+      "s3_title": "3. Verantwoordelijkheden van de serverbeheerder",
+      "s3_intro": "Wie de bot aan een Discord-server toevoegt, is als serverbeheerder verantwoordelijk voor:",
+      "s3_item_config": "het correct instellen van de functies van de bot",
+      "s3_item_privacy": "het naleven van de geldende privacywetgeving ten aanzien van de eigen serverleden",
+      "s3_item_moderation": "het passend inzetten van de moderatiefuncties",
+      "s3_item_info": "het informeren van de serverleden over het gebruik van de bot",
+      "s4_title": "4. Toegang tot het dashboard",
+      "s4_text": "Toegang tot het webdashboard verloopt uitsluitend via Discord OAuth2. Je bent zelf verantwoordelijk voor de beveiliging van je Discord-account. Inloggegevens mogen niet met derden worden gedeeld. Vermoed je onbevoegde toegang, log dan direct uit bij het dashboard en wijzig je Discord-wachtwoord.",
+      "s5_title": "5. Beschikbaarheid en uitsluiting van aansprakelijkheid",
+      "s5_intro": "De bot en het dashboard worden aangeboden zonder garantie op ononderbroken werking of beschikbaarheid. Wij zijn niet aansprakelijk voor:",
+      "s5_item_data": "gegevensverlies door technische storingen",
+      "s5_item_outage": "uitval van de dienst of van afzonderlijke functies",
+      "s5_item_misconfig": "schade door verkeerde instellingen van de gebruiker",
+      "s5_item_third_party": "handelingen van derden die de dienst gebruiken",
+      "s6_title": "6. Ko-Fi / ondersteuning",
+      "s6_text": "Vrijwillige financiële steun via Ko-Fi (<a href=\"https://ko-fi.com/labratox\" target=\"_blank\" rel=\"noopener\" style=\"color:var(--brand)\">ko-fi.com/labratox</a>) is altijd welkom. Betalingen geven geen recht op bepaalde functies, voorrang bij support of voortzetting van de dienst. De betaalafhandeling verloopt uitsluitend via Ko-Fi, volgens de eigen voorwaarden van dat platform.",
+      "s7_title": "7. Wijziging van de voorwaarden",
+      "s7_text": "Wij behouden ons het recht voor deze gebruiksvoorwaarden op elk moment te wijzigen. Belangrijke wijzigingen worden op deze pagina bekendgemaakt. Wie de bot na een wijziging blijft gebruiken, aanvaardt daarmee de nieuwe voorwaarden.",
+      "s8_title": "8. Toepasselijk recht",
+      "s8_text": "Het Duitse recht is van toepassing. De bevoegde rechtbank is die van de woonplaats van de beheerder zoals vermeld in het <a href=\"/nl/impressum\" style=\"color:var(--brand)\">colofon</a>, voor zover de wet dat toestaat."
+    }
+  },
+  "error": {
+    "title": "Fout",
+    "heading": "Er is een fout opgetreden",
+    "unknown": "Er is een onbekende fout opgetreden.",
+    "back": "Terug naar het overzicht"
+  },
+  "global": {
+    "dashboard": {
+      "title": "Globaal dashboard",
+      "status_online": "Online",
+      "status_offline": "Offline",
+      "uptime": "Uptime",
+      "ping": "Ping",
+      "stat_servers": "Servers",
+      "stat_users": "Gebruikers totaal",
+      "stat_commands": "Commando's",
+      "stat_ping": "WS-ping",
+      "guild_list": "Servers",
+      "no_guilds": "De bot staat op geen enkele server of is nog niet gereed."
+    },
+    "settings": {
+      "title": "Globale botinstellingen",
+      "tab_presence": "Botstatus & avatar",
+      "tab_notifier": "Status van de notifiers",
+      "presence_card": "Botstatus",
+      "presence_hint": "Status en activiteit worden direct na het opslaan toegepast en bij de volgende start hersteld.",
+      "status_label": "Status",
+      "status_online": "Online",
+      "status_idle": "Afwezig",
+      "status_dnd": "Niet storen",
+      "status_invisible": "Onzichtbaar",
+      "activity_type_label": "Soort activiteit",
+      "activity_playing": "Speelt",
+      "activity_listening": "Luistert naar",
+      "activity_watching": "Kijkt naar",
+      "activity_competing": "Neemt deel aan",
+      "activity_streaming": "Streamt",
+      "activity_custom": "Aangepast",
+      "activity_text_label": "Statustekst",
+      "activity_text_placeholder": "bijv. Slash-commando's",
+      "avatar_card": "Avatarwissel",
+      "avatar_hint": "De bot wisselt zijn avatar elke {{interval}} automatisch en willekeurig. Plaats afbeeldingen in <code>assets/avatars/</code> (PNG, JPG, GIF, WEBP). Deze instelling geldt voor de hele bot op alle servers.",
+      "avatar_rotation_label": "Avatarwissel actief",
+      "avatar_upload_label": "Nieuwe afbeelding uploaden",
+      "avatar_upload_btn": "Uploaden",
+      "avatar_active_badge": "actief",
+      "no_images": "Nog geen afbeeldingen.",
+      "delete_title": "Verwijderen",
+      "uploading": "Uploaden…",
+      "load_error": "Fout bij het laden.",
+      "net_error": "Netwerkfout",
+      "col_notifier": "Notifier",
+      "col_interval": "Interval",
+      "col_last_run": "Laatste run",
+      "col_next_run": "Volgende run",
+      "col_change_interval": "Interval wijzigen",
+      "minutes_unit": "Minuten",
+      "hour_unit": "uur",
+      "hour_unit_plural": "uur",
+      "minute_unit": "minuten",
+      "fo76_card": "Fallout 76 – globale instellingen",
+      "fo76_enabled_label": "Automatisch ophalen inschakelen",
+      "fo76_enabled_hint": "Als dit actief is, worden codes wekelijks automatisch opgehaald en in alle ingestelde kanalen geplaatst.",
+      "fo76_weekday_label": "Dag van ophalen",
+      "fo76_weekdays": [
+        "zondag",
+        "maandag",
+        "dinsdag",
+        "woensdag",
+        "donderdag",
+        "vrijdag",
+        "zaterdag"
+      ],
+      "fo76_weekday_hint": "Codes worden één keer per week op deze dag opgehaald van nukacrypt.com.",
+      "fo76_fetch_hint": "Codes direct ophalen van <strong>nukacrypt.com</strong> — ongeacht de ingestelde dag.",
+      "fo76_fetch_btn": "Nu ophalen",
+      "fo76_fetching": "Ophalen…",
+      "countdown_now": "nu",
+      "countdown_in": "over",
+      "countdown_running": "loopt…"
+    },
+    "bugtracker": {
+      "server_access": "Servertoegang",
+      "search_placeholder": "Servernaam of -ID…",
+      "search_hint": "Voer een zoekterm in…",
+      "searching": "Zoeken…",
+      "no_guilds": "Geen servers gevonden.",
+      "load_error": "Fout bij het laden."
+    },
+    "logs": {
+      "title": "Notifier-logboek",
+      "empty": "Geen logboekvermeldingen beschikbaar."
+    },
+    "flash": {
+      "settings_saved": "Instellingen opgeslagen.",
+      "fo76_settings_saved": "Fallout 76-instellingen opgeslagen.",
+      "fo76_fetch_ok": "Fallout 76-codes zijn opgehaald en geplaatst.",
+      "fo76_fetch_error": "Ophalen mislukt: {{msg}}",
+      "notifier_interval_invalid": "Ongeldige waarde — minimaal 1 minuut.",
+      "notifier_not_found": "Notifier “{{name}}” niet gevonden of niet aanpasbaar.",
+      "notifier_interval_set": "Interval voor {{name}} ingesteld op {{minutes}} minuten.",
+      "bug_status_set": "Bug #{{id}} gemarkeerd als “{{status}}”.",
+      "bug_deleted": "Bug #{{id}} verwijderd."
+    },
+    "dsgvo": {
+      "title": "AVG / gegevensbeheer",
+      "subtitle": "Server- en gebruikersgegevens uit de database exporteren of verwijderen.",
+      "btn_export": "Exporteren",
+      "btn_delete": "Verwijderen",
+      "info": "<strong>Let op:</strong> de export bevat alle gegevens die voor de gekozen server of gebruiker in de database staan, als JSON-bestand. Verwijderen wist alle bijbehorende vermeldingen definitief.",
+      "guild": {
+        "title": "Servergegevens",
+        "desc": "Alle gegevens van een bepaalde Discord-server exporteren of verwijderen (waarschuwingen, levels, tickets, giveaways enzovoort).",
+        "select_label": "Server kiezen",
+        "select_placeholder": "Kies een server",
+        "no_selection": "Kies eerst een server.",
+        "confirm_delete": "Alle gegevens van deze server definitief verwijderen?"
+      },
+      "user": {
+        "title": "Gebruikersgegevens",
+        "desc": "Alle persoonsgegevens van een Discord-gebruiker op alle servers exporteren of verwijderen.",
+        "id_label": "Discord-gebruikers-ID",
+        "id_hint": "De numerieke Discord-ID van de gebruiker (17–20 cijfers).",
+        "no_input": "Voer een gebruikers-ID in.",
+        "confirm_delete": "Alle gegevens van deze gebruiker definitief verwijderen?"
+      },
+      "flash": {
+        "guild_deleted": "Alle gegevens van server {{id}} zijn verwijderd.",
+        "user_deleted": "Alle gegevens van gebruiker {{id}} zijn verwijderd."
+      }
+    }
+  },
+  "common": {
+    "save": "Opslaan",
+    "cancel": "Annuleren",
+    "delete": "Verwijderen",
+    "edit": "Bewerken",
+    "add": "Toevoegen",
+    "active": "Actief",
+    "soon": "Binnenkort",
+    "enabled": "Ingeschakeld",
+    "disabled": "Uitgeschakeld",
+    "home": "Start",
+    "settings": "Instellingen",
+    "back": "Terug",
+    "yes": "Ja",
+    "no": "Nee",
+    "loading": "Laden…",
+    "saved": "Instellingen opgeslagen.",
+    "deploy_ok": "Commando's geregistreerd bij Discord.",
+    "deploy_fail": "Registreren mislukt — commando's zijn opgeslagen maar niet geregistreerd."
+  },
+  "nav": {
+    "server_select": "Server kiezen",
+    "switch_server": "Server wisselen",
+    "logout": "Uitloggen",
+    "sections": {
+      "global": "Globaal",
+      "dashboard": "Dashboard",
+      "grundlegendes": "Algemeen",
+      "soziales": "Sociale meldingen",
+      "support": "Support",
+      "spass": "Spelletjes & plezier",
+      "tools": "Hulpmiddelen"
+    },
+    "items": {
+      "overview": "Overzicht",
+      "stats": "Statistieken",
+      "general": "Algemeen",
+      "begruessung": "Welkom",
+      "commands": "Eigen commando's",
+      "reactionroles": "Reactierollen",
+      "moderation": "Moderatie",
+      "starboard": "Starboard",
+      "slowmode": "Slow-mode",
+      "twitch": "Twitch",
+      "kick": "Kick",
+      "x": "X (Twitter)",
+      "youtube": "YouTube",
+      "kofi": "Ko-Fi",
+      "patreon": "Patreon",
+      "birthday": "Verjaardagen",
+      "fallout76": "Fallout 76",
+      "eve": "EVE Online",
+      "giveaways": "Giveaways",
+      "tempchannels": "Tijdelijke kanalen",
+      "counters": "Kanaaltellers",
+      "reminder": "Herinneringen",
+      "leveling": "Leveling",
+      "music": "Muziek",
+      "tickets": "Tickets",
+      "scheduled": "Geplande berichten",
+      "bot_dashboard": "Dashboard",
+      "bot_settings": "Instellingen",
+      "bugtracker": "Bugtracker",
+      "logs": "Logboek",
+      "dsgvo": "AVG",
+      "trovo": "Trovo",
+      "invites": "Uitnodigingen",
+      "help": "Help",
+      "announcements": "Aankondigingen"
+    },
+    "social": {
+      "discord": "Hulp nodig?",
+      "kofi": "Trakteer me op een koffie",
+      "github": "Help Nephthys verbeteren"
+    }
+  },
+  "breadcrumb": {
+    "home": "Start",
+    "grundlegendes": "Algemeen",
+    "soziales": "Sociale meldingen",
+    "support": "Support",
+    "spass": "Spelletjes & plezier",
+    "tools": "Hulpmiddelen",
+    "global": "Globaal"
+  },
+  "stats": {
+    "title": "Serverstatistieken",
+    "subtitle": "Gegevens worden verzameld vanaf de eerste start van de bot. Alle tijden zijn in UTC.",
+    "label_members": "Leden",
+    "label_msgs_today": "Berichten vandaag",
+    "label_joins_30d": "Nieuwe leden (30 dagen)",
+    "label_leaves_30d": "Vertrokken leden (30 dagen)",
+    "chart_member": "Nieuwe en vertrokken leden – laatste 30 dagen",
+    "chart_hours": "Piekuren – laatste 7 dagen (UTC)",
+    "chart_msg_users": "Topgebruikers – berichten (30 dagen)",
+    "chart_voice_users": "Topgebruikers – spraaktijd (minuten, totaal)",
+    "chart_xp": "XP-ranglijst (top 10)",
+    "chart_channels": "Actiefste kanalen (30 dagen)",
+    "chart_commands": "Meestgebruikte commando's (30 dagen)",
+    "no_data": "Nog geen gegevens.",
+    "label_joins": "Erbij",
+    "label_leaves": "Eraf",
+    "limit_label": "Aantal vermeldingen"
+  },
+  "settings": {
+    "title": "Instellingen",
+    "placeholder": {
+      "not_implemented": "Deze instellingenpagina is er nog niet."
+    },
+    "subtitle": "Kies een module om de botconfiguratie aan te passen.",
+    "general": {
+      "title": "Algemeen",
+      "prefix": {
+        "title": "Botvoorvoegsel",
+        "description": "Voorvoegsel voor commando's in gewone berichten (bijvoorbeeld <code>!</code> → <code>!ping</code>). Laat leeg om voorvoegselcommando's uit te schakelen.",
+        "label": "Voorvoegsel",
+        "hint": "(max. 5 tekens, geen spaties)",
+        "placeholder": "bijv.  !  of  ??"
+      },
+      "language": {
+        "title": "Taal van de bot",
+        "description": "De taal van de bot op deze server (commando's, antwoorden, embeds).",
+        "label": "Taal van de bot"
+      },
+      "announcements": {
+        "title": "Aankondigingen",
+        "label": "Kanaal voor aankondigingen van Nephthys",
+        "none": "Geen kanaal — geen aankondigingen plaatsen",
+        "loading": "Kanalen laden…",
+        "load_failed": "De kanalen konden niet worden geladen."
+      },
+      "bug": {
+        "title": "Bugtracker",
+        "description": "Rolbeperkingen voor de commando's van de bugtracker. Laat leeg zodat iedereen het commando mag gebruiken.",
+        "notice": "De bugtracker kan niet worden uitgeschakeld – gemelde bugs gaan rechtstreeks naar de ontwikkelaar.",
+        "report_hint": "Wie mag bugs melden? Leeg = iedereen.",
+        "list_hint": "Wie mag gemelde bugs bekijken? Leeg = iedereen."
+      },
+      "menu": "Op deze pagina",
+      "stats": {
+        "title": "Statistiekkaarten",
+        "description": "Wie mag de statistiekkaarten opvragen met /stats?",
+        "server_hint": "Leeg = iedereen mag de serverkaart opvragen",
+        "user_hint": "Leeg = iedereen mag ledenkaarten opvragen"
+      }
+    },
+    "moderation": {
+      "title": "Moderatie",
+      "tab_automod": "Automoderatie",
+      "tab_auditlog": "Auditlogboek",
+      "tab_modlog": "Moderatielogboek",
+      "log_channel_header": "Moderatielogboek",
+      "log_channel_desc": "Alle moderatiehandelingen (waarschuwing, kick, ban, time-out) worden in dit kanaal vastgelegd.",
+      "log_no_channel": "– Geen logboekkanaal –",
+      "automod_header": "Automoderatie",
+      "excluded_roles": "Uitgezonderde rollen",
+      "excluded_roles_placeholder": "Rol zoeken en toevoegen…",
+      "excluded_roles_desc": "Leden met deze rollen vallen niet onder de automoderatie.",
+      "action_delete": "Alleen verwijderen",
+      "action_warn": "Waarschuwen",
+      "action_timeout": "Time-out",
+      "action_kick": "Kick",
+      "action_ban": "Ban",
+      "antispam": "Antispam",
+      "antispam_more": "Meer dan",
+      "antispam_msgs_in": "berichten binnen",
+      "antispam_seconds": "seconden →",
+      "badwords": "Verboden woorden",
+      "badwords_placeholder": "Eén woord per regel of gescheiden door komma's",
+      "badwords_action": "Actie →",
+      "anticaps": "Anti-hoofdletters",
+      "anticaps_more": "Meer dan",
+      "anticaps_percent": "% hoofdletters, min.",
+      "anticaps_chars": "tekens →",
+      "antiinvite": "Anti-uitnodigingen",
+      "antiinvite_desc": "Discord-uitnodigingen blokkeren →",
+      "antimention": "Anti-vermeldingen",
+      "antimention_more": "Meer dan",
+      "antimention_then": "vermeldingen →",
+      "thresholds_header": "Drempels voor waarschuwingen",
+      "thresholds_desc": "Zodra een gebruiker een bepaald aantal waarschuwingen bereikt, volgt er automatisch een maatregel.",
+      "thresholds_empty": "Geen drempels ingesteld.",
+      "threshold_at": "Bij",
+      "threshold_warns": "waarschuwingen →",
+      "threshold_add": "Drempel toevoegen",
+      "dur_5min": "5 minuten",
+      "dur_30min": "30 minuten",
+      "dur_1hour": "1 uur",
+      "dur_1day": "1 dag",
+      "dur_1week": "1 week",
+      "auditlog_settings": "Basisinstellingen",
+      "auditlog_settings_desc": "Alle ingeschakelde gebeurtenissen gaan naar dit kanaal. Kies geen kanaal om het auditlogboek uit te schakelen.",
+      "auditlog_channel": "Kanaal voor het auditlogboek",
+      "auditlog_no_channel": "– Geen kanaal (uitgeschakeld) –",
+      "auditlog_ignore_bots": "Handelingen van bots niet vastleggen",
+      "events_header": "Gebeurtenissen",
+      "event_group_moderation": "Moderatie",
+      "event_group_messages": "Berichten",
+      "event_group_members": "Leden",
+      "event_group_roles": "Rollen",
+      "event_group_channels": "Kanalen",
+      "event_group_voice": "Spraakkanalen",
+      "event_group_server": "Server",
+      "ev_memberTimeout": "Lid kreeg een time-out",
+      "ev_memberUntimeout": "Time-out opgeheven",
+      "ev_banAdd": "Lid verbannen",
+      "ev_banRemove": "Ban opgeheven",
+      "ev_messageUpdate": "Bericht bewerkt",
+      "ev_messageDelete": "Bericht verwijderd",
+      "ev_inviteCreate": "Uitnodiging aangemaakt",
+      "ev_memberAdd": "Lid erbij gekomen",
+      "ev_memberRemove": "Lid vertrokken",
+      "ev_nicknameChange": "Bijnaam gewijzigd",
+      "ev_memberRolesChange": "Rollen van lid gewijzigd",
+      "ev_memberUpdate": "Lid bijgewerkt (profiel)",
+      "ev_roleCreate": "Rol aangemaakt",
+      "ev_roleUpdate": "Rol bijgewerkt",
+      "ev_roleDelete": "Rol verwijderd",
+      "ev_channelCreate": "Kanaal aangemaakt",
+      "ev_channelUpdate": "Kanaal bijgewerkt",
+      "ev_channelDelete": "Kanaal verwijderd",
+      "ev_voiceJoin": "Spraakkanaal binnengekomen",
+      "ev_voiceLeave": "Spraakkanaal verlaten",
+      "ev_guildUpdate": "Server bijgewerkt",
+      "ev_emojiUpdate": "Emoji's bijgewerkt",
+      "ignored_header": "Genegeerd",
+      "ignored_desc": "Berichten die in deze kanalen worden bewerkt of verwijderd, worden niet vastgelegd.",
+      "ignored_search": "Kanaal zoeken…",
+      "no_roles": "Geen rollen",
+      "no_channels": "Geen kanalen",
+      "no_category": "Geen categorie",
+      "modlog_total": "Totaal",
+      "modlog_warns": "Waarschuwingen",
+      "modlog_timeouts": "Time-outs",
+      "modlog_kicks": "Kicks",
+      "modlog_bans": "Bans",
+      "modlog_search": "Gebruiker, moderator of reden…",
+      "modlog_filter_all": "Alles",
+      "modlog_no_entries": "Nog geen moderatiehandelingen.",
+      "modlog_no_filter": "Geen vermeldingen die aan dit filter voldoen.",
+      "modlog_no_reason": "Geen reden opgegeven",
+      "modlog_entries": "vermeldingen",
+      "modlog_entry": "vermelding",
+      "modlog_truncated": "De nieuwste 100 van {{total}} vermeldingen worden getoond."
+    },
+    "reactionroles": {
+      "title": "Reactierollen",
+      "new_panel": "Nieuw paneel",
+      "empty": "Nog geen panelen. Maak er een aan met \"Nieuw paneel\".",
+      "entries": "vermeldingen",
+      "deploy": "Plaatsen",
+      "redeploy": "Opnieuw plaatsen",
+      "deploy_confirm": "Het paneel nu in het kanaal plaatsen?",
+      "delete_confirm": "Paneel \"{{title}}\" echt verwijderen?",
+      "edit": "Bewerken",
+      "emoji_search": "Emote zoeken…",
+      "loading": "Laden…",
+      "create_title": "Nieuw paneel",
+      "create_btn": "Aanmaken",
+      "edit_panel_title": "Paneel bewerken",
+      "edit_prefix": "Bewerken:",
+      "field_title": "Titel",
+      "field_title_hint": "(max. 100 tekens)",
+      "field_desc": "Beschrijving",
+      "field_desc_hint": "(optioneel, max. 300 tekens)",
+      "field_channel": "Kanaal",
+      "channel_loading": "— Kanalen laden… —",
+      "entries_label": "Vermeldingen",
+      "entries_type_hint": "(emote · label · rol)",
+      "entries_click_hint": "Klik op het emote-pictogram om een server-emote te kiezen.",
+      "add_entry": "Vermelding toevoegen",
+      "no_channel": "— Geen kanaal —",
+      "no_role": "— Rol kiezen —",
+      "no_emotes": "Geen server-emotes.",
+      "badge_deployed": "Geplaatst",
+      "badge_draft": "Concept"
+    },
+    "commands": {
+      "title": "Eigen commando's",
+      "new_cmd": "Nieuw commando",
+      "register": "Registreren bij Discord",
+      "register_confirm": "De commando's nu bij Discord registreren? Daarmee worden alle bestaande slash-commando's overschreven.",
+      "list_header": "Bestaande commando's",
+      "empty": "Nog geen commando's.",
+      "builtin_group": "Ingebouwd",
+      "create_title": "Nieuw commando",
+      "edit_title": "Commando bewerken",
+      "edit_prefix": "Bewerken:",
+      "no_roles": "Geen rollen",
+      "no_emotes": "Geen emotes op deze server.",
+      "builtin_badge": "ingebouwd",
+      "delete_confirm": "Commando {{label}} echt verwijderen?",
+      "field_name": "Naam",
+      "field_name_hint": "(zonder / of voorvoegsel)",
+      "field_desc": "Beschrijving",
+      "field_desc_hint": "(max. 100 tekens)",
+      "field_desc_placeholder": "Wat doet dit commando?",
+      "field_response": "Antwoord",
+      "insert_emotes": "Server-emotes invoegen",
+      "emoji_search": "Emote zoeken…",
+      "loading": "Laden…",
+      "field_type": "Beschikbaar als",
+      "type_slash": "Alleen slash-commando",
+      "type_prefix": "Alleen voorvoegselcommando",
+      "type_both": "Slash en voorvoegsel",
+      "prefix_hint": "Het voorvoegsel stel je in onder Algemeen. Parameters worden als argumenten meegegeven.",
+      "params_label": "Parameters",
+      "params_optional": "(optioneel)",
+      "params_hint": "Type · naam · beschrijving · verplicht",
+      "add_param": "Parameter toevoegen",
+      "param_required": "Verplicht",
+      "param_required_title": "Verplicht veld",
+      "param_desc_placeholder": "Beschrijving",
+      "grant_roles": "Rollen toevoegen",
+      "grant_roles_optional": "(optioneel)",
+      "grant_roles_desc": "Deze rollen krijgt de gebruiker wanneer hij het commando uitvoert.",
+      "revoke_roles": "Rollen verwijderen",
+      "revoke_roles_optional": "(optioneel)",
+      "revoke_roles_desc": "Deze rollen worden bij de gebruiker weggehaald wanneer hij het commando uitvoert.",
+      "role_search": "Rol zoeken…",
+      "create_btn": "Commando aanmaken",
+      "close": "Sluiten"
+    },
+    "begruessung": {
+      "title": "Welkom",
+      "welcome_channel": "Welkomstbericht (kanaal)",
+      "welcome_channel_desc": "Stuurt een openbaar bericht wanneer er een nieuw lid binnenkomt.",
+      "welcome_dm": "Welkomst-DM (privébericht)",
+      "welcome_dm_desc": "Stuurt het nieuwe lid een persoonlijk privébericht.",
+      "goodbye_channel": "Afscheidsbericht (kanaal)",
+      "goodbye_channel_desc": "Stuurt een bericht wanneer een lid de server verlaat.",
+      "placeholders": "Plaatsaanduidingen:",
+      "channel_label": "Kanaal",
+      "message_label": "Bericht",
+      "no_channel": "— Geen kanaal —",
+      "dm_hint": "Heeft de gebruiker DM's uitgeschakeld, dan wordt het bericht stilzwijgend overgeslagen.",
+      "insert_emote": "Server-emotes invoegen",
+      "loading_channels": "Kanalen laden…",
+      "channels_error": "Kon de kanalen niet laden."
+    },
+    "starboard": {
+      "title": "Starboard",
+      "activation": "Activering",
+      "enable_label": "Starboard inschakelen",
+      "channel_emoji": "Kanaal en emoji",
+      "channel_label": "Starboardkanaal",
+      "no_channel": "— Geen kanaal —",
+      "channel_desc": "Uitgelichte berichten komen in dit kanaal terecht.",
+      "emoji_label": "Emoji",
+      "emoji_default": "Standaard: ⭐",
+      "threshold_label": "Drempel",
+      "threshold_desc": "Minimaal aantal reacties",
+      "options": "Opties",
+      "self_star_label": "Eigen berichten mogen door de auteur worden bekroond",
+      "ignored_channels": "Genegeerde kanalen",
+      "ignored_channels_hint": "",
+      "ignored_channels_desc": "Berichten uit deze kanalen verschijnen niet op het starboard.",
+      "channel_search": "Kanaal zoeken …"
+    },
+    "slowmode": {
+      "title": "Slow-mode-beheer",
+      "enable_label": "Slow-mode-beheer inschakelen",
+      "enable_desc": "Worden er binnen het tijdvenster te veel berichten in een kanaal geplaatst, dan gaat de slow-mode automatisch aan. Zodra het kanaal tot rust komt, gaat hij er weer af.",
+      "channel_rules": "Kanaalregels",
+      "channel_rules_desc": "Per kanaal: drempel = het aantal berichten binnen het tijdvenster (seconden) waarbij de slow-mode ingaat. Duur van de slow-mode in seconden (0 = uit).",
+      "col_channel": "Kanaal",
+      "col_threshold": "Drempel",
+      "col_window": "Tijdvenster (s)",
+      "col_slowmode": "Slow-mode (s)",
+      "no_channel": "— Kanaal —",
+      "add_channel": "Kanaal toevoegen",
+      "activation": "Activering"
+    }
+  },
+  "dashboard": {
+    "title": "Dashboard",
+    "welcome": "Welkom terug,",
+    "quote": "\"Ik waak over je server zodat je community het beste beleeft. Zeg maar wat je nodig hebt — de rest regel ik.\"",
+    "sig": "— Nephthys",
+    "sections": {
+      "global": "Globaal",
+      "dashboard": "Dashboard",
+      "grundlegendes": "Algemeen",
+      "soziales": "Sociale meldingen",
+      "support": "Support",
+      "spass": "Spelletjes & plezier",
+      "tools": "Hulpmiddelen"
+    },
+    "cards": {
+      "bot_dashboard": {
+        "title": "Bot-dashboard",
+        "desc": "Globaal botoverzicht"
+      },
+      "bot_settings": {
+        "title": "Botinstellingen",
+        "desc": "Globale botconfiguratie"
+      },
+      "bugtracker_global": {
+        "title": "Bugtracker",
+        "desc": "Bugs melden en beheren"
+      },
+      "logs": {
+        "title": "Botlogboek",
+        "desc": "Globale botlogs"
+      },
+      "stats": {
+        "title": "Statistieken",
+        "desc": "Serveractiviteit in één oogopslag"
+      },
+      "general": {
+        "title": "Algemeen",
+        "desc": "Basisinstellingen van de server"
+      },
+      "begruessung": {
+        "title": "Welkom",
+        "desc": "Welkomstberichten instellen"
+      },
+      "commands": {
+        "title": "Eigen commando's",
+        "desc": "Eigen commando's aanmaken"
+      },
+      "reactionroles": {
+        "title": "Reactierollen",
+        "desc": "Rollen toewijzen via reacties"
+      },
+      "moderation": {
+        "title": "Moderatie",
+        "desc": "Moderatiehulpmiddelen beheren"
+      },
+      "starboard": {
+        "title": "Starboard",
+        "desc": "Populaire berichten uitlichten"
+      },
+      "slowmode": {
+        "title": "Slow-mode-beheer",
+        "desc": "Slow-mode automatisch regelen"
+      },
+      "twitch": {
+        "title": "Twitch",
+        "desc": "Streammeldingen"
+      },
+      "kick": {
+        "title": "Kick",
+        "desc": "Streammeldingen"
+      },
+      "trovo": {
+        "title": "Trovo",
+        "desc": "Streammeldingen"
+      },
+      "x": {
+        "title": "X (Twitter)",
+        "desc": "Meldingen bij nieuwe posts"
+      },
+      "youtube": {
+        "title": "YouTube",
+        "desc": "Videomeldingen"
+      },
+      "kofi": {
+        "title": "Ko-Fi",
+        "desc": "Meldingen en rollen voor supporters"
+      },
+      "patreon": {
+        "title": "Patreon",
+        "desc": "Meldingen en rollen voor supporters"
+      },
+      "birthday": {
+        "title": "Verjaardagen",
+        "desc": "Verjaardagen bijhouden en vieren"
+      },
+      "fallout76": {
+        "title": "Fallout 76",
+        "desc": "Wastelanders-integratie"
+      },
+      "eve": {
+        "title": "EVE Online",
+        "desc": "zKillboard-killmailmeldingen"
+      },
+      "giveaways": {
+        "title": "Giveaways",
+        "desc": "Giveaways aanmaken en beheren"
+      },
+      "tempchannels": {
+        "title": "Tijdelijke kanalen",
+        "desc": "Automatische spraakkanalen instellen"
+      },
+      "reminder": {
+        "title": "Herinneringen",
+        "desc": "Herinneringen inplannen"
+      },
+      "leveling": {
+        "title": "Leveling",
+        "desc": "XP-systeem beheren"
+      },
+      "music": {
+        "title": "Muziek",
+        "desc": "Muziek afspelen en instellen"
+      },
+      "tickets": {
+        "title": "Tickets",
+        "desc": "Supporttickets beheren"
+      },
+      "scheduled": {
+        "title": "Geplande berichten",
+        "desc": "Geplande berichten versturen"
+      },
+      "invites": {
+        "title": "Uitnodigingen bijhouden",
+        "desc": "Ranglijsten en uitnodigingscodes in één oogopslag"
+      }
+    }
+  },
+  "guild_select": {
+    "title": "Server kiezen",
+    "subtitle": "Kies de server die je wilt beheren.",
+    "cancel": "Annuleren",
+    "empty": "Geen gedeelde servers gevonden.",
+    "empty_hint": "Je hebt de rechten <strong>Server beheren</strong> nodig.",
+    "invite": "Bot uitnodigen op server",
+    "invite_other": "Bot op een andere server uitnodigen",
+    "logged_in_as": "Ingelogd als",
+    "active": "Actief",
+    "members": "Leden"
+  },
+  "fun": {
+    "title": "Spelletjes & plezier",
+    "subtitle": "Interactieve functies en hulpmiddelen voor je community.",
+    "items": {
+      "birthday": {
+        "title": "Verjaardagen",
+        "desc": "Verjaardagen bijhouden, rollen toewijzen en aankondigingen versturen"
+      },
+      "fallout76": {
+        "title": "Fallout 76",
+        "desc": "Wekelijkse Nuclear Codes automatisch ophalen (Alpha, Bravo, Charlie)"
+      },
+      "zkillboard": {
+        "title": "EVE Online – zKillboard",
+        "desc": "Killmails in realtime ontvangen van zkillboard.com en op Discord plaatsen"
+      },
+      "giveaways": {
+        "title": "Giveaways",
+        "desc": "Giveaways starten, beheren en automatisch beëindigen"
+      },
+      "leveling": {
+        "title": "Leveling",
+        "desc": "XP-systeem, meldingen bij levelstijging, rolbeloningen en ranglijst"
+      },
+      "invites": {
+        "title": "Uitnodigingen bijhouden",
+        "desc": "Bijhouden wie hoeveel leden heeft uitgenodigd — ranglijst en uitnodigingscodes"
+      }
+    },
+    "birthday": {
+      "role_card": "Verjaardagsrol",
+      "role_desc": "Deze rol wordt op de verjaardag automatisch toegewezen en daarna weer verwijderd.",
+      "role_select": "Rol kiezen",
+      "role_none": "— Geen rol —",
+      "loading_roles": "Rollen laden…",
+      "loading_roles_err": "Kon de rollen niet laden.",
+      "announce_card": "Aankondiging",
+      "announce_desc": "Stuurt een bericht wanneer iemand jarig is. Plaatsaanduidingen: <code>{user}</code> <code>{username}</code> <code>{server}</code>",
+      "channel_label": "Kanaal",
+      "channel_hint": "(leeg = geen aankondiging)",
+      "channel_none": "— Geen kanaal —",
+      "loading_channels": "Kanalen laden…",
+      "loading_channels_err": "Kon de kanalen niet laden.",
+      "msg_label": "Bericht",
+      "time_label": "Tijdstip van aankondiging",
+      "time_uhr": "uur",
+      "time_hint": "Aankondigingen worden één keer per dag vanaf dit tijdstip verstuurd.",
+      "restrict_card": "Rolbeperkingen voor commando's",
+      "cmd_set_desc": "Verjaardag opslaan",
+      "cmd_delete_desc": "Verjaardag verwijderen",
+      "cmd_list_desc": "Verjaardagen bekijken",
+      "cmd_hint": "Leeg = iedereen mag dit commando gebruiken",
+      "discard": "Wijzigingen verwerpen"
+    },
+    "fallout76": {
+      "current_codes": "Huidige codes",
+      "fetched_at": "Laatst opgehaald:",
+      "channel_card": "Meldingskanaal",
+      "channel_desc": "Kies een kanaal waarin de Nuclear Codes automatisch worden geplaatst. Zonder gekozen kanaal worden er voor deze server geen codes geplaatst.",
+      "channel_label": "Kanaal",
+      "channel_none": "— Geen kanaal (uitgeschakeld) —",
+      "loading_channels": "Kanalen laden…",
+      "loading_channels_err": "Kon de kanalen niet laden."
+    },
+    "giveaways": {
+      "intro": "Start giveaways met <code>/giveaway start</code>, rechtstreeks in Discord. Hier zie je het overzicht en kun je lopende giveaways vroegtijdig beëindigen.",
+      "restrict_card": "Rolbeperking",
+      "manage_hint": "Leeg = iedereen mag giveaways beheren",
+      "list_hint": "Leeg = iedereen mag giveaways opvragen",
+      "algo_title": "Manier van winnaars trekken",
+      "algo_desc": "De bot verzamelt alle 🎉-reacties op het giveawaybericht, filtert botaccounts eruit en kiest de winnaars met een <strong>willekeurige schudbeurt</strong> (Fisher-Yates). Iedere deelnemer heeft evenveel kans — meerdere keren reageren telt niet mee.",
+      "active_card": "Lopende giveaways",
+      "no_active": "Geen lopende giveaways.",
+      "col_prize": "Prijs",
+      "col_winners": "Winnaars",
+      "col_participants": "Deelnemers",
+      "col_ends": "Eindigt",
+      "ends_soon": "Binnenkort",
+      "col_channel": "Kanaal",
+      "confirm_end": "Giveaway #{{id}} nu beëindigen?",
+      "end_btn": "Beëindigen",
+      "recent_card": "Onlangs beëindigde giveaways",
+      "no_recent": "Nog geen beëindigde giveaways.",
+      "col_ended": "Beëindigd",
+      "no_winner": "Geen winnaar",
+      "confirm_delete": "Giveaway #{{id}} uit de lijst verwijderen?",
+      "delete_btn": "Verwijderen"
+    },
+    "zkillboard": {
+      "how_title": "Zo werkt het:",
+      "how_desc": "De bot ontvangt nieuwe killmails van <strong>zkillboard.com</strong> in realtime en plaatst ze in het ingestelde kanaal. Zonder entiteits-ID's worden <em>alle</em> kills boven de ISK-ondergrens geplaatst. Met entiteits-ID's (personage-, corporatie- of alliantie-ID) worden alleen kills getoond waarbij deze entiteiten betrokken zijn.",
+      "entity_find": "Entiteits-ID's vinden:",
+      "entity_find_desc": "Open de gewenste entiteit op <strong>zkillboard.com</strong> — het ID staat in de URL: <code>zkillboard.com/corporation/<strong>98765432</strong>/</code>",
+      "active_card": "Actieve abonnementen ({{count}})",
+      "no_entries": "Nog geen abonnementen ingesteld.",
+      "no_isk_filter": "Geen ISK-filter",
+      "all_kills": "Alle kills",
+      "match_both": "Slachtoffer &amp; aanvaller",
+      "match_victim": "Alleen slachtoffer",
+      "match_attacker": "Alleen aanvaller",
+      "legend_title": "Kleur van de embed op basis van de killwaarde:",
+      "modal_add": "Abonnement toevoegen",
+      "modal_edit": "Abonnement bewerken",
+      "name_label": "Naam / label",
+      "channel_label": "Meldingskanaal",
+      "channel_required": "Meldingskanaal *",
+      "channel_select": "— Kanaal kiezen —",
+      "isk_label": "Minimale killwaarde",
+      "isk_no_filter": "Geen filter (alle kills)",
+      "entity_label": "Entiteits-ID's",
+      "entity_optional": "(optioneel)",
+      "entity_hint_add": "Personage-, corporatie- of alliantie-ID's, gescheiden door komma's. Leeg = <em>alle kills</em> worden geplaatst.",
+      "entity_hint_edit": "Personage-, corporatie- of alliantie-ID's, gescheiden door komma's.",
+      "match_label": "Filteren op betrokkenheid",
+      "match_victim_label": "Als slachtoffer",
+      "match_attacker_label": "Als aanvaller",
+      "match_hint": "Alleen van belang wanneer er entiteits-ID's zijn ingevuld.",
+      "confirm_remove": "Abonnement “{{label}}” echt verwijderen?"
+    },
+    "flash": {
+      "channel_saved": "Kanaal opgeslagen.",
+      "channel_required": "Kanaal is verplicht.",
+      "sub_added": "Abonnement toegevoegd.",
+      "sub_not_found": "Abonnement niet gevonden.",
+      "sub_saved": "Abonnement “{{label}}” opgeslagen.",
+      "sub_removed": "Abonnement verwijderd."
+    }
+  },
+  "tools": {
+    "counters": {
+      "title": "Kanaaltellers",
+      "subtitle": "Actuele aantallen in kanaalnamen",
+      "activation": "Activering",
+      "enabled_label": "Kanaaltellers inschakelen",
+      "rate_hint": "Wordt elke 10 minuten bijgewerkt (limiet van Discord).",
+      "list_title": "Tellers",
+      "empty": "Nog geen tellers.",
+      "col_channel": "Kanaal",
+      "col_type": "Type",
+      "col_template": "Sjabloon",
+      "col_role": "Rol",
+      "channel_placeholder": "Kanaal kiezen …",
+      "role_placeholder": "Rol kiezen …",
+      "channel_missing": "Kanaal verwijderd",
+      "type_members": "Leden",
+      "type_humans": "Mensen",
+      "type_bots": "Bots",
+      "type_online": "Online",
+      "type_boosts": "Boosts",
+      "type_role": "Rol",
+      "removed": "Teller verwijderd.",
+      "invalid": "Ongeldige keuze.",
+      "duplicate": "Voor dit kanaal bestaat al een teller."
+    },
+    "title": "Hulpmiddelen",
+    "subtitle": "Handige hulpmiddelen voor het beheer van je server.",
+    "items": {
+      "tempchannels": {
+        "title": "Tijdelijke kanalen",
+        "desc": "Leden maken met één klik hun eigen tijdelijke spraakkanaal"
+      },
+      "counters": {
+        "title": "Kanaaltellers",
+        "desc": "Aantal leden, online gebruikers en boosts live in de kanaalnaam tonen"
+      },
+      "reminder": {
+        "title": "Herinneringen",
+        "desc": "Dagelijkse herinneringen per DM — instellingen en overzicht van alle vermeldingen"
+      },
+      "leveling": {
+        "title": "Leveling",
+        "desc": "XP-systeem, meldingen bij levelstijging, rolbeloningen en ranglijst"
+      },
+      "music": {
+        "title": "Muziek",
+        "desc": "Spotify afspelen — dj-rol, volume en wachtrij instellen"
+      },
+      "tickets": {
+        "title": "Ticketsysteem",
+        "desc": "Supporttickets beheren — categorieën, rollen, openstaande tickets"
+      },
+      "scheduled": {
+        "title": "Geplande berichten",
+        "desc": "Geplande tekst- of embedberichten naar elk kanaal sturen"
+      },
+      "trovo": {
+        "title": "Trovo",
+        "desc": "Streammeldingen"
+      }
+    },
+    "role_whitelist": "Weigeren voor alle rollen behalve",
+    "role_blacklist": "Toestaan voor alle rollen behalve",
+    "role_search_add": "Rol zoeken en toevoegen…",
+    "no_roles": "Geen rollen",
+    "tempchannels": {
+      "how_it_works": "Zo werkt het:",
+      "how_it_works_desc": "Kies een spraakkanaal als startpunt. Zodra een lid dit kanaal binnengaat, maakt de bot automatisch een nieuw privé-spraakkanaal aan en verplaatst het lid daarheen. Zodra het kanaal leeg is, wordt het automatisch verwijderd.",
+      "placeholders": "Plaatsaanduidingen voor de kanaalnaam:",
+      "activation": "Activering",
+      "enabled_label": "Tijdelijke kanalen actief",
+      "config": "Configuratie",
+      "trigger_label": "Startkanaal",
+      "trigger_hint": "Gaat een lid dit kanaal binnen, dan wordt er een tijdelijk kanaal aangemaakt.",
+      "trigger_placeholder": "— Maak een keuze —",
+      "category_label": "Categorie (optioneel)",
+      "category_same": "— Dezelfde categorie als het startkanaal —",
+      "category_hint": "Tijdelijke kanalen worden in deze categorie aangemaakt.",
+      "name_label": "Sjabloon voor de kanaalnaam",
+      "name_hint": "Plaatsaanduidingen: {user}, {displayname}, {count}",
+      "limit_label": "Ledenlimiet",
+      "limit_hint": "0 = onbeperkt",
+      "bitrate_label": "Bitrate (kbps)",
+      "keepalive": "Openhouden",
+      "keepalive_desc": "Aantal minuten voordat het tijdelijke kanaal wordt verwijderd nadat iedereen het heeft verlaten. 0 = direct verwijderen · ∞ = nooit verwijderen.",
+      "keepalive_inf": "∞ Nooit",
+      "keepalive_instant": "0 — Direct",
+      "keepalive_min_1": "1 minuut",
+      "keepalive_min_2": "2 minuten",
+      "keepalive_min_3": "3 minuten",
+      "keepalive_min_5": "5 minuten",
+      "keepalive_min_10": "10 minuten",
+      "ownerlock": "Eigendomsvergrendeling",
+      "ownerlock_desc": "Aantal minuten voordat het kanaal kan worden overgenomen nadat de eigenaar is vertrokken. 0 = direct vrijgeven · ∞ = nooit vrijgeven (dan is /voice-claim niet mogelijk).",
+      "ownerlock_inf": "∞ Nooit vrijgeven",
+      "ownerlock_instant": "0 — Direct vrijgeven",
+      "textmode": "Tekstkanaal",
+      "textmode_desc": "Hoe de chat bij een tijdelijk spraakkanaal beschikbaar komt.",
+      "textmode_separate": "Apart tekstkanaal",
+      "textmode_separate_hint": "De bot maakt een extra gewoon tekstkanaal aan. Dat verschijnt in de kanalenlijst en verdwijnt samen met het spraakkanaal.",
+      "textmode_integrated": "Chat in het spraakkanaal zelf (Text-in-Voice)",
+      "textmode_integrated_hint": "Er komt geen tweede kanaal bij — in plaats daarvan wordt de ingebouwde chat van het spraakkanaal gebruikt.",
+      "role_restrict": "Rolbeperking",
+      "role_restrict_hint": "Leeg = iedereen mag het startkanaal gebruiken"
+    },
+    "invites": {
+      "title": "Uitnodigingen bijhouden",
+      "settings": "Instellingen",
+      "channel_label": "Standaardkanaal voor /invite create",
+      "channel_placeholder": "— Geen standaard (huidig kanaal) —",
+      "xp_label": "XP per uitnodiging",
+      "xp_hint": "0 = uit. De uitnodiger krijgt XP wanneer iemand binnenkomt.",
+      "save_btn": "Opslaan",
+      "leveling_disabled": "Leveling staat uit — schakel het onder Leveling in om XP per uitnodiging te geven.",
+      "leaderboard_tab": "Ranglijst",
+      "codes_tab": "Uitnodigingscodes",
+      "leaderboard_title": "Ranglijst",
+      "leaderboard_total": "uitnodiging{{plural}} in totaal",
+      "leaderboard_empty": "Nog geen uitnodigingen vastgelegd.",
+      "leaderboard_hint": "Leden maken hun persoonlijke link aan met /invite create.",
+      "member_col": "Lid",
+      "invites_col": "Uitnodigingen",
+      "rank_label": "#",
+      "reset_all_confirm": "Alle uitnodigingstellers echt op nul zetten?",
+      "reset_all_btn": "Alles op nul zetten",
+      "reset_user_title": "Op nul zetten",
+      "reset_user_confirm": "Uitnodigingen van {{name}} op nul zetten?",
+      "codes_title": "Geregistreerde uitnodigingscodes",
+      "codes_empty": "Nog geen codes geregistreerd.",
+      "codes_hint": "Leden maken codes aan met /invite create.",
+      "code_col": "Code",
+      "created_by_col": "Aangemaakt door",
+      "delete_confirm": "Uitnodiging discord.gg/{{code}} verwijderen?"
+    },
+    "leveling": {
+      "info_desc": "Gebruikers krijgen per bericht een willekeurige hoeveelheid XP tussen XP-min en XP-max, met een instelbare wachttijd. De levels volgen de formule: level N vereist 5·N²+50·N+100 XP.",
+      "placeholders": "Plaatsaanduidingen voor het bericht bij een levelstijging:",
+      "settings": "Algemene instellingen",
+      "enabled_label": "Systeem actief",
+      "xp_per_msg": "XP per bericht",
+      "xp_to": "tot",
+      "cooldown": "Wachttijd (sec.)",
+      "cooldown_hint": "Seconden tussen twee XP-toekenningen per gebruiker",
+      "announcement_type": "Melding bij levelstijging",
+      "ann_channel": "In het kanaal (hetzelfde of het ingestelde)",
+      "ann_dm": "Alleen per DM",
+      "ann_both": "Kanaal en DM",
+      "ann_off": "Geen melding",
+      "announcement_channel": "Meldingskanaal",
+      "ann_channel_hint": "(leeg = het kanaal van het bericht)",
+      "ann_same_channel": "— Zelfde kanaal —",
+      "levelup_msg": "Bericht bij levelstijging",
+      "stack_rewards": "Rolbeloningen stapelen",
+      "stack_hint": "Uit = de gebruiker houdt alleen de rol van het huidige level",
+      "exclusions": "Uitzonderingen",
+      "ignore_channels": "Kanalen overslaan",
+      "ignore_channels_hint": "(geen XP in deze kanalen)",
+      "channel_search": "Kanaal zoeken…",
+      "ignore_roles": "Rollen overslaan",
+      "ignore_roles_hint": "(geen XP voor deze rollen)",
+      "role_search": "Rol zoeken…",
+      "save_settings": "Instellingen opslaan",
+      "show_rank_card": "Rankkaart tonen",
+      "levelup_dm": "Levelstijging per DM sturen",
+      "levelup_dm_hint": "De gebruiker krijgt de tekst over de levelstijging ook als privébericht",
+      "role_rewards": "Rolbeloningen",
+      "no_rewards": "Nog geen beloningen ingesteld.",
+      "role_placeholder": "Rol kiezen…",
+      "xp_multipliers": "XP-vermenigvuldigers",
+      "mult_desc": "Gebruikers met deze rol krijgen een vermenigvuldigde hoeveelheid XP. Passen er meerdere rollen, dan geldt de hoogste vermenigvuldiger.",
+      "no_multipliers": "Geen vermenigvuldigers ingesteld.",
+      "leaderboard": "Voorbeeld van de ranglijst",
+      "lb_empty": "Nog geen vermeldingen.",
+      "lv_label": "Lv",
+      "import": "Berichten importeren",
+      "import_desc": "Leest de berichtgeschiedenis van een kanaal en kent met terugwerkende kracht XP toe op basis van het aantal berichten per gebruiker. Berichten van bots worden overgeslagen. De XP komt boven op de bestaande XP — gebruik deze functie daarom maar één keer per kanaal.",
+      "import_channel": "Kanaal",
+      "import_channel_placeholder": "— Kanaal kiezen —",
+      "import_xp": "XP per bericht",
+      "import_xp_hint": "Standaard: gemiddelde van XP-min/max",
+      "import_max": "Max. aantal berichten",
+      "card": {
+        "tab": "Rankkaart",
+        "info": "Deze instellingen gelden voor het commando <code>/myrank</code> op deze server. Gebruikers zien hun rankkaart als afbeelding in het kanaal.",
+        "preview": "Voorbeeld",
+        "preview_hint": "Na het opslaan is het voorbeeld in Discord te zien met <code>/myrank</code>.",
+        "preview_name": "jouw-naam",
+        "colors": "Kleuren",
+        "accent_label": "Accentkleur",
+        "accent_hint": "Voortgangsbalk, ring om de avatar en badges",
+        "bg_label": "Achtergrondkleur",
+        "bg_image_title": "Achtergrondafbeelding",
+        "bg_image_optional": "(optioneel)",
+        "bg_image_label": "URL van de afbeelding",
+        "bg_image_hint": "Directe link naar .png/.jpg — wordt met een laag verduisterd",
+        "bg_cat_all": "Alle",
+        "bg_cat_landscape": "Landschappen",
+        "bg_cat_abstract": "Abstract",
+        "bg_cat_plants": "Planten",
+        "bg_cat_animals": "Dieren",
+        "bg_cat_cars": "Auto's",
+        "bg_cat_anime": "Anime",
+        "bg_alpha": "Dekking",
+        "bg_none": "Geen achtergrond",
+        "bg_upload_hint": "JPG of PNG, max. 1 MB — sleep hierheen of",
+        "bg_upload_btn": "Bestand kiezen",
+        "bg_upload_uploading": "Uploaden …",
+        "bg_upload_success": "Afbeelding succesvol geüpload",
+        "bg_upload_error": "Uploaden mislukt",
+        "bg_upload_too_large": "Bestand te groot (max. 1 MB)",
+        "bg_upload_type_error": "Alleen JPG en PNG toegestaan",
+        "save": "Rankkaart opslaan",
+        "saved": "Rankkaart opgeslagen."
+      }
+    },
+    "music": {
+      "general": "Algemeen",
+      "enabled_label": "Muziek inschakelen",
+      "enabled_desc": "Alle muziekcommando's op deze server vrijgeven",
+      "playback": "Afspelen",
+      "volume_label": "Standaardvolume",
+      "volume_hint": "Volume aan het begin van een nieuwe wachtrij (1–150)",
+      "queue_label": "Maximale lengte van de wachtrij",
+      "queue_hint": "Maximaal aantal nummers in de wachtrij",
+      "permissions": "Rechten",
+      "dj_label": "Dj-rol",
+      "dj_optional": "(optioneel)",
+      "dj_none": "— Geen (iedereen mag de muziek bedienen) —",
+      "dj_hint": "Alleen leden met deze rol mogen muziekcommando's gebruiken",
+      "response_label": "Antwoordkanaal",
+      "response_none": "— Geen filter (elk kanaal) —",
+      "response_hint": "De bot reageert alleen in dit kanaal op muziekcommando's",
+      "spotify_title": "Spotify-integratie",
+      "spotify_active": "Actief — Spotify-URL's en afspeellijsten worden ondersteund",
+      "spotify_inactive": "Niet actief — voeg SPOTIFY_CLIENT_ID en SPOTIFY_CLIENT_SECRET toe aan het .env-bestand"
+    },
+    "reminder": {
+      "settings_title": "Instellingen",
+      "enabled_label": "Herinneringen actief",
+      "enabled_hint": "Staat dit uit, dan kunnen er geen herinneringen worden ingesteld en worden lopende herinneringen niet verstuurd.",
+      "add_restrict_hint": "Leeg = iedereen mag de herinnering gebruiken",
+      "all_restrict_hint": "Leeg = iedereen mag alle vermeldingen bekijken"
+    },
+    "tickets": {
+      "settings_title": "Instellingen",
+      "enabled_label": "Ticketsysteem inschakelen",
+      "category_label": "Categorie voor ticketkanalen",
+      "category_none": "— Geen —",
+      "support_role": "Supportrol",
+      "support_role_hint": "Deze rol kan alle ticketkanalen zien.",
+      "max_label": "Max. tickets per gebruiker",
+      "retain_label": "Gesloten tickets bewaren",
+      "retain_unit": "dagen",
+      "retain_hint": "0 = het kanaal direct verwijderen",
+      "role_restrict": "Rolbeperking",
+      "open_restrict_hint": "Leeg = iedereen mag tickets openen",
+      "list_restrict_hint": "Leeg = iedereen mag alle tickets bekijken",
+      "open_tickets": "Openstaande tickets",
+      "no_open": "Geen openstaande tickets.",
+      "col_user": "Gebruiker",
+      "col_topic": "Onderwerp",
+      "col_channel": "Kanaal",
+      "col_since": "Open sinds",
+      "close_btn": "Sluiten",
+      "close_confirm": "Ticket #{{id}} sluiten?"
+    },
+    "scheduled": {
+      "new_btn": "Nieuw bericht",
+      "new_title": "Nieuw gepland bericht",
+      "edit_title": "Bericht bewerken",
+      "empty": "Geen geplande berichten.",
+      "default_label": "Gepland bericht",
+      "label": "Label",
+      "label_hint": "(optioneel)",
+      "channel_label": "Kanaal",
+      "channel_none": "— Kanaal kiezen —",
+      "datetime_label": "Datum en tijd",
+      "repeat_label": "Herhalen",
+      "repeat_none": "Eenmalig",
+      "repeat_daily": "Dagelijks",
+      "repeat_weekly": "Wekelijks",
+      "repeat_monthly": "Maandelijks",
+      "tab_text": "Tekst",
+      "tab_embed": "Embed",
+      "content_label": "Berichttekst",
+      "content_hint": "(optioneel wanneer er een embed is ingesteld)",
+      "embed_title_label": "Titel",
+      "embed_desc_label": "Beschrijving",
+      "embed_color_label": "Kleur",
+      "embed_footer_label": "Voettekst",
+      "embed_image_label": "Afbeelding",
+      "embed_author_label": "Auteur",
+      "embed_preview": "Voorbeeld",
+      "enabled_label": "Actief",
+      "confirm_delete": "\"{{label}}\" echt verwijderen?",
+      "flash": {
+        "created": "Bericht ingepland.",
+        "saved": "Bericht opgeslagen.",
+        "deleted": "Bericht verwijderd.",
+        "missing_fields": "Kanaal en datum/tijd zijn verplicht.",
+        "past_date": "De datum moet in de toekomst liggen.",
+        "no_content": "Er is tekst of embed-inhoud nodig."
+      }
+    },
+    "bugtracker": {
+      "title": "Bugtracker",
+      "status_offen": "Open",
+      "status_bestaetigt": "Bevestigd",
+      "status_in_bearbeitung": "In behandeling",
+      "status_erledigt": "Afgehandeld",
+      "filter_all": "Alle",
+      "list_header": "Gemelde bugs",
+      "empty": "Geen bugs gemeld. 🎉",
+      "delete_confirm": "Bug #{{id}} echt verwijderen?",
+      "disabled_badge": "Uitgeschakeld",
+      "settings_btn": "Instellingen",
+      "settings_title": "Instellingen van de bugtracker",
+      "enabled_label": "Bugtracker actief",
+      "enabled_hint": "Staat dit uit, dan kunnen er via /bug geen bugs meer worden gemeld.",
+      "report_hint": "Leeg = iedereen mag melden",
+      "list_hint": "Leeg = iedereen mag de lijst bekijken",
+      "notify_settings_saved": "Meldingsinstellingen opgeslagen.",
+      "smtp_not_configured": "SMTP is niet ingesteld.",
+      "no_recipient": "Er is geen e-mailadres van een ontvanger ingesteld.",
+      "invalid_subscription": "Ongeldig abonnement."
+    },
+    "flash": {
+      "guild_not_found": "Server niet gevonden.",
+      "channel_not_text": "Kanaal niet gevonden of geen tekstkanaal.",
+      "invalid_level_role": "Ongeldig level of ongeldige rol.",
+      "invalid_multiplier": "Ongeldige invoer (vermenigvuldiger: 0,1–10).",
+      "reward_saved": "Rolbeloning bij level {{level}} opgeslagen.",
+      "reward_removed": "Beloning bij level {{level}} verwijderd.",
+      "multiplier_saved": "XP-vermenigvuldiger opgeslagen.",
+      "multiplier_removed": "Vermenigvuldiger verwijderd.",
+      "import_done": "Import voltooid: {{scanned}} berichten van {{users}} gebruikers in #{{channel}} — {{xpp}} XP per bericht."
+    }
+  },
+  "social": {
+    "title": "Sociale meldingen",
+    "subtitle": "Platforms in de gaten houden en je community automatisch op de hoogte brengen.",
+    "items": {
+      "twitch": {
+        "title": "Twitch",
+        "desc": "Live-meldingen en automatische live-rol voor streamers"
+      },
+      "x": {
+        "title": "X (Twitter)",
+        "desc": "Nieuwe posts volgen en automatisch op Discord plaatsen"
+      },
+      "youtube": {
+        "title": "YouTube",
+        "desc": "Nieuwe video's volgen en automatisch op Discord plaatsen"
+      },
+      "kick": {
+        "title": "Kick",
+        "desc": "Live-meldingen voor Kick-streamers"
+      },
+      "trovo": {
+        "title": "Trovo",
+        "desc": "Live-meldingen voor Trovo-streamers"
+      }
+    },
+    "notifications_suffix": "-meldingen",
+    "notification_channel": "Meldingskanaal",
+    "channel_select": "— Kanaal kiezen —",
+    "message_label": "Berichttekst",
+    "message_default_hint": "Leeg = de standaardtekst wordt gebruikt.",
+    "placeholders_title": "Beschikbare plaatsaanduidingen in de berichttekst:",
+    "placeholder_example": "Voorbeeld:",
+    "letters_hint": "Alleen letters, cijfers en liggende streepjes.",
+    "twitch": {
+      "api_warning": "Twitch-API niet geconfigureerd.",
+      "api_warning_desc": "Voeg <code>TWITCH_CLIENT_ID</code> en <code>TWITCH_CLIENT_SECRET</code> toe aan je <code>.env</code>-bestand. De gegevens vind je in het <strong>Twitch Developer Portal</strong> onder <em>Applications → Manage</em>.",
+      "monitored": "Gevolgde kanalen ({{count}})",
+      "no_entries": "Nog geen streamers toegevoegd.",
+      "confirm_remove": "{{login}} echt verwijderen?",
+      "live_role": "Live-rol",
+      "live_role_active": "Live-rol actief",
+      "role_label": "Rol",
+      "role_none": "— Geen rol —",
+      "live_role_hint": "De rol wordt automatisch toegewezen wanneer een lid op Twitch streamt en zijn account heeft gekoppeld onder <strong>Discord-instellingen → Verbindingen</strong>.",
+      "modal_add": "Streamer toevoegen",
+      "modal_edit": "Streamer bewerken:",
+      "login_label": "Twitch-login (kanaalnaam)",
+      "msg_hint_add": "Leeg = standaardtekst. Plaatsaanduidingen: {streamer}, {link}",
+      "msg_hint_edit": "Plaatsaanduidingen: {streamer}, {link}",
+      "ph_streamer": "Weergavenaam van de streamer op Twitch",
+      "ph_link": "Directe link naar het Twitch-kanaal",
+      "ph_example": "🔴 {streamer} is live! Kijk nu mee: {link}"
+    },
+    "kick": {
+      "monitored": "Gevolgde streamers ({{count}})",
+      "no_entries": "Nog geen streamers toegevoegd.",
+      "confirm_remove": "{{slug}} echt verwijderen?",
+      "modal_add": "Streamer toevoegen",
+      "modal_edit": "Streamer bewerken:",
+      "slug_label": "Kick-kanaalnaam",
+      "msg_hint_add": "Leeg = standaardtekst. Plaatsaanduidingen: {streamer}, {link}",
+      "msg_hint_edit": "Plaatsaanduidingen: {streamer}, {link}",
+      "ph_streamer": "Weergavenaam van de streamer op Kick",
+      "ph_link": "Directe link naar het Kick-kanaal",
+      "ph_example": "🟢 {streamer} is live op Kick! Kijk mee: {link}",
+      "check_interval": "De status wordt elke <strong>2 minuten</strong> gecontroleerd."
+    },
+    "x": {
+      "api_warning": "X-API niet geconfigureerd.",
+      "api_warning_desc": "Voeg <code>GETXAPI_KEY</code> toe aan je <code>.env</code>-bestand. Het token krijg je op <strong><a href=\"https://www.getxapi.com/\">https://www.getxapi.com/</a></strong> – <em>Get API Key → API Keys → + Create Key</em>.",
+      "monitored": "Gevolgde accounts ({{count}})",
+      "no_entries": "Nog geen accounts toegevoegd.",
+      "confirm_remove": "@{{username}} echt verwijderen?",
+      "modal_add": "Account toevoegen",
+      "modal_edit": "Account bewerken: @",
+      "username_label": "X-gebruikersnaam",
+      "msg_hint_add": "Leeg = standaardtekst. Plaatsaanduidingen: {user}, {link}",
+      "msg_hint_edit": "Plaatsaanduidingen: {user}, {link}",
+      "ph_user": "X-gebruikersnaam van het account",
+      "ph_link": "Directe link naar de post",
+      "ph_example": "@everyone 🐦 {user} heeft iets gepost! {link}"
+    },
+    "youtube": {
+      "monitored": "Gevolgde kanalen ({{count}})",
+      "no_entries": "Nog geen kanalen toegevoegd.",
+      "confirm_remove": "{{label}} echt verwijderen?",
+      "modal_add": "Kanaal toevoegen",
+      "modal_edit": "Kanaal bewerken:",
+      "channelid_label": "YouTube-kanaal-ID",
+      "channelid_hint": "Begint met <code>UC</code> en telt 24 tekens. Te vinden onder <em>Kanaalpagina → Over → Kanaal-ID</em>.",
+      "label_label": "Weergavenaam",
+      "label_optional": "(optioneel)",
+      "label_hint": "Wordt in de berichttekst gebruikt als <code>{channel}</code>.",
+      "notify_channel": "Meldingskanaal",
+      "msg_hint_add": "Leeg = standaardtekst. Plaatsaanduidingen: {channel}, {link}",
+      "msg_hint_edit": "Plaatsaanduidingen: {channel}, {link}",
+      "ph_channel": "Naam van het YouTube-kanaal",
+      "ph_link": "Directe link naar de video",
+      "find_id": "Waar vind ik het kanaal-ID?",
+      "find_id_desc": "Op de YouTube-kanaalpagina: <em>Over → Kanaal delen → Kanaal-ID kopiëren</em>.<br>Of via: <code>youtube.com/channel/<strong>UCxxxxxx</strong></code> — het deel na <code>/channel/</code>."
+    },
+    "trovo": {
+      "api_warning": "Trovo-API niet geconfigureerd.",
+      "api_warning_desc": "Voeg <code>TROVO_CLIENT_ID</code> toe aan je <code>.env</code>-bestand. De client-ID krijg je op <strong>developer.trovo.live</strong> nadat je een app hebt geregistreerd.",
+      "monitored": "Gevolgde streamers ({{count}})",
+      "no_entries": "Nog geen streamers toegevoegd.",
+      "confirm_remove": "{{username}} echt verwijderen?",
+      "modal_add": "Streamer toevoegen",
+      "modal_edit": "Streamer bewerken:",
+      "username_label": "Trovo-kanaalnaam",
+      "msg_hint_add": "Leeg = standaardtekst. Plaatsaanduidingen: {streamer}, {link}",
+      "msg_hint_edit": "Plaatsaanduidingen: {streamer}, {link}",
+      "ph_streamer": "Weergavenaam van de streamer op Trovo",
+      "ph_link": "Directe link naar het Trovo-kanaal",
+      "ph_example": "🟣 {streamer} is live op Trovo! Kijk mee: {link}",
+      "check_interval": "De status wordt elke <strong>2 minuten</strong> gecontroleerd."
+    },
+    "flash": {
+      "live_role_saved": "Instellingen voor de live-rol opgeslagen.",
+      "twitch_required": "Twitch-login en kanaal zijn verplicht.",
+      "x_required": "X-gebruikersnaam en kanaal zijn verplicht.",
+      "youtube_required": "Kanaal-ID en meldingskanaal zijn verplicht.",
+      "kick_required": "Kick-kanaalnaam en kanaal zijn verplicht.",
+      "already_exists": "{{name}} is al ingesteld.",
+      "added": "{{name}} is toegevoegd.",
+      "saved": "{{name}} opgeslagen.",
+      "removed": "{{name}} verwijderd.",
+      "not_found": "Streamer niet gevonden.",
+      "channel_not_found": "Kanaal niet gevonden.",
+      "account_not_found": "Account niet gevonden.",
+      "trovo_required": "Trovo-kanaalnaam en Discord-kanaal zijn verplicht."
+    }
+  },
+  "support": {
+    "title": "Support",
+    "subtitle": "Integraties voor supportersplatforms instellen.",
+    "items": {
+      "kofi": {
+        "title": "Ko-Fi",
+        "desc": "Meldingen voor supporters, webhook-URL en roltoewijzing"
+      },
+      "patreon": {
+        "title": "Patreon",
+        "desc": "Lidmaatschapsniveaus koppelen aan Discord-rollen"
+      }
+    },
+    "copied": "Gekopieerd!",
+    "notification_channel": "Meldingskanaal",
+    "channel_none": "— Geen kanaal —",
+    "supporter_role": "Supportersrol",
+    "role_none": "— Geen rol —",
+    "tier_roles": "Rollen per niveau",
+    "col_tier_name": "Naam van het niveau",
+    "col_role": "Rol",
+    "col_duration": "Duur (dagen)",
+    "tier_none": "— Geen —",
+    "tier_add": "Niveau toevoegen",
+    "duration_permanent": "0 dagen = de rol wordt permanent toegewezen.",
+    "embed_desc_card": "Embed-beschrijving",
+    "placeholders": "Beschikbare plaatsaanduidingen:",
+    "msg_default_hint": "Laat leeg voor het standaardbericht.",
+    "kofi": {
+      "stats_btn": "Statistieken en opbrengst",
+      "webhook_desc": "Vul deze URL in je <a href=\"https://ko-fi.com/manage/webhooks\" target=\"_blank\" rel=\"noopener\" class=\"link-secondary\">Ko-Fi-dashboard</a> in onder <strong>Webhooks</strong>.",
+      "token_desc": "Te vinden in het Ko-Fi-dashboard onder <strong>Webhooks → Advanced</strong>. Wordt gebruikt om elke binnenkomende aanvraag te controleren.",
+      "channel_desc": "In dit kanaal komt een bericht wanneer iemand via Ko-Fi doneert.",
+      "role_desc": "Deze rol wordt automatisch toegewezen wanneer de Ko-Fi-naam overeenkomt met een Discord-lid. Wordt er geen passend lid gevonden, dan verschijnt daar een opmerking over in de melding.",
+      "role_remove_label": "Rol automatisch verwijderen na",
+      "days_unit": "dagen",
+      "role_permanent": "0 = de rol wordt permanent toegewezen.",
+      "tier_desc": "Koppel eigen Discord-rollen aan lidmaatschapsniveaus. De naam van het niveau moet exact overeenkomen met die in het Ko-Fi-dashboard. Wordt er geen passend niveau gevonden, dan geldt de bovenstaande terugvalrol.",
+      "embed_desc": "De titel van de embed wordt automatisch bepaald door het type (bijvoorbeeld <code>☕ Donatie</code>). Hier stel je de beschrijving eronder in.",
+      "forward_card": "Webhook doorsturen",
+      "forward_desc": "Binnenkomende Ko-Fi-webhooks worden daarnaast naar deze URL's doorgestuurd — één URL per regel. Het doorsturen gebeurt op de achtergrond en beïnvloedt de verwerking niet."
+    },
+    "patreon": {
+      "stats_btn": "Statistieken",
+      "connection_card": "Patreon-koppeling",
+      "connected_badge": "Gekoppeld",
+      "token_expired": "Het token is mogelijk verlopen.",
+      "disconnect_btn": "Ontkoppelen",
+      "confirm_disconnect": "Patreon echt ontkoppelen?",
+      "connect_desc": "Koppel je Patreon-creatoraccount om rollen per niveau automatisch toe te wijzen. Na het koppelen worden je niveaus automatisch geladen.",
+      "api_warning": "<strong>PATREON_CLIENT_ID</strong> en <strong>PATREON_CLIENT_SECRET</strong> moeten in het <code>.env</code>-bestand zijn ingesteld.",
+      "connect_btn": "Koppelen met Patreon",
+      "webhook_desc": "Vul de URL en het geheim in het <a href=\"https://www.patreon.com/portal/registration/register-clients\" target=\"_blank\" rel=\"noopener\" class=\"link-secondary\">Patreon Developer Portal</a> in onder <strong>Webhooks</strong>. Triggers: <code>members:pledge:create</code>, <code>members:pledge:update</code>, <code>members:pledge:delete</code>.",
+      "secret_label": "Geheim",
+      "secret_placeholder": "Webhook-geheim uit het Patreon-portaal",
+      "channel_desc": "In dit kanaal komt een bericht wanneer iemand patron wordt.",
+      "tier_desc": "Wijs aan elk Patreon-niveau een Discord-rol toe. De naam van het niveau dient alleen ter weergave — de koppeling verloopt via het <strong>niveau-ID</strong> uit de Patreon-webhook.",
+      "tier_auto_loaded": "De niveaus zijn automatisch uit je campagne geladen.",
+      "col_tier_id": "Niveau-ID",
+      "tier_id_hint": "Het niveau-ID staat in de Patreon-webhook onder <code>data.relationships.currently_entitled_tiers.data[].id</code>."
+    },
+    "stats": {
+      "no_events": "Nog geen gebeurtenissen vastgelegd.",
+      "col_month": "Maand",
+      "col_count": "Aantal",
+      "col_total": "Totaal",
+      "no_grants": "Geen tijdelijke rollen actief.",
+      "active_grants_card": "Actieve roltoewijzingen",
+      "col_user_id": "Gebruikers-ID",
+      "col_expires": "Verloopt",
+      "col_remaining": "Resterend",
+      "expired": "Verlopen",
+      "day_singular": "dag",
+      "day_plural": "dagen"
+    },
+    "flash": {
+      "kofi_saved": "Ko-Fi-instellingen opgeslagen.",
+      "patreon_not_configured": "PATREON_CLIENT_ID is niet ingesteld.",
+      "patreon_cancelled": "Het koppelen met Patreon is geannuleerd.",
+      "patreon_connected": "Patreon gekoppeld: {{name}}",
+      "patreon_connect_failed": "Koppelen mislukt: {{msg}}",
+      "patreon_saved": "Patreon-instellingen opgeslagen.",
+      "patreon_disconnected": "Patreon-koppeling verwijderd.",
+      "fields_required": "Alle velden zijn verplicht.",
+      "command_name_invalid": "De commandonaam moet met een letter of cijfer beginnen.",
+      "command_exists": "Commando “{{name}}” bestaat al.",
+      "command_created": "Commando aangemaakt.",
+      "commands_registered": "{{count}} commando('s) succesvol geregistreerd bij Discord.",
+      "deploy_failed_logs": "Registreren mislukt. Zie het botlogboek.",
+      "command_deleted": "Commando verwijderd.",
+      "command_not_found": "Commando niet gevonden.",
+      "command_saved": "Commando opgeslagen.",
+      "prefix_no_spaces": "Het voorvoegsel mag geen spaties bevatten.",
+      "rr_title_channel_required": "Titel en kanaal zijn verplicht.",
+      "rr_panel_created": "Paneel aangemaakt.",
+      "rr_panel_not_found": "Paneel niet gevonden.",
+      "rr_panel_saved": "Paneel opgeslagen.",
+      "rr_panel_no_entries": "Er is minstens één vermelding nodig.",
+      "rr_channel_not_found": "Kanaal niet gevonden of geen tekstkanaal.",
+      "rr_deploy_failed": "Plaatsen mislukt — ontbreken er rechten voor de bot?",
+      "rr_panel_deployed": "Paneel “{{title}}” succesvol geplaatst.",
+      "rr_panel_deleted": "Paneel verwijderd.",
+      "auditlog_saved": "Auditlogboek opgeslagen.",
+      "moderation_saved": "Moderatie-instellingen opgeslagen."
+    },
+    "kofi_stats": {
+      "total_revenue": "Totale opbrengst",
+      "total_count": "Donaties totaal",
+      "unique_donors": "Unieke supporters",
+      "monthly_card": "Opbrengst per maand",
+      "col_amount": "Bedrag",
+      "col_breakdown": "Uitsplitsing",
+      "by_type_card": "Op type",
+      "col_type": "Type",
+      "top_donations_card": "Hoogste losse bedragen",
+      "col_supporter": "Supporter",
+      "col_date": "Datum"
+    },
+    "patreon_stats": {
+      "total_count": "Pledge-gebeurtenissen totaal",
+      "unique_patrons": "Unieke patrons",
+      "monthly_card": "Gebeurtenissen per maand",
+      "col_pledge_total": "Pledge-totaal",
+      "by_tier_card": "Op niveau",
+      "col_tier": "Niveau",
+      "col_events": "Gebeurtenissen"
+    }
+  },
+  "auth": {
+    "login": {
+      "title": "Bot-dashboard",
+      "subtitle": "Log in met Discord om verder te gaan",
+      "btn_discord": "Inloggen met Discord",
+      "error_oauth_not_configured": "OAuth2 is nog niet geconfigureerd (DISCORD_CLIENT_ID ontbreekt).",
+      "error_oauth_denied": "Het inloggen is geannuleerd.",
+      "error_oauth_failed": "Verificatie mislukt. Probeer het opnieuw.",
+      "no_oauth": "OAuth2 nog niet geconfigureerd.<br/>Stel <code>DISCORD_CLIENT_ID</code> &amp; <code>DISCORD_CLIENT_SECRET</code><br/>in je <code>.env</code> in.<br/><br/>Voor ontwikkeling: <code>DEV_SKIP_AUTH=true</code>"
+    }
+  },
+  "bot": {
+    "stats": {
+      "guild_only": "Dit commando werkt alleen op een server.",
+      "server_stats": "Serverstatistieken",
+      "user_stats": "Ledenstatistieken",
+      "messages": "Berichten",
+      "messages_unit": "berichten",
+      "contributors": "Actieve leden",
+      "voice_hours": "Spraaktijd",
+      "voice_activity": "Spraakactiviteit",
+      "hours_unit": "uur",
+      "top_channel": "Actiefste kanaal",
+      "top_command": "Meestgebruikte commando",
+      "ranks": "Serverklassement",
+      "message": "Berichten",
+      "voice": "Spraak",
+      "chart": "Verloop",
+      "joined": "Lid sinds",
+      "lookback": "Periode: laatste {{days}} dagen",
+      "error": "❌ De statistiekkaart kon niet worden gemaakt."
+    },
+    "common": {
+      "no_permission": "❌ Je hebt geen rechten voor dit commando.",
+      "user_not_found": "❌ Gebruiker niet gevonden.",
+      "no_reason": "Geen reden opgegeven",
+      "error": "❌ Er is een fout opgetreden bij het uitvoeren van het commando."
+    },
+    "ping": {
+      "measuring": "Meten…",
+      "pong": "🏓 Pong! Retourtijd: **{{roundtrip}} ms** | WebSocket: **{{ws}} ms**"
+    },
+    "reminder": {
+      "disabled": "❌ Herinneringen staan uit op deze server.",
+      "no_permission_all": "❌ Je hebt geen rechten voor `/reminder all`.",
+      "none_server": "📭 Geen lopende herinneringen op deze server.",
+      "no_permission": "❌ Je hebt geen rechten om herinneringen te gebruiken.",
+      "min_time": "❌ De tijd moet minstens 1 minuut zijn.",
+      "set": "✅ Herinnering ingesteld: **{{text}}** — ik geef je over **{{label}}** een seintje",
+      "none_user": "📭 Je hebt geen lopende herinneringen.",
+      "not_found": "❌ Vermelding **{{item}}** bestaat niet. Gebruik `/reminder list` om de huidige vermeldingen te zien.",
+      "deleted": "🗑️ Herinnering **{{item}}** verwijderd: {{remaining}} — {{text}}",
+      "expires_soon": "verloopt binnenkort",
+      "time_hm": "over {{h}} u {{m}} min",
+      "time_h": "over {{h}} u",
+      "time_m": "over {{m}} min",
+      "embed_all_title": "⏰ Alle herinneringen op de server",
+      "embed_user_title": "⏰ Jouw herinneringen",
+      "dm_text": "⏰ **Herinnering:** {{text}}"
+    },
+    "birthday": {
+      "invalid_date": "❌ **{{day}}-{{month}}** is geen geldige datum.",
+      "set": "✅ Je verjaardag is ingesteld op **{{day}} {{month}}**!",
+      "not_set": "❌ Je hebt geen verjaardag ingesteld.",
+      "deleted": "✅ Je verjaardag is verwijderd.",
+      "none": "📭 Nog geen verjaardagen ingesteld.",
+      "today": "**🎉 Vandaag!**",
+      "in_days": "over {{count}} dag",
+      "in_days_plural": "over {{count}} dagen",
+      "embed_title": "🎂 Aankomende verjaardagen",
+      "embed_footer": "{{shown}} van {{total}} vermeldingen",
+      "months": [
+        "jan",
+        "feb",
+        "mrt",
+        "apr",
+        "mei",
+        "jun",
+        "jul",
+        "aug",
+        "sep",
+        "okt",
+        "nov",
+        "dec"
+      ],
+      "default_message": "🎂 Gefeliciteerd met je verjaardag, {user}! 🎉"
+    },
+    "giveaway": {
+      "no_permission_list": "❌ Je hebt geen rechten voor `/giveaway list`.",
+      "none": "Geen lopende giveaways.",
+      "no_permission": "❌ Je hebt geen rechten voor het giveawaysysteem.",
+      "invalid_duration": "❌ Ongeldige looptijd. Voorbeelden: `10m`, `2h`, `1d` (max. 30 dagen).",
+      "embed_participate": "Reageer met 🎉 om mee te doen!",
+      "embed_winners_label": "**Winnaars:**",
+      "embed_ends_label": "**Eindigt:**",
+      "embed_hosted_by": "Georganiseerd door {{tag}}",
+      "active_title": "🎉 Lopende giveaways",
+      "started": "✅ Giveaway **#{{id}}** in <#{{channel}}> gestart! Eindigt <t:{{ts}}:R>.",
+      "not_found": "❌ Giveaway #{{id}} niet gevonden.",
+      "already_ended": "❌ De giveaway is al afgelopen.",
+      "ended_winners": "✅ Giveaway afgelopen. Winnaars: {{winners}}",
+      "ended_no_winner": "✅ Giveaway afgelopen. Geen winnaar.",
+      "still_running": "❌ De giveaway loopt nog.",
+      "reroll_winners": "✅ Opnieuw getrokken: {{winners}}",
+      "reroll_no_winner": "✅ Opnieuw getrokken: geen geldige deelnemers.",
+      "no_participants": "Geen geldige deelnemers — geen winnaar.",
+      "winner_announce": "🎊 Gefeliciteerd {{mentions}}! Je hebt **{{prize}}** gewonnen!",
+      "winner_embed_title": "🎊 We hebben een winnaar!",
+      "winner_embed_desc": "Gefeliciteerd {{mentions}}!\nJe hebt **{{prize}}** gewonnen! 🎁",
+      "no_winner_announce": "Giveaway **{{prize}}** is afgelopen. Geen winnaar.",
+      "end_footer": "Giveaway #{{id}} afgelopen"
+    },
+    "levels": {
+      "disabled": "❌ Het levelsysteem staat uit op deze server.",
+      "no_entries": "Nog geen vermeldingen in de ranglijst.",
+      "rank_level": "Level",
+      "rank_rank": "Plaats",
+      "rank_total_xp": "XP totaal",
+      "rank_xp_progress": "XP tot het volgende level ({{current}} / {{needed}})",
+      "rank_next_reward": "Volgende rolbeloning bij level {{level}}",
+      "lb_title": "🏆 XP-ranglijst — {{guild}}",
+      "lb_footer": "Pagina {{page}} / {{total}} · {{count}} vermeldingen",
+      "xp_added": "✅ **{{user}}**: {{sign}} XP → {{total}} XP (level {{level}})",
+      "xp_set": "✅ **{{user}}**: XP ingesteld op {{value}} (level {{level}})",
+      "xp_reset": "✅ XP van **{{user}}** op nul gezet.",
+      "level_up_default": "🎉 {mention} heeft **level {level}** bereikt!",
+      "role_hint": "\n🎖️ Nieuwe rol: <@&{{roleId}}>"
+    },
+    "moderation": {
+      "user_not_found": "Gebruiker niet gevonden.",
+      "ban_not_possible": "Ik kan deze gebruiker niet verbannen.",
+      "banned": "✅ **{{user}}** is verbannen. ({{reason}})",
+      "kick_not_possible": "Ik kan deze gebruiker niet verwijderen.",
+      "kicked": "✅ **{{user}}** is van de server verwijderd. ({{reason}})",
+      "warned": "⚠️ **{{user}}** heeft een waarschuwing gekregen. (Zaak #{{id}} · {{count}} waarschuwingen in totaal)",
+      "no_warns": "{{user}} heeft geen waarschuwingen.",
+      "warn_cleared": "✅ Alle vermeldingen van **{{user}}** verwijderd.",
+      "no_infractions": "**{{user}}** heeft geen vermeldingen.",
+      "timeout_not_possible": "Ik kan deze gebruiker geen time-out geven.",
+      "timed_out": "✅ **{{user}}** heeft een time-out van **{{duration}}** gekregen.",
+      "clear_error": "❌ Fout bij het verwijderen. Berichten ouder dan 14 dagen kunnen niet worden verwijderd.",
+      "cleared": "✅ {{count}} bericht(en) verwijderd{{extra}}.",
+      "cleared_from": " van **{{user}}**",
+      "warn_embed_title": "⚠️ Waarschuwingen: {{user}}",
+      "warn_embed_footer": "{{count}} waarschuwingen",
+      "infr_embed_title": "📋 Handelingen: {{user}}",
+      "infr_embed_footer": "{{count}} vermelding(en) · de laatste 10 worden getoond",
+      "ban_days_deleted": "Berichten van de laatste {{days}} dag(en) verwijderd",
+      "warn_total_extra": "Waarschuwingen in totaal: {{count}}",
+      "timeout_duration_extra": "Duur: {{duration}}",
+      "auto_reason": "Automatisch: {{count}} waarschuwingen bereikt",
+      "log_user": "Gebruiker",
+      "log_moderator": "Moderator",
+      "log_reason": "Reden",
+      "log_details": "Details"
+    },
+    "ticket": {
+      "disabled": "❌ Het ticketsysteem staat uit op deze server.",
+      "no_permission_list": "❌ Je hebt geen rechten voor `/ticket list`.",
+      "none": "Geen openstaande tickets.",
+      "no_permission": "❌ Je hebt geen rechten voor het ticketsysteem.",
+      "channel_error": "❌ Kon het kanaal niet aanmaken. Controleer de rechten van de bot.",
+      "created": "✅ Je ticket is aangemaakt in {{channel}}.",
+      "no_open": "❌ Geen openstaand ticket in dit kanaal.",
+      "closing": "🔒 Het ticket wordt gesloten…",
+      "embed_title": "🎫 Supportticket",
+      "embed_description": "Hallo {{user}}! Beschrijf je probleem.\n\nEen teamlid reageert zo snel mogelijk.",
+      "embed_topic": "\n\n**Onderwerp:** {{topic}}",
+      "btn_close": "Sluiten",
+      "btn_claim": "Oppakken",
+      "btn_transfer": "Overdragen",
+      "list_title": "🎫 Openstaande tickets ({{count}})",
+      "no_topic": "Geen onderwerp",
+      "not_found": "❌ Ticket niet gevonden of al gesloten.",
+      "claimed": "🙋 {{user}} heeft het ticket opgepakt."
+    },
+    "bug": {
+      "disabled": "❌ De bugtracker staat uit op deze server.",
+      "no_permission_report": "❌ Je hebt geen rechten voor `/bug report`.",
+      "no_permission_list": "❌ Je hebt geen rechten voor `/bug list`.",
+      "reported_title": "🐛 Bug #{{id}} gemeld",
+      "status_field": "Status",
+      "footer": "Gemeld door {{user}} · {{guild}}",
+      "none": "✅ Geen bugs gemeld.",
+      "list_title": "🐛 Bugtracker — laatste {{count}} vermeldingen",
+      "list_footer": "{{total}} bug{{plural}} in totaal",
+      "list_footer_s": "s",
+      "unknown_status": "⚪ Onbekend",
+      "reported_by": "door {{user}}",
+      "status_offen": "🔴 Open",
+      "status_bestätigt": "🟠 Bevestigd",
+      "status_in_bearbeitung": "🔵 In behandeling",
+      "status_erledigt": "🟢 Afgehandeld"
+    },
+    "steam": {
+      "error": "❌ Er is een fout opgetreden. Probeer het opnieuw.",
+      "sales_error": "❌ Kon de Steam-aanbiedingen niet laden.",
+      "no_sales": "❌ Geen aanbiedingen gevonden met minstens **{{pct}}%** korting.",
+      "no_game": "❌ Geen spel gevonden voor: **{{query}}**",
+      "details_error": "❌ Kon de spelgegevens niet laden (app-ID: {{id}}).",
+      "no_news": "📭 Geen nieuws gevonden voor **{{game}}**.",
+      "no_profile": "❌ Profiel niet gevonden of op privé gezet.",
+      "no_steam_id": "❌ Steam-profiel niet gevonden: **{{input}}**",
+      "no_api_key": "❌ `STEAM_API_KEY` is niet ingesteld in `.env`. Een sleutel krijg je op https://steamcommunity.com/dev/apikey",
+      "free": "Gratis",
+      "sales_title": "🏷️ Steam-aanbiedingen — beste deals",
+      "sales_footer_min": "Min. korting: {{pct}}% · prijzen in EUR (DE)",
+      "sales_footer": "Prijzen in EUR (DE)",
+      "field_price": "💰 Prijs",
+      "field_released": "📅 Verschenen",
+      "field_developer": "🏢 Ontwikkelaar",
+      "field_genre": "🎭 Genre",
+      "field_platforms": "🖥 Platforms",
+      "field_type": "🎮 Type",
+      "field_metacritic": "📊 Metacritic",
+      "field_recommendations": "👍 Aanbevelingen",
+      "players_title": "{{game}} — spelersaantal",
+      "field_now_active": "🟢 Nu actief",
+      "field_peak_24h": "📈 Piek in 24 uur",
+      "field_owners": "👥 Eigenaren (schatting)",
+      "players_footer": "App-ID: {{id}} · gegevens: Steam en SteamSpy",
+      "news_title": "{{game}} — nieuws",
+      "field_status": "📶 Status",
+      "field_member_since": "📅 Lid sinds",
+      "field_country": "🌍 Land",
+      "field_playing": "🎮 Speelt nu",
+      "field_games": "📚 Spellen",
+      "field_playtime": "⏱ Totale speeltijd",
+      "hours_unit": "uur",
+      "status_0": "⚫ Offline",
+      "status_1": "🟢 Online",
+      "status_2": "🟡 Bezet",
+      "status_3": "🟡 Afwezig",
+      "status_4": "🔵 Sluimert",
+      "status_5": "🔵 Zoekt medespelers",
+      "status_6": "🔴 Speelt"
+    },
+    "twitch": {
+      "content": "📺 **Twitch live-rol**\n\nDe live-rol wordt automatisch toegewezen zodra je **op Twitch streamt** — mits je Twitch-account aan Discord is gekoppeld.\n\n**Zo koppel je je account:**\n1. Open de **Discord-instellingen**\n2. Ga naar **Verbindingen**\n3. Klik op het **Twitch-pictogram** en log in\n\nZodra je live gaat, krijg je de rol automatisch. Aan het einde van je stream wordt hij weer verwijderd."
+    },
+    "voice": {
+      "not_in_channel": "❌ Je zit niet in een tijdelijk kanaal.",
+      "not_owner": "❌ Je bent niet de eigenaar van dit kanaal.",
+      "user_not_found": "❌ Gebruiker niet gevonden.",
+      "cant_self_ban": "❌ Je kunt jezelf niet verbannen.",
+      "banned": "🚫 **{{user}}** is uit het kanaal verbannen.",
+      "already_owner": "❌ Je bent al de eigenaar.",
+      "owner_still_in": "❌ De huidige eigenaar zit nog in het kanaal.",
+      "locked_permanently": "❌ Dit kanaal is permanent vergrendeld en kan niet worden overgenomen.",
+      "locked_remaining": "⏳ Het kanaal blijft nog **{{time}}** vergrendeld.",
+      "now_owner": "👑 Je bent nu de eigenaar van dit kanaal.",
+      "cant_self_kick": "❌ Je kunt jezelf niet verwijderen.",
+      "user_not_in": "❌ Deze gebruiker zit niet in jouw kanaal.",
+      "kicked": "👢 **{{user}}** is uit het kanaal verwijderd.",
+      "limit_removed": "♾️ Ledenlimiet opgeheven.",
+      "limit_set": "👥 Ledenlimiet ingesteld op **{{limit}}**.",
+      "renamed": "✏️ Kanaal hernoemd naar **{{name}}**.",
+      "locked": "🔒 Kanaal vergrendeld — niemand kan nog binnenkomen.",
+      "unlocked": "🔓 Kanaal ontgrendeld — iedereen kan weer binnenkomen.",
+      "hidden": "🙈 Kanaal verborgen — anderen zien het niet meer.",
+      "revealed": "👁️ Kanaal zichtbaar — iedereen kan het weer zien.",
+      "transferred": "👑 Eigendom overgedragen aan **{{user}}**.",
+      "unbanned": "✅ Het kanaalverbod van **{{user}}** is opgeheven.",
+      "clean_deleted": "🧹 {{count}} leeg tijdelijk kanaal/kanalen verwijderd.",
+      "clean_none": "✅ Geen lege tijdelijke kanalen gevonden.",
+      "owner": "👑 Eigenaar: <@{{id}}>",
+      "commands_embed_title": "🔊 Tijdelijke kanalen — beschikbare commando's",
+      "commands_embed_desc": "`/voice-ban [lid]` — Een gebruiker uit het spraakkanaal verbannen\n`/voice-unban [lid]` — Een verbod opheffen\n`/voice-kick [lid]` — Een gebruiker uit het kanaal verwijderen\n`/voice-lock` — Het kanaal vergrendelen (niemand kan binnenkomen)\n`/voice-unlock` — Het kanaal ontgrendelen\n`/voice-hide` — Het kanaal verbergen\n`/voice-reveal` — Het kanaal weer zichtbaar maken\n`/voice-limit [ledenlimiet]` — De ledenlimiet aanpassen (0 = onbeperkt)\n`/voice-rename [naam]` — Het kanaal hernoemen\n`/voice-transfer [lid]` — Het eigendom overdragen\n`/voice-claim` — Het eigendom opeisen (wanneer de eigenaar weg is)\n`/voice-owner` — De huidige eigenaar tonen\n`/voice-clean` — Alle lege tijdelijke kanalen verwijderen"
+    },
+    "music": {
+      "disabled": "❌ Muziek staat uit op deze server.",
+      "disabled_short": "❌ Muziek staat uit.",
+      "not_in_vc": "❌ Je moet in een spraakkanaal zitten.",
+      "no_connect": "❌ De bot mag het spraakkanaal niet binnenkomen.",
+      "no_speak": "❌ De bot mag niet spreken — zet **Spreken** aan in de serverinstellingen onder Rollen.",
+      "dj_required": "❌ Je hebt de dj-rol nodig voor dit commando.",
+      "dj_required_short": "❌ Je hebt de dj-rol nodig.",
+      "nothing_playing": "❌ Er speelt op dit moment niets.",
+      "already_paused": "⏸️ Het afspelen is al gepauzeerd.",
+      "paused": "⏸️ Afspelen gepauzeerd.",
+      "already_playing": "▶️ Het afspelen loopt al.",
+      "resumed": "▶️ Afspelen hervat.",
+      "skipped": "⏭️ **{{title}}** overgeslagen.",
+      "stopped": "⏹️ Afspelen gestopt en de wachtrij geleegd.",
+      "volume_set": "{{emoji}} Volume ingesteld op **{{vol}}%**.",
+      "loop_off": "➡️ Herhalen uitgeschakeld.",
+      "loop_track": "🔂 Nummer herhalen ingeschakeld.",
+      "loop_queue": "🔁 Wachtrij herhalen ingeschakeld.",
+      "queue_no_more": "❌ De wachtrij bevat geen nummers meer.",
+      "shuffled": "🔀 **{{count}}** nummers geschud.",
+      "play_error": "❌ Fout: {{msg}}",
+      "added_title": "🎵 Aan de wachtrij toegevoegd",
+      "field_duration": "Duur",
+      "field_author": "Artiest",
+      "field_source": "Bron",
+      "requested_by": "Aangevraagd door {{tag}}",
+      "live": "Live",
+      "np_paused": "⏸️ Gepauzeerd",
+      "np_playing": "▶️ Speelt",
+      "unknown_requester": "Onbekend",
+      "queue_title": "🎵 Wachtrij",
+      "queue_now_playing": "▶️ Speelt nu",
+      "queue_next": "Volgende nummers (pagina {{page}}/{{total}})",
+      "queue_empty_name": "Wachtrij",
+      "queue_empty_value": "_Geen nummers meer_",
+      "queue_footer": "{{count}} nummers · herhalen: {{mode}}",
+      "repeat_off": "Uit",
+      "repeat_track": "🔂 Nummer",
+      "repeat_queue": "🔁 Wachtrij",
+      "repeat_autoplay": "▶️ Automatisch afspelen",
+      "queue_empty_leave": "✅ Wachtrij leeg — de bot verlaat het kanaal.",
+      "disconnected": "👋 Verbinding verbroken.",
+      "player_error": "❌ Fout bij het afspelen: `{{msg}}`",
+      "playlist_added": "🎵 Afspeellijst **{{name}}** toegevoegd ({{count}} nummers)"
+    },
+    "auditlog": {
+      "unknown": "Onbekend",
+      "empty": "*leeg*",
+      "not_cached": "*niet in de cache*",
+      "no_nickname": "*geen bijnaam*",
+      "no_reason": "Geen reden opgegeven",
+      "no_roles": "Geen",
+      "never": "Nooit",
+      "msg_edited": "✏️ Bericht bewerkt",
+      "msg_deleted": "🗑️ Bericht verwijderd",
+      "invite_created": "📨 Uitnodiging aangemaakt",
+      "member_joined": "📥 Lid erbij gekomen",
+      "member_kicked": "👢 Lid verwijderd",
+      "member_left": "📤 Lid vertrokken",
+      "member_banned": "🔨 Gebruiker verbannen",
+      "member_unbanned": "✅ Verbod op gebruiker opgeheven",
+      "member_timeout": "🔇 Gebruiker kreeg een time-out",
+      "member_untimeout": "🔊 Time-out opgeheven",
+      "nickname_changed": "✏️ Bijnaam gewijzigd",
+      "roles_changed": "🎭 Rollen van lid gewijzigd",
+      "user_updated": "👤 Gebruiker bijgewerkt",
+      "role_created": "✨ Rol aangemaakt",
+      "role_deleted": "🗑️ Rol verwijderd",
+      "role_updated": "🔧 Rol bijgewerkt",
+      "voice_joined": "🎙️ Spraakkanaal binnengekomen",
+      "voice_left": "🚪 Spraakkanaal verlaten",
+      "server_updated": "🏠 Server bijgewerkt",
+      "emoji_added": "😀 Emoji toegevoegd",
+      "emoji_removed": "😶 Emoji verwijderd",
+      "emoji_renamed": "✏️ Emoji hernoemd",
+      "ch_voice_created": "🔊 Spraakkanaal aangemaakt",
+      "ch_category_created": "📁 Categorie aangemaakt",
+      "ch_text_created": "💬 Tekstkanaal aangemaakt",
+      "channel_deleted": "🗑️ Kanaal verwijderd",
+      "channel_updated": "🔧 Kanaal bijgewerkt",
+      "field_author": "Auteur",
+      "field_channel": "Kanaal",
+      "field_before": "Voor",
+      "field_after": "Na",
+      "field_link": "Link",
+      "field_content": "Inhoud",
+      "field_deleted_by": "Verwijderd door",
+      "field_created_by": "Aangemaakt door",
+      "field_added_by": "Toegevoegd door",
+      "field_removed_by": "Verwijderd door",
+      "field_kicked_by": "Verwijderd door",
+      "field_banned_by": "Verbannen door",
+      "field_unbanned_by": "Verbod opgeheven door",
+      "field_changed_by": "Gewijzigd door",
+      "field_code": "Code",
+      "field_max_uses": "Max. aantal keer te gebruiken",
+      "field_expires": "Verloopt",
+      "field_user": "Gebruiker",
+      "field_account_created": "Account aangemaakt",
+      "field_members": "Leden",
+      "field_roles": "Rollen",
+      "field_reason": "Reden",
+      "field_until": "Tot",
+      "field_by": "Door",
+      "field_change": "Wijziging",
+      "field_changes": "Wijzigingen",
+      "field_color": "Kleur",
+      "field_role": "Rol",
+      "field_emoji": "Emoji",
+      "field_roles_added": "➕ Toegevoegd",
+      "field_roles_removed": "➖ Verwijderd",
+      "link_to_msg": "Naar het bericht",
+      "change_name": "**Naam:** {{from}} → {{to}}",
+      "change_color": "**Kleur:** {{from}} → {{to}}",
+      "change_hoist": "**Apart weergeven:** {{from}} → {{to}}",
+      "change_mentionable": "**Vermeldbaar:** {{from}} → {{to}}",
+      "change_permissions": "**Rechten** gewijzigd",
+      "change_topic": "**Onderwerp:** {{from}} → {{to}}",
+      "change_nsfw": "**NSFW:** {{from}} → {{to}}",
+      "change_slowmode": "**Slow-mode:** {{from}} s → {{to}} s",
+      "change_icon": "**Pictogram** gewijzigd",
+      "change_description": "**Beschrijving:** {{from}} → {{to}}",
+      "change_verification": "**Verificatieniveau:** {{from}} → {{to}}",
+      "change_avatar": "**Avatar** gewijzigd",
+      "change_tag": "**Tag:** {{from}} → {{to}}"
+    },
+    "notifiers": {
+      "twitch": {
+        "no_title": "Geen titel",
+        "now_live": "{{name}} is nu live!",
+        "field_game": "Spel",
+        "field_viewers": "Kijkers",
+        "unknown": "Onbekend",
+        "default_message": "🔴 **{streamer}** is nu live! {link}"
+      },
+      "kick": {
+        "no_title": "Geen titel",
+        "now_live": "{{name}} is live op Kick!",
+        "field_category": "🎮 Categorie",
+        "field_viewers": "👥 Kijkers",
+        "unknown": "Onbekend",
+        "default_message": "🟢 **{streamer}** is nu live op Kick! {link}"
+      },
+      "youtube": {
+        "default_message": "📺 **{channel}** heeft een nieuwe video geplaatst! {link}"
+      },
+      "x": {
+        "default_message": "@everyone 🐦 Nieuwe post van **{user}**!"
+      },
+      "fallout76": {
+        "embed_title": "☢️ Fallout 76 – nucleaire codes",
+        "embed_footer": "Bron: nukacrypt.com"
+      },
+      "zkillboard": {
+        "victim_lost": "{{victim}} verloor {{ship}}",
+        "field_value": "💰 Waarde",
+        "field_system": "📍 Systeem",
+        "unknown": "Onbekend",
+        "and_more": "+{{count}} meer"
+      },
+      "trovo": {
+        "no_title": "Geen titel",
+        "now_live": "{{name}} is live op Trovo!",
+        "field_category": "🎮 Categorie",
+        "field_viewers": "👥 Kijkers",
+        "unknown": "Onbekend",
+        "default_message": "🟣 **{streamer}** is nu live op Trovo! {link}"
+      }
+    },
+    "events": {
+      "command_error": "❌ Er is een fout opgetreden bij het uitvoeren van het commando.",
+      "ticket_not_found": "❌ Ticket niet gevonden of al gesloten.",
+      "ticket_closing": "🔒 Het ticket wordt gesloten…",
+      "ticket_claimed": "🙋 {{user}} heeft het ticket opgepakt.",
+      "commands_embed_title": "⚡ Ik reageer op de volgende commando's",
+      "commands_embed_footer_s": "s",
+      "commands_embed_footer": "{{count}} commando('s) beschikbaar",
+      "commands_none": "Geen voorvoegselcommando's ingesteld.",
+      "prefix_error": "❌ Er is een fout opgetreden bij het uitvoeren van het commando.",
+      "module_disabled": "Deze module is globaal uitgeschakeld."
+    }
+  },
+  "landing": {
+    "mock": {
+      "moderation": "Moderatie",
+      "modlog_channel": "Mod-logkanaal",
+      "auto_timeout": "Auto-time-out vanaf",
+      "warns": "warns",
+      "recent_warnings": "Recente waarschuwingen",
+      "reason_spam": "Spam in het kanaal",
+      "reason_offtopic": "Off-topic bericht",
+      "reason_insult": "Belediging",
+      "leveling": "Levelen",
+      "level_rewards": "Levelbeloningen",
+      "now_playing": "Nu speelt",
+      "tracks_in_queue": "nummers in de wachtrij",
+      "notify_channel": "Meldingskanaal",
+      "live_role": "Live-rol toewijzen",
+      "watched_streamers": "Gevolgde streamers",
+      "viewers": "kijkers",
+      "last_live": "Laatst live 3 uur geleden",
+      "notify_template": "Meldingssjabloon",
+      "template_text": "🎮 {streamer} is nu LIVE! Kom kijken!",
+      "overview": "Overzicht",
+      "members": "Leden",
+      "active_today": "Vandaag actief",
+      "modules_active": "Modules actief",
+      "quick_access": "Snelle toegang",
+      "music": "Muziek",
+      "recent_activity": "Recente activiteit",
+      "act_join": "Alex is lid geworden van de server",
+      "act_warn": "JohnDoe is gewaarschuwd",
+      "act_level": "Maria bereikte level 10",
+      "min_ago": "{{n}} min geleden"
+    },
+    "nav": {
+      "menu_open": "Menu openen",
+      "features": "Functies",
+      "modules": "Modules",
+      "dashboard": "Dashboard",
+      "invite": "Uitnodigen"
+    },
+    "hero": {
+      "badge": "Versie",
+      "title_1": "De bot die je",
+      "title_2": "Discord-server",
+      "title_3": "naar een hoger niveau tilt",
+      "subtitle": "Moderatie, muziek, leveling, sociale feeds en nog veel meer — alles in één bot met een overzichtelijk webdashboard.",
+      "cta_invite": "Nu toevoegen",
+      "cta_dashboard": "Dashboard openen",
+      "stats": {
+        "modules": "Modules",
+        "commands": "Commando's",
+        "online": "Online",
+        "free": "Gratis"
+      }
+    },
+    "features": {
+      "badge": "Hoogtepunten",
+      "title": "Alles wat je nodig hebt",
+      "subtitle": "Krachtige functies die je server echt verder helpen",
+      "disclaimer": "De getoonde voorbeelden gebruiken fictieve gegevens om de functies te illustreren.",
+      "moderation": {
+        "title": "Krachtige moderatie",
+        "desc": "Houd je server schoon met een volwaardig systeem voor waarschuwingen, bans en time-outs. Bij herhaalde overtredingen loopt de straf automatisch op — jij bepaalt de grenzen.",
+        "items": [
+          "Waarschuwingen met automatische escalatie",
+          "Volledige overtredingsgeschiedenis met zaaknummers",
+          "Instelbaar kanaal voor het moderatielogboek",
+          "Time-out, kick, ban en berichten verwijderen"
+        ]
+      },
+      "leveling": {
+        "title": "Leveling en XP-systeem",
+        "desc": "Motiveer je community met een volwaardig XP-systeem. Beloon actieve leden automatisch met rollen en vier levelstijgingen in de chat.",
+        "items": [
+          "Automatisch XP voor berichten",
+          "Rolbeloningen bij bepaalde levels",
+          "Serverranglijst met paginering",
+          "Meldingen bij levelstijging in de chat of per DM"
+        ]
+      },
+      "music": {
+        "title": "Muziek voor iedereen",
+        "desc": "Geniet van muziek rechtstreeks in je spraakkanaal. Ondersteuning voor YouTube, Spotify en SoundCloud, met een volwaardige wachtrij en bescherming via een dj-rol.",
+        "items": [
+          "YouTube, Spotify en SoundCloud",
+          "Wachtrij met maximaal 250 nummers",
+          "Herhalen, shuffle, overslaan, volume",
+          "Beperkingen via een dj-rol"
+        ]
+      },
+      "social": {
+        "title": "Sociale meldingen",
+        "desc": "Mis nooit meer een nieuwe post of stream van je favoriete makers. Nephthys stuurt automatisch meldingen voor Twitch, YouTube, Kick en X (Twitter).",
+        "items": [
+          "Live-meldingen met streaminfo voor Twitch, Kick en Trovo",
+          "Meldingen bij nieuwe YouTube-video's",
+          "Berichten van X (Twitter) doorsturen",
+          "Eigen berichtsjablonen"
+        ]
+      }
+    },
+    "modules": {
+      "badge": "Alle modules",
+      "title": "Overzicht van de functies",
+      "subtitle": "Van moderatie tot social media — Nephthys heeft voor elke server iets in huis",
+      "tempchannels": {
+        "title": "Tijdelijke spraakkanalen",
+        "desc": "Automatisch aangemaakte spraakkanalen die zichzelf beheren. Eigenaren kunnen hernoemen, vergrendelen, verbergen, gebruikers verwijderen en meer.",
+        "tags": [
+          "/voice-lock",
+          "/voice-rename",
+          "Automatisch opruimen"
+        ]
+      },
+      "reactionroles": {
+        "title": "Reactierollen",
+        "desc": "Wijs rollen automatisch toe via een emojireactie. Ideaal voor zelf te kiezen rollen, kleurkeuze binnen de community en toegang tot kanalen.",
+        "tags": [
+          "Emoji → rol",
+          "Meerdere reacties"
+        ]
+      },
+      "birthday": {
+        "title": "Verjaardagssysteem",
+        "desc": "Vier de verjaardagen van je communityleden automatisch met persoonlijke berichten en een optionele verjaardagsrol.",
+        "tags": [
+          "Automatische aankondiging",
+          "Verjaardagsrol"
+        ]
+      },
+      "commands": {
+        "title": "Eigen commando's",
+        "desc": "Maak je eigen slash-commando's zonder programmeerkennis. Parameters, antwoorden en rolbeperkingen stel je direct in het dashboard in.",
+        "tags": [
+          "Slash-commando's",
+          "Prefix-commando's",
+          "Rolcontrole"
+        ]
+      },
+      "kofi": {
+        "title": "Ko-Fi-integratie",
+        "desc": "Beloon je supporters automatisch met rollen op basis van hun Ko-Fi-niveau. Met vervaldatums, statistieken en webhookondersteuning.",
+        "tags": [
+          "Rollen per niveau",
+          "Statistieken",
+          "Webhooks"
+        ]
+      },
+      "patreon": {
+        "title": "Patreon-integratie",
+        "desc": "Koppel je Patreon-campagne en wijs Discord-rollen automatisch toe op basis van het lidmaatschapsniveau — met OAuth2 en realtime webhooks.",
+        "tags": [
+          "OAuth2",
+          "Rollen per niveau",
+          "Webhooks"
+        ]
+      },
+      "reminder": {
+        "title": "Herinneringen",
+        "desc": "Stel persoonlijke herinneringen in, rechtstreeks in Discord. Tot 167 uur vooruit — de bot tikt je op het juiste moment op de schouder.",
+        "tags": [
+          "/reminder add",
+          "Tot 167 uur"
+        ]
+      },
+      "steam": {
+        "title": "Steam-integratie",
+        "desc": "Houd je community op de hoogte van Steam-games: prijzen, spelersaantallen, het laatste nieuws en profielstatistieken, direct in de chat.",
+        "tags": [
+          "/steam info",
+          "/steam news",
+          "/steam user"
+        ]
+      },
+      "gaming": {
+        "title": "Gaming-integraties",
+        "desc": "Gemaakt voor gamers: Fallout 76 Nuclear Launch Codes en killmailmeldingen van EVE Online zKillboard, direct op je Discord-server.",
+        "tags": [
+          "Fallout 76",
+          "EVE Online",
+          "zKillboard"
+        ]
+      },
+      "begruessung": {
+        "title": "Welkomstsysteem",
+        "desc": "Verwelkom nieuwe leden met persoonlijke berichten in een kanaal of per DM. Aankondigingen met vertraging en rolbeperkingen zijn inbegrepen.",
+        "tags": [
+          "Bericht in kanaal",
+          "Welkom per DM"
+        ]
+      },
+      "starboard": {
+        "title": "Starboard",
+        "desc": "Licht de populairste berichten van je community automatisch uit in een eigen kanaal — op basis van een aantal reacties.",
+        "tags": [
+          "Drempel voor reacties",
+          "Automatisch plaatsen",
+          "Topberichten"
+        ]
+      },
+      "slowmode": {
+        "title": "Slow-mode-beheer",
+        "desc": "Herkent overbelaste kanalen automatisch en schakelt de slow-mode in — zonder dat jij hoeft in te grijpen. Per kanaal instelbaar.",
+        "tags": [
+          "Automatische slow-mode",
+          "Drempelwaarde",
+          "Per kanaal"
+        ]
+      },
+      "giveaways": {
+        "title": "Giveaways",
+        "desc": "Start giveaways met automatische winnaarskeuze, een aftelklok en optionele deelnamevoorwaarden via een rolfilter.",
+        "tags": [
+          "Automatische trekking",
+          "Timer",
+          "Rolfilter"
+        ]
+      },
+      "tickets": {
+        "title": "Ticketsysteem",
+        "desc": "Supporttickets rechtstreeks in Discord — met categorieën, roltoewijzing, automatisch archief en overzichtelijk beheer in het dashboard.",
+        "tags": [
+          "Categorieën",
+          "Rolcontrole",
+          "Automatisch sluiten"
+        ]
+      },
+      "scheduled": {
+        "title": "Geplande berichten",
+        "desc": "Plan tekst- of embedberichten voor een bepaald moment — eenmalig of terugkerend. Ideaal voor aankondigingen, evenementen en vaste updates.",
+        "tags": [
+          "Tekst en embed",
+          "Terugkerend",
+          "Dashboard"
+        ]
+      },
+      "trovo": {
+        "title": "Trovo",
+        "desc": "Mis geen enkele stream op Trovo. Nephthys stuurt automatisch een live-melding naar het ingestelde Discord-kanaal zodra een streamer online gaat.",
+        "tags": [
+          "Live-meldingen",
+          "Streaminfo",
+          "Meerdere streamers"
+        ]
+      },
+      "invites": {
+        "title": "Uitnodigingen bijhouden",
+        "desc": "Houd bij wie wie naar de server heeft uitgenodigd. Met een ranglijst van uitnodigingen, XP-beloningen voor uitnodigers en een overzicht van alle geregistreerde uitnodigingscodes.",
+        "tags": [
+          "Ranglijst",
+          "XP per uitnodiging",
+          "/invite create"
+        ]
+      }
+    },
+    "dashboard_teaser": {
+      "badge": "Webdashboard",
+      "title": "Alles onder controle — gewoon in je browser",
+      "desc": "Stel elk onderdeel van je bot in via het overzichtelijke webdashboard. Geen commando's nodig — inloggen, server kiezen en aan de slag.",
+      "items": [
+        "Discord OAuth2 — veilig inloggen",
+        "Alle instellingen zonder de bot te herstarten",
+        "Statistieken en ledenactiviteit",
+        "Responsief — werkt ook op je telefoon"
+      ],
+      "cta": "Dashboard openen"
+    },
+    "cta": {
+      "title": "Klaar om je server beter te maken?",
+      "subtitle": "Voeg Nephthys vandaag nog toe aan je Discord-server — gratis, direct bruikbaar en volledig instelbaar.",
+      "invite": "Bot uitnodigen",
+      "dashboard": "Dashboard openen"
+    },
+    "footer": {
+      "tagline": "Jouw alles-in-één Discord-bot",
+      "links": {
+        "features": "Functies",
+        "modules": "Modules",
+        "dashboard": "Dashboard"
+      },
+      "legal": {
+        "impressum": "Colofon",
+        "datenschutz": "Privacyverklaring",
+        "nutzungsbedingungen": "Gebruiksvoorwaarden",
+        "kontakt": "Contact"
+      },
+      "copyright": "Nephthys Bot. Alle rechten voorbehouden.",
+      "online": "Bot online",
+      "offline": "Bot offline"
+    }
+  },
+  "help": {
+    "title": "Help & modules",
+    "subtitle": "Overzicht van alle botmodules – functies, commando's en links naar de instellingen.",
+    "toc": "Inhoudsopgave",
+    "cat_settings": "Instellingen",
+    "cat_social": "Sociale meldingen",
+    "cat_features": "Functies",
+    "open_settings": "Instellingen",
+    "mods": {
+      "begruessung": {
+        "desc": "Verwelkomt nieuwe leden met een aanpasbaar bericht en neemt afscheid wanneer ze de server verlaten.",
+        "features": [
+          "Eigen welkomstbericht als embed of gewone tekst",
+          "Apart afscheidsbericht instelbaar",
+          "Plaatsaanduidingen voor gebruikersnaam, vermelding en servernaam",
+          "Kanaal vrij te kiezen"
+        ]
+      },
+      "commands": {
+        "desc": "Maak eigen slash-commando's met een zelfgekozen naam, omschrijving en antwoordtekst.",
+        "features": [
+          "Onbeperkt aantal eigen commando's",
+          "Ondersteuning voor embeds en gewone tekst",
+          "Rolbeperking per commando mogelijk",
+          "Direct actief na het opslaan"
+        ]
+      },
+      "reactionroles": {
+        "desc": "Wijst rollen automatisch toe wanneer leden met een emoji reageren – handmatig ingrijpen is niet nodig.",
+        "features": [
+          "Elke emojireactie (Unicode en server-emotes)",
+          "Meerdere combinaties van reactie en rol per bericht",
+          "Rollen worden weer verwijderd zodra de reactie weg is"
+        ]
+      },
+      "moderation": {
+        "desc": "Volledige moderatiegereedschapskist: ban, kick, time-outs, waarschuwingen en berichten verwijderen.",
+        "features": [
+          "Automatisch moderatielogboek in een instelbaar kanaal",
+          "Overtredingsgeschiedenis per gebruiker",
+          "Tijdelijke time-outs met een looptijd",
+          "Meerdere berichten tegelijk verwijderen"
+        ],
+        "cmd_ban": "Een gebruiker permanent van de server verbannen",
+        "cmd_kick": "Een gebruiker van de server verwijderen",
+        "cmd_timeout": "Een gebruiker tijdelijk het zwijgen opleggen",
+        "cmd_warn": "Een gebruiker een waarschuwing geven",
+        "cmd_infractions": "De overtredingsgeschiedenis van een gebruiker tonen",
+        "cmd_clear": "Een aantal berichten uit een kanaal verwijderen"
+      },
+      "starboard": {
+        "desc": "Licht populaire berichten automatisch uit in een starboardkanaal zodra er genoeg reacties zijn.",
+        "features": [
+          "Instelbare reactie-emoji (standaard: ⭐)",
+          "Aanpasbare drempel voor het aantal reacties",
+          "Reageren op je eigen bericht kan worden uitgeschakeld",
+          "Bepaalde kanalen kunnen worden overgeslagen"
+        ]
+      },
+      "slowmode": {
+        "desc": "Beheer de slow-mode van kanalen rechtstreeks via het dashboard, zonder beheerdersrechten in Discord zelf nodig te hebben.",
+        "features": [
+          "Slow-mode instellen voor elk tekstkanaal",
+          "Vertraging van 0 tot 21.600 seconden",
+          "Overzicht van alle actieve slow-mode-instellingen"
+        ]
+      },
+      "twitch": {
+        "desc": "Stuurt automatisch een melding naar Discord zodra een Twitch-kanaal live gaat.",
+        "features": [
+          "Meerdere Twitch-kanalen tegelijk volgen",
+          "Eigen meldingskanaal en berichttekst",
+          "Optionele @vermelding bij de start van de stream",
+          "Titel van de stream en het spel worden getoond"
+        ],
+        "cmd_twitch": "Twitch-kanalen beheren (toevoegen/verwijderen/tonen)"
+      },
+      "youtube": {
+        "desc": "Brengt je community automatisch op de hoogte wanneer er een nieuwe YouTube-video verschijnt.",
+        "features": [
+          "Meerdere YouTube-kanalen tegelijk volgen",
+          "Eigen bericht en vermelding instelbaar",
+          "Herkent uploads, shorts en aangekondigde premières"
+        ]
+      },
+      "kick": {
+        "desc": "Live-meldingen voor Kick-streams, rechtstreeks in Discord.",
+        "features": [
+          "Meerdere Kick-kanalen te volgen",
+          "Meldingskanaal en berichttekst aanpasbaar",
+          "Optionele @vermelding bij de start van de stream"
+        ]
+      },
+      "trovo": {
+        "desc": "Meldingen van Trovo-streams in de door jou gekozen Discord-kanalen.",
+        "features": [
+          "Meerdere Trovo-streamers te volgen",
+          "Streaminfo wordt in het bericht getoond",
+          "Eigen bericht en vermelding instelbaar"
+        ]
+      },
+      "twitter": {
+        "desc": "Plaatst nieuwe posts van X-accounts (Twitter) automatisch in Discord.",
+        "features": [
+          "Meerdere X-accounts te volgen",
+          "Reposts optioneel tonen of verbergen",
+          "Eigen doelkanaal per account"
+        ]
+      },
+      "zkill": {
+        "desc": "Ontvangt killmails van zkillboard.com in realtime en plaatst ze in Discord – ideaal voor EVE Online-corporaties.",
+        "features": [
+          "Filteren op corporatie, alliantie of personage",
+          "Directe meldingen via de zKillboard-WebSocket",
+          "Uitgebreide killmail-embeds met schip en waarde"
+        ]
+      },
+      "leveling": {
+        "desc": "Levelsysteem op basis van XP: leden verdienen ervaringspunten door te chatten en krijgen bij bepaalde levels een rol.",
+        "features": [
+          "XP per bericht instelbaar (min./max.)",
+          "Levelrollen worden automatisch toegewezen en verwijderd",
+          "Rankkaart met een eigen vormgeving",
+          "Ranglijst van de actiefste leden",
+          "XP-bonus voor bepaalde rollen",
+          "Kanalen en rollen kunnen van XP worden uitgesloten"
+        ],
+        "cmd_rank": "De rankkaart van een andere gebruiker tonen",
+        "cmd_myrank": "Je eigen rankkaart tonen",
+        "cmd_leaderboard": "De XP-ranglijst van de server tonen",
+        "cmd_xp": "De XP van een gebruiker handmatig instellen of aanpassen (beheerder)"
+      },
+      "birthday": {
+        "desc": "Slaat de verjaardagen van leden op en feliciteert hen automatisch met een bericht en een optionele rol.",
+        "features": [
+          "Leden vullen hun eigen verjaardag in",
+          "Automatische felicitatie om middernacht",
+          "Optionele verjaardagsrol voor die dag",
+          "Overzicht van de eerstvolgende verjaardagen"
+        ],
+        "cmd_set": "Je verjaardag opslaan",
+        "cmd_remove": "Je opgeslagen verjaardag verwijderen",
+        "cmd_list": "Alle opgeslagen verjaardagen tonen",
+        "cmd_next": "De eerstvolgende verjaardag tonen"
+      },
+      "giveaway": {
+        "desc": "Maak giveaways met een timer en automatische winnaarskeuze, rechtstreeks in Discord.",
+        "features": [
+          "Giveaways met een looptijd",
+          "Een willekeurig aantal winnaars",
+          "Winnaars worden willekeurig getrokken",
+          "Opnieuw trekken wanneer dat nodig is"
+        ],
+        "cmd_start": "Een nieuwe giveaway starten",
+        "cmd_end": "Een lopende giveaway vroegtijdig beëindigen",
+        "cmd_reroll": "De winnaars van een afgeronde giveaway opnieuw trekken",
+        "cmd_cancel": "Een giveaway afbreken zonder winnaar"
+      },
+      "tempchannels": {
+        "desc": "Leden maken een tijdelijk spraakkanaal door een aanmaakkanaal binnen te gaan – het kanaal verdwijnt automatisch zodra het leeg is.",
+        "features": [
+          "Automatisch aanmaken en verwijderen",
+          "De eigenaar heeft volledige controle over zijn kanaal",
+          "Ledenlimiet, naam en zichtbaarheid aan te passen",
+          "Gebruikers kunnen worden uitgenodigd, verwijderd of verbannen"
+        ],
+        "cmd_rename": "Het tijdelijke kanaal hernoemen",
+        "cmd_limit": "De ledenlimiet van het tijdelijke kanaal instellen",
+        "cmd_lock": "Het kanaal sluiten voor nieuwe deelnemers",
+        "cmd_unlock": "Het kanaal weer openstellen",
+        "cmd_hide": "Het kanaal onzichtbaar maken voor anderen",
+        "cmd_reveal": "Het kanaal weer zichtbaar maken",
+        "cmd_kick": "Een gebruiker uit het tijdelijke kanaal verwijderen",
+        "cmd_ban": "Een gebruiker permanent uit het kanaal weren",
+        "cmd_unban": "Het kanaalverbod van een gebruiker opheffen",
+        "cmd_transfer": "Het eigendom van het kanaal aan een andere gebruiker overdragen",
+        "cmd_owner": "De huidige eigenaar van het kanaal tonen",
+        "cmd_clean": "Alle niet-aanwezige leden uit het kanaal verwijderen",
+        "cmd_claim": "Het eigendom van een kanaal zonder eigenaar opeisen"
+      },
+      "counters": {
+        "desc": "Toont actuele aantallen zoals leden, online gebruikers of boosts rechtstreeks in de kanaalnaam.",
+        "features": [
+          "Zes soorten tellers: leden, mensen, bots, online, boosts, rolhouders",
+          "Vrij in te stellen naamsjabloon met de plaatsaanduiding {count}",
+          "Werkt met tekstkanalen, spraakkanalen en categorieën",
+          "Wordt elke 10 minuten bijgewerkt (limiet van Discord)"
+        ]
+      },
+      "tickets": {
+        "desc": "Systeem voor supporttickets: leden openen een ticket in een besloten kanaal, het supportteam kan antwoorden en het ticket sluiten.",
+        "features": [
+          "Besloten ticketkanalen per gebruiker",
+          "Automatische melding aan het supportteam",
+          "Onderwerp wordt bij het aanmaken opgegeven",
+          "Tickets sluiten en de geschiedenis bewaren"
+        ],
+        "cmd_ticket": "Een nieuw supportticket openen"
+      },
+      "music": {
+        "desc": "Volwaardige muziekbot: muziek afspelen van YouTube en andere bronnen, de wachtrij beheren en het afspelen bedienen.",
+        "features": [
+          "YouTube, YouTube Music en directe URL's",
+          "Wachtrij met meerdere nummers",
+          "Herhaalstanden: nummer, wachtrij, uit",
+          "De wachtrij schudden",
+          "Volumeregeling"
+        ],
+        "cmd_play": "Een nummer of URL afspelen / aan de wachtrij toevoegen",
+        "cmd_pause": "Het afspelen pauzeren",
+        "cmd_resume": "Het gepauzeerde afspelen hervatten",
+        "cmd_skip": "Het huidige nummer overslaan",
+        "cmd_stop": "Het afspelen stoppen en de wachtrij legen",
+        "cmd_queue": "De huidige wachtrij tonen",
+        "cmd_nowplaying": "Het nummer tonen dat nu speelt",
+        "cmd_volume": "Het volume instellen (0–100)",
+        "cmd_loop": "De herhaalstand wisselen",
+        "cmd_shuffle": "De wachtrij willekeurig schudden"
+      },
+      "reminder": {
+        "desc": "Stel herinneringen met een tijdstip in – de bot stuurt op het afgesproken moment een DM of een bericht in het kanaal.",
+        "features": [
+          "Flexibele tijdsaanduidingen (minuten, uren, dagen)",
+          "Herinnering per DM of in het huidige kanaal",
+          "Eigen tekst voor de herinnering"
+        ],
+        "cmd_reminder": "Een nieuwe herinnering aanmaken"
+      },
+      "invites": {
+        "desc": "Houdt bij hoeveel leden elke gebruiker heeft uitgenodigd en welke uitnodigingslink daarbij is gebruikt.",
+        "features": [
+          "Uitnodigingsstatistieken per gebruiker",
+          "Welk lid via welke uitnodiging is binnengekomen",
+          "Overzicht in het dashboard"
+        ],
+        "cmd_invite": "Je eigen uitnodigingsstatistieken tonen"
+      },
+      "scheduled": {
+        "desc": "Plan berichten en laat ze automatisch op een bepaalde datum en tijd in een ingesteld kanaal verschijnen.",
+        "features": [
+          "Berichten voor elk gewenst moment inplannen",
+          "Ondersteuning voor embeds en gewone tekst",
+          "Overzicht en beheer van alle geplande berichten"
+        ]
+      },
+      "fallout76": {
+        "desc": "Haalt de wekelijkse nucleaire codes (Alpha, Bravo, Charlie) van Fallout 76 automatisch op en plaatst ze in Discord.",
+        "features": [
+          "Automatische wekelijkse update",
+          "Alle drie de silocodes (Alpha, Bravo, Charlie)",
+          "Instelbaar doelkanaal en vermelding"
+        ]
+      }
+    }
+  },
+  "announcements": {
+    "title": "Aankondigingen",
+    "all": "Alle aankondigingen",
+    "show_all": "Alles bekijken",
+    "mark_all_read": "Alles als gelezen markeren",
+    "mark_read": "Als gelezen markeren",
+    "none": "Geen aankondigingen.",
+    "loading": "Laden…",
+    "unread": "Ongelezen",
+    "cat": {
+      "info": "Info",
+      "update": "Update",
+      "warning": "Waarschuwing",
+      "maintenance": "Onderhoud"
+    },
+    "admin": {
+      "title": "Aankondigingen beheren",
+      "tab_manage": "Beheren",
+      "tab_api": "Externe API-toegang",
+      "new_title": "Nieuwe aankondiging maken",
+      "existing": "Bestaande aankondigingen",
+      "none": "Nog geen aankondigingen.",
+      "f_title": "Titel",
+      "f_category": "Categorie",
+      "f_author": "Auteur",
+      "f_body": "Inhoud",
+      "f_body_hint": "Inhoud van de aankondiging in Markdown- of HTML-stijl…",
+      "body_html_hint": "HTML wordt op de detailpagina ongefilterd weergegeven. Plak hier geen invoer van gebruikers.",
+      "published": "Gepubliceerd",
+      "pinned": "Vastgezet",
+      "draft": "Concept",
+      "create": "Aanmaken",
+      "updated": "Bijgewerkt",
+      "reads": "keer gelezen",
+      "confirm_delete": "Deze aankondiging echt verwijderen?",
+      "api_title": "Extern beheer via API",
+      "api_intro": "Aankondigingen en de statuscontrole zijn op te vragen en te beheren via de REST-API v1 — ideaal voor externe hulpmiddelen (bijvoorbeeld een uptimemonitor).",
+      "api_auth": "Authenticatie (HTTP-header):",
+      "api_endpoints": "Endpoints:",
+      "api_example": "Voorbeeldaanvraag:",
+      "api_docs": "API-documentatie",
+      "new_key": "Nieuwe API-sleutel maken",
+      "create_key": "Sleutel aanmaken",
+      "key_name": "Naam",
+      "key_name_hint": "bijv. \"Uptimemonitor\" of \"Mijn tweede project\"",
+      "existing_keys": "Bestaande sleutels",
+      "no_keys": "Nog geen sleutels. Maak er een aan om de API te gebruiken.",
+      "key_prefix": "Voorvoegsel",
+      "key_created": "Aangemaakt",
+      "key_last_used": "Laatst gebruikt",
+      "actions": "Acties",
+      "revoked": "Ingetrokken",
+      "revoke": "Intrekken",
+      "copy": "Kopiëren",
+      "copied": "Gekopieerd!",
+      "confirm_revoke": "Deze sleutel echt intrekken? Clients die hem gebruiken verliezen direct hun toegang.",
+      "confirm_delete_key": "Deze sleutel definitief verwijderen? Intrekken is meestal de betere keuze.",
+      "key_created_warning": "Nieuwe sleutel — kopieer hem NU!",
+      "key_created_info": "Sleutel \"{{name}}\" is aangemaakt. Om veiligheidsredenen tonen we de leesbare sleutel maar één keer. Bewaar hem op een veilige plek.",
+      "env_fallback_note": "<strong>Let op:</strong> <code>EXTERNAL_API_KEY</code> is ook in <code>.env</code> ingesteld — die sleutel blijft onbeperkt geldig. Aanbeveling: verwijder de ENV-sleutel en gebruik alleen beheerde sleutels."
+    },
+    "flash": {
+      "title_required": "De titel mag niet leeg zijn.",
+      "created": "Aankondiging aangemaakt.",
+      "updated": "Aankondiging bijgewerkt.",
+      "deleted": "Aankondiging verwijderd.",
+      "not_found": "Aankondiging niet gevonden.",
+      "key_name_required": "Geef een naam op voor de sleutel.",
+      "key_created": "API-sleutel \"{{name}}\" aangemaakt.",
+      "key_revoked": "API-sleutel ingetrokken.",
+      "key_deleted": "API-sleutel verwijderd.",
+      "key_not_found": "API-sleutel niet gevonden."
+    },
+    "broadcast": {
+      "footer": "Nephthys-aankondiging"
+    }
+  },
+  "status": {
+    "meta_title": "Systeemstatus",
+    "meta_desc": "Actuele operationele status van Nephthys: beschikbaarheid van de diensten, lopende storingen en onderhoud van de afgelopen 90 dagen.",
+    "overall": {
+      "up": "Alle systemen werken normaal",
+      "degraded": "Gedeeltelijk verminderde dienstverlening",
+      "down": "Grote storing"
+    },
+    "last_update": "Laatst bijgewerkt",
+    "active_incidents": "Actieve storingen",
+    "services": "Diensten",
+    "history": "Storingsgeschiedenis",
+    "no_incidents": "Geen storingen in de afgelopen 90 dagen.",
+    "resolved": "Opgelost",
+    "resolved_at": "Opgelost op",
+    "days_90": "90 dagen",
+    "today": "Vandaag",
+    "uptime": "Beschikbaarheid",
+    "service": {
+      "discord_bot": "Discord-bot",
+      "dashboard": "Webdashboard",
+      "database": "Database"
+    },
+    "label": {
+      "up": "Operationeel",
+      "degraded": "Verminderde prestaties",
+      "down": "Grote storing",
+      "nodata": "Geen gegevens",
+      "unknown": "Onbekend"
+    },
+    "severity": {
+      "maintenance": "Gepland onderhoud",
+      "minor": "Kleine storing",
+      "major": "Grote storing",
+      "critical": "Kritieke storing"
+    },
+    "incident_status": {
+      "investigating": "Wordt onderzocht",
+      "identified": "Oorzaak vastgesteld",
+      "monitoring": "Wordt gemonitord",
+      "resolved": "Opgelost"
+    }
+  }
+}

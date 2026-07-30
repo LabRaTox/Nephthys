@@ -54,6 +54,7 @@
       "eve": "EVE Online",
       "giveaways": "Giveaways",
       "tempchannels": "Temporäre Kanäle",
+      "counters": "Channel-Counter",
       "reminder": "Reminder",
       "leveling": "Leveling",
       "music": "Musik",
@@ -122,12 +123,26 @@
         "description": "Sprache des Bots für diesen Server (Befehle, Antworten, Embeds).",
         "label": "Bot-Sprache"
       },
+      "announcements": {
+        "title": "Ankündigungen",
+        "label": "Kanal für Nephthys-Ankündigungen",
+        "none": "Kein Kanal — keine Ankündigungen posten",
+        "loading": "Lädt Kanäle…",
+        "load_failed": "Kanäle konnten nicht geladen werden."
+      },
       "bug": {
         "title": "Bug Tracker",
         "description": "Rollenbeschränkungen für die Bug-Tracker-Befehle. Leer = jeder darf den Befehl nutzen.",
         "notice": "Der Bug-Tracker kann nicht deaktiviert werden – gemeldete Bugs werden direkt an den Entwickler weitergeleitet.",
         "report_hint": "Wer darf Bugs melden? Leer = jeder.",
         "list_hint": "Wer darf gemeldete Bugs ansehen? Leer = jeder."
+      },
+      "menu": "Auf dieser Seite",
+      "stats": {
+        "title": "Statistik-Karten",
+        "description": "Wer darf die Statistik-Karten mit /stats abrufen?",
+        "server_hint": "Leer = alle dürfen die Serverkarte abrufen",
+        "user_hint": "Leer = alle dürfen Mitglieder-Karten abrufen"
       }
     },
     "moderation": {
@@ -636,12 +651,41 @@
     }
   },
   "tools": {
+    "counters": {
+      "title": "Channel-Counter",
+      "subtitle": "Live-Zahlen im Kanalnamen",
+      "activation": "Aktivierung",
+      "enabled_label": "Channel-Counter aktivieren",
+      "rate_hint": "Aktualisierung alle 10 Minuten (Discord-Limit).",
+      "list_title": "Counter",
+      "empty": "Noch keine Counter angelegt.",
+      "col_channel": "Kanal",
+      "col_type": "Typ",
+      "col_template": "Vorlage",
+      "col_role": "Rolle",
+      "channel_placeholder": "Kanal wählen …",
+      "role_placeholder": "Rolle wählen …",
+      "channel_missing": "Kanal gelöscht",
+      "type_members": "Mitglieder",
+      "type_humans": "Menschen",
+      "type_bots": "Bots",
+      "type_online": "Online",
+      "type_boosts": "Boosts",
+      "type_role": "Rolle",
+      "removed": "Counter entfernt.",
+      "invalid": "Ungültige Auswahl.",
+      "duplicate": "Für diesen Kanal gibt es bereits einen Counter."
+    },
     "title": "Tools",
     "subtitle": "Nützliche Werkzeuge für die Server-Verwaltung.",
     "items": {
       "tempchannels": {
         "title": "Temporäre Kanäle",
         "desc": "Mitglieder erstellen per Klick eigene temporäre Sprachkanäle"
+      },
+      "counters": {
+        "title": "Channel-Counter",
+        "desc": "Mitglieder-, Online- und Boost-Zahlen live im Kanalnamen anzeigen"
       },
       "reminder": {
         "title": "Reminder",
@@ -662,6 +706,10 @@
       "scheduled": {
         "title": "Geplante Nachrichten",
         "desc": "Zeitgesteuerte Text- oder Embed-Nachrichten in beliebige Kanäle senden"
+      },
+      "trovo": {
+        "title": "Trovo",
+        "desc": "Live-Benachrichtigungen für Trovo-Streamer"
       }
     },
     "role_whitelist": "Verweigern für alle Rollen außer",
@@ -699,6 +747,12 @@
       "ownerlock_desc": "Dauer in Minuten, bis der Kanal zur Übernahme freigegeben wird, nachdem der Besitzer ihn verlassen hat. 0 = sofort freigeben · ∞ = nie freigeben (kein /voice-claim möglich).",
       "ownerlock_inf": "∞ Nie freigeben",
       "ownerlock_instant": "0 — Sofort freigeben",
+      "textmode": "Textkanal",
+      "textmode_desc": "Wie der Chat zum temporären Sprachkanal bereitgestellt wird.",
+      "textmode_separate": "Eigener Textkanal",
+      "textmode_separate_hint": "Der Bot legt zusätzlich einen normalen Textkanal an. Er erscheint in der Kanalliste und wird zusammen mit dem Sprachkanal gelöscht.",
+      "textmode_integrated": "Chat im Sprachkanal (Text-in-Voice)",
+      "textmode_integrated_hint": "Es wird kein zweiter Kanal angelegt — genutzt wird der eingebaute Chat des Sprachkanals.",
       "role_restrict": "Rollenbeschränkung",
       "role_restrict_hint": "Leer = jeder darf den Auslöser-Kanal benutzen"
     },
@@ -1215,7 +1269,7 @@
     },
     "datenschutz": {
       "title": "Datenschutzerklärung",
-      "subtitle": "Zuletzt aktualisiert: April 2026 · Gemäß DSGVO / GDPR",
+      "subtitle": "Zuletzt aktualisiert: Juli 2026 · Gemäß DSGVO / GDPR",
       "s1_title": "1. Verantwortlicher",
       "s1_text": "Verantwortlich für die Datenverarbeitung im Sinne der DSGVO ist die im <a href=\"/impressum\" style=\"color:var(--brand)\">Impressum</a> genannte Person.",
       "s2_title": "2. Welche Daten wir verarbeiten",
@@ -1226,6 +1280,10 @@
       "s2_server_text": "Zur Bereitstellung der Bot-Funktionen werden serverspezifische Einstellungen, Verwarnungen (Infractions), XP-Punkte, Geburtstage und Erinnerungen gespeichert. Alle Daten werden serverseitig in einer SQLite-Datenbank gehalten.",
       "s2_cookies_title": "Cookies & Session",
       "s2_cookies_text": "Das Dashboard verwendet ein Session-Cookie zur Authentifizierung (HttpOnly, kein Tracking). Die Einwilligungsentscheidung wird in einem eigenen First-Party-Cookie gespeichert.",
+      "s2_umami_title": "Statistik & Reichweitenmessung",
+      "s2_umami_text": "Zur Reichweitenmessung setzen wir Umami ein, eine datenschutzfreundliche Web-Analyse-Software. Umami wird in unserer eigenen Infrastruktur betrieben — es werden keine Daten an Drittanbieter übertragen. Erfasst werden ausschließlich anonymisierte Nutzungsdaten (z. B. aufgerufene Seiten, Referrer, ungefähres Herkunftsland sowie Browser- und Gerätetyp). Umami arbeitet vollständig cookielos und ohne Personenbezug; es werden keine Informationen auf deinem Endgerät gespeichert oder ausgelesen und es findet kein geräteübergreifendes Tracking statt. Da hierbei keine personenbezogenen Daten verarbeitet werden, ist keine Einwilligung erforderlich (Art. 6 Abs. 1 lit. f DSGVO — berechtigtes Interesse an einer bedarfsgerechten Gestaltung unseres Angebots).",
+      "s2_bunny_title": "Domain & DNS (Bunny.net)",
+      "s2_bunny_text": "Die DNS-Verwaltung unserer Domain erfolgt über Bunny.net (BunnyWay d.o.o., Ljubljana, Slowenien — EU). Bei jedem Aufruf unserer Website wird deine IP-Adresse technisch bedingt an die DNS-Server von Bunny.net übermittelt, um die Domain aufzulösen und deine Anfrage an den richtigen Server weiterzuleiten. Die Verarbeitung erfolgt zur sicheren und zuverlässigen Bereitstellung unseres Angebots (Art. 6 Abs. 1 lit. f DSGVO — berechtigtes Interesse). Mit Bunny.net besteht ein Auftragsverarbeitungsvertrag; der Anbieter ist innerhalb der EU ansässig, sodass keine Übermittlung in Drittländer stattfindet.",
       "s3_title": "3. Cookie-Einwilligungsmanagement",
       "s3_p1": "Diese Website verwendet ein selbst entwickeltes, datenschutzfreundliches Cookie-Consent-System. Es werden <strong style=\"color:var(--text)\">keine Daten an Drittanbieter</strong> (wie Cookiebot, OneTrust o. ä.) übertragen. Die Einwilligungsentscheidung wird ausschließlich in einem First-Party-Cookie (<code style=\"font-size:0.8rem;background:rgba(255,255,255,0.07);padding:1px 5px;border-radius:4px\">nephthpy_consent</code>) im Browser des Nutzers gespeichert.",
       "s3_p2": "Das Consent-Cookie ist nach Art. 5 Abs. 3 ePrivacy-Richtlinie als \"unbedingt erforderlich\" einzustufen, da es ausschließlich der Speicherung der eigenen Einwilligung des Nutzers dient — eine vorherige Einwilligung ist dafür nicht erforderlich. Es läuft nach 365 Tagen ab. Deine Einstellungen kannst du jederzeit über das 🍪-Symbol unten links ändern.",
@@ -1252,7 +1310,7 @@
       "s6_right_objection": "<strong style=\"color:var(--text)\">Widerspruch</strong> — Art. 21 DSGVO",
       "s6_outro": "Zur Ausübung deiner Rechte wende dich an die im <a href=\"/impressum\" style=\"color:var(--brand)\">Impressum</a> genannte Kontaktadresse. Du hast zudem das Recht, dich bei der zuständigen Datenschutz-Aufsichtsbehörde zu beschweren.",
       "s7_title": "7. Änderungen dieser Erklärung",
-      "s7_text": "Wir behalten uns vor, diese Datenschutzerklärung bei Bedarf anzupassen. Die jeweils aktuelle Version ist auf dieser Seite abrufbar. Datum der letzten Änderung: April 2026."
+      "s7_text": "Wir behalten uns vor, diese Datenschutzerklärung bei Bedarf anzupassen. Die jeweils aktuelle Version ist auf dieser Seite abrufbar. Datum der letzten Änderung: Juli 2026."
     },
     "nutzungsbedingungen": {
       "title": "Nutzungsbedingungen",
@@ -1433,6 +1491,26 @@
     }
   },
   "bot": {
+    "stats": {
+      "guild_only": "Dieser Befehl funktioniert nur auf einem Server.",
+      "server_stats": "Server-Statistiken",
+      "user_stats": "Mitglieder-Statistiken",
+      "messages": "Nachrichten",
+      "messages_unit": "Nachrichten",
+      "contributors": "Aktive",
+      "voice_hours": "Voice-Zeit",
+      "voice_activity": "Voice-Aktivität",
+      "hours_unit": "Std.",
+      "top_channel": "Aktivster Kanal",
+      "top_command": "Top-Befehl",
+      "ranks": "Platzierungen",
+      "message": "Nachrichten",
+      "voice": "Voice",
+      "chart": "Verlauf",
+      "joined": "Beigetreten",
+      "lookback": "Zeitraum: letzte {{days}} Tage",
+      "error": "❌ Statistik-Karte konnte nicht erstellt werden."
+    },
     "common": {
       "no_permission": "❌ Du hast keine Berechtigung für diesen Befehl.",
       "user_not_found": "❌ Nutzer nicht gefunden.",
@@ -1854,7 +1932,40 @@
     }
   },
   "landing": {
+    "mock": {
+      "moderation": "Moderation",
+      "modlog_channel": "Mod-Log Kanal",
+      "auto_timeout": "Auto-Timeout ab",
+      "warns": "Warns",
+      "recent_warnings": "Letzte Verwarnungen",
+      "reason_spam": "Spam im Kanal",
+      "reason_offtopic": "Off-Topic Beitrag",
+      "reason_insult": "Beleidigung",
+      "leveling": "Leveling",
+      "level_rewards": "Level-Belohnungen",
+      "now_playing": "Jetzt spielt",
+      "tracks_in_queue": "Titel in der Warteschlange",
+      "notify_channel": "Benachrichtigungs-Kanal",
+      "live_role": "Live-Rolle vergeben",
+      "watched_streamers": "Überwachte Streamer",
+      "viewers": "Zuschauer",
+      "last_live": "Zuletzt live vor 3 Std.",
+      "notify_template": "Benachrichtigungs-Template",
+      "template_text": "🎮 {streamer} ist jetzt LIVE! Schaut rein!",
+      "overview": "Übersicht",
+      "members": "Mitglieder",
+      "active_today": "Aktiv heute",
+      "modules_active": "Module aktiv",
+      "quick_access": "Schnellzugriff",
+      "music": "Musik",
+      "recent_activity": "Letzte Aktivität",
+      "act_join": "Alex hat den Server betreten",
+      "act_warn": "JohnDoe wurde verwarnt",
+      "act_level": "Maria erreichte Level 10",
+      "min_ago": "vor {{n}} Min"
+    },
     "nav": {
+      "menu_open": "Menü öffnen",
       "features": "Features",
       "modules": "Module",
       "dashboard": "Dashboard",
@@ -1914,7 +2025,7 @@
         "title": "Social Benachrichtigungen",
         "desc": "Verpasse nie wieder einen neuen Post oder Stream deiner Lieblingsersteller. Nephthys sendet automatische Benachrichtigungen für Twitch, YouTube, Kick und X (Twitter).",
         "items": [
-          "Twitch & Kick Live-Alerts mit Stream-Info",
+          "Twitch, Kick & Trovo Live-Alerts mit Stream-Info",
           "YouTube Video-Benachrichtigungen",
           "X (Twitter) Tweet-Weiterleitungen",
           "Individuelle Nachrichten-Templates"
@@ -2103,7 +2214,8 @@
       "legal": {
         "impressum": "Impressum",
         "datenschutz": "Datenschutzerklärung",
-        "nutzungsbedingungen": "Nutzungsbedingungen"
+        "nutzungsbedingungen": "Nutzungsbedingungen",
+        "kontakt": "Kontakt"
       },
       "copyright": "Nephthys Bot. Alle Rechte vorbehalten.",
       "online": "Bot online",
@@ -2290,6 +2402,15 @@
         "cmd_clean": "Alle nicht vorhandenen Mitglieder aus dem Kanal entfernen",
         "cmd_claim": "Besitzlosen Kanal übernehmen"
       },
+      "counters": {
+        "desc": "Zeigt Live-Zahlen wie Mitglieder, Online oder Boosts direkt im Kanalnamen an.",
+        "features": [
+          "Sechs Zählertypen: Mitglieder, Menschen, Bots, Online, Boosts, Rollenträger",
+          "Frei wählbare Namensvorlage mit Platzhalter {count}",
+          "Funktioniert mit Text-, Sprach- und Kategoriekanälen",
+          "Aktualisierung alle 10 Minuten (Discord-Limit)"
+        ]
+      },
       "tickets": {
         "desc": "Support-Ticket-System: Mitglieder öffnen Tickets in privaten Kanälen, Support-Team kann antworten und schließen.",
         "features": [
@@ -2428,6 +2549,52 @@
       "key_revoked": "API-Key widerrufen.",
       "key_deleted": "API-Key gelöscht.",
       "key_not_found": "API-Key nicht gefunden."
+    },
+    "broadcast": {
+      "footer": "Nephthys-Ankündigung"
+    }
+  },
+  "status": {
+    "meta_title": "Systemstatus",
+    "meta_desc": "Aktueller Betriebsstatus von Nephthys: Verfügbarkeit der Dienste, laufende Störungen und Wartungen der letzten 90 Tage.",
+    "overall": {
+      "up": "Alle Systeme betriebsbereit",
+      "degraded": "Teilweise eingeschränkter Betrieb",
+      "down": "Größere Störung"
+    },
+    "last_update": "Letzte Aktualisierung",
+    "active_incidents": "Aktive Vorfälle",
+    "services": "Services",
+    "history": "Vorfall-Historie",
+    "no_incidents": "Keine Vorfälle in den letzten 90 Tagen.",
+    "resolved": "Behoben",
+    "resolved_at": "Behoben am",
+    "days_90": "90 Tage",
+    "today": "Heute",
+    "uptime": "Uptime",
+    "service": {
+      "discord_bot": "Discord Bot",
+      "dashboard": "Web-Dashboard",
+      "database": "Datenbank"
+    },
+    "label": {
+      "up": "Betriebsbereit",
+      "degraded": "Eingeschränkte Leistung",
+      "down": "Große Störung",
+      "nodata": "Keine Daten",
+      "unknown": "Unbekannt"
+    },
+    "severity": {
+      "maintenance": "Geplante Wartung",
+      "minor": "Kleinere Störung",
+      "major": "Größere Störung",
+      "critical": "Kritischer Ausfall"
+    },
+    "incident_status": {
+      "investigating": "Wird untersucht",
+      "identified": "Ursache identifiziert",
+      "monitoring": "Wird überwacht",
+      "resolved": "Behoben"
     }
   }
 }

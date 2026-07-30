@@ -18,9 +18,9 @@
     },
     "datenschutz": {
       "title": "Privacy Policy",
-      "subtitle": "Last updated: April 2026 · In accordance with GDPR",
+      "subtitle": "Last updated: July 2026 · In accordance with GDPR",
       "s1_title": "1. Controller",
-      "s1_text": "The controller for data processing within the meaning of the GDPR is the person named in the <a href=\"/impressum\" style=\"color:var(--brand)\">Imprint</a>.",
+      "s1_text": "The controller for data processing within the meaning of the GDPR is the person named in the <a href=\"/en/impressum\" style=\"color:var(--brand)\">Imprint</a>.",
       "s2_title": "2. What Data We Process",
       "s2_intro": "The following data is processed when using the Nephthys Discord bot and the associated web dashboard:",
       "s2_discord_title": "Discord Account Data",
@@ -29,6 +29,10 @@
       "s2_server_text": "To provide bot functionality, server-specific settings, warnings (infractions), XP points, birthdays, and reminders are stored. All data is kept server-side in a SQLite database.",
       "s2_cookies_title": "Cookies & Session",
       "s2_cookies_text": "The dashboard uses a session cookie for authentication (HttpOnly, no tracking). The consent decision is stored in a dedicated first-party cookie.",
+      "s2_umami_title": "Statistics & analytics",
+      "s2_umami_text": "We use Umami, a privacy-friendly web analytics software, to measure reach. Umami is operated within our own infrastructure — no data is transmitted to third parties. Only anonymised usage data is collected (e.g. pages visited, referrer, approximate country of origin, and browser and device type). Umami works entirely without cookies and without personal identification; no information is stored on or read from your device, and no cross-device tracking takes place. As no personal data is processed, no consent is required (Art. 6(1)(f) GDPR — our legitimate interest in providing a needs-based website).",
+      "s2_bunny_title": "Domain & DNS (Bunny.net)",
+      "s2_bunny_text": "The DNS management of our domain is handled via Bunny.net (BunnyWay d.o.o., Ljubljana, Slovenia — EU). Each time you access our website, your IP address is — for technical reasons — transmitted to Bunny.net's DNS servers in order to resolve the domain and route your request to the correct server. This processing serves the secure and reliable provision of our website (Art. 6(1)(f) GDPR — legitimate interest). A data processing agreement is in place with Bunny.net; as the provider is based within the EU, no data is transferred to third countries.",
       "s3_title": "3. Cookie Consent Management",
       "s3_p1": "This website uses a custom-built, privacy-friendly cookie consent system. <strong style=\"color:var(--text)\">No data is transmitted to third parties</strong> (such as Cookiebot, OneTrust, etc.). The consent decision is stored exclusively in a first-party cookie (<code style=\"font-size:0.8rem;background:rgba(255,255,255,0.07);padding:1px 5px;border-radius:4px\">nephthpy_consent</code>) in the user's browser.",
       "s3_p2": "The consent cookie qualifies as \"strictly necessary\" under Art. 5 para. 3 of the ePrivacy Directive, as it solely stores the user's own consent decision — no prior consent is required for this. It expires after 365 days. You can change your settings at any time via the 🍪 icon in the bottom left.",
@@ -53,9 +57,9 @@
       "s6_right_restriction": "<strong style=\"color:var(--text)\">Restriction of processing</strong> — Art. 18 GDPR",
       "s6_right_portability": "<strong style=\"color:var(--text)\">Data portability</strong> — Art. 20 GDPR",
       "s6_right_objection": "<strong style=\"color:var(--text)\">Objection</strong> — Art. 21 GDPR",
-      "s6_outro": "To exercise your rights, please contact the person listed in the <a href=\"/impressum\" style=\"color:var(--brand)\">Imprint</a>. You also have the right to lodge a complaint with the competent data protection supervisory authority.",
+      "s6_outro": "To exercise your rights, please contact the person listed in the <a href=\"/en/impressum\" style=\"color:var(--brand)\">Imprint</a>. You also have the right to lodge a complaint with the competent data protection supervisory authority.",
       "s7_title": "7. Changes to This Policy",
-      "s7_text": "We reserve the right to update this privacy policy as needed. The current version is always available on this page. Date of last update: April 2026."
+      "s7_text": "We reserve the right to update this privacy policy as needed. The current version is always available on this page. Date of last update: July 2026."
     },
     "nutzungsbedingungen": {
       "title": "Terms of Service",
@@ -89,7 +93,7 @@
       "s7_title": "7. Changes to Terms",
       "s7_text": "We reserve the right to modify these Terms of Service at any time. Significant changes will be published on this page. Continued use of the bot after a change constitutes acceptance of the new terms.",
       "s8_title": "8. Applicable Law",
-      "s8_text": "German law applies. The place of jurisdiction is the operator's place of residence as stated in the <a href=\"/impressum\" style=\"color:var(--brand)\">Imprint</a>, to the extent permitted by law."
+      "s8_text": "German law applies. The place of jurisdiction is the operator's place of residence as stated in the <a href=\"/en/impressum\" style=\"color:var(--brand)\">Imprint</a>, to the extent permitted by law."
     }
   },
   "error": {
@@ -278,6 +282,7 @@
       "eve": "EVE Online",
       "giveaways": "Giveaways",
       "tempchannels": "Temp Channels",
+      "counters": "Channel Counters",
       "reminder": "Reminder",
       "leveling": "Leveling",
       "music": "Music",
@@ -347,12 +352,26 @@
         "description": "Language of the bot for this server (commands, responses, embeds).",
         "label": "Bot Language"
       },
+      "announcements": {
+        "title": "Announcements",
+        "label": "Channel for Nephthys announcements",
+        "none": "No channel — do not post announcements",
+        "loading": "Loading channels…",
+        "load_failed": "Channels could not be loaded."
+      },
       "bug": {
         "title": "Bug Tracker",
         "description": "Role restrictions for the bug tracker commands. Leave empty to let everyone use the command.",
         "notice": "The bug tracker cannot be disabled – reported bugs are forwarded directly to the developer.",
         "report_hint": "Who is allowed to report bugs? Empty = everyone.",
         "list_hint": "Who is allowed to view reported bugs? Empty = everyone."
+      },
+      "menu": "On this page",
+      "stats": {
+        "title": "Stats cards",
+        "description": "Who may request the stats cards with /stats?",
+        "server_hint": "Empty = everyone may request the server card",
+        "user_hint": "Empty = everyone may request member cards"
       }
     },
     "moderation": {
@@ -654,6 +673,10 @@
         "title": "Kick",
         "desc": "Stream notifications"
       },
+      "trovo": {
+        "title": "Trovo",
+        "desc": "Stream notifications"
+      },
       "x": {
         "title": "X (Twitter)",
         "desc": "Post notifications"
@@ -857,12 +880,41 @@
     }
   },
   "tools": {
+    "counters": {
+      "title": "Channel Counters",
+      "subtitle": "Live numbers in channel names",
+      "activation": "Activation",
+      "enabled_label": "Enable channel counters",
+      "rate_hint": "Updates every 10 minutes (Discord limit).",
+      "list_title": "Counters",
+      "empty": "No counters yet.",
+      "col_channel": "Channel",
+      "col_type": "Type",
+      "col_template": "Template",
+      "col_role": "Role",
+      "channel_placeholder": "Select channel …",
+      "role_placeholder": "Select role …",
+      "channel_missing": "Channel deleted",
+      "type_members": "Members",
+      "type_humans": "Humans",
+      "type_bots": "Bots",
+      "type_online": "Online",
+      "type_boosts": "Boosts",
+      "type_role": "Role",
+      "removed": "Counter removed.",
+      "invalid": "Invalid selection.",
+      "duplicate": "This channel already has a counter."
+    },
     "title": "Tools",
     "subtitle": "Useful tools for server management.",
     "items": {
       "tempchannels": {
         "title": "Temp Channels",
         "desc": "Members create their own temporary voice channels with one click"
+      },
+      "counters": {
+        "title": "Channel Counters",
+        "desc": "Show member, online and boost numbers live in the channel name"
       },
       "reminder": {
         "title": "Reminder",
@@ -924,6 +976,12 @@
       "ownerlock_desc": "Duration in minutes before the channel is released for takeover after the owner has left. 0 = release immediately · ∞ = never release (no /voice-claim possible).",
       "ownerlock_inf": "∞ Never release",
       "ownerlock_instant": "0 — Release immediately",
+      "textmode": "Text channel",
+      "textmode_desc": "How the chat for a temporary voice channel is provided.",
+      "textmode_separate": "Separate text channel",
+      "textmode_separate_hint": "The bot creates an additional regular text channel. It shows up in the channel list and is deleted together with the voice channel.",
+      "textmode_integrated": "Chat inside the voice channel (Text-in-Voice)",
+      "textmode_integrated_hint": "No second channel is created — the voice channel’s built-in chat is used instead.",
       "role_restrict": "Role restriction",
       "role_restrict_hint": "Empty = anyone can use the trigger channel"
     },
@@ -1433,6 +1491,26 @@
     }
   },
   "bot": {
+    "stats": {
+      "guild_only": "This command only works in a server.",
+      "server_stats": "Server Stats",
+      "user_stats": "Member Stats",
+      "messages": "Messages",
+      "messages_unit": "messages",
+      "contributors": "Contributors",
+      "voice_hours": "Voice time",
+      "voice_activity": "Voice Activity",
+      "hours_unit": "hrs",
+      "top_channel": "Top channel",
+      "top_command": "Top command",
+      "ranks": "Server Ranks",
+      "message": "Message",
+      "voice": "Voice",
+      "chart": "Charts",
+      "joined": "Joined",
+      "lookback": "Lookback: last {{days}} days",
+      "error": "❌ Could not create the stats card."
+    },
     "common": {
       "no_permission": "❌ You don't have permission for this command.",
       "user_not_found": "❌ User not found.",
@@ -1854,7 +1932,40 @@
     }
   },
   "landing": {
+    "mock": {
+      "moderation": "Moderation",
+      "modlog_channel": "Mod log channel",
+      "auto_timeout": "Auto-timeout from",
+      "warns": "warns",
+      "recent_warnings": "Recent warnings",
+      "reason_spam": "Spam in channel",
+      "reason_offtopic": "Off-topic post",
+      "reason_insult": "Insult",
+      "leveling": "Leveling",
+      "level_rewards": "Level rewards",
+      "now_playing": "Now playing",
+      "tracks_in_queue": "tracks in queue",
+      "notify_channel": "Notification channel",
+      "live_role": "Assign live role",
+      "watched_streamers": "Watched streamers",
+      "viewers": "viewers",
+      "last_live": "Last live 3h ago",
+      "notify_template": "Notification template",
+      "template_text": "🎮 {streamer} is now LIVE! Come watch!",
+      "overview": "Overview",
+      "members": "Members",
+      "active_today": "Active today",
+      "modules_active": "Modules active",
+      "quick_access": "Quick access",
+      "music": "Music",
+      "recent_activity": "Recent activity",
+      "act_join": "Alex joined the server",
+      "act_warn": "JohnDoe was warned",
+      "act_level": "Maria reached level 10",
+      "min_ago": "{{n}} min ago"
+    },
     "nav": {
+      "menu_open": "Open menu",
       "features": "Features",
       "modules": "Modules",
       "dashboard": "Dashboard",
@@ -1914,7 +2025,7 @@
         "title": "Social Notifications",
         "desc": "Never miss a new post or stream from your favourite creators. Nephthys sends automatic notifications for Twitch, YouTube, Kick and X (Twitter).",
         "items": [
-          "Twitch & Kick live alerts with stream info",
+          "Twitch, Kick & Trovo live alerts with stream info",
           "YouTube video notifications",
           "X (Twitter) post forwards",
           "Individual message templates"
@@ -2103,7 +2214,8 @@
       "legal": {
         "impressum": "Imprint",
         "datenschutz": "Privacy Policy",
-        "nutzungsbedingungen": "Terms of Use"
+        "nutzungsbedingungen": "Terms of Use",
+        "kontakt": "Contact"
       },
       "copyright": "Nephthys Bot. All rights reserved.",
       "online": "Bot online",
@@ -2290,6 +2402,15 @@
         "cmd_clean": "Remove all non-present members from the channel",
         "cmd_claim": "Claim ownership of an ownerless channel"
       },
+      "counters": {
+        "desc": "Shows live numbers such as members, online users or boosts directly in the channel name.",
+        "features": [
+          "Six counter types: members, humans, bots, online, boosts, role holders",
+          "Freely configurable name template with the {count} placeholder",
+          "Works with text, voice and category channels",
+          "Updates every 10 minutes (Discord limit)"
+        ]
+      },
       "tickets": {
         "desc": "Support ticket system: members open tickets in private channels, support team can reply and close them.",
         "features": [
@@ -2428,6 +2549,52 @@
       "key_revoked": "API key revoked.",
       "key_deleted": "API key deleted.",
       "key_not_found": "API key not found."
+    },
+    "broadcast": {
+      "footer": "Nephthys announcement"
+    }
+  },
+  "status": {
+    "meta_title": "System Status",
+    "meta_desc": "Live operational status of Nephthys: service availability, ongoing incidents and maintenance over the last 90 days.",
+    "overall": {
+      "up": "All Systems Operational",
+      "degraded": "Partially Degraded Service",
+      "down": "Major System Outage"
+    },
+    "last_update": "Last updated",
+    "active_incidents": "Active Incidents",
+    "services": "Services",
+    "history": "Incident History",
+    "no_incidents": "No incidents in the last 90 days.",
+    "resolved": "Resolved",
+    "resolved_at": "Resolved on",
+    "days_90": "90 days",
+    "today": "Today",
+    "uptime": "Uptime",
+    "service": {
+      "discord_bot": "Discord Bot",
+      "dashboard": "Web Dashboard",
+      "database": "Database"
+    },
+    "label": {
+      "up": "Operational",
+      "degraded": "Degraded Performance",
+      "down": "Major Outage",
+      "nodata": "No data",
+      "unknown": "Unknown"
+    },
+    "severity": {
+      "maintenance": "Scheduled Maintenance",
+      "minor": "Minor Issue",
+      "major": "Major Issue",
+      "critical": "Critical Outage"
+    },
+    "incident_status": {
+      "investigating": "Investigating",
+      "identified": "Cause identified",
+      "monitoring": "Monitoring",
+      "resolved": "Resolved"
     }
   }
 }

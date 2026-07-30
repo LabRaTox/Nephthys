@@ -18,9 +18,9 @@
     },
     "datenschutz": {
       "title": "Gizlilik Politikası",
-      "subtitle": "Son güncelleme: Nisan 2026 · GDPR'a uygun",
+      "subtitle": "Son güncelleme: Temmuz 2026 · GDPR'a uygun",
       "s1_title": "1. Sorumlu",
-      "s1_text": "GDPR anlamında veri işlemenin sorumlusu, <a href=\"/impressum\" style=\"color:var(--brand)\">Künye</a> bölümünde belirtilen kişidir.",
+      "s1_text": "GDPR anlamında veri işlemenin sorumlusu, <a href=\"/tr/impressum\" style=\"color:var(--brand)\">Künye</a> bölümünde belirtilen kişidir.",
       "s2_title": "2. Hangi Verileri İşliyoruz",
       "s2_intro": "Nephthys Discord botu ve ilgili web kontrol panelinin kullanımı sırasında aşağıdaki veriler işlenir:",
       "s2_discord_title": "Discord Hesap Verileri",
@@ -29,6 +29,10 @@
       "s2_server_text": "Bot işlevselliğini sağlamak için sunucuya özel ayarlar, uyarılar (ihlaller), XP puanları, doğum günleri ve hatırlatıcılar saklanır. Tüm veriler sunucu tarafında bir SQLite veritabanında tutulur.",
       "s2_cookies_title": "Çerezler & Oturum",
       "s2_cookies_text": "Kontrol paneli, kimlik doğrulama için bir oturum çerezi kullanır (HttpOnly, izleme yok). Onay kararı, özel bir birinci taraf çerezinde saklanır.",
+      "s2_umami_title": "İstatistik ve erişim ölçümü",
+      "s2_umami_text": "Erişim ölçümü için gizlilik dostu bir web analiz yazılımı olan Umami'yi kullanıyoruz. Umami kendi altyapımızda çalıştırılır — üçüncü taraflara herhangi bir veri aktarılmaz. Yalnızca anonimleştirilmiş kullanım verileri toplanır (ör. ziyaret edilen sayfalar, yönlendiren, yaklaşık menşe ülke ile tarayıcı ve cihaz türü). Umami tamamen çerezsiz ve kişisel tanımlama olmadan çalışır; cihazına herhangi bir bilgi kaydedilmez veya cihazından okunmaz ve cihazlar arası izleme yapılmaz. Kişisel veri işlenmediğinden herhangi bir onay gerekmez (GDPR md. 6/1-f — ihtiyaca uygun bir web sitesi sunmadaki meşru menfaatimiz).",
+      "s2_bunny_title": "Alan adı ve DNS (Bunny.net)",
+      "s2_bunny_text": "Alan adımızın DNS yönetimi Bunny.net (BunnyWay d.o.o., Ljubljana, Slovenya — AB) üzerinden gerçekleştirilir. Web sitemize her erişiminizde, alan adını çözümlemek ve isteğinizi doğru sunucuya yönlendirmek için IP adresiniz teknik nedenlerle Bunny.net'in DNS sunucularına iletilir. Bu işleme, sitemizin güvenli ve güvenilir biçimde sunulması amacıyla yapılır (GDPR md. 6/1-f — meşru menfaat). Bunny.net ile bir veri işleme sözleşmesi mevcuttur; sağlayıcı AB içinde yerleşik olduğundan üçüncü ülkelere veri aktarımı yapılmaz.",
       "s3_title": "3. Çerez Onay Yönetimi",
       "s3_p1": "Bu web sitesi, özel olarak geliştirilmiş, gizliliğe duyarlı bir çerez onay sistemi kullanır. <strong style=\"color:var(--text)\">Hiçbir veri üçüncü taraflara aktarılmaz</strong> (Cookiebot, OneTrust vb. gibi). Onay kararı yalnızca kullanıcının tarayıcısındaki birinci taraf bir çerezde (<code style=\"font-size:0.8rem;background:rgba(255,255,255,0.07);padding:1px 5px;border-radius:4px\">nephthpy_consent</code>) saklanır.",
       "s3_p2": "Onay çerezi, yalnızca kullanıcının kendi onay kararını sakladığı için ePrivacy Direktifi'nin Madde 5 fıkra 3 uyarınca \"kesinlikle gerekli\" sayılır — bunun için önceden onay gerekmez. 365 gün sonra sona erer. Ayarlarınızı sol alttaki 🍪 simgesi üzerinden istediğiniz zaman değiştirebilirsiniz.",
@@ -53,9 +57,9 @@
       "s6_right_restriction": "<strong style=\"color:var(--text)\">İşlemenin kısıtlanması</strong> — GDPR Madde 18",
       "s6_right_portability": "<strong style=\"color:var(--text)\">Veri taşınabilirliği</strong> — GDPR Madde 20",
       "s6_right_objection": "<strong style=\"color:var(--text)\">İtiraz</strong> — GDPR Madde 21",
-      "s6_outro": "Haklarınızı kullanmak için lütfen <a href=\"/impressum\" style=\"color:var(--brand)\">Künye</a> bölümünde belirtilen kişiyle iletişime geçin. Ayrıca yetkili veri koruma denetim makamına şikayette bulunma hakkına sahipsiniz.",
+      "s6_outro": "Haklarınızı kullanmak için lütfen <a href=\"/tr/impressum\" style=\"color:var(--brand)\">Künye</a> bölümünde belirtilen kişiyle iletişime geçin. Ayrıca yetkili veri koruma denetim makamına şikayette bulunma hakkına sahipsiniz.",
       "s7_title": "7. Bu Politikadaki Değişiklikler",
-      "s7_text": "Bu gizlilik politikasını gerektiğinde güncelleme hakkını saklı tutarız. Geçerli sürüm her zaman bu sayfada mevcuttur. Son güncelleme tarihi: Nisan 2026."
+      "s7_text": "Bu gizlilik politikasını gerektiğinde güncelleme hakkını saklı tutarız. Geçerli sürüm her zaman bu sayfada mevcuttur. Son güncelleme tarihi: Temmuz 2026."
     },
     "nutzungsbedingungen": {
       "title": "Kullanım Şartları",
@@ -89,7 +93,7 @@
       "s7_title": "7. Şartlardaki Değişiklikler",
       "s7_text": "Bu Kullanım Şartlarını dilediğimiz zaman değiştirme hakkını saklı tutarız. Önemli değişiklikler bu sayfada yayımlanır. Botun değişiklik sonrasında kullanılmaya devam edilmesi, yeni şartların kabulü anlamına gelir.",
       "s8_title": "8. Uygulanacak Hukuk",
-      "s8_text": "Alman hukuku geçerlidir. Yargı yeri, hukuken izin verildiği ölçüde <a href=\"/impressum\" style=\"color:var(--brand)\">Künye</a>'de belirtilen operatörün ikamet yeridir."
+      "s8_text": "Alman hukuku geçerlidir. Yargı yeri, hukuken izin verildiği ölçüde <a href=\"/tr/impressum\" style=\"color:var(--brand)\">Künye</a>'de belirtilen operatörün ikamet yeridir."
     }
   },
   "error": {
@@ -278,6 +282,7 @@
       "eve": "EVE Online",
       "giveaways": "Çekilişler",
       "tempchannels": "Geçici Kanallar",
+      "counters": "Sayaçlar",
       "reminder": "Hatırlatıcı",
       "leveling": "Seviye Sistemi",
       "music": "Müzik",
@@ -347,12 +352,26 @@
         "description": "Bu sunucu için bot dili (komutlar, yanıtlar, embed'ler).",
         "label": "Bot Dili"
       },
+      "announcements": {
+        "title": "Duyurular",
+        "label": "Nephthys duyuruları için kanal",
+        "none": "Kanal yok — duyuru gönderme",
+        "loading": "Kanallar yükleniyor…",
+        "load_failed": "Kanallar yüklenemedi."
+      },
       "bug": {
         "title": "Bug Tracker",
         "description": "Bug tracker komutları için rol kısıtlamaları. Herkesin komutu kullanmasına izin vermek için boş bırak.",
         "notice": "Bug tracker devre dışı bırakılamaz – bildirilen bug'lar doğrudan geliştiriciye iletilir.",
         "report_hint": "Bug bildirme iznine kim sahip? Boş = herkes.",
         "list_hint": "Bildirilen bug'ları kim görebilir? Boş = herkes."
+      },
+      "menu": "Bu sayfada",
+      "stats": {
+        "title": "İstatistik kartları",
+        "description": "/stats ile istatistik kartlarını kimler isteyebilir?",
+        "server_hint": "Boş = herkes sunucu kartını isteyebilir",
+        "user_hint": "Boş = herkes üye kartlarını isteyebilir"
       }
     },
     "moderation": {
@@ -654,6 +673,10 @@
         "title": "Kick",
         "desc": "Yayın bildirimleri"
       },
+      "trovo": {
+        "title": "Trovo",
+        "desc": "Yayın bildirimleri"
+      },
       "x": {
         "title": "X (Twitter)",
         "desc": "Paylaşım bildirimleri"
@@ -857,12 +880,41 @@
     }
   },
   "tools": {
+    "counters": {
+      "title": "Kanal sayaçları",
+      "subtitle": "Kanal adlarında canlı sayılar",
+      "activation": "Etkinleştirme",
+      "enabled_label": "Kanal sayaçlarını etkinleştir",
+      "rate_hint": "Her 10 dakikada bir güncellenir (Discord sınırı).",
+      "list_title": "Sayaçlar",
+      "empty": "Henüz sayaç yok.",
+      "col_channel": "Kanal",
+      "col_type": "Tür",
+      "col_template": "Şablon",
+      "col_role": "Rol",
+      "channel_placeholder": "Kanal seç …",
+      "role_placeholder": "Rol seç …",
+      "channel_missing": "Kanal silindi",
+      "type_members": "Üyeler",
+      "type_humans": "İnsanlar",
+      "type_bots": "Botlar",
+      "type_online": "Çevrimiçi",
+      "type_boosts": "Boost",
+      "type_role": "Rol",
+      "removed": "Sayaç kaldırıldı.",
+      "invalid": "Geçersiz seçim.",
+      "duplicate": "Bu kanalda zaten bir sayaç var."
+    },
     "title": "Araçlar",
     "subtitle": "Sunucu yönetimi için kullanışlı araçlar.",
     "items": {
       "tempchannels": {
         "title": "Geçici Kanallar",
         "desc": "Üyeler tek tıkla kendi geçici ses kanallarını oluşturur"
+      },
+      "counters": {
+        "title": "Kanal sayaçları",
+        "desc": "Üye, çevrimiçi ve boost sayılarını canlı olarak kanal adında gösterir"
       },
       "reminder": {
         "title": "Hatırlatıcı",
@@ -924,6 +976,12 @@
       "ownerlock_desc": "Sahibi ayrıldıktan sonra kanalın devralma için serbest bırakılmasına kadar geçen süre (dakika). 0 = hemen serbest bırak · ∞ = asla serbest bırakma (/voice-claim mümkün değil).",
       "ownerlock_inf": "∞ Asla serbest bırakma",
       "ownerlock_instant": "0 — Hemen serbest bırak",
+      "textmode": "Metin kanalı",
+      "textmode_desc": "Geçici ses kanalının sohbetinin nasıl sağlanacağı.",
+      "textmode_separate": "Ayrı metin kanalı",
+      "textmode_separate_hint": "Bot ayrıca normal bir metin kanalı oluşturur. Kanal listesinde görünür ve ses kanalıyla birlikte silinir.",
+      "textmode_integrated": "Ses kanalı içindeki sohbet (Text-in-Voice)",
+      "textmode_integrated_hint": "İkinci bir kanal oluşturulmaz — ses kanalının yerleşik sohbeti kullanılır.",
       "role_restrict": "Rol kısıtlaması",
       "role_restrict_hint": "Boş = herkes tetikleyici kanalı kullanabilir"
     },
@@ -1433,6 +1491,26 @@
     }
   },
   "bot": {
+    "stats": {
+      "guild_only": "Bu komut yalnızca bir sunucuda çalışır.",
+      "server_stats": "Sunucu istatistikleri",
+      "user_stats": "Üye istatistikleri",
+      "messages": "Mesajlar",
+      "messages_unit": "mesaj",
+      "contributors": "Aktif",
+      "voice_hours": "Ses süresi",
+      "voice_activity": "Ses etkinliği",
+      "hours_unit": "sa",
+      "top_channel": "En aktif kanal",
+      "top_command": "En çok kullanılan komut",
+      "ranks": "Sıralama",
+      "message": "Mesaj",
+      "voice": "Ses",
+      "chart": "Gelişim",
+      "joined": "Katıldı",
+      "lookback": "Dönem: son {{days}} gün",
+      "error": "❌ İstatistik kartı oluşturulamadı."
+    },
     "common": {
       "no_permission": "❌ Bu komut için iznin yok.",
       "user_not_found": "❌ Kullanıcı bulunamadı.",
@@ -1854,7 +1932,40 @@
     }
   },
   "landing": {
+    "mock": {
+      "moderation": "Moderasyon",
+      "modlog_channel": "Mod-log kanalı",
+      "auto_timeout": "Otomatik zaman aşımı",
+      "warns": "uyarı",
+      "recent_warnings": "Son uyarılar",
+      "reason_spam": "Kanalda spam",
+      "reason_offtopic": "Konu dışı mesaj",
+      "reason_insult": "Hakaret",
+      "leveling": "Seviye",
+      "level_rewards": "Seviye ödülleri",
+      "now_playing": "Şimdi çalıyor",
+      "tracks_in_queue": "parça sırada",
+      "notify_channel": "Bildirim kanalı",
+      "live_role": "Canlı rolü ver",
+      "watched_streamers": "İzlenen yayıncılar",
+      "viewers": "izleyici",
+      "last_live": "Son yayın 3 saat önce",
+      "notify_template": "Bildirim şablonu",
+      "template_text": "🎮 {streamer} şimdi CANLI! Uğrayın!",
+      "overview": "Genel bakış",
+      "members": "Üyeler",
+      "active_today": "Bugün aktif",
+      "modules_active": "Aktif modül",
+      "quick_access": "Hızlı erişim",
+      "music": "Müzik",
+      "recent_activity": "Son etkinlik",
+      "act_join": "Alex sunucuya katıldı",
+      "act_warn": "JohnDoe uyarıldı",
+      "act_level": "Maria 10. seviyeye ulaştı",
+      "min_ago": "{{n}} dk önce"
+    },
     "nav": {
+      "menu_open": "Menüyü aç",
       "features": "Özellikler",
       "modules": "Modüller",
       "dashboard": "Kontrol Paneli",
@@ -1914,7 +2025,7 @@
         "title": "Sosyal Bildirimler",
         "desc": "Favori içerik üreticilerinin yeni paylaşımını veya yayınını asla kaçırma. Nephthys, Twitch, YouTube, Kick ve X (Twitter) için otomatik bildirimler gönderir.",
         "items": [
-          "Yayın bilgisiyle Twitch & Kick canlı uyarıları",
+          "Yayın bilgisiyle Twitch, Kick & Trovo canlı uyarıları",
           "YouTube video bildirimleri",
           "X (Twitter) paylaşım iletimleri",
           "Bireysel mesaj şablonları"
@@ -2103,7 +2214,8 @@
       "legal": {
         "impressum": "Künye",
         "datenschutz": "Gizlilik Politikası",
-        "nutzungsbedingungen": "Kullanım Şartları"
+        "nutzungsbedingungen": "Kullanım Şartları",
+        "kontakt": "İletişim"
       },
       "copyright": "Nephthys Bot. Tüm hakları saklıdır.",
       "online": "Bot çevrimiçi",
@@ -2290,6 +2402,15 @@
         "cmd_clean": "Kanalda olmayan tüm üyeleri kanaldan kaldır",
         "cmd_claim": "Sahipsiz bir kanalın sahipliğini üstlen"
       },
+      "counters": {
+        "desc": "Üye, çevrimiçi kullanıcı veya boost gibi güncel sayıları doğrudan kanal adında gösterir.",
+        "features": [
+          "Altı sayaç türü: üyeler, insanlar, botlar, çevrimiçi, boost, rol sahipleri",
+          "{count} yer tutucusuyla serbestçe ayarlanabilir ad şablonu",
+          "Metin, ses ve kategori kanallarıyla çalışır",
+          "Her 10 dakikada bir güncellenir (Discord sınırı)"
+        ]
+      },
       "tickets": {
         "desc": "Destek bilet sistemi: üyeler özel kanallarda biletler açar, destek ekibi yanıt verebilir ve kapatabilir.",
         "features": [
@@ -2428,6 +2549,52 @@
       "key_revoked": "API anahtarı iptal edildi.",
       "key_deleted": "API anahtarı silindi.",
       "key_not_found": "API anahtarı bulunamadı."
+    },
+    "broadcast": {
+      "footer": "Nephthys duyurusu"
+    }
+  },
+  "status": {
+    "meta_title": "Sistem durumu",
+    "meta_desc": "Nephthys'in güncel çalışma durumu: hizmetlerin kullanılabilirliği, devam eden arızalar ve son 90 gündeki bakım çalışmaları.",
+    "overall": {
+      "up": "Tüm sistemler çalışıyor",
+      "degraded": "Hizmet kısmen kısıtlı",
+      "down": "Büyük sistem arızası"
+    },
+    "last_update": "Son güncelleme",
+    "active_incidents": "Aktif arızalar",
+    "services": "Hizmetler",
+    "history": "Arıza geçmişi",
+    "no_incidents": "Son 90 günde arıza yaşanmadı.",
+    "resolved": "Çözüldü",
+    "resolved_at": "Çözülme tarihi",
+    "days_90": "90 gün",
+    "today": "Bugün",
+    "uptime": "Çalışma süresi",
+    "service": {
+      "discord_bot": "Discord Botu",
+      "dashboard": "Web paneli",
+      "database": "Veritabanı"
+    },
+    "label": {
+      "up": "Çalışıyor",
+      "degraded": "Performans düşük",
+      "down": "Büyük arıza",
+      "nodata": "Veri yok",
+      "unknown": "Bilinmiyor"
+    },
+    "severity": {
+      "maintenance": "Planlı bakım",
+      "minor": "Küçük sorun",
+      "major": "Büyük sorun",
+      "critical": "Kritik arıza"
+    },
+    "incident_status": {
+      "investigating": "İnceleniyor",
+      "identified": "Sebep belirlendi",
+      "monitoring": "İzleniyor",
+      "resolved": "Çözüldü"
     }
   }
 }

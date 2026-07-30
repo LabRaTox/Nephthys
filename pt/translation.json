@@ -18,9 +18,9 @@
     },
     "datenschutz": {
       "title": "Política de Privacidade",
-      "subtitle": "Última atualização: abril de 2026 · Em conformidade com o RGPD",
+      "subtitle": "Última atualização: julho de 2026 · Em conformidade com o RGPD",
       "s1_title": "1. Responsável",
-      "s1_text": "O responsável pelo tratamento de dados na aceção do RGPD é a pessoa indicada no <a href=\"/impressum\" style=\"color:var(--brand)\">Impressum</a>.",
+      "s1_text": "O responsável pelo tratamento de dados na aceção do RGPD é a pessoa indicada no <a href=\"/pt/impressum\" style=\"color:var(--brand)\">Impressum</a>.",
       "s2_title": "2. Que dados tratamos",
       "s2_intro": "Os seguintes dados são tratados ao utilizar o bot Discord Nephthys e o painel web associado:",
       "s2_discord_title": "Dados da conta Discord",
@@ -29,6 +29,10 @@
       "s2_server_text": "Para fornecer a funcionalidade do bot, são armazenadas configurações específicas do servidor, advertências (infrações), pontos de XP, aniversários e lembretes. Todos os dados são mantidos no lado do servidor numa base de dados SQLite.",
       "s2_cookies_title": "Cookies e sessão",
       "s2_cookies_text": "O painel utiliza um cookie de sessão para autenticação (HttpOnly, sem rastreamento). A decisão de consentimento é armazenada num cookie próprio dedicado.",
+      "s2_umami_title": "Estatísticas e análise",
+      "s2_umami_text": "Utilizamos o Umami, um software de análise web respeitador da privacidade, para medir o alcance. O Umami é operado na nossa própria infraestrutura — nenhuns dados são transmitidos a terceiros. São recolhidos apenas dados de utilização anonimizados (por ex., páginas visitadas, referenciador, país de origem aproximado e tipo de navegador e dispositivo). O Umami funciona totalmente sem cookies e sem identificação pessoal; não são armazenadas nem lidas informações no teu dispositivo e não ocorre qualquer rastreio entre dispositivos. Uma vez que não são tratados dados pessoais, não é necessário consentimento (art. 6.º, n.º 1, alínea f do RGPD — interesse legítimo em disponibilizar um site adequado às necessidades).",
+      "s2_bunny_title": "Domínio e DNS (Bunny.net)",
+      "s2_bunny_text": "A gestão de DNS do nosso domínio é efetuada através da Bunny.net (BunnyWay d.o.o., Liubliana, Eslovénia — UE). Sempre que acedes ao nosso site, o teu endereço IP é, por razões técnicas, transmitido aos servidores DNS da Bunny.net para resolver o domínio e encaminhar o teu pedido para o servidor correto. Este tratamento destina-se à disponibilização segura e fiável do nosso site (art. 6.º, n.º 1, alínea f do RGPD — interesse legítimo). Existe um contrato de subcontratação com a Bunny.net; uma vez que o fornecedor está estabelecido na UE, não há transferência de dados para países terceiros.",
       "s3_title": "3. Gestão de consentimento de cookies",
       "s3_p1": "Este website utiliza um sistema de consentimento de cookies personalizado e respeitador da privacidade. <strong style=\"color:var(--text)\">Nenhum dado é transmitido a terceiros</strong> (como Cookiebot, OneTrust, etc.). A decisão de consentimento é armazenada exclusivamente num cookie próprio (<code style=\"font-size:0.8rem;background:rgba(255,255,255,0.07);padding:1px 5px;border-radius:4px\">nephthpy_consent</code>) no navegador do utilizador.",
       "s3_p2": "O cookie de consentimento qualifica-se como \"estritamente necessário\" ao abrigo do Art. 5.º n.º 3 da Diretiva ePrivacy, pois armazena apenas a própria decisão de consentimento do utilizador — não sendo necessário consentimento prévio para tal. Expira após 365 dias. Pode alterar as suas definições a qualquer momento através do ícone 🍪 no canto inferior esquerdo.",
@@ -53,9 +57,9 @@
       "s6_right_restriction": "<strong style=\"color:var(--text)\">Limitação do tratamento</strong> — Art. 18.º RGPD",
       "s6_right_portability": "<strong style=\"color:var(--text)\">Portabilidade dos dados</strong> — Art. 20.º RGPD",
       "s6_right_objection": "<strong style=\"color:var(--text)\">Oposição</strong> — Art. 21.º RGPD",
-      "s6_outro": "Para exercer os seus direitos, contacte a pessoa indicada no <a href=\"/impressum\" style=\"color:var(--brand)\">Impressum</a>. Tem também o direito de apresentar uma reclamação à autoridade de controlo de proteção de dados competente.",
+      "s6_outro": "Para exercer os seus direitos, contacte a pessoa indicada no <a href=\"/pt/impressum\" style=\"color:var(--brand)\">Impressum</a>. Tem também o direito de apresentar uma reclamação à autoridade de controlo de proteção de dados competente.",
       "s7_title": "7. Alterações a esta política",
-      "s7_text": "Reservamo-nos o direito de atualizar esta política de privacidade conforme necessário. A versão atual está sempre disponível nesta página. Data da última atualização: abril de 2026."
+      "s7_text": "Reservamo-nos o direito de atualizar esta política de privacidade conforme necessário. A versão atual está sempre disponível nesta página. Data da última atualização: julho de 2026."
     },
     "nutzungsbedingungen": {
       "title": "Termos de Serviço",
@@ -89,7 +93,7 @@
       "s7_title": "7. Alterações aos termos",
       "s7_text": "Reservamo-nos o direito de modificar estes Termos de Serviço a qualquer momento. Alterações significativas serão publicadas nesta página. A continuação da utilização do bot após uma alteração constitui aceitação dos novos termos.",
       "s8_title": "8. Legislação aplicável",
-      "s8_text": "Aplica-se a lei alemã. O foro competente é a residência do operador indicada no <a href=\"/impressum\" style=\"color:var(--brand)\">Impressum</a>, na medida permitida por lei."
+      "s8_text": "Aplica-se a lei alemã. O foro competente é a residência do operador indicada no <a href=\"/pt/impressum\" style=\"color:var(--brand)\">Impressum</a>, na medida permitida por lei."
     }
   },
   "error": {
@@ -278,6 +282,7 @@
       "eve": "EVE Online",
       "giveaways": "Sorteios",
       "tempchannels": "Canais Temporários",
+      "counters": "Contadores",
       "reminder": "Lembrete",
       "leveling": "Nivelamento",
       "music": "Música",
@@ -290,7 +295,8 @@
       "dsgvo": "RGPD",
       "trovo": "Trovo",
       "invites": "Convites",
-      "help": "Ajuda"
+      "help": "Ajuda",
+      "announcements": "Anúncios"
     },
     "social": {
       "discord": "Precisa de suporte?",
@@ -346,12 +352,26 @@
         "description": "Idioma do bot para este servidor (comandos, respostas, embeds).",
         "label": "Idioma do Bot"
       },
+      "announcements": {
+        "title": "Anúncios",
+        "label": "Canal para os anúncios do Nephthys",
+        "none": "Nenhum canal — não publicar anúncios",
+        "loading": "A carregar os canais…",
+        "load_failed": "Não foi possível carregar os canais."
+      },
       "bug": {
         "title": "Bug Tracker",
         "description": "Restrições de cargo para os comandos do bug tracker. Vazio = todos podem usar o comando.",
         "notice": "O bug tracker não pode ser desativado – os bugs reportados são encaminhados diretamente ao desenvolvedor.",
         "report_hint": "Quem pode reportar bugs? Vazio = todos.",
         "list_hint": "Quem pode ver os bugs reportados? Vazio = todos."
+      },
+      "menu": "Nesta página",
+      "stats": {
+        "title": "Cartões de estatísticas",
+        "description": "Quem pode pedir os cartões de estatísticas com /stats?",
+        "server_hint": "Vazio = todos podem pedir o cartão do servidor",
+        "user_hint": "Vazio = todos podem pedir cartões de membros"
       }
     },
     "moderation": {
@@ -653,6 +673,10 @@
         "title": "Kick",
         "desc": "Notificações de stream"
       },
+      "trovo": {
+        "title": "Trovo",
+        "desc": "Notificações de stream"
+      },
       "x": {
         "title": "X (Twitter)",
         "desc": "Notificações de publicações"
@@ -856,12 +880,41 @@
     }
   },
   "tools": {
+    "counters": {
+      "title": "Contadores de canal",
+      "subtitle": "Números em tempo real nos nomes dos canais",
+      "activation": "Ativação",
+      "enabled_label": "Ativar contadores de canal",
+      "rate_hint": "Atualização a cada 10 minutos (limite do Discord).",
+      "list_title": "Contadores",
+      "empty": "Ainda não há contadores.",
+      "col_channel": "Canal",
+      "col_type": "Tipo",
+      "col_template": "Modelo",
+      "col_role": "Cargo",
+      "channel_placeholder": "Escolher canal …",
+      "role_placeholder": "Escolher cargo …",
+      "channel_missing": "Canal eliminado",
+      "type_members": "Membros",
+      "type_humans": "Humanos",
+      "type_bots": "Bots",
+      "type_online": "Online",
+      "type_boosts": "Boosts",
+      "type_role": "Cargo",
+      "removed": "Contador removido.",
+      "invalid": "Seleção inválida.",
+      "duplicate": "Este canal já tem um contador."
+    },
     "title": "Ferramentas",
     "subtitle": "Ferramentas úteis para gestão do servidor.",
     "items": {
       "tempchannels": {
         "title": "Canais Temporários",
         "desc": "Os membros criam os seus próprios canais de voz temporários com um clique"
+      },
+      "counters": {
+        "title": "Contadores de canal",
+        "desc": "Mostrar em tempo real membros, utilizadores online e boosts no nome do canal"
       },
       "reminder": {
         "title": "Lembrete",
@@ -923,6 +976,12 @@
       "ownerlock_desc": "Duração em minutos antes do canal ser libertado para tomada de posse após o proprietário sair. 0 = libertar imediatamente · ∞ = nunca libertar (sem /voice-claim possível).",
       "ownerlock_inf": "∞ Nunca libertar",
       "ownerlock_instant": "0 — Libertar imediatamente",
+      "textmode": "Canal de texto",
+      "textmode_desc": "Como o chat do canal de voz temporário é disponibilizado.",
+      "textmode_separate": "Canal de texto separado",
+      "textmode_separate_hint": "O bot cria adicionalmente um canal de texto normal. Aparece na lista de canais e é eliminado juntamente com o canal de voz.",
+      "textmode_integrated": "Chat dentro do canal de voz (Text-in-Voice)",
+      "textmode_integrated_hint": "Não é criado um segundo canal — é usado o chat integrado do canal de voz.",
       "role_restrict": "Restrição de cargo",
       "role_restrict_hint": "Vazio = qualquer pessoa pode usar o canal gatilho"
     },
@@ -1432,6 +1491,26 @@
     }
   },
   "bot": {
+    "stats": {
+      "guild_only": "Este comando só funciona num servidor.",
+      "server_stats": "Estatísticas do servidor",
+      "user_stats": "Estatísticas do membro",
+      "messages": "Mensagens",
+      "messages_unit": "mensagens",
+      "contributors": "Ativos",
+      "voice_hours": "Tempo de voz",
+      "voice_activity": "Atividade de voz",
+      "hours_unit": "h",
+      "top_channel": "Canal mais ativo",
+      "top_command": "Comando principal",
+      "ranks": "Classificação",
+      "message": "Mensagens",
+      "voice": "Voz",
+      "chart": "Evolução",
+      "joined": "Entrou em",
+      "lookback": "Período: últimos {{days}} dias",
+      "error": "❌ Não foi possível criar o cartão de estatísticas."
+    },
     "common": {
       "no_permission": "❌ Não tem permissão para este comando.",
       "user_not_found": "❌ Utilizador não encontrado.",
@@ -1853,7 +1932,40 @@
     }
   },
   "landing": {
+    "mock": {
+      "moderation": "Moderação",
+      "modlog_channel": "Canal de registos",
+      "auto_timeout": "Timeout automático a partir de",
+      "warns": "avisos",
+      "recent_warnings": "Últimos avisos",
+      "reason_spam": "Spam no canal",
+      "reason_offtopic": "Mensagem fora do tema",
+      "reason_insult": "Insulto",
+      "leveling": "Níveis",
+      "level_rewards": "Recompensas de nível",
+      "now_playing": "A reproduzir",
+      "tracks_in_queue": "faixas na fila",
+      "notify_channel": "Canal de notificações",
+      "live_role": "Atribuir cargo em direto",
+      "watched_streamers": "Streamers monitorizados",
+      "viewers": "espectadores",
+      "last_live": "Último direto há 3 h",
+      "notify_template": "Modelo de notificação",
+      "template_text": "🎮 {streamer} está EM DIRETO! Aparece!",
+      "overview": "Visão geral",
+      "members": "Membros",
+      "active_today": "Ativos hoje",
+      "modules_active": "Módulos ativos",
+      "quick_access": "Acesso rápido",
+      "music": "Música",
+      "recent_activity": "Atividade recente",
+      "act_join": "Alex entrou no servidor",
+      "act_warn": "JohnDoe recebeu um aviso",
+      "act_level": "Maria alcançou o nível 10",
+      "min_ago": "há {{n}} min"
+    },
     "nav": {
+      "menu_open": "Abrir menu",
       "features": "Funcionalidades",
       "modules": "Módulos",
       "dashboard": "Painel",
@@ -1913,7 +2025,7 @@
         "title": "Notificações Sociais",
         "desc": "Nunca perca uma nova publicação ou transmissão dos seus criadores favoritos. Nephthys envia notificações automáticas para Twitch, YouTube, Kick e X (Twitter).",
         "items": [
-          "Alertas ao vivo Twitch & Kick com info da stream",
+          "Alertas ao vivo Twitch, Kick & Trovo com info da stream",
           "Notificações de vídeos YouTube",
           "Reencaminhamento de publicações X (Twitter)",
           "Modelos de mensagem individuais"
@@ -2102,7 +2214,8 @@
       "legal": {
         "impressum": "Impressum",
         "datenschutz": "Política de Privacidade",
-        "nutzungsbedingungen": "Termos de Utilização"
+        "nutzungsbedingungen": "Termos de Utilização",
+        "kontakt": "Contacto"
       },
       "copyright": "Nephthys Bot. Todos os direitos reservados.",
       "online": "Bot online",
@@ -2289,6 +2402,15 @@
         "cmd_clean": "Remover todos os membros não presentes do canal",
         "cmd_claim": "Reivindicar propriedade de um canal sem proprietário"
       },
+      "counters": {
+        "desc": "Mostra números em tempo real como membros, utilizadores online ou boosts diretamente no nome do canal.",
+        "features": [
+          "Seis tipos de contador: membros, humanos, bots, online, boosts, portadores de um cargo",
+          "Modelo de nome livre com o marcador {count}",
+          "Funciona com canais de texto, de voz e categorias",
+          "Atualização a cada 10 minutos (limite do Discord)"
+        ]
+      },
       "tickets": {
         "desc": "Sistema de ticket de suporte: os membros abrem tickets em canais privados, a equipa de suporte pode responder e fechá-los.",
         "features": [
@@ -2353,6 +2475,68 @@
           "Canal de destino e ping configuráveis"
         ]
       }
+    }
+  },
+  "announcements": {
+    "title": "Anúncios",
+    "all": "Todos os anúncios",
+    "show_all": "Ver tudo",
+    "mark_all_read": "Marcar tudo como lido",
+    "mark_read": "Marcar como lido",
+    "none": "Não há anúncios.",
+    "loading": "A carregar…",
+    "unread": "Não lido",
+    "cat": {
+      "info": "Informação",
+      "update": "Atualização",
+      "warning": "Aviso",
+      "maintenance": "Manutenção"
+    },
+    "broadcast": {
+      "footer": "Anúncio do Nephthys"
+    }
+  },
+  "status": {
+    "meta_title": "Estado do sistema",
+    "meta_desc": "Estado operacional atual do Nephthys: disponibilidade dos serviços, incidentes em curso e manutenções dos últimos 90 dias.",
+    "overall": {
+      "up": "Todos os sistemas operacionais",
+      "degraded": "Serviço parcialmente degradado",
+      "down": "Falha grave do sistema"
+    },
+    "last_update": "Última atualização",
+    "active_incidents": "Incidentes ativos",
+    "services": "Serviços",
+    "history": "Histórico de incidentes",
+    "no_incidents": "Sem incidentes nos últimos 90 dias.",
+    "resolved": "Resolvido",
+    "resolved_at": "Resolvido em",
+    "days_90": "90 dias",
+    "today": "Hoje",
+    "uptime": "Disponibilidade",
+    "service": {
+      "discord_bot": "Bot do Discord",
+      "dashboard": "Painel web",
+      "database": "Base de dados"
+    },
+    "label": {
+      "up": "Operacional",
+      "degraded": "Desempenho degradado",
+      "down": "Falha grave",
+      "nodata": "Sem dados",
+      "unknown": "Desconhecido"
+    },
+    "severity": {
+      "maintenance": "Manutenção programada",
+      "minor": "Incidente menor",
+      "major": "Incidente grave",
+      "critical": "Falha crítica"
+    },
+    "incident_status": {
+      "investigating": "Em investigação",
+      "identified": "Causa identificada",
+      "monitoring": "Em monitorização",
+      "resolved": "Resolvido"
     }
   }
 }
